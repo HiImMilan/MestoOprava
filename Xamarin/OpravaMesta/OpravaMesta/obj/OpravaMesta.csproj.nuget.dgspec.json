@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\OpravaMesta\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {}
+    "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {}
   },
   "projects": {
-    "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\OpravaMesta\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {
+    "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\OpravaMesta\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
+        "projectUniqueName": "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
         "projectName": "OpravaMesta",
-        "projectPath": "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\OpravaMesta\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
+        "projectPath": "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
         "packagesPath": "C:\\Users\\milos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\OpravaMesta\\OpravaMesta\\OpravaMesta\\obj\\",
+        "outputPath": "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -42,6 +42,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "CarouselView.FormsPlugin": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
