@@ -2,7 +2,7 @@
 $lat = $_GET["lat"]; 
 $longitude = $_GET["long"];
 $db = mysqli_connect("localhost", "root", "", "city"); // DB beží na localhoste len!!!!!
-$sql = "SELECT * FROM problems ORDER BY ((latitude-$lat)*(latitude-$lat)) + ((longitude - $longitude)*(longitude - $longitude)) ASC"; //https://gist.github.com/statickidz/8a2f0ce3bca9badbf34970b958ef8479
+$sql = "SELECT * FROM problems ORDER BY ((latitude-$lat)*(latitude-$lat)) + ((longitude - $longitude)*(longitude - $longitude)) ASC LIMIT 1"; //https://gist.github.com/statickidz/8a2f0ce3bca9badbf34970b958ef8479
 $result = $db->query($sql);
 
 // https://www.w3schools.com/php/php_mysql_select_orderby.asp
