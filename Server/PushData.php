@@ -14,8 +14,7 @@ $OTP = $_GET["auth"]; // ???
 $ip = $_SERVER['REMOTE_ADDR'];
 $TOTPToken;
 $imgurl = "url"; // Po nahratí bude URL
-
-echo("<br>");
+;
 if(empty($UUID)){
     die("400: Bad Request: You are missing UUID");
 }
@@ -58,9 +57,12 @@ if(!($otp2->verify($OTP))){
 
 
 $sql = "INSERT INTO `problems` (`creatorUUID`, `name`, `latitude`, `longitude`, `descript`, `imageURL`) VALUES ('$UUID', '$name', '$lat', '$longitude', '$description', '$imgurl');";
-$result = $db->query($sql);
 
-// Pridať check na to, či sa úspešne poslalo do DB
+if ($result = $db->query($sql) === TRUE) {
+    echo "200: OK";
+  } else {
+    echo "500 Interial Server Error: <br><br>" . $conn->error;
+  }
 
 $db->close(); 
 ?>
