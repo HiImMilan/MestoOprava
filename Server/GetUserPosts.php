@@ -45,9 +45,9 @@ if (($UUIDResoult->num_rows > 0)) {
     }  
 }
 
-//if(!($otp2->verify($OTP))){
- //   die("401: OTP Error");
-//}
+if(!($otp2->verify($OTP))){
+    die("401: OTP Error");
+}
 
 
 $sql = "SELECT * FROM `problems` WHERE `creatorUUID` = '$REQUUID'";
