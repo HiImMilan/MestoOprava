@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FYOGMcWy/tXYqZsgDODiiJH6ac4lHT9M7sw7EchILLDZ2E8au7bbus5WcXWhvrghCWRb4X+pf7odOyA4r75f0w==",
+  "dgSpecHash": "M7pFUyaauL4/bD1Qs1jhUMFOP/aIknsSJUwzwa3V2pF6mrlU+J0x0pNAcNOpIMWOzY0Hx+bpwTqvVNbY3f5RXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\OpravaMesta\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
+  "projectFilePath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
@@ -42,7 +42,7 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.versionedparcelable\\28.0.0.3\\xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.viewpager\\28.0.0.3\\xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "C:\\Users\\jarko\\.nuget\\packages\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
   "logs": []
 }

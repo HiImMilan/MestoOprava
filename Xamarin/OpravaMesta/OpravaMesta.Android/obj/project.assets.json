@@ -1930,24 +1930,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\milos\\.nuget\\packages\\": {},
+    "C:\\Users\\jarko\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\OpravaMesta\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
+      "projectUniqueName": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
       "projectName": "OpravaMesta.Android",
-      "projectPath": "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\OpravaMesta\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
-      "packagesPath": "C:\\Users\\milos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\OpravaMesta\\OpravaMesta\\OpravaMesta.Android\\obj\\",
+      "projectPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
+      "packagesPath": "C:\\Users\\jarko\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\milos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jarko\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1961,8 +1961,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\OpravaMesta\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {
-              "projectPath": "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\OpravaMesta\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj"
+            "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {
+              "projectPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj"
             }
           }
         }

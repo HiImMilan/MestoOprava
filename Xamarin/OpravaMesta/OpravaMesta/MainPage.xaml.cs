@@ -14,5 +14,15 @@ namespace OpravaMesta
         {
             InitializeComponent();
         }
+
+        async void LoginClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new QRLoginPage());
+        }
+
+        async void NoLoginClicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
