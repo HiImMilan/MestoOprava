@@ -11,7 +11,7 @@ $result = $db->query($sql);
 while($row = mysqli_fetch_array($result))
 {
    $results[] = array(
-      'creator' => $row['creatorUUID'],
+      'creator' => $row['creatorUUID'], // NEPOSIELAT!!! BEZPEČNOSTNÁ CHYBA!!!
       'name' => $row['name'],
       'description' => $row['descript'],
       'latitude' => $row['latitude'],
