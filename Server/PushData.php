@@ -2,6 +2,7 @@
 // NEODTESTOVANÝ KÓD, NESPÚŠTAT
 
 // ZMENIT NA _POST NAMIESTO _GET!!!!
+use OTPHP\TOTP;
 $UUID = $_GET["UUID"];
 $name = $_GET["title"];
 $description = $_GET["description"];
