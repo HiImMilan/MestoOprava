@@ -32,6 +32,16 @@ if (($IPResoult->num_rows > 0)) {
     }  
 }
 
+$UUIDCheck = "SELECT *  FROM `banneduuid` WHERE `uuid` = '$UUID'";
+$UUIDResoult = $db->query($UUIDCheck);
+if (($UUIDResoult->num_rows > 0)) {
+    while ($row = $UUIDResoult->fetch_assoc() )
+    {
+        die("403: You are banned fron using our application.");  // AK JE IP/UUID ZABANOVANE
+    }  
+}
+
+
 $sql = "INSERT INTO `problems` (`creatorUUID`, `name`, `latitude`, `longitude`, `descript`, `imageURL`) VALUES ('$UUID', '$name', '$lat', '$longitude', '$description', '$imgurl');";
 $result = $db->query($sql);
 
