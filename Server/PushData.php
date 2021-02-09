@@ -2,6 +2,7 @@
 // NEODTESTOVANÝ KÓD, NESPÚŠTAT
 
 
+
 // ZMENIT NA _POST NAMIESTO _GET!!!!
 $UUID = $_GET["UUID"];
 $name = $_GET["title"];
@@ -10,6 +11,7 @@ $lat = $_GET["lat"];
 $longitude = $_GET["long"];
 $img = $_GET["img"]; //???
 $OTP = $_GET["auth"]; // ???
+$ip = $_SERVER['REMOTE_ADDR'];
 
 $imgurl = "url"; // Po nahratí bude URL
 
@@ -22,8 +24,17 @@ if(empty($UUID)){
     die("400: Bad Request: You are missing UUID");
 }
 
-// Pridať check na BAN
-//die("403: You are banned fron using our application.);  AK JE IP/UUID ZABANOVANE
+$IPCheck = "SELECT *  FROM `bannedip` WHERE `ip` = '$ip'";
+$IPResoult = $db->query($IPCheck);
+echo($IPCheck);
+// https://www.w3schools.com/php/php_mysql_select.asp
+if (($IPResoult->num_rows > 0)) {
+    while ($row = $IPResoult->fetch_assoc() )
+    {
+        die("403: You are banned fron using our application.");  // AK JE IP/UUID ZABANOVANE
+    }  
+}
+
 
 $sql = "INSERT INTO `problems` (`creatorUUID`, `name`, `latitude`, `longitude`, `descript`, `imageURL`) VALUES ('$UUID', '$name', '$lat', '$longitude', '$description', '$imgurl');";
 $result = $db->query($sql);
