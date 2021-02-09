@@ -4,6 +4,7 @@
              x:Class="OpravaMesta.MainPage">
 
     <StackLayout>
+        <Editor x:Name="editor"></Editor>
         <Image x:Name="image"></Image>
         <CarouselView x:Name="contentContainer">
             <CarouselView.ItemTemplate>

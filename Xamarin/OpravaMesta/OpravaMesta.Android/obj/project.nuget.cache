@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "f9qu8NS0Je5Pavw04X69jk8vzO0uGM5UYLELCjLXWZPo88bhjmgTZw7T/sK262dygbsGSuThtEHtA2ASQKItAQ==",
+  "dgSpecHash": "wPwajpTqdfeSLmy1pgpwOKl/LN3DHJgPiXnUdW3XWkZ+kEFMxTECpPeszI3f2QmJb41RaVQbGoC2MrnV/y8GRQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\milos\\Documents\\GitHub\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\milos\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
+    "C:\\Users\\milos\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.lifecycle.common\\1.1.1.3\\xamarin.android.arch.lifecycle.common.1.1.1.3.nupkg.sha512",
