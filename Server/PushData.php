@@ -1,5 +1,4 @@
 <?php
-// NEODTESTOVANÝ KÓD, NESPÚŠTAT
 
 // ZMENIT NA _POST NAMIESTO _GET!!!!
 require_once __DIR__ . '/vendor/autoload.php';
@@ -14,7 +13,7 @@ $OTP = $_GET["auth"]; // ???
 $ip = $_SERVER['REMOTE_ADDR'];
 $TOTPToken;
 $imgurl = "url"; // Po nahratí bude URL
-;
+
 if(empty($UUID)){
     die("400: Bad Request: You are missing UUID");
 }

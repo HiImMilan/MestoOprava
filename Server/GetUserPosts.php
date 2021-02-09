@@ -45,21 +45,21 @@ if (($UUIDResoult->num_rows > 0)) {
     }  
 }
 
-if(!($otp2->verify($OTP))){
-    die("401: OTP Error");
-}
+//if(!($otp2->verify($OTP))){
+ //   die("401: OTP Error");
+//}
 
 
-$sql = "SELECT `ProfilePic`,`BIO`,`Reputation`,`Posts`,`Name` FROM `users` WHERE `UUID` = '$UUID'";
+$sql = "SELECT * FROM `problems` WHERE `creatorUUID` = '$REQUUID'";
 $userInfo = $db->query($sql);
 while($row = mysqli_fetch_array($userInfo))
 {
     $res[] = array(
-      'ProfilePic' => $row['ProfilePic'],
-      'Bio' => $row['BIO'],
-      'Reputation' => $row['Reputation'],
-      'Posts' => $row['Posts'],
-      'Name' => $row['Name'],
+      'title' => $row['name'],
+      'lat' => $row['latitude'],
+      'long' => $row['longitude'],
+      'description' => $row['descript'],
+      'imgurl' => $row['imageURL'],
    );
 }
 
