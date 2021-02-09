@@ -1,8 +1,6 @@
 <?php
 // NEODTESTOVANÝ KÓD, NESPÚŠTAT
 
-
-
 // ZMENIT NA _POST NAMIESTO _GET!!!!
 $UUID = $_GET["UUID"];
 $name = $_GET["title"];
@@ -26,7 +24,6 @@ if(empty($UUID)){
 
 $IPCheck = "SELECT *  FROM `bannedip` WHERE `ip` = '$ip'";
 $IPResoult = $db->query($IPCheck);
-echo($IPCheck);
 // https://www.w3schools.com/php/php_mysql_select.asp
 if (($IPResoult->num_rows > 0)) {
     while ($row = $IPResoult->fetch_assoc() )
@@ -35,12 +32,10 @@ if (($IPResoult->num_rows > 0)) {
     }  
 }
 
-
 $sql = "INSERT INTO `problems` (`creatorUUID`, `name`, `latitude`, `longitude`, `descript`, `imageURL`) VALUES ('$UUID', '$name', '$lat', '$longitude', '$description', '$imgurl');";
 $result = $db->query($sql);
 
 // Pridať check na to, či sa úspešne poslalo do DB
 
-echo($sql);
 $db->close(); 
 ?>
