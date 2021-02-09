@@ -660,23 +660,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jarko\\.nuget\\packages\\": {},
+    "C:\\Users\\milan\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\Mesto\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
       "projectName": "OpravaMesta",
-      "projectPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
-      "packagesPath": "C:\\Users\\jarko\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\obj\\",
+      "projectPath": "C:\\xampp\\htdocs\\Mesto\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
+      "packagesPath": "C:\\Users\\milan\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\htdocs\\Mesto\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\jarko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\milan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -735,13 +735,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
