@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'd157588b90377413e8df2447147fda4fc2e48a05',
+    'reference' => '377abb6affc2c7dfbb9fc82efcdfb94f3902b16e',
     'name' => '__root__',
   ),
   'versions' => 
@@ -42,7 +42,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'd157588b90377413e8df2447147fda4fc2e48a05',
+      'reference' => '377abb6affc2c7dfbb9fc82efcdfb94f3902b16e',
     ),
     'beberlei/assert' => 
     array (
