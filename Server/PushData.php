@@ -11,17 +11,16 @@ $longitude = $_GET["long"];
 $img = $_GET["img"]; //???
 $OTP = $_GET["auth"]; // ???
 $ip = $_SERVER['REMOTE_ADDR'];
-
+$otp = TOTP::create(null, 10); // Kľúč žiaden zatiaľ, bude čítaný z DB
 $imgurl = "url"; // Po nahratí bude URL
-
-$db = mysqli_connect("localhost", "root", "", "city"); // DB beží na localhoste len!!!!!
-
-// Kontrola, či OTP kód súhlasí, ak nie, nech vyhodí chybu
-//die("401: OTP Error");
 
 if(empty($UUID)){
     die("400: Bad Request: You are missing UUID");
 }
+
+$db = mysqli_connect("localhost", "root", "", "city"); // DB beží na localhoste len!!!!!
+
+
 
 $IPCheck = "SELECT *  FROM `bannedip` WHERE `ip` = '$ip'";
 $IPResoult = $db->query($IPCheck);
@@ -40,6 +39,10 @@ if (($UUIDResoult->num_rows > 0)) {
     {
         die("403: You are banned fron using our application.");  // AK JE IP/UUID ZABANOVANE
     }  
+}
+
+if(!($otp->verify($OTP))){
+    die("401: OTP Error");
 }
 
 

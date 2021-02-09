@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'f32caa186912c0b2ff2d0d6f42e96bb198dbe633',
+    'reference' => 'd157588b90377413e8df2447147fda4fc2e48a05',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'f32caa186912c0b2ff2d0d6f42e96bb198dbe633',
+      'reference' => 'd157588b90377413e8df2447147fda4fc2e48a05',
     ),
     'beberlei/assert' => 
     array (
