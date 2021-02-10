@@ -1,6 +1,6 @@
 ﻿namespace OpravaMesta
 {
-    class GetPostData
+    public class GetPostData
     {
         public string creator { get; set; }
         public string name { get; set; }

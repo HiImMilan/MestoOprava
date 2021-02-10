@@ -8,6 +8,7 @@ public class MonoPackageManager_Resources {
 		"Com.Android.DeskClock.dll",
 		"Com.ViewPagerIndicator.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"OpravaMesta.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
