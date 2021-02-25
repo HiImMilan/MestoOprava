@@ -17,19 +17,19 @@ namespace OpravaMesta
 
         public string Meno
         {
-            get { return meno; }
+            get { return $"Meno: {meno}"; }
             set { meno = value; }
         }
 
         public string Priezvisko
         {
-            get { return priezvisko; }
+            get { return $"Priezvisko: {priezvisko}"; }
             set { priezvisko = value; }
         }
 
         public string Mesto
         {
-            get { return mesto; }
+            get { return $"Mesto: {mesto}"; }
             set { mesto = value; }
         }
 
@@ -39,10 +39,19 @@ namespace OpravaMesta
             set { hodnotenie = value; }
         }
 
+        public string StringHodnotenie
+        {
+            get { return $"Hodnotenie: {hodnotenie}"; }
+        }
+
         public int Prispevky
         {
             get { return prispevky; }
             set { prispevky = value; }
+        }
+        public string StringPrispevky
+        {
+            get { return $"Prispevky: {prispevky}"; }
         }
 
         void OnPropertyChanged(string name)
