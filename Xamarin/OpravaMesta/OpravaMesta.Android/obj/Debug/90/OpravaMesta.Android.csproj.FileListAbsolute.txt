@@ -2953,3 +2953,4 @@ C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90
 C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\f145d548-a930-4fa9-b964-aa09c7157137.txt
 C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\f9150a43-9422-4a6d-9c46-c3118c4930f1.txt
 C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\android\src\crc646957603ea1820544\MediaPickerActivity.java
+C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\res\xml\file_paths.xml

@@ -38,6 +38,8 @@ declare-styleable;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.An
 dimen;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\2\jl\res\values\vpi__defaults.xml
 enum;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\2\jl\res\values\vpi__attrs.xml
 external-cache-path;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\48\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-files-path;obj\Debug\90\res\file_paths.xml
+external-files-path;obj\Debug\90\res\xml\file_paths.xml
 external-path;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\48\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
@@ -51,6 +53,8 @@ LinearLayout;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android
 LinearLayout;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\vertical_viewpager.xml
 LinearLayout;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\49\jl\res\layout\bottomtablayout.xml
 paths;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\48\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;obj\Debug\90\res\file_paths.xml
+paths;obj\Debug\90\res\xml\file_paths.xml
 RelativeLayout;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\horizontal_viewpager.xml
 RelativeLayout;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\vertical_viewpager.xml
 resources;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\1\jl\res\values\strings.xml
