@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
+using Xamarin.Forms;
 
 namespace OpravaMesta
 {
@@ -14,7 +15,24 @@ namespace OpravaMesta
         private string mesto = "Mesto";
         private int hodnotenie = 0;
         private int prispevky = 0;
+        private Image profilePhoto;
 
+        private static MainViewModel _mainViewModel;
+
+        public static MainViewModel GetMainViewModel()
+        {
+            if (_mainViewModel == null)
+            {
+                _mainViewModel = new MainViewModel();
+            }
+
+            return _mainViewModel;
+        }
+        public Image ProfilePhoto
+        {
+            get { return profilePhoto; }
+            set { profilePhoto = value; }
+        }
         public string Meno
         {
             get { return $"Meno: {meno}"; }

@@ -17,9 +17,16 @@ namespace OpravaMesta
             InitializeComponent();
         }
 
+        private Image _profilePhoto;
         async void QRCodeClicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new LoginPage());
+            var photo = await Plugin.Media.CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions() { });
+
+            if (photo != null)
+                _profilePhoto.Source = ImageSource.FromStream(() => { return photo.GetStream(); });
+
+            MainViewModel.GetMainViewModel().ProfilePhoto = _profilePhoto;
+
         }
     }
 }
