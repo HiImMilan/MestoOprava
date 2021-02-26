@@ -28,7 +28,7 @@ namespace OpravaMesta
                 bLogin.BackgroundColor = Color.FromHex("31325C");
                 bLogin.TextColor = Color.FromHex("FFFFFF");
                 bNoLogin.BackgroundColor = Color.FromHex("000000");
-                bNoLogin.TextColor = Color.FromHex("FFFFFF");
+                bNoLogin.TextColor = Color.FromHex("31325C");
                 lAgree.TextColor = Color.FromHex("FFFFFF");
             }
             else

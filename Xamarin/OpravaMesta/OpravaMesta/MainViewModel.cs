@@ -28,11 +28,13 @@ namespace OpravaMesta
 
             return _mainViewModel;
         }
+
         public Image ProfilePhoto
         {
             get { return profilePhoto; }
             set { profilePhoto = value; }
         }
+
         public string Meno
         {
             get { return $"Meno: {meno}"; }
