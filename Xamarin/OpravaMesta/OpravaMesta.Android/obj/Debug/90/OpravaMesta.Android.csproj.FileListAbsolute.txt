@@ -2931,6 +2931,7 @@ C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90
 C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\f145d548-a930-4fa9-b964-aa09c7157137.txt
 C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\f9150a43-9422-4a6d-9c46-c3118c4930f1.txt
 C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\android\src\crc646957603ea1820544\MediaPickerActivity.java
+<<<<<<< HEAD
 D:\Users\Jarko\Plocha\School\Competitions\CityFix\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\49\jl\files.cache
 D:\Users\Jarko\Plocha\School\Competitions\CityFix\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\55\jl\files.cache
 D:\Users\Jarko\Plocha\School\Competitions\CityFix\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\59\jl\files.cache
@@ -2956,3 +2957,6 @@ D:\Users\Jarko\Plocha\School\Competitions\CityFix\MestoOprava\Xamarin\OpravaMest
 D:\Users\Jarko\Plocha\School\Competitions\CityFix\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\b220d2b2-a2eb-4a39-bdce-8d2bf848e4cb.txt
 D:\Users\Jarko\Plocha\School\Competitions\CityFix\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\ba07c855-e40e-4af7-ae0b-af7fcdef4cc5.txt
 D:\Users\Jarko\Plocha\School\Competitions\CityFix\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\android\src\crc646957603ea1820544\MediaPickerActivity.java
+=======
+C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\res\xml\file_paths.xml
+>>>>>>> origin/main
