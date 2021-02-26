@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "PPvn8nirZz+LPo+fAAVZubPVFLUOuWV8YD0YRFrxflId8pF99mmu5WTMn6xrwbVM/nNRZa1t/dF4CZIiQOnG9Q==",
+  "dgSpecHash": "FoFr1NVEEk8SvWAB4rK6E/bPqEqsd7wRIDEnyNJeYAGsguaI/22pss/sWx3bTWZgZlfaHCbBLRRGVYEvxZFXiw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
+  "projectFilePath": "C:\\Users\\milan\\Source\\Repos\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jarko\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
-    "C:\\Users\\jarko\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jarko\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\jarko\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\jarko\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\jarko\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\milan\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
+    "C:\\Users\\milan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\milan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\milan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\milan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\milan\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\jarko\\.nuget\\packages\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "C:\\Users\\milan\\.nuget\\packages\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
   "logs": []
 }
