@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OpravaMesta.Utils;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -47,25 +48,11 @@ namespace OpravaMesta
             }
         }
 
-        private async Task<ImageSource> CameraTakePhoto()
-        {
-            
-            var photo = await Plugin.Media.CrossMedia.Current.TakePhotoAsync(
-                new Plugin.Media.Abstractions.StoreCameraMediaOptions() { });
-
-            if (photo != null)
-                return ImageSource.FromStream(() => { return photo.GetStream(); });
-            else
-            {
-                return null;
-            }
 
 
-        }
+        private async void Button_OnClicked(object sender, EventArgs e) =>
+            testImage.Source = await HelperMethods.CameraTakePhoto();
 
-        private async void Button_OnClicked(object sender, EventArgs e)
-        {
-            testImage.Source = await CameraTakePhoto();
-        }
+
     }
 }

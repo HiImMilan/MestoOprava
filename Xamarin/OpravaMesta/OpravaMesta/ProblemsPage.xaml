@@ -1,14 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="OpravaMesta.ProblemsPage">
+             x:Class="OpravaMesta.ProblemsPage"
+             xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             >
     <ContentPage.Content>
         <ContentView x:Name="bg">
-            <ActivityIndicator x:Name="activityIndicator"
-                               IsRunning="True"
-                               VerticalOptions="CenterAndExpand"
-                               HorizontalOptions="CenterAndExpand"                               
-                               />
+            <StackLayout>
+                <ActivityIndicator x:Name="activityIndicator"
+                                   IsRunning="False"
+                                   VerticalOptions="CenterAndExpand"
+                                   HorizontalOptions="CenterAndExpand"                               
+                />
+                <CarouselView ItemsSource="{Binding PostTemplate}" x:Name="CarouselView">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout BackgroundColor="Red">
+                               <Label Text="{Binding Name}"></Label>
+                                <Image Source="{Binding Image}"></Image>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+            </StackLayout>
         </ContentView>
     </ContentPage.Content>
 </ContentPage>

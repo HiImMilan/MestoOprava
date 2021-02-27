@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\xampp\\htdocs\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "C:\\xampp\\htdocs\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
         "packagesPath": "C:\\Users\\milos\\.nuget\\packages\\",
         "outputPath": "C:\\xampp\\htdocs\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\obj\\",
-=======
-    "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {}
-  },
-  "projects": {
-    "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
-        "projectName": "OpravaMesta",
-        "projectPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
-        "packagesPath": "C:\\Users\\jarko\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta\\obj\\",
->>>>>>> a9df7d5b9beff1d5a36d0dda725f58095153b5a8
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

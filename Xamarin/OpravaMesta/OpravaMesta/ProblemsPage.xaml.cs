@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using CarouselView.FormsPlugin.Abstractions;
+using OpravaMesta.Utils;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -26,6 +27,14 @@ namespace OpravaMesta
                 bg.BackgroundColor = Color.FromHex("FFFFFF");
                 activityIndicator.Color = Color.FromHex("4682D0");
             }
+            
+            List<PostTemplate> postTemplates = new List<PostTemplate>()
+            {
+                new PostTemplate(){Name = "asdada"},
+                new PostTemplate(){Name = "Abcd"}
+            };
+            CarouselView.ItemsSource = postTemplates;
+            
         }
     }
 }
