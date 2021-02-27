@@ -76,3 +76,4 @@ C:\Users\milan\Source\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta\obj\
 C:\Users\milan\Source\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta\obj\Debug\netstandard2.0\OpravaMesta.dll
 C:\Users\milan\Source\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta\obj\Debug\netstandard2.0\ref\OpravaMesta.dll
 C:\Users\milan\Source\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta\obj\Debug\netstandard2.0\OpravaMesta.pdb
+C:\Users\milan\Source\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta\obj\Debug\netstandard2.0\GPSTestScreen.xaml.g.cs

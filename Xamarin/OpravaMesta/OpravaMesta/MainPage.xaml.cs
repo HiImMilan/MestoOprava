@@ -56,7 +56,8 @@ namespace OpravaMesta
         async void LoginClicked(object sender, EventArgs e)
         {
 
-            await Navigation.PushModalAsync(new QRLoginPage());
+            // await Navigation.PushModalAsync(new QRLoginPage());
+            await Navigation.PushModalAsync(new GPSTestScreen());
         }
 
         async void NoLoginClicked(object sender, EventArgs e)
