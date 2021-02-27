@@ -3226,20 +3226,7 @@ D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMest
 D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\android\assets\Xamarin.Google.Android.Material.dll
 D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\android\assets\Xamarin.Google.Android.Material.pdb
 D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\android\assets\Xamarin.Google.Guava.ListenableFuture.dll
-D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\jl\ee859640-b9a5-4d33-adc8-67d867648b3d.jar
 D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\stamp\_AndroidXJetifyJavaLibraryRules.stamp
-D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\16ca1626-e59b-43a5-aba8-829be634d89d.txt
-D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\1715746e-06aa-4004-8847-aa179bd94d11.txt
-D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\177270c7-1bcd-4838-8d86-d159d4b735d9.txt
-D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\2d43a849-a128-4a13-85a0-07b9677b0862.txt
-D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\5778ae42-e7c3-4e57-bfe1-6ddef71e076b.txt
-D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\6a8afea6-264e-49c5-8b4e-c61ac2e8775b.cfg
-D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\6d5e14f0-5fe9-4a0d-9548-2afa8090a34d.txt
-D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\72d04451-5969-44a9-815d-88a2fb1d9600.txt
-D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\850d1f26-8a3b-4263-94c7-16d256ada899.txt
-D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\c5b06bfc-a68a-4d51-a370-be0109f1aa43.txt
-D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\cb040179-94cf-4f49-8ca5-bc7536f69322.txt
-D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\fa70b175-fe51-4c19-a5ae-d0fcbc289958.txt
 D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\stamp\_AndroidXJetifyProguardRules.stamp
 D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\_AndroidXJetifyProguardRules.jetify
 D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\stamp\_AndroidXCecilfy.stamp
@@ -3602,6 +3589,7 @@ D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMest
 D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\Users\Jarko\Plocha\School\Competitions\CityFIx\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+<<<<<<< HEAD
 C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\bin\Debug\OpravaMesta.Android.dll
 C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\bin\Debug\OpravaMesta.Android.pdb
 C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\bin\Debug\com.companyname.opravamesta.apk
@@ -4218,3 +4206,18 @@ C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90
 C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\fbb9792b-6c3a-485c-b4ef-c5687c45fc1e.txt
 C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\android\src\crc646957603ea1820544\MediaPickerActivity.java
 C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\res\xml\file_paths.xml
+=======
+D:\Users\Jarko\Plocha\School\Competitions\CityFix\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\jl\f785fed5-70de-4cdf-aab7-8ef756106f01.jar
+D:\Users\Jarko\Plocha\School\Competitions\CityFix\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\1267ae7d-6ed1-4467-a3fd-7faa8d1dc566.txt
+D:\Users\Jarko\Plocha\School\Competitions\CityFix\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\39b1e61a-0296-4348-aab4-44c6dc11573c.txt
+D:\Users\Jarko\Plocha\School\Competitions\CityFix\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\47e82e0e-25ff-444e-9871-aa82c5919c1b.txt
+D:\Users\Jarko\Plocha\School\Competitions\CityFix\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\5cb32628-bdd7-4c9f-8f54-369ac4a6aec1.cfg
+D:\Users\Jarko\Plocha\School\Competitions\CityFix\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\75054d39-9e0c-44d7-81c5-f4ba22937430.txt
+D:\Users\Jarko\Plocha\School\Competitions\CityFix\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\8c1e39ab-5d16-48a6-8b5e-1a45e8f26a91.txt
+D:\Users\Jarko\Plocha\School\Competitions\CityFix\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\90950a0f-a36e-4230-a502-20e5c4038971.txt
+D:\Users\Jarko\Plocha\School\Competitions\CityFix\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\92fe87a2-3d28-4003-9108-bce262ee13a7.txt
+D:\Users\Jarko\Plocha\School\Competitions\CityFix\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\9e6f52b7-c0ca-414e-b824-9cc7e28bc277.txt
+D:\Users\Jarko\Plocha\School\Competitions\CityFix\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\a1e055cb-1e9f-4add-9383-1024045d5486.txt
+D:\Users\Jarko\Plocha\School\Competitions\CityFix\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\aea5cc49-7fe0-4bd4-b292-5691cee16beb.txt
+D:\Users\Jarko\Plocha\School\Competitions\CityFix\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\androidx\proguard\dcf40b28-0213-4245-bb96-8fdbbe128aeb.txt
+>>>>>>> a9df7d5b9beff1d5a36d0dda725f58095153b5a8
