@@ -15,6 +15,23 @@ namespace OpravaMesta
         public QRLoginPage()
         {
             InitializeComponent();
+
+            if (Application.Current.RequestedTheme == OSAppTheme.Dark)
+            {
+                bg.BackgroundColor = Color.FromHex("000000");
+                text1.TextColor = Color.FromHex("FFFFFF");
+                text2.TextColor = Color.FromHex("FFFFFF");
+                button.BackgroundColor = Color.FromHex("31325C");
+                button.TextColor = Color.FromHex("FFFFFF");
+            }
+            else
+            {
+                bg.BackgroundColor = Color.FromHex("FFFFFF");
+                text1.TextColor = Color.FromHex("6E7C7D");
+                text2.TextColor = Color.FromHex("6E7C7D");
+                button.BackgroundColor = Color.FromHex("4682D0");
+                button.TextColor = Color.FromHex("FFFFFF");
+            }
         }
 
         async void QRCodeClicked(object sender, EventArgs e)

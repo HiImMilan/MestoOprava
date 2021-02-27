@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "/8xCMJzz7ox64WXtKy76AHWDGT3kbdavv3uchD0Z0ik2HRO6B6KkQ35yCIH4c2xa+8BxK+fU81m/MzlYLAfD3A==",
+  "dgSpecHash": "Ggpc88dHl94ZLaAWVswutwr2ZyLgin1tg7KCUg/L3RUG5E4EGDJXyomxwJIPG0kTmhw21S+XJNGE80BQvVsGuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\milan\\Source\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
+  "projectFilePath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFIx\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\milan\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
-    "C:\\Users\\milan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\milan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\milan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\milan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\jarko\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
+    "C:\\Users\\jarko\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jarko\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\jarko\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\jarko\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\milan\\.nuget\\packages\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "C:\\Users\\jarko\\.nuget\\packages\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
   "logs": []
 }
