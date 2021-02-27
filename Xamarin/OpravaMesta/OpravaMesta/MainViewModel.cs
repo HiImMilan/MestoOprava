@@ -14,6 +14,7 @@ namespace OpravaMesta
         private string mesto = "Mesto";
         private int hodnotenie = 0;
         private int prispevky = 0;
+        private bool isActivityIndicatorRunning = false;
 
         public string Meno
         {
@@ -49,9 +50,16 @@ namespace OpravaMesta
             get { return prispevky; }
             set { prispevky = value; }
         }
+
         public string StringPrispevky
         {
             get { return $"Prispevky: {prispevky}"; }
+        }
+
+        public bool IsActivityIndicatorRunning
+        {
+            get { return isActivityIndicatorRunning; }
+            set { isActivityIndicatorRunning = value; }
         }
 
         void OnPropertyChanged(string name)

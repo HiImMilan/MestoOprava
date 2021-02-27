@@ -1,11 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:OpravaMesta"
              x:Class="OpravaMesta.ProblemsPage">
+
+    <ContentPage.BindingContext>
+        <local:MainViewModel/>
+    </ContentPage.BindingContext>
+    
     <ContentPage.Content>
         <ContentView x:Name="bg">
             <ActivityIndicator x:Name="activityIndicator"
-                               IsRunning="True"
+                               IsRunning="{Binding IsActivityIndicatorRunning}"
                                VerticalOptions="CenterAndExpand"
                                HorizontalOptions="CenterAndExpand"                               
                                />

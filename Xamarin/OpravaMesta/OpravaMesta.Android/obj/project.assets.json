@@ -3863,32 +3863,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\milos\\.nuget\\packages\\": {},
+    "C:\\Users\\jarko\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\xampp\\htdocs\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
-      "projectName": "OpravaMesta.Android",
-      "projectPath": "C:\\xampp\\htdocs\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
-      "packagesPath": "C:\\Users\\milos\\.nuget\\packages\\",
-      "outputPath": "C:\\xampp\\htdocs\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\obj\\",
-=======
       "projectUniqueName": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
       "projectName": "OpravaMesta.Android",
       "projectPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
       "packagesPath": "C:\\Users\\jarko\\.nuget\\packages\\",
       "outputPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\obj\\",
->>>>>>> a9df7d5b9beff1d5a36d0dda725f58095153b5a8
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\milos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jarko\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -3902,13 +3894,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\xampp\\htdocs\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {
-              "projectPath": "C:\\xampp\\htdocs\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj"
-=======
             "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {
               "projectPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj"
->>>>>>> a9df7d5b9beff1d5a36d0dda725f58095153b5a8
             }
           }
         }
@@ -3946,6 +3933,12 @@
     }
   },
   "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
     {
       "code": "NU1605",
       "level": "Warning",
