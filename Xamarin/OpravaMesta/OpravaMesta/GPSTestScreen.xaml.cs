@@ -23,7 +23,7 @@ namespace OpravaMesta
 
             try
             {
-                var location = await Geolocation.GetLastKnownLocationAsync();
+                var location = await Geolocation.GetLocationAsync();
 
                 if (location != null)
                 {
@@ -32,19 +32,19 @@ namespace OpravaMesta
             }
             catch (FeatureNotSupportedException fnsEx)
             {
-                // Handle not supported on device exception
+                DisplayAlert("An error has occured", "Please screenshot this and sent this to Github Issues: " + fnsEx.Message + "\n STACKTRACE: " + fnsEx.StackTrace + "\n" + fnsEx.Source, "Cancel");
             }
             catch (FeatureNotEnabledException fneEx)
             {
-                // Handle not enabled on device exception
+                DisplayAlert("An error has occured", "Please screenshot this and sent this to Github Issues: " + fneEx.Message + "\n STACKTRACE: " + fneEx.StackTrace + "\n" + fneEx.Source, "Cancel");
             }
             catch (PermissionException pEx)
             {
-                // Handle permission exception
+                DisplayAlert("An error has occured", "Please screenshot this and sent this to Github Issues: " + pEx.Message + "\n STACKTRACE: " + pEx.StackTrace + "\n" + pEx.Source, "Cancel");
             }
             catch (Exception ex)
             {
-                // Unable to get location
+                DisplayAlert("An error has occured", "Please screenshot this and sent this to Github Issues: " + ex.Message + "\n STACKTRACE: " + ex.StackTrace + "\n" + ex.Source, "Cancel");
             }
         }
 
