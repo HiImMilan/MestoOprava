@@ -4,10 +4,9 @@
              x:Class="OpravaMesta.GPSTestScreen">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Label Text="" x:Name="GPSTestString" />
+            <Label x:Name="StatusS"></Label>
+            <Button Text="Click me" Clicked="Button_OnClicked"></Button>
+            <Image x:Name="testImage"></Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

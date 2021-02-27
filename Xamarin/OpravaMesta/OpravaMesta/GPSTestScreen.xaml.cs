@@ -46,5 +46,26 @@ namespace OpravaMesta
                 // Unable to get location
             }
         }
+
+        private async Task<ImageSource> CameraTakePhoto()
+        {
+            
+            var photo = await Plugin.Media.CrossMedia.Current.TakePhotoAsync(
+                new Plugin.Media.Abstractions.StoreCameraMediaOptions() { });
+
+            if (photo != null)
+                return ImageSource.FromStream(() => { return photo.GetStream(); });
+            else
+            {
+                return null;
+            }
+
+
+        }
+
+        private async void Button_OnClicked(object sender, EventArgs e)
+        {
+            testImage.Source = await CameraTakePhoto();
+        }
     }
 }
