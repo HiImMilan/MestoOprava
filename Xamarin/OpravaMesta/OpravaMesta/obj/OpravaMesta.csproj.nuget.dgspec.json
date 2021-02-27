@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {}
+    "C:\\Users\\milan\\Source\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {
+    "C:\\Users\\milan\\Source\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
+        "projectUniqueName": "C:\\Users\\milan\\Source\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
         "projectName": "OpravaMesta",
-        "projectPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
-        "packagesPath": "C:\\Users\\jarko\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\obj\\",
+        "projectPath": "C:\\Users\\milan\\Source\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
+        "packagesPath": "C:\\Users\\milan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\milan\\Source\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\jarko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\milan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -77,7 +77,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
