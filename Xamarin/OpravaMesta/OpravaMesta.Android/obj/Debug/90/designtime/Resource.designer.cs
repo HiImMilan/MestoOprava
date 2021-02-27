@@ -12936,11 +12936,11 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 0x7F080043
 			public const int always = 2131230787;
 			
-			// aapt resource value: 0x7F080001
-			public const int APPLICATION_NAME = 2131230721;
-			
 			// aapt resource value: 0x7F080044
 			public const int application_name = 2131230788;
+			
+			// aapt resource value: 0x7F080001
+			public const int APPLICATION_NAME = 2131230721;
 			
 			// aapt resource value: 0x7F080045
 			public const int async = 2131230789;

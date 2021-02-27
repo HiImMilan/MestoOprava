@@ -3812,11 +3812,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFIx\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
+      "projectUniqueName": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
       "projectName": "OpravaMesta.Android",
-      "projectPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFIx\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
+      "projectPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
       "packagesPath": "C:\\Users\\jarko\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFIx\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\obj\\",
+      "outputPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3837,8 +3837,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFIx\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {
-              "projectPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFIx\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj"
+            "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {
+              "projectPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj"
             }
           }
         }

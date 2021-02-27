@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ggpc88dHl94ZLaAWVswutwr2ZyLgin1tg7KCUg/L3RUG5E4EGDJXyomxwJIPG0kTmhw21S+XJNGE80BQvVsGuw==",
+  "dgSpecHash": "vetVSeWcmgFNqG5cHYWMXRYIXz+bNKXG90aDbudFXH7MG5Vprpe+lHf1ZlRd/mayT4WGKOFrzaI+0XEuDYTwsw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFIx\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
+  "projectFilePath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jarko\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
     "C:\\Users\\jarko\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

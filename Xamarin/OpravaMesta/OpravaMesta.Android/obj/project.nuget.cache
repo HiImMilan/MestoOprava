@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pwOJv70pIfkVhapBwKm4CjTOpidEoQ5TelzKzhbUYoP4S7sMqeXWmh0XjiwuyAVTz9UEqY6WO1cIV4PA2vXrzQ==",
+  "dgSpecHash": "KpFV2CVMkAN7Xn8v0PBigx3lNpTEegujMr2Kwj8r491DiRatgU8I8yj988jqmblRiCh3D5HvNMyryCftDDr+Uw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFIx\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
+  "projectFilePath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jarko\\.nuget\\packages\\carouselview.formsplugin\\6.0.0\\carouselview.formsplugin.6.0.0.nupkg.sha512",
     "C:\\Users\\jarko\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",

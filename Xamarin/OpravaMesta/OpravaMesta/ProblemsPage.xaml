@@ -4,9 +4,8 @@
              x:Class="OpravaMesta.ProblemsPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ActivityIndicator IsRunning="True"
+                               />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

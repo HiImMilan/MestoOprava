@@ -51,7 +51,7 @@ namespace OpravaMesta
 
         async void LoginClicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new GPSTestScreen());
+            await Navigation.PushModalAsync(new ProblemsPage());
         }
     }
 }
