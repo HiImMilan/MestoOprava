@@ -13,7 +13,7 @@
                      AbsoluteLayout.LayoutFlags="All" 
                      AbsoluteLayout.LayoutBounds="0,0,1,1"
                      />
-            <Image Source="{Binding ProfilePhoto}"
+            <Image Source="https://icons-for-free.com/iconfiles/png/512/anonymous+app+contacts+open+line+profile+user+icon-1320183042822068474.png"
                    AbsoluteLayout.LayoutFlags="PositionProportional" 
                    AbsoluteLayout.LayoutBounds="0,0.1,250,50"
                    Scale="4"
