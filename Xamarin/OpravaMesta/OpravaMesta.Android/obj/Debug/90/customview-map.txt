@@ -4,8 +4,6 @@ adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
 alpha;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\49\jl\res\anim\enterfromleft.xml
 alpha;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\49\jl\res\anim\exittoleft.xml
-android.support.design.widget.TabLayout;obj\Debug\90\res\layout\tabbar.xml
-android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
 androidx.appcompat.widget.Toolbar;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\49\jl\res\layout\rootlayout.xml
 androidx.appcompat.widget.Toolbar;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\49\jl\res\layout\shellcontent.xml
 androidx.appcompat.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
@@ -31,11 +29,6 @@ com.google.android.material.tabs.TabLayout;C:\xampp\htdocs\MestoOprava\Xamarin\O
 com.google.android.material.tabs.TabLayout;obj\Debug\90\res\layout\tabbar.xml
 Com.ViewPagerIndicator.CirclePageIndicator;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\horizontal_viewpager.xml
 Com.ViewPagerIndicator.CirclePageIndicator;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\vertical_viewpager.xml
-crc646c47a7af3a53b8ab.CirclePageIndicator;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\horizontal_viewpager.xml
-crc646c47a7af3a53b8ab.CirclePageIndicator;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\vertical_viewpager.xml
-crc64720bb2db43a66fe9.FormsViewPager;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\49\jl\res\layout\rootlayout.xml
-crc64bd9b40afd0203ad3.HorizontalViewPager;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\horizontal_viewpager.xml
-crc64bd9b40afd0203ad3.VerticalViewPager;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\vertical_viewpager.xml
 declare-styleable;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\2\jl\res\values\vpi__attrs.xml
 dimen;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\2\jl\res\values\vpi__defaults.xml
 enum;C:\xampp\htdocs\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\2\jl\res\values\vpi__attrs.xml

@@ -25,7 +25,6 @@ namespace OpravaMesta.Droid
 		
 		public static void UpdateIdValues()
 		{
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Animation.abc_fade_in = global::OpravaMesta.Droid.Resource.Animation.abc_fade_in;
 			global::CarouselView.FormsPlugin.Droid.Resource.Animation.abc_fade_out = global::OpravaMesta.Droid.Resource.Animation.abc_fade_out;
 			global::CarouselView.FormsPlugin.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::OpravaMesta.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -54,13 +53,10 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::OpravaMesta.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::CarouselView.FormsPlugin.Droid.Resource.Animation.design_snackbar_in = global::OpravaMesta.Droid.Resource.Animation.design_snackbar_in;
 			global::CarouselView.FormsPlugin.Droid.Resource.Animation.design_snackbar_out = global::OpravaMesta.Droid.Resource.Animation.design_snackbar_out;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Animation.EnterFromLeft = global::OpravaMesta.Droid.Resource.Animation.EnterFromLeft;
 			global::CarouselView.FormsPlugin.Droid.Resource.Animation.EnterFromRight = global::OpravaMesta.Droid.Resource.Animation.EnterFromRight;
 			global::CarouselView.FormsPlugin.Droid.Resource.Animation.ExitToLeft = global::OpravaMesta.Droid.Resource.Animation.ExitToLeft;
 			global::CarouselView.FormsPlugin.Droid.Resource.Animation.ExitToRight = global::OpravaMesta.Droid.Resource.Animation.ExitToRight;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Animator.design_appbar_state_list_animator = global::OpravaMesta.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::CarouselView.FormsPlugin.Droid.Resource.Animator.design_fab_hide_motion_spec = global::OpravaMesta.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::CarouselView.FormsPlugin.Droid.Resource.Animator.design_fab_show_motion_spec = global::OpravaMesta.Droid.Resource.Animator.design_fab_show_motion_spec;
@@ -126,20 +122,13 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.backgroundTint = global::OpravaMesta.Droid.Resource.Attribute.backgroundTint;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.backgroundTintMode = global::OpravaMesta.Droid.Resource.Attribute.backgroundTintMode;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.barLength = global::OpravaMesta.Droid.Resource.Attribute.barLength;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.backgroundTint = global::OpravaMesta.Droid.Resource.Attribute.backgroundTint;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.backgroundTintMode = global::OpravaMesta.Droid.Resource.Attribute.backgroundTintMode;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.behavior_autoHide = global::OpravaMesta.Droid.Resource.Attribute.behavior_autoHide;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.behavior_fitToContents = global::OpravaMesta.Droid.Resource.Attribute.behavior_fitToContents;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.behavior_hideable = global::OpravaMesta.Droid.Resource.Attribute.behavior_hideable;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.behavior_overlapTop = global::OpravaMesta.Droid.Resource.Attribute.behavior_overlapTop;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.behavior_peekHeight = global::OpravaMesta.Droid.Resource.Attribute.behavior_peekHeight;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.behavior_skipCollapsed = global::OpravaMesta.Droid.Resource.Attribute.behavior_skipCollapsed;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.borderlessButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.borderlessButtonStyle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.borderWidth = global::OpravaMesta.Droid.Resource.Attribute.borderWidth;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.bottomAppBarStyle = global::OpravaMesta.Droid.Resource.Attribute.bottomAppBarStyle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.bottomNavigationStyle = global::OpravaMesta.Droid.Resource.Attribute.bottomNavigationStyle;
@@ -154,7 +143,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::OpravaMesta.Droid.Resource.Attribute.boxCornerRadiusTopStart;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.boxStrokeColor = global::OpravaMesta.Droid.Resource.Attribute.boxStrokeColor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.boxStrokeWidth = global::OpravaMesta.Droid.Resource.Attribute.boxStrokeWidth;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonBarButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
@@ -168,9 +156,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonStyleSmall = global::OpravaMesta.Droid.Resource.Attribute.buttonStyleSmall;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonTint = global::OpravaMesta.Droid.Resource.Attribute.buttonTint;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonTintMode = global::OpravaMesta.Droid.Resource.Attribute.buttonTintMode;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.buttonTint = global::OpravaMesta.Droid.Resource.Attribute.buttonTint;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.cardBackgroundColor = global::OpravaMesta.Droid.Resource.Attribute.cardBackgroundColor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.cardCornerRadius = global::OpravaMesta.Droid.Resource.Attribute.cardCornerRadius;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.cardElevation = global::OpravaMesta.Droid.Resource.Attribute.cardElevation;
@@ -178,18 +163,12 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.cardPreventCornerOverlap = global::OpravaMesta.Droid.Resource.Attribute.cardPreventCornerOverlap;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.cardUseCompatPadding = global::OpravaMesta.Droid.Resource.Attribute.cardUseCompatPadding;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.cardViewStyle = global::OpravaMesta.Droid.Resource.Attribute.cardViewStyle;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.checkboxStyle = global::OpravaMesta.Droid.Resource.Attribute.checkboxStyle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.checkedChip = global::OpravaMesta.Droid.Resource.Attribute.checkedChip;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.checkedIcon = global::OpravaMesta.Droid.Resource.Attribute.checkedIcon;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.checkedIconEnabled = global::OpravaMesta.Droid.Resource.Attribute.checkedIconEnabled;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.checkedIconVisible = global::OpravaMesta.Droid.Resource.Attribute.checkedIconVisible;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.checkedTextViewStyle = global::OpravaMesta.Droid.Resource.Attribute.checkedTextViewStyle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipBackgroundColor = global::OpravaMesta.Droid.Resource.Attribute.chipBackgroundColor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipCornerRadius = global::OpravaMesta.Droid.Resource.Attribute.chipCornerRadius;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.chipEndPadding = global::OpravaMesta.Droid.Resource.Attribute.chipEndPadding;
@@ -215,7 +194,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.closeIconStartPadding = global::OpravaMesta.Droid.Resource.Attribute.closeIconStartPadding;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.closeIconTint = global::OpravaMesta.Droid.Resource.Attribute.closeIconTint;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.closeIconVisible = global::OpravaMesta.Droid.Resource.Attribute.closeIconVisible;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.closeItemLayout = global::OpravaMesta.Droid.Resource.Attribute.closeItemLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.collapseContentDescription = global::OpravaMesta.Droid.Resource.Attribute.collapseContentDescription;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.collapsedTitleGravity = global::OpravaMesta.Droid.Resource.Attribute.collapsedTitleGravity;
@@ -241,28 +219,19 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentInsetRight = global::OpravaMesta.Droid.Resource.Attribute.contentInsetRight;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentInsetStart = global::OpravaMesta.Droid.Resource.Attribute.contentInsetStart;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::OpravaMesta.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.collapsedTitleGravity = global::OpravaMesta.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.colorSecondary = global::OpravaMesta.Droid.Resource.Attribute.colorSecondary;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentPadding = global::OpravaMesta.Droid.Resource.Attribute.contentPadding;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentPaddingBottom = global::OpravaMesta.Droid.Resource.Attribute.contentPaddingBottom;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentPaddingLeft = global::OpravaMesta.Droid.Resource.Attribute.contentPaddingLeft;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentPaddingRight = global::OpravaMesta.Droid.Resource.Attribute.contentPaddingRight;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentPaddingTop = global::OpravaMesta.Droid.Resource.Attribute.contentPaddingTop;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.contentScrim = global::OpravaMesta.Droid.Resource.Attribute.contentScrim;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.controlBackground = global::OpravaMesta.Droid.Resource.Attribute.controlBackground;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.coordinatorLayoutStyle = global::OpravaMesta.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.cornerRadius = global::OpravaMesta.Droid.Resource.Attribute.cornerRadius;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.counterEnabled = global::OpravaMesta.Droid.Resource.Attribute.counterEnabled;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.counterMaxLength = global::OpravaMesta.Droid.Resource.Attribute.counterMaxLength;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.counterOverflowTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.counterOverflowTextAppearance;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.counterTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.counterTextAppearance;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.customNavigationLayout = global::OpravaMesta.Droid.Resource.Attribute.customNavigationLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.defaultQueryHint = global::OpravaMesta.Droid.Resource.Attribute.defaultQueryHint;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.dialogCornerRadius = global::OpravaMesta.Droid.Resource.Attribute.dialogCornerRadius;
@@ -288,17 +257,12 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.editTextBackground = global::OpravaMesta.Droid.Resource.Attribute.editTextBackground;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.editTextColor = global::OpravaMesta.Droid.Resource.Attribute.editTextColor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.editTextStyle = global::OpravaMesta.Droid.Resource.Attribute.editTextStyle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.elevation = global::OpravaMesta.Droid.Resource.Attribute.elevation;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.enforceMaterialTheme = global::OpravaMesta.Droid.Resource.Attribute.enforceMaterialTheme;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.enforceTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.enforceTextAppearance;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.errorEnabled = global::OpravaMesta.Droid.Resource.Attribute.errorEnabled;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.errorTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.errorTextAppearance;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::OpravaMesta.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.expanded = global::OpravaMesta.Droid.Resource.Attribute.expanded;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.expandedTitleGravity = global::OpravaMesta.Droid.Resource.Attribute.expandedTitleGravity;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.expandedTitleMargin = global::OpravaMesta.Droid.Resource.Attribute.expandedTitleMargin;
@@ -313,7 +277,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fabCradleVerticalOffset = global::OpravaMesta.Droid.Resource.Attribute.fabCradleVerticalOffset;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fabCustomSize = global::OpravaMesta.Droid.Resource.Attribute.fabCustomSize;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fabSize = global::OpravaMesta.Droid.Resource.Attribute.fabSize;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fastScrollEnabled = global::OpravaMesta.Droid.Resource.Attribute.fastScrollEnabled;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::OpravaMesta.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::OpravaMesta.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
@@ -337,60 +300,39 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.goIcon = global::OpravaMesta.Droid.Resource.Attribute.goIcon;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.headerLayout = global::OpravaMesta.Droid.Resource.Attribute.headerLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.height = global::OpravaMesta.Droid.Resource.Attribute.height;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.floatingActionButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.floatingActionButtonStyle;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.foregroundInsidePadding = global::OpravaMesta.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.headerLayout = global::OpravaMesta.Droid.Resource.Attribute.headerLayout;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.helperText = global::OpravaMesta.Droid.Resource.Attribute.helperText;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.helperTextEnabled = global::OpravaMesta.Droid.Resource.Attribute.helperTextEnabled;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.helperTextTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.helperTextTextAppearance;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.hideMotionSpec = global::OpravaMesta.Droid.Resource.Attribute.hideMotionSpec;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.hideOnContentScroll = global::OpravaMesta.Droid.Resource.Attribute.hideOnContentScroll;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.hideOnScroll = global::OpravaMesta.Droid.Resource.Attribute.hideOnScroll;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.hintAnimationEnabled = global::OpravaMesta.Droid.Resource.Attribute.hintAnimationEnabled;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.hintEnabled = global::OpravaMesta.Droid.Resource.Attribute.hintEnabled;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.hintTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.hintTextAppearance;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.homeAsUpIndicator = global::OpravaMesta.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.homeLayout = global::OpravaMesta.Droid.Resource.Attribute.homeLayout;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::OpravaMesta.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.icon = global::OpravaMesta.Droid.Resource.Attribute.icon;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconEndPadding = global::OpravaMesta.Droid.Resource.Attribute.iconEndPadding;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconGravity = global::OpravaMesta.Droid.Resource.Attribute.iconGravity;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconifiedByDefault = global::OpravaMesta.Droid.Resource.Attribute.iconifiedByDefault;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconPadding = global::OpravaMesta.Droid.Resource.Attribute.iconPadding;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconSize = global::OpravaMesta.Droid.Resource.Attribute.iconSize;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconStartPadding = global::OpravaMesta.Droid.Resource.Attribute.iconStartPadding;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconTint = global::OpravaMesta.Droid.Resource.Attribute.iconTint;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.iconTintMode = global::OpravaMesta.Droid.Resource.Attribute.iconTintMode;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.imageButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.imageButtonStyle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.indeterminateProgressStyle = global::OpravaMesta.Droid.Resource.Attribute.indeterminateProgressStyle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.initialActivityCount = global::OpravaMesta.Droid.Resource.Attribute.initialActivityCount;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.insetForeground = global::OpravaMesta.Droid.Resource.Attribute.insetForeground;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.isLightTheme = global::OpravaMesta.Droid.Resource.Attribute.isLightTheme;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.insetForeground = global::OpravaMesta.Droid.Resource.Attribute.insetForeground;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemBackground = global::OpravaMesta.Droid.Resource.Attribute.itemBackground;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemHorizontalPadding = global::OpravaMesta.Droid.Resource.Attribute.itemHorizontalPadding;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::OpravaMesta.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemIconPadding = global::OpravaMesta.Droid.Resource.Attribute.itemIconPadding;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemIconSize = global::OpravaMesta.Droid.Resource.Attribute.itemIconSize;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemIconTint = global::OpravaMesta.Droid.Resource.Attribute.itemIconTint;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemPadding = global::OpravaMesta.Droid.Resource.Attribute.itemPadding;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemSpacing = global::OpravaMesta.Droid.Resource.Attribute.itemSpacing;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.itemTextAppearance;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemTextAppearanceActive = global::OpravaMesta.Droid.Resource.Attribute.itemTextAppearanceActive;
@@ -398,12 +340,9 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.itemTextColor = global::OpravaMesta.Droid.Resource.Attribute.itemTextColor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.keylines = global::OpravaMesta.Droid.Resource.Attribute.keylines;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.labelVisibilityMode = global::OpravaMesta.Droid.Resource.Attribute.labelVisibilityMode;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::OpravaMesta.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layout = global::OpravaMesta.Droid.Resource.Attribute.layout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layoutManager = global::OpravaMesta.Droid.Resource.Attribute.layoutManager;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layout_anchor = global::OpravaMesta.Droid.Resource.Attribute.layout_anchor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layout_anchorGravity = global::OpravaMesta.Droid.Resource.Attribute.layout_anchorGravity;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.layout_behavior = global::OpravaMesta.Droid.Resource.Attribute.layout_behavior;
@@ -417,7 +356,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.liftOnScroll = global::OpravaMesta.Droid.Resource.Attribute.liftOnScroll;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.lineHeight = global::OpravaMesta.Droid.Resource.Attribute.lineHeight;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.lineSpacing = global::OpravaMesta.Droid.Resource.Attribute.lineSpacing;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::OpravaMesta.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::OpravaMesta.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::OpravaMesta.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
@@ -456,20 +394,11 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.panelBackground = global::OpravaMesta.Droid.Resource.Attribute.panelBackground;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.panelMenuListTheme = global::OpravaMesta.Droid.Resource.Attribute.panelMenuListTheme;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.panelMenuListWidth = global::OpravaMesta.Droid.Resource.Attribute.panelMenuListWidth;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.materialButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.materialButtonStyle;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.materialCardViewStyle = global::OpravaMesta.Droid.Resource.Attribute.materialCardViewStyle;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.maxActionInlineWidth = global::OpravaMesta.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.maxImageSize = global::OpravaMesta.Droid.Resource.Attribute.maxImageSize;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.menu = global::OpravaMesta.Droid.Resource.Attribute.menu;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.navigationViewStyle = global::OpravaMesta.Droid.Resource.Attribute.navigationViewStyle;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.passwordToggleContentDescription = global::OpravaMesta.Droid.Resource.Attribute.passwordToggleContentDescription;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.passwordToggleDrawable = global::OpravaMesta.Droid.Resource.Attribute.passwordToggleDrawable;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.passwordToggleEnabled = global::OpravaMesta.Droid.Resource.Attribute.passwordToggleEnabled;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.passwordToggleTint = global::OpravaMesta.Droid.Resource.Attribute.passwordToggleTint;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.passwordToggleTintMode = global::OpravaMesta.Droid.Resource.Attribute.passwordToggleTintMode;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.popupMenuStyle = global::OpravaMesta.Droid.Resource.Attribute.popupMenuStyle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.popupTheme = global::OpravaMesta.Droid.Resource.Attribute.popupTheme;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.popupWindowStyle = global::OpravaMesta.Droid.Resource.Attribute.popupWindowStyle;
@@ -485,14 +414,10 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.ratingBarStyleSmall = global::OpravaMesta.Droid.Resource.Attribute.ratingBarStyleSmall;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.recyclerViewStyle = global::OpravaMesta.Droid.Resource.Attribute.recyclerViewStyle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.reverseLayout = global::OpravaMesta.Droid.Resource.Attribute.reverseLayout;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.pressedTranslationZ = global::OpravaMesta.Droid.Resource.Attribute.pressedTranslationZ;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.rippleColor = global::OpravaMesta.Droid.Resource.Attribute.rippleColor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.scrimAnimationDuration = global::OpravaMesta.Droid.Resource.Attribute.scrimAnimationDuration;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.scrimBackground = global::OpravaMesta.Droid.Resource.Attribute.scrimBackground;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::OpravaMesta.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.searchHintIcon = global::OpravaMesta.Droid.Resource.Attribute.searchHintIcon;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.searchIcon = global::OpravaMesta.Droid.Resource.Attribute.searchIcon;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.searchViewStyle = global::OpravaMesta.Droid.Resource.Attribute.searchViewStyle;
@@ -505,14 +430,10 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.showText = global::OpravaMesta.Droid.Resource.Attribute.showText;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.showTitle = global::OpravaMesta.Droid.Resource.Attribute.showTitle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.singleChoiceItemLayout = global::OpravaMesta.Droid.Resource.Attribute.singleChoiceItemLayout;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.showMotionSpec = global::OpravaMesta.Droid.Resource.Attribute.showMotionSpec;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.singleLine = global::OpravaMesta.Droid.Resource.Attribute.singleLine;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.singleSelection = global::OpravaMesta.Droid.Resource.Attribute.singleSelection;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.snackbarButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.snackbarButtonStyle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.snackbarStyle = global::OpravaMesta.Droid.Resource.Attribute.snackbarStyle;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.spanCount = global::OpravaMesta.Droid.Resource.Attribute.spanCount;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.spinBars = global::OpravaMesta.Droid.Resource.Attribute.spinBars;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::OpravaMesta.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -521,8 +442,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.srcCompat = global::OpravaMesta.Droid.Resource.Attribute.srcCompat;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.stackFromEnd = global::OpravaMesta.Droid.Resource.Attribute.stackFromEnd;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.state_above_anchor = global::OpravaMesta.Droid.Resource.Attribute.state_above_anchor;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.state_collapsed = global::OpravaMesta.Droid.Resource.Attribute.state_collapsed;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.state_collapsible = global::OpravaMesta.Droid.Resource.Attribute.state_collapsible;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.state_liftable = global::OpravaMesta.Droid.Resource.Attribute.state_liftable;
@@ -531,7 +450,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.statusBarScrim = global::OpravaMesta.Droid.Resource.Attribute.statusBarScrim;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.strokeColor = global::OpravaMesta.Droid.Resource.Attribute.strokeColor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.strokeWidth = global::OpravaMesta.Droid.Resource.Attribute.strokeWidth;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.subMenuArrow = global::OpravaMesta.Droid.Resource.Attribute.subMenuArrow;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.submitBackground = global::OpravaMesta.Droid.Resource.Attribute.submitBackground;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.subtitle = global::OpravaMesta.Droid.Resource.Attribute.subtitle;
@@ -543,8 +461,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.switchPadding = global::OpravaMesta.Droid.Resource.Attribute.switchPadding;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.switchStyle = global::OpravaMesta.Droid.Resource.Attribute.switchStyle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.switchTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.switchTextAppearance;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabBackground = global::OpravaMesta.Droid.Resource.Attribute.tabBackground;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabContentStart = global::OpravaMesta.Droid.Resource.Attribute.tabContentStart;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabGravity = global::OpravaMesta.Droid.Resource.Attribute.tabGravity;
@@ -571,10 +487,7 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.tabTextAppearance;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabTextColor = global::OpravaMesta.Droid.Resource.Attribute.tabTextColor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.tabUnboundedRipple = global::OpravaMesta.Droid.Resource.Attribute.tabUnboundedRipple;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAllCaps = global::OpravaMesta.Droid.Resource.Attribute.textAllCaps;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceBody1 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceBody1;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceBody2 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceBody2;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceButton = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceButton;
@@ -585,7 +498,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceHeadline4 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceHeadline4;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceHeadline5 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceHeadline5;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceHeadline6 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceHeadline6;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceListItem = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceListItem;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceListItemSecondary;
@@ -637,18 +549,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.useCompatPadding = global::OpravaMesta.Droid.Resource.Attribute.useCompatPadding;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.viewInflaterClass = global::OpravaMesta.Droid.Resource.Attribute.viewInflaterClass;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.voiceIcon = global::OpravaMesta.Droid.Resource.Attribute.voiceIcon;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceOverline = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceOverline;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceSubtitle1;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceSubtitle2;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textEndPadding = global::OpravaMesta.Droid.Resource.Attribute.textEndPadding;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textInputStyle = global::OpravaMesta.Droid.Resource.Attribute.textInputStyle;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.textStartPadding = global::OpravaMesta.Droid.Resource.Attribute.textStartPadding;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.title = global::OpravaMesta.Droid.Resource.Attribute.title;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.titleEnabled = global::OpravaMesta.Droid.Resource.Attribute.titleEnabled;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.toolbarId = global::OpravaMesta.Droid.Resource.Attribute.toolbarId;
-			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.useCompatPadding = global::OpravaMesta.Droid.Resource.Attribute.useCompatPadding;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.vpiCentered = global::OpravaMesta.Droid.Resource.Attribute.vpiCentered;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.vpiCirclePageIndicatorStyle = global::OpravaMesta.Droid.Resource.Attribute.vpiCirclePageIndicatorStyle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.vpiFillColor = global::OpravaMesta.Droid.Resource.Attribute.vpiFillColor;
@@ -658,7 +558,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.vpiSnap = global::OpravaMesta.Droid.Resource.Attribute.vpiSnap;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.vpiStrokeColor = global::OpravaMesta.Droid.Resource.Attribute.vpiStrokeColor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.vpiStrokeWidth = global::OpravaMesta.Droid.Resource.Attribute.vpiStrokeWidth;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.windowActionBar = global::OpravaMesta.Droid.Resource.Attribute.windowActionBar;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.windowActionBarOverlay = global::OpravaMesta.Droid.Resource.Attribute.windowActionBarOverlay;
 			global::CarouselView.FormsPlugin.Droid.Resource.Attribute.windowActionModeOverlay = global::OpravaMesta.Droid.Resource.Attribute.windowActionModeOverlay;
@@ -710,20 +609,12 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.bright_foreground_inverse_material_light = global::OpravaMesta.Droid.Resource.Color.bright_foreground_inverse_material_light;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.bright_foreground_material_dark = global::OpravaMesta.Droid.Resource.Color.bright_foreground_material_dark;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.bright_foreground_material_light = global::OpravaMesta.Droid.Resource.Color.bright_foreground_material_light;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Boolean.default_circle_indicator_centered = global::OpravaMesta.Droid.Resource.Boolean.default_circle_indicator_centered;
-			global::CarouselView.FormsPlugin.Droid.Resource.Boolean.default_circle_indicator_snap = global::OpravaMesta.Droid.Resource.Boolean.default_circle_indicator_snap;
-			global::CarouselView.FormsPlugin.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::OpravaMesta.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.browser_actions_bg_grey = global::OpravaMesta.Droid.Resource.Color.browser_actions_bg_grey;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.browser_actions_divider_color = global::OpravaMesta.Droid.Resource.Color.browser_actions_divider_color;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.browser_actions_text_color = global::OpravaMesta.Droid.Resource.Color.browser_actions_text_color;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.browser_actions_title_color = global::OpravaMesta.Droid.Resource.Color.browser_actions_title_color;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.button_material_dark = global::OpravaMesta.Droid.Resource.Color.button_material_dark;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.button_material_light = global::OpravaMesta.Droid.Resource.Color.button_material_light;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.cardview_dark_background = global::OpravaMesta.Droid.Resource.Color.cardview_dark_background;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.cardview_light_background = global::OpravaMesta.Droid.Resource.Color.cardview_light_background;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.cardview_shadow_end_color = global::OpravaMesta.Droid.Resource.Color.cardview_shadow_end_color;
@@ -734,10 +625,7 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::OpravaMesta.Droid.Resource.Color.design_bottom_navigation_shadow_color;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_default_color_primary = global::OpravaMesta.Droid.Resource.Color.design_default_color_primary;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_default_color_primary_dark = global::OpravaMesta.Droid.Resource.Color.design_default_color_primary_dark;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_error = global::OpravaMesta.Droid.Resource.Color.design_error;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_fab_shadow_end_color = global::OpravaMesta.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_fab_shadow_mid_color = global::OpravaMesta.Droid.Resource.Color.design_fab_shadow_mid_color;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_fab_shadow_start_color = global::OpravaMesta.Droid.Resource.Color.design_fab_shadow_start_color;
@@ -746,7 +634,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::OpravaMesta.Droid.Resource.Color.design_fab_stroke_top_inner_color;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::OpravaMesta.Droid.Resource.Color.design_fab_stroke_top_outer_color;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.design_snackbar_background_color = global::OpravaMesta.Droid.Resource.Color.design_snackbar_background_color;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::OpravaMesta.Droid.Resource.Color.dim_foreground_disabled_material_dark;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.dim_foreground_disabled_material_light = global::OpravaMesta.Droid.Resource.Color.dim_foreground_disabled_material_light;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.dim_foreground_material_dark = global::OpravaMesta.Droid.Resource.Color.dim_foreground_material_dark;
@@ -789,16 +676,10 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::OpravaMesta.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::OpravaMesta.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_tabs_ripple_color = global::OpravaMesta.Droid.Resource.Color.mtrl_tabs_ripple_color;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::OpravaMesta.Droid.Resource.Color.mtrl_btn_text_color_disabled;
-			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::OpravaMesta.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
-			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_scrim_color = global::OpravaMesta.Droid.Resource.Color.mtrl_scrim_color;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::OpravaMesta.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_textinput_disabled_color = global::OpravaMesta.Droid.Resource.Color.mtrl_textinput_disabled_color;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::OpravaMesta.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::OpravaMesta.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::OpravaMesta.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.notification_action_color_filter = global::OpravaMesta.Droid.Resource.Color.notification_action_color_filter;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.notification_icon_bg_color = global::OpravaMesta.Droid.Resource.Color.notification_icon_bg_color;
@@ -825,8 +706,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.switch_thumb_normal_material_light = global::OpravaMesta.Droid.Resource.Color.switch_thumb_normal_material_light;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.tooltip_background_dark = global::OpravaMesta.Droid.Resource.Color.tooltip_background_dark;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.tooltip_background_light = global::OpravaMesta.Droid.Resource.Color.tooltip_background_light;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.vpi__background_holo_dark = global::OpravaMesta.Droid.Resource.Color.vpi__background_holo_dark;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.vpi__background_holo_light = global::OpravaMesta.Droid.Resource.Color.vpi__background_holo_light;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_dark = global::OpravaMesta.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_dark;
@@ -835,7 +714,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.vpi__bright_foreground_holo_light = global::OpravaMesta.Droid.Resource.Color.vpi__bright_foreground_holo_light;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_dark = global::OpravaMesta.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_dark;
 			global::CarouselView.FormsPlugin.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_light = global::OpravaMesta.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_light;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::OpravaMesta.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::OpravaMesta.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::OpravaMesta.Droid.Resource.Dimension.abc_action_bar_default_height_material;
@@ -914,14 +792,11 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::OpravaMesta.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_title_material = global::OpravaMesta.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::OpravaMesta.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::OpravaMesta.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::OpravaMesta.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::OpravaMesta.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.cardview_default_elevation = global::OpravaMesta.Droid.Resource.Dimension.cardview_default_elevation;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.cardview_default_radius = global::OpravaMesta.Droid.Resource.Dimension.cardview_default_radius;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::OpravaMesta.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::OpravaMesta.Droid.Resource.Dimension.compat_button_inset_vertical_material;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::OpravaMesta.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
@@ -929,8 +804,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.compat_control_corner_material = global::OpravaMesta.Droid.Resource.Dimension.compat_control_corner_material;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::OpravaMesta.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::OpravaMesta.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.default_circle_indicator_radius = global::OpravaMesta.Droid.Resource.Dimension.default_circle_indicator_radius;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.default_circle_indicator_stroke_width = global::OpravaMesta.Droid.Resource.Dimension.default_circle_indicator_stroke_width;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_appbar_elevation = global::OpravaMesta.Droid.Resource.Dimension.design_appbar_elevation;
@@ -977,7 +850,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_tab_text_size = global::OpravaMesta.Droid.Resource.Dimension.design_tab_text_size;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_tab_text_size_2line = global::OpravaMesta.Droid.Resource.Dimension.design_tab_text_size_2line;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.design_textinput_caption_translate_y = global::OpravaMesta.Droid.Resource.Dimension.design_textinput_caption_translate_y;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.disabled_alpha_material_dark = global::OpravaMesta.Droid.Resource.Dimension.disabled_alpha_material_dark;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.disabled_alpha_material_light = global::OpravaMesta.Droid.Resource.Dimension.disabled_alpha_material_light;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.fastscroll_default_thickness = global::OpravaMesta.Droid.Resource.Dimension.fastscroll_default_thickness;
@@ -993,8 +865,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::OpravaMesta.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::OpravaMesta.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::OpravaMesta.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::OpravaMesta.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::OpravaMesta.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::OpravaMesta.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
@@ -1041,7 +911,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::OpravaMesta.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::OpravaMesta.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::OpravaMesta.Droid.Resource.Dimension.mtrl_toolbar_default_height;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_action_icon_size = global::OpravaMesta.Droid.Resource.Dimension.notification_action_icon_size;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_action_text_size = global::OpravaMesta.Droid.Resource.Dimension.notification_action_text_size;
 			global::CarouselView.FormsPlugin.Droid.Resource.Dimension.notification_big_circle_margin = global::OpravaMesta.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -1253,16 +1122,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.auto = global::OpravaMesta.Droid.Resource.Id.auto;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.beginning = global::OpravaMesta.Droid.Resource.Id.beginning;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.blocking = global::OpravaMesta.Droid.Resource.Id.blocking;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.Down = global::OpravaMesta.Droid.Resource.Drawable.Down;
-			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.Next = global::OpravaMesta.Droid.Resource.Drawable.Next;
-			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.Prev = global::OpravaMesta.Droid.Resource.Drawable.Prev;
-			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.Up = global::OpravaMesta.Droid.Resource.Drawable.Up;
-			global::CarouselView.FormsPlugin.Droid.Resource.Drawable.watermark = global::OpravaMesta.Droid.Resource.Drawable.watermark;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.add = global::OpravaMesta.Droid.Resource.Id.add;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.all = global::OpravaMesta.Droid.Resource.Id.all;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.auto = global::OpravaMesta.Droid.Resource.Id.auto;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.bottom = global::OpravaMesta.Droid.Resource.Id.bottom;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.bottomtab_navarea = global::OpravaMesta.Droid.Resource.Id.bottomtab_navarea;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.bottomtab_tabbar = global::OpravaMesta.Droid.Resource.Id.bottomtab_tabbar;
@@ -1271,7 +1130,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.browser_actions_menu_item_icon = global::OpravaMesta.Droid.Resource.Id.browser_actions_menu_item_icon;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.browser_actions_menu_item_text = global::OpravaMesta.Droid.Resource.Id.browser_actions_menu_item_text;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.browser_actions_menu_view = global::OpravaMesta.Droid.Resource.Id.browser_actions_menu_view;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.buttonPanel = global::OpravaMesta.Droid.Resource.Id.buttonPanel;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.cancel_action = global::OpravaMesta.Droid.Resource.Id.cancel_action;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.center = global::OpravaMesta.Droid.Resource.Id.center;
@@ -1307,18 +1165,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.exitUntilCollapsed = global::OpravaMesta.Droid.Resource.Id.exitUntilCollapsed;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.expanded_menu = global::OpravaMesta.Droid.Resource.Id.expanded_menu;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.expand_activities_button = global::OpravaMesta.Droid.Resource.Id.expand_activities_button;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.center = global::OpravaMesta.Droid.Resource.Id.center;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.center_horizontal = global::OpravaMesta.Droid.Resource.Id.center_horizontal;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.center_vertical = global::OpravaMesta.Droid.Resource.Id.center_vertical;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.clip_horizontal = global::OpravaMesta.Droid.Resource.Id.clip_horizontal;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.clip_vertical = global::OpravaMesta.Droid.Resource.Id.clip_vertical;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.custom = global::OpravaMesta.Droid.Resource.Id.custom;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.end = global::OpravaMesta.Droid.Resource.Id.end;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.enterAlways = global::OpravaMesta.Droid.Resource.Id.enterAlways;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.enterAlwaysCollapsed = global::OpravaMesta.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.exitUntilCollapsed = global::OpravaMesta.Droid.Resource.Id.exitUntilCollapsed;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.fill = global::OpravaMesta.Droid.Resource.Id.fill;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.filled = global::OpravaMesta.Droid.Resource.Id.filled;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.fill_horizontal = global::OpravaMesta.Droid.Resource.Id.fill_horizontal;
@@ -1326,7 +1172,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.@fixed = global::OpravaMesta.Droid.Resource.Id.@fixed;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.flyoutcontent_appbar = global::OpravaMesta.Droid.Resource.Id.flyoutcontent_appbar;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.flyoutcontent_recycler = global::OpravaMesta.Droid.Resource.Id.flyoutcontent_recycler;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.forever = global::OpravaMesta.Droid.Resource.Id.forever;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.FUNCTION = global::OpravaMesta.Droid.Resource.Id.FUNCTION;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.ghost_view = global::OpravaMesta.Droid.Resource.Id.ghost_view;
@@ -1350,40 +1195,25 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.line3 = global::OpravaMesta.Droid.Resource.Id.line3;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.listMode = global::OpravaMesta.Droid.Resource.Id.listMode;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.list_item = global::OpravaMesta.Droid.Resource.Id.list_item;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.ghost_view = global::OpravaMesta.Droid.Resource.Id.ghost_view;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.ghost_view_holder = global::OpravaMesta.Droid.Resource.Id.ghost_view_holder;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.horizontal = global::OpravaMesta.Droid.Resource.Id.horizontal;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.indicator = global::OpravaMesta.Droid.Resource.Id.indicator;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.labeled = global::OpravaMesta.Droid.Resource.Id.labeled;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.left = global::OpravaMesta.Droid.Resource.Id.left;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.main_appbar = global::OpravaMesta.Droid.Resource.Id.main_appbar;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.main_tablayout = global::OpravaMesta.Droid.Resource.Id.main_tablayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.main_toolbar = global::OpravaMesta.Droid.Resource.Id.main_toolbar;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.main_viewpager = global::OpravaMesta.Droid.Resource.Id.main_viewpager;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.masked = global::OpravaMesta.Droid.Resource.Id.masked;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.media_actions = global::OpravaMesta.Droid.Resource.Id.media_actions;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.message = global::OpravaMesta.Droid.Resource.Id.message;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.META = global::OpravaMesta.Droid.Resource.Id.META;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.middle = global::OpravaMesta.Droid.Resource.Id.middle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.mini = global::OpravaMesta.Droid.Resource.Id.mini;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.mtrl_child_content_container = global::OpravaMesta.Droid.Resource.Id.mtrl_child_content_container;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::OpravaMesta.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.multiply = global::OpravaMesta.Droid.Resource.Id.multiply;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.navigation_header_container = global::OpravaMesta.Droid.Resource.Id.navigation_header_container;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.never = global::OpravaMesta.Droid.Resource.Id.never;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.next = global::OpravaMesta.Droid.Resource.Id.next;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.nextArrow = global::OpravaMesta.Droid.Resource.Id.nextArrow;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.none = global::OpravaMesta.Droid.Resource.Id.none;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.normal = global::OpravaMesta.Droid.Resource.Id.normal;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.notification_background = global::OpravaMesta.Droid.Resource.Id.notification_background;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.notification_main_column = global::OpravaMesta.Droid.Resource.Id.notification_main_column;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.notification_main_column_container = global::OpravaMesta.Droid.Resource.Id.notification_main_column_container;
@@ -1393,31 +1223,21 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.pager = global::OpravaMesta.Droid.Resource.Id.pager;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.parallax = global::OpravaMesta.Droid.Resource.Id.parallax;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.parentPanel = global::OpravaMesta.Droid.Resource.Id.parentPanel;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.outline = global::OpravaMesta.Droid.Resource.Id.outline;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.pager = global::OpravaMesta.Droid.Resource.Id.pager;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.parallax = global::OpravaMesta.Droid.Resource.Id.parallax;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.parent_matrix = global::OpravaMesta.Droid.Resource.Id.parent_matrix;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.pin = global::OpravaMesta.Droid.Resource.Id.pin;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.prev = global::OpravaMesta.Droid.Resource.Id.prev;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.prevArrow = global::OpravaMesta.Droid.Resource.Id.prevArrow;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.progress_circular = global::OpravaMesta.Droid.Resource.Id.progress_circular;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.progress_horizontal = global::OpravaMesta.Droid.Resource.Id.progress_horizontal;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.radio = global::OpravaMesta.Droid.Resource.Id.radio;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.right = global::OpravaMesta.Droid.Resource.Id.right;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.right_icon = global::OpravaMesta.Droid.Resource.Id.right_icon;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.right_side = global::OpravaMesta.Droid.Resource.Id.right_side;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.right = global::OpravaMesta.Droid.Resource.Id.right;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.save_non_transition_alpha = global::OpravaMesta.Droid.Resource.Id.save_non_transition_alpha;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.save_overlay_view = global::OpravaMesta.Droid.Resource.Id.save_overlay_view;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.screen = global::OpravaMesta.Droid.Resource.Id.screen;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.scroll = global::OpravaMesta.Droid.Resource.Id.scroll;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.scrollable = global::OpravaMesta.Droid.Resource.Id.scrollable;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.scrollIndicatorDown = global::OpravaMesta.Droid.Resource.Id.scrollIndicatorDown;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.scrollIndicatorUp = global::OpravaMesta.Droid.Resource.Id.scrollIndicatorUp;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.scrollView = global::OpravaMesta.Droid.Resource.Id.scrollView;
@@ -1442,26 +1262,16 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.showTitle = global::OpravaMesta.Droid.Resource.Id.showTitle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.sliding_tabs = global::OpravaMesta.Droid.Resource.Id.sliding_tabs;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.smallLabel = global::OpravaMesta.Droid.Resource.Id.smallLabel;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.selected = global::OpravaMesta.Droid.Resource.Id.selected;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.shellcontent_appbar = global::OpravaMesta.Droid.Resource.Id.shellcontent_appbar;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.shellcontent_toolbar = global::OpravaMesta.Droid.Resource.Id.shellcontent_toolbar;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.sliding_tabs = global::OpravaMesta.Droid.Resource.Id.sliding_tabs;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.snackbar_action = global::OpravaMesta.Droid.Resource.Id.snackbar_action;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.snackbar_text = global::OpravaMesta.Droid.Resource.Id.snackbar_text;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.snap = global::OpravaMesta.Droid.Resource.Id.snap;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.snapMargins = global::OpravaMesta.Droid.Resource.Id.snapMargins;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.spacer = global::OpravaMesta.Droid.Resource.Id.spacer;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.split_action_bar = global::OpravaMesta.Droid.Resource.Id.split_action_bar;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.src_atop = global::OpravaMesta.Droid.Resource.Id.src_atop;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.src_in = global::OpravaMesta.Droid.Resource.Id.src_in;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.src_over = global::OpravaMesta.Droid.Resource.Id.src_over;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.start = global::OpravaMesta.Droid.Resource.Id.start;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.status_bar_latest_event_content = global::OpravaMesta.Droid.Resource.Id.status_bar_latest_event_content;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.stretch = global::OpravaMesta.Droid.Resource.Id.stretch;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.submenuarrow = global::OpravaMesta.Droid.Resource.Id.submenuarrow;
@@ -1492,21 +1302,11 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.top = global::OpravaMesta.Droid.Resource.Id.top;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.topPanel = global::OpravaMesta.Droid.Resource.Id.topPanel;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.touch_outside = global::OpravaMesta.Droid.Resource.Id.touch_outside;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.stretch = global::OpravaMesta.Droid.Resource.Id.stretch;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.textinput_counter = global::OpravaMesta.Droid.Resource.Id.textinput_counter;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.textinput_error = global::OpravaMesta.Droid.Resource.Id.textinput_error;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.textinput_helper_text = global::OpravaMesta.Droid.Resource.Id.textinput_helper_text;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.textStart = global::OpravaMesta.Droid.Resource.Id.textStart;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.toolbar = global::OpravaMesta.Droid.Resource.Id.toolbar;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.top = global::OpravaMesta.Droid.Resource.Id.top;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.transition_current_scene = global::OpravaMesta.Droid.Resource.Id.transition_current_scene;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.transition_layout_save = global::OpravaMesta.Droid.Resource.Id.transition_layout_save;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.transition_position = global::OpravaMesta.Droid.Resource.Id.transition_position;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.transition_scene_layoutid_cache = global::OpravaMesta.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.transition_transform = global::OpravaMesta.Droid.Resource.Id.transition_transform;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.@unchecked = global::OpravaMesta.Droid.Resource.Id.@unchecked;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.uniform = global::OpravaMesta.Droid.Resource.Id.uniform;
 			global::CarouselView.FormsPlugin.Droid.Resource.Id.unlabeled = global::OpravaMesta.Droid.Resource.Id.unlabeled;
@@ -1523,13 +1323,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Integer.bottom_sheet_slide_duration = global::OpravaMesta.Droid.Resource.Integer.bottom_sheet_slide_duration;
 			global::CarouselView.FormsPlugin.Droid.Resource.Integer.cancel_button_image_alpha = global::OpravaMesta.Droid.Resource.Integer.cancel_button_image_alpha;
 			global::CarouselView.FormsPlugin.Droid.Resource.Integer.config_tooltipAnimTime = global::OpravaMesta.Droid.Resource.Integer.config_tooltipAnimTime;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.unlabeled = global::OpravaMesta.Droid.Resource.Id.unlabeled;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.vertical = global::OpravaMesta.Droid.Resource.Id.vertical;
-			global::CarouselView.FormsPlugin.Droid.Resource.Id.view_offset_helper = global::OpravaMesta.Droid.Resource.Id.view_offset_helper;
-			global::CarouselView.FormsPlugin.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::OpravaMesta.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::CarouselView.FormsPlugin.Droid.Resource.Integer.bottom_sheet_slide_duration = global::OpravaMesta.Droid.Resource.Integer.bottom_sheet_slide_duration;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Integer.default_circle_indicator_orientation = global::OpravaMesta.Droid.Resource.Integer.default_circle_indicator_orientation;
 			global::CarouselView.FormsPlugin.Droid.Resource.Integer.design_snackbar_text_max_lines = global::OpravaMesta.Droid.Resource.Integer.design_snackbar_text_max_lines;
 			global::CarouselView.FormsPlugin.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::OpravaMesta.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
@@ -1539,7 +1332,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Integer.mtrl_chip_anim_duration = global::OpravaMesta.Droid.Resource.Integer.mtrl_chip_anim_duration;
 			global::CarouselView.FormsPlugin.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::OpravaMesta.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::CarouselView.FormsPlugin.Droid.Resource.Integer.show_password_duration = global::OpravaMesta.Droid.Resource.Integer.show_password_duration;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::OpravaMesta.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::CarouselView.FormsPlugin.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::OpravaMesta.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
 			global::CarouselView.FormsPlugin.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::OpravaMesta.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
@@ -1652,18 +1444,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_shareactionprovider_share_with = global::OpravaMesta.Droid.Resource.String.abc_shareactionprovider_share_with;
 			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::OpravaMesta.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::CarouselView.FormsPlugin.Droid.Resource.String.abc_toolbar_collapse_description = global::OpravaMesta.Droid.Resource.String.abc_toolbar_collapse_description;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Layout.BottomTabLayout = global::OpravaMesta.Droid.Resource.Layout.BottomTabLayout;
-			global::CarouselView.FormsPlugin.Droid.Resource.Layout.browser_actions_context_menu_page = global::OpravaMesta.Droid.Resource.Layout.browser_actions_context_menu_page;
-			global::CarouselView.FormsPlugin.Droid.Resource.Layout.browser_actions_context_menu_row = global::OpravaMesta.Droid.Resource.Layout.browser_actions_context_menu_row;
-			global::CarouselView.FormsPlugin.Droid.Resource.Layout.FlyoutContent = global::OpravaMesta.Droid.Resource.Layout.FlyoutContent;
-			global::CarouselView.FormsPlugin.Droid.Resource.Layout.horizontal_viewpager = global::OpravaMesta.Droid.Resource.Layout.horizontal_viewpager;
-			global::CarouselView.FormsPlugin.Droid.Resource.Layout.RootLayout = global::OpravaMesta.Droid.Resource.Layout.RootLayout;
-			global::CarouselView.FormsPlugin.Droid.Resource.Layout.ShellContent = global::OpravaMesta.Droid.Resource.Layout.ShellContent;
-			global::CarouselView.FormsPlugin.Droid.Resource.Layout.Tabbar = global::OpravaMesta.Droid.Resource.Layout.Tabbar;
-			global::CarouselView.FormsPlugin.Droid.Resource.Layout.Toolbar = global::OpravaMesta.Droid.Resource.Layout.Toolbar;
-			global::CarouselView.FormsPlugin.Droid.Resource.Layout.vertical_viewpager = global::OpravaMesta.Droid.Resource.Layout.vertical_viewpager;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.String.appbar_scrolling_view_behavior = global::OpravaMesta.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::CarouselView.FormsPlugin.Droid.Resource.String.bottom_sheet_behavior = global::OpravaMesta.Droid.Resource.String.bottom_sheet_behavior;
 			global::CarouselView.FormsPlugin.Droid.Resource.String.character_counter_content_description = global::OpravaMesta.Droid.Resource.String.character_counter_content_description;
@@ -1678,7 +1458,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.String.path_password_eye_mask_strike_through = global::OpravaMesta.Droid.Resource.String.path_password_eye_mask_strike_through;
 			global::CarouselView.FormsPlugin.Droid.Resource.String.path_password_eye_mask_visible = global::OpravaMesta.Droid.Resource.String.path_password_eye_mask_visible;
 			global::CarouselView.FormsPlugin.Droid.Resource.String.path_password_strike_through = global::OpravaMesta.Droid.Resource.String.path_password_strike_through;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.String.search_menu_title = global::OpravaMesta.Droid.Resource.String.search_menu_title;
 			global::CarouselView.FormsPlugin.Droid.Resource.String.status_bar_notification_info_overflow = global::OpravaMesta.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.AlertDialog_AppCompat = global::OpravaMesta.Droid.Resource.Style.AlertDialog_AppCompat;
@@ -1767,13 +1546,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::OpravaMesta.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::OpravaMesta.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::OpravaMesta.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::OpravaMesta.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::CarouselView.FormsPlugin.Droid.Resource.Style.AppCompatDialogStyle = global::OpravaMesta.Droid.Resource.Style.AppCompatDialogStyle;
-			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_CardView = global::OpravaMesta.Droid.Resource.Style.Base_CardView;
-			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::OpravaMesta.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
-			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::OpravaMesta.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents = global::OpravaMesta.Droid.Resource.Style.Base_Theme_MaterialComponents;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::OpravaMesta.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::OpravaMesta.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
@@ -1800,7 +1572,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::OpravaMesta.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::OpravaMesta.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::OpravaMesta.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::OpravaMesta.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::OpravaMesta.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::OpravaMesta.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
@@ -1881,8 +1652,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::OpravaMesta.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::OpravaMesta.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::OpravaMesta.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::OpravaMesta.Droid.Resource.Style.Base_Widget_Design_TabLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::OpravaMesta.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::OpravaMesta.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
@@ -1892,16 +1661,12 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.CardView_Light = global::OpravaMesta.Droid.Resource.Style.CardView_Light;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.MainTheme = global::OpravaMesta.Droid.Resource.Style.MainTheme;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.MainTheme_Base = global::OpravaMesta.Droid.Resource.Style.MainTheme_Base;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_AppCompat = global::OpravaMesta.Droid.Resource.Style.Platform_AppCompat;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_AppCompat_Light = global::OpravaMesta.Droid.Resource.Style.Platform_AppCompat_Light;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_MaterialComponents = global::OpravaMesta.Droid.Resource.Style.Platform_MaterialComponents;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_MaterialComponents_Dialog = global::OpravaMesta.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_MaterialComponents_Light = global::OpravaMesta.Droid.Resource.Style.Platform_MaterialComponents_Light;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::OpravaMesta.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::OpravaMesta.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::OpravaMesta.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::OpravaMesta.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
@@ -1985,8 +1750,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_Counter = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Design_Counter;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
@@ -2009,7 +1772,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::OpravaMesta.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::OpravaMesta.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::OpravaMesta.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -2022,8 +1784,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
@@ -2036,7 +1796,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_DayNight = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat_DayNight;
@@ -2058,8 +1817,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_Design = global::OpravaMesta.Droid.Resource.Style.Theme_Design;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::OpravaMesta.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_Design_Light = global::OpravaMesta.Droid.Resource.Style.Theme_Design_Light;
@@ -2089,7 +1846,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::OpravaMesta.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Theme_PageIndicatorDefaults = global::OpravaMesta.Droid.Resource.Style.Theme_PageIndicatorDefaults;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget = global::OpravaMesta.Droid.Resource.Style.Widget;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::OpravaMesta.Droid.Resource.Style.Widget_AppCompat_ActionBar;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::OpravaMesta.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::OpravaMesta.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
@@ -2166,9 +1922,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_CirclePageIndicator = global::OpravaMesta.Droid.Resource.Style.Widget_CirclePageIndicator;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::OpravaMesta.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::OpravaMesta.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_CirclePageIndicator = global::OpravaMesta.Droid.Resource.Style.Widget_CirclePageIndicator;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Design_AppBarLayout = global::OpravaMesta.Droid.Resource.Style.Widget_Design_AppBarLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::OpravaMesta.Droid.Resource.Style.Widget_Design_BottomNavigationView;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::OpravaMesta.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
@@ -2216,7 +1969,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::OpravaMesta.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::OpravaMesta.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
 			global::CarouselView.FormsPlugin.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::OpravaMesta.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBar = global::OpravaMesta.Droid.Resource.Styleable.ActionBar;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBarLayout = global::OpravaMesta.Droid.Resource.Styleable.ActionBarLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::OpravaMesta.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
@@ -2271,8 +2023,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::OpravaMesta.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AlertDialog_showTitle = global::OpravaMesta.Droid.Resource.Styleable.AlertDialog_showTitle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::OpravaMesta.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::OpravaMesta.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::OpravaMesta.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::OpravaMesta.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
@@ -2303,7 +2053,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::OpravaMesta.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::OpravaMesta.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::OpravaMesta.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatImageView = global::OpravaMesta.Droid.Resource.Styleable.AppCompatImageView;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatImageView_android_src = global::OpravaMesta.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::OpravaMesta.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -2470,8 +2219,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::OpravaMesta.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::OpravaMesta.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::OpravaMesta.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomAppBar = global::OpravaMesta.Droid.Resource.Styleable.BottomAppBar;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::OpravaMesta.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::OpravaMesta.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
@@ -2495,11 +2242,8 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::OpravaMesta.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::OpravaMesta.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::OpravaMesta.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ButtonBarLayout = global::OpravaMesta.Droid.Resource.Styleable.ButtonBarLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::OpravaMesta.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView = global::OpravaMesta.Droid.Resource.Styleable.CardView;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView_android_minHeight = global::OpravaMesta.Droid.Resource.Styleable.CardView_android_minHeight;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CardView_android_minWidth = global::OpravaMesta.Droid.Resource.Styleable.CardView_android_minWidth;
@@ -2585,7 +2329,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::OpravaMesta.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::OpravaMesta.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::OpravaMesta.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ColorStateListItem = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ColorStateListItem_alpha = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
@@ -2595,8 +2338,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CompoundButton_buttonCompat = global::OpravaMesta.Droid.Resource.Styleable.CompoundButton_buttonCompat;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CompoundButton_buttonTint = global::OpravaMesta.Droid.Resource.Styleable.CompoundButton_buttonTint;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::OpravaMesta.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_keylines;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout;
@@ -2608,7 +2349,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
@@ -2618,8 +2358,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton = global::OpravaMesta.Droid.Resource.Styleable.FloatingActionButton;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::OpravaMesta.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::OpravaMesta.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
@@ -2639,7 +2377,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FlowLayout = global::OpravaMesta.Droid.Resource.Styleable.FlowLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FlowLayout_itemSpacing = global::OpravaMesta.Droid.Resource.Styleable.FlowLayout_itemSpacing;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FlowLayout_lineSpacing = global::OpravaMesta.Droid.Resource.Styleable.FlowLayout_lineSpacing;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamily = global::OpravaMesta.Droid.Resource.Styleable.FontFamily;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont = global::OpravaMesta.Droid.Resource.Styleable.FontFamilyFont;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamilyFont_android_font = global::OpravaMesta.Droid.Resource.Styleable.FontFamilyFont_android_font;
@@ -2658,13 +2395,10 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::OpravaMesta.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::OpravaMesta.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::OpravaMesta.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ForegroundLinearLayout = global::OpravaMesta.Droid.Resource.Styleable.ForegroundLinearLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::OpravaMesta.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::OpravaMesta.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::OpravaMesta.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColor = global::OpravaMesta.Droid.Resource.Styleable.GradientColor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColorItem = global::OpravaMesta.Droid.Resource.Styleable.GradientColorItem;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.GradientColorItem_android_color = global::OpravaMesta.Droid.Resource.Styleable.GradientColorItem_android_color;
@@ -2699,8 +2433,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ListPopupWindow = global::OpravaMesta.Droid.Resource.Styleable.ListPopupWindow;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::OpravaMesta.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::OpravaMesta.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton = global::OpravaMesta.Droid.Resource.Styleable.MaterialButton;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::OpravaMesta.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::OpravaMesta.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
@@ -2721,7 +2453,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialCardView = global::OpravaMesta.Droid.Resource.Styleable.MaterialCardView;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::OpravaMesta.Droid.Resource.Styleable.MaterialCardView_strokeColor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::OpravaMesta.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuGroup = global::OpravaMesta.Droid.Resource.Styleable.MenuGroup;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::OpravaMesta.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuGroup_android_enabled = global::OpravaMesta.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -2763,8 +2494,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::OpravaMesta.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::OpravaMesta.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.MenuView_subMenuArrow = global::OpravaMesta.Droid.Resource.Styleable.MenuView_subMenuArrow;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView = global::OpravaMesta.Droid.Resource.Styleable.NavigationView;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_android_background = global::OpravaMesta.Droid.Resource.Styleable.NavigationView_android_background;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::OpravaMesta.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
@@ -2778,7 +2507,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::OpravaMesta.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_itemTextColor = global::OpravaMesta.Droid.Resource.Styleable.NavigationView_itemTextColor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.NavigationView_menu = global::OpravaMesta.Droid.Resource.Styleable.NavigationView_menu;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.PopupWindow = global::OpravaMesta.Droid.Resource.Styleable.PopupWindow;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.PopupWindowBackgroundState = global::OpravaMesta.Droid.Resource.Styleable.PopupWindowBackgroundState;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::OpravaMesta.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
@@ -2801,13 +2529,10 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::OpravaMesta.Droid.Resource.Styleable.RecyclerView_reverseLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView_spanCount = global::OpravaMesta.Droid.Resource.Styleable.RecyclerView_spanCount;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::OpravaMesta.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::OpravaMesta.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::OpravaMesta.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::OpravaMesta.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::OpravaMesta.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView = global::OpravaMesta.Droid.Resource.Styleable.SearchView;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_android_focusable = global::OpravaMesta.Droid.Resource.Styleable.SearchView_android_focusable;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_android_imeOptions = global::OpravaMesta.Droid.Resource.Styleable.SearchView_android_imeOptions;
@@ -2826,8 +2551,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_submitBackground = global::OpravaMesta.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::OpravaMesta.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SearchView_voiceIcon = global::OpravaMesta.Droid.Resource.Styleable.SearchView_voiceIcon;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Snackbar = global::OpravaMesta.Droid.Resource.Styleable.Snackbar;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SnackbarLayout = global::OpravaMesta.Droid.Resource.Styleable.SnackbarLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::OpravaMesta.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
@@ -2835,15 +2558,12 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::OpravaMesta.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::OpravaMesta.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::OpravaMesta.Droid.Resource.Styleable.Snackbar_snackbarStyle;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Spinner = global::OpravaMesta.Droid.Resource.Styleable.Spinner;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::OpravaMesta.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Spinner_android_entries = global::OpravaMesta.Droid.Resource.Styleable.Spinner_android_entries;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Spinner_android_popupBackground = global::OpravaMesta.Droid.Resource.Styleable.Spinner_android_popupBackground;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Spinner_android_prompt = global::OpravaMesta.Droid.Resource.Styleable.Spinner_android_prompt;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Spinner_popupTheme = global::OpravaMesta.Droid.Resource.Styleable.Spinner_popupTheme;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.StateListDrawable = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawable;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.StateListDrawableItem = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawableItem;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
@@ -2853,7 +2573,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.StateListDrawable_android_visible = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawable_android_visible;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -2869,8 +2588,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_track = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat_track;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_trackTint = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat_trackTint;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabItem = global::OpravaMesta.Droid.Resource.Styleable.TabItem;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabItem_android_icon = global::OpravaMesta.Droid.Resource.Styleable.TabItem_android_icon;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabItem_android_layout = global::OpravaMesta.Droid.Resource.Styleable.TabItem_android_layout;
@@ -2901,7 +2618,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::OpravaMesta.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabTextColor = global::OpravaMesta.Droid.Resource.Styleable.TabLayout_tabTextColor;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple = global::OpravaMesta.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
@@ -2919,8 +2635,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_fontVariationSettings = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance_textAllCaps;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextAppearance_textLocale = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance_textLocale;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout = global::OpravaMesta.Droid.Resource.Styleable.TextInputLayout;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_android_hint = global::OpravaMesta.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::OpravaMesta.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
@@ -2954,7 +2668,6 @@ namespace OpravaMesta.Droid
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::OpravaMesta.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::OpravaMesta.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::OpravaMesta.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
-<<<<<<< HEAD
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar = global::OpravaMesta.Droid.Resource.Styleable.Toolbar;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_android_gravity = global::OpravaMesta.Droid.Resource.Styleable.Toolbar_android_gravity;
 			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.Toolbar_android_minHeight = global::OpravaMesta.Droid.Resource.Styleable.Toolbar_android_minHeight;
@@ -3186,13 +2899,6 @@ namespace OpravaMesta.Droid
 			global::Com.ViewPagerIndicator.Resource.Attribute.fontStyle = global::OpravaMesta.Droid.Resource.Attribute.fontStyle;
 			global::Com.ViewPagerIndicator.Resource.Attribute.fontVariationSettings = global::OpravaMesta.Droid.Resource.Attribute.fontVariationSettings;
 			global::Com.ViewPagerIndicator.Resource.Attribute.fontWeight = global::OpravaMesta.Droid.Resource.Attribute.fontWeight;
-=======
-			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ViewPagerIndicator = global::OpravaMesta.Droid.Resource.Styleable.ViewPagerIndicator;
-			global::CarouselView.FormsPlugin.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle = global::OpravaMesta.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle;
-			global::Com.Android.DeskClock.Resource.Id.normal = global::OpravaMesta.Droid.Resource.Id.normal;
-			global::Com.Android.DeskClock.Resource.String.library_name = global::OpravaMesta.Droid.Resource.String.library_name;
-			global::Com.ViewPagerIndicator.Resource.Attribute.coordinatorLayoutStyle = global::OpravaMesta.Droid.Resource.Attribute.coordinatorLayoutStyle;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Com.ViewPagerIndicator.Resource.Attribute.keylines = global::OpravaMesta.Droid.Resource.Attribute.keylines;
 			global::Com.ViewPagerIndicator.Resource.Attribute.layout_anchor = global::OpravaMesta.Droid.Resource.Attribute.layout_anchor;
 			global::Com.ViewPagerIndicator.Resource.Attribute.layout_anchorGravity = global::OpravaMesta.Droid.Resource.Attribute.layout_anchorGravity;
@@ -3201,10 +2907,7 @@ namespace OpravaMesta.Droid
 			global::Com.ViewPagerIndicator.Resource.Attribute.layout_insetEdge = global::OpravaMesta.Droid.Resource.Attribute.layout_insetEdge;
 			global::Com.ViewPagerIndicator.Resource.Attribute.layout_keyline = global::OpravaMesta.Droid.Resource.Attribute.layout_keyline;
 			global::Com.ViewPagerIndicator.Resource.Attribute.statusBarBackground = global::OpravaMesta.Droid.Resource.Attribute.statusBarBackground;
-<<<<<<< HEAD
 			global::Com.ViewPagerIndicator.Resource.Attribute.ttcIndex = global::OpravaMesta.Droid.Resource.Attribute.ttcIndex;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Com.ViewPagerIndicator.Resource.Attribute.vpiCentered = global::OpravaMesta.Droid.Resource.Attribute.vpiCentered;
 			global::Com.ViewPagerIndicator.Resource.Attribute.vpiCirclePageIndicatorStyle = global::OpravaMesta.Droid.Resource.Attribute.vpiCirclePageIndicatorStyle;
 			global::Com.ViewPagerIndicator.Resource.Attribute.vpiFillColor = global::OpravaMesta.Droid.Resource.Attribute.vpiFillColor;
@@ -3219,7 +2922,6 @@ namespace OpravaMesta.Droid
 			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_fill_color = global::OpravaMesta.Droid.Resource.Color.default_circle_indicator_fill_color;
 			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_page_color = global::OpravaMesta.Droid.Resource.Color.default_circle_indicator_page_color;
 			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_stroke_color = global::OpravaMesta.Droid.Resource.Color.default_circle_indicator_stroke_color;
-<<<<<<< HEAD
 			global::Com.ViewPagerIndicator.Resource.Color.notification_action_color_filter = global::OpravaMesta.Droid.Resource.Color.notification_action_color_filter;
 			global::Com.ViewPagerIndicator.Resource.Color.notification_icon_bg_color = global::OpravaMesta.Droid.Resource.Color.notification_icon_bg_color;
 			global::Com.ViewPagerIndicator.Resource.Color.notification_material_background_media_default_color = global::OpravaMesta.Droid.Resource.Color.notification_material_background_media_default_color;
@@ -3227,8 +2929,6 @@ namespace OpravaMesta.Droid
 			global::Com.ViewPagerIndicator.Resource.Color.ripple_material_light = global::OpravaMesta.Droid.Resource.Color.ripple_material_light;
 			global::Com.ViewPagerIndicator.Resource.Color.secondary_text_default_material_dark = global::OpravaMesta.Droid.Resource.Color.secondary_text_default_material_dark;
 			global::Com.ViewPagerIndicator.Resource.Color.secondary_text_default_material_light = global::OpravaMesta.Droid.Resource.Color.secondary_text_default_material_light;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Com.ViewPagerIndicator.Resource.Color.vpi__background_holo_dark = global::OpravaMesta.Droid.Resource.Color.vpi__background_holo_dark;
 			global::Com.ViewPagerIndicator.Resource.Color.vpi__background_holo_light = global::OpravaMesta.Droid.Resource.Color.vpi__background_holo_light;
 			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_disabled_holo_dark = global::OpravaMesta.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_dark;
@@ -3237,7 +2937,6 @@ namespace OpravaMesta.Droid
 			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_holo_light = global::OpravaMesta.Droid.Resource.Color.vpi__bright_foreground_holo_light;
 			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_inverse_holo_dark = global::OpravaMesta.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_dark;
 			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_inverse_holo_light = global::OpravaMesta.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_light;
-<<<<<<< HEAD
 			global::Com.ViewPagerIndicator.Resource.Dimension.compat_button_inset_horizontal_material = global::OpravaMesta.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
 			global::Com.ViewPagerIndicator.Resource.Dimension.compat_button_inset_vertical_material = global::OpravaMesta.Droid.Resource.Dimension.compat_button_inset_vertical_material;
 			global::Com.ViewPagerIndicator.Resource.Dimension.compat_button_padding_horizontal_material = global::OpravaMesta.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
@@ -3400,34 +3099,6 @@ namespace OpravaMesta.Droid
 			global::Com.ViewPagerIndicator.Resource.Style.Widget_CirclePageIndicator = global::OpravaMesta.Droid.Resource.Style.Widget_CirclePageIndicator;
 			global::Com.ViewPagerIndicator.Resource.Style.Widget_Compat_NotificationActionContainer = global::OpravaMesta.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
 			global::Com.ViewPagerIndicator.Resource.Style.Widget_Compat_NotificationActionText = global::OpravaMesta.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-=======
-			global::Com.ViewPagerIndicator.Resource.Dimension.default_circle_indicator_radius = global::OpravaMesta.Droid.Resource.Dimension.default_circle_indicator_radius;
-			global::Com.ViewPagerIndicator.Resource.Dimension.default_circle_indicator_stroke_width = global::OpravaMesta.Droid.Resource.Dimension.default_circle_indicator_stroke_width;
-			global::Com.ViewPagerIndicator.Resource.Id.all = global::OpravaMesta.Droid.Resource.Id.all;
-			global::Com.ViewPagerIndicator.Resource.Id.bottom = global::OpravaMesta.Droid.Resource.Id.bottom;
-			global::Com.ViewPagerIndicator.Resource.Id.center = global::OpravaMesta.Droid.Resource.Id.center;
-			global::Com.ViewPagerIndicator.Resource.Id.center_horizontal = global::OpravaMesta.Droid.Resource.Id.center_horizontal;
-			global::Com.ViewPagerIndicator.Resource.Id.center_vertical = global::OpravaMesta.Droid.Resource.Id.center_vertical;
-			global::Com.ViewPagerIndicator.Resource.Id.clip_horizontal = global::OpravaMesta.Droid.Resource.Id.clip_horizontal;
-			global::Com.ViewPagerIndicator.Resource.Id.clip_vertical = global::OpravaMesta.Droid.Resource.Id.clip_vertical;
-			global::Com.ViewPagerIndicator.Resource.Id.end = global::OpravaMesta.Droid.Resource.Id.end;
-			global::Com.ViewPagerIndicator.Resource.Id.fill = global::OpravaMesta.Droid.Resource.Id.fill;
-			global::Com.ViewPagerIndicator.Resource.Id.fill_horizontal = global::OpravaMesta.Droid.Resource.Id.fill_horizontal;
-			global::Com.ViewPagerIndicator.Resource.Id.fill_vertical = global::OpravaMesta.Droid.Resource.Id.fill_vertical;
-			global::Com.ViewPagerIndicator.Resource.Id.horizontal = global::OpravaMesta.Droid.Resource.Id.horizontal;
-			global::Com.ViewPagerIndicator.Resource.Id.left = global::OpravaMesta.Droid.Resource.Id.left;
-			global::Com.ViewPagerIndicator.Resource.Id.none = global::OpravaMesta.Droid.Resource.Id.none;
-			global::Com.ViewPagerIndicator.Resource.Id.normal = global::OpravaMesta.Droid.Resource.Id.normal;
-			global::Com.ViewPagerIndicator.Resource.Id.right = global::OpravaMesta.Droid.Resource.Id.right;
-			global::Com.ViewPagerIndicator.Resource.Id.start = global::OpravaMesta.Droid.Resource.Id.start;
-			global::Com.ViewPagerIndicator.Resource.Id.top = global::OpravaMesta.Droid.Resource.Id.top;
-			global::Com.ViewPagerIndicator.Resource.Id.vertical = global::OpravaMesta.Droid.Resource.Id.vertical;
-			global::Com.ViewPagerIndicator.Resource.Integer.default_circle_indicator_orientation = global::OpravaMesta.Droid.Resource.Integer.default_circle_indicator_orientation;
-			global::Com.ViewPagerIndicator.Resource.String.library_name = global::OpravaMesta.Droid.Resource.String.library_name;
-			global::Com.ViewPagerIndicator.Resource.Style.Theme_PageIndicatorDefaults = global::OpravaMesta.Droid.Resource.Style.Theme_PageIndicatorDefaults;
-			global::Com.ViewPagerIndicator.Resource.Style.Widget = global::OpravaMesta.Droid.Resource.Style.Widget;
-			global::Com.ViewPagerIndicator.Resource.Style.Widget_CirclePageIndicator = global::OpravaMesta.Droid.Resource.Style.Widget_CirclePageIndicator;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Com.ViewPagerIndicator.Resource.Style.Widget_Support_CoordinatorLayout = global::OpravaMesta.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator = global::OpravaMesta.Droid.Resource.Styleable.CirclePageIndicator;
 			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiCentered = global::OpravaMesta.Droid.Resource.Styleable.CirclePageIndicator_vpiCentered;
@@ -3438,13 +3109,10 @@ namespace OpravaMesta.Droid
 			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiSnap = global::OpravaMesta.Droid.Resource.Styleable.CirclePageIndicator_vpiSnap;
 			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiStrokeColor = global::OpravaMesta.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeColor;
 			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth = global::OpravaMesta.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth;
-<<<<<<< HEAD
 			global::Com.ViewPagerIndicator.Resource.Styleable.ColorStateListItem = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem;
 			global::Com.ViewPagerIndicator.Resource.Styleable.ColorStateListItem_alpha = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Com.ViewPagerIndicator.Resource.Styleable.ColorStateListItem_android_alpha = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Com.ViewPagerIndicator.Resource.Styleable.ColorStateListItem_android_color = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem_android_color;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout;
 			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout_keylines = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_keylines;
 			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout_Layout = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout;
@@ -3456,7 +3124,6 @@ namespace OpravaMesta.Droid
 			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
 			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
 			global::Com.ViewPagerIndicator.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-<<<<<<< HEAD
 			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamily = global::OpravaMesta.Droid.Resource.Styleable.FontFamily;
 			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamilyFont = global::OpravaMesta.Droid.Resource.Styleable.FontFamilyFont;
 			global::Com.ViewPagerIndicator.Resource.Styleable.FontFamilyFont_android_font = global::OpravaMesta.Droid.Resource.Styleable.FontFamilyFont_android_font;
@@ -3505,11 +3172,6 @@ namespace OpravaMesta.Droid
 			global::Plugin.Media.Resource.Attribute.fontStyle = global::OpravaMesta.Droid.Resource.Attribute.fontStyle;
 			global::Plugin.Media.Resource.Attribute.fontVariationSettings = global::OpravaMesta.Droid.Resource.Attribute.fontVariationSettings;
 			global::Plugin.Media.Resource.Attribute.fontWeight = global::OpravaMesta.Droid.Resource.Attribute.fontWeight;
-=======
-			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator = global::OpravaMesta.Droid.Resource.Styleable.ViewPagerIndicator;
-			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle = global::OpravaMesta.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle;
-			global::Plugin.Media.Resource.Attribute.coordinatorLayoutStyle = global::OpravaMesta.Droid.Resource.Attribute.coordinatorLayoutStyle;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Plugin.Media.Resource.Attribute.keylines = global::OpravaMesta.Droid.Resource.Attribute.keylines;
 			global::Plugin.Media.Resource.Attribute.layout_anchor = global::OpravaMesta.Droid.Resource.Attribute.layout_anchor;
 			global::Plugin.Media.Resource.Attribute.layout_anchorGravity = global::OpravaMesta.Droid.Resource.Attribute.layout_anchorGravity;
@@ -3518,15 +3180,11 @@ namespace OpravaMesta.Droid
 			global::Plugin.Media.Resource.Attribute.layout_insetEdge = global::OpravaMesta.Droid.Resource.Attribute.layout_insetEdge;
 			global::Plugin.Media.Resource.Attribute.layout_keyline = global::OpravaMesta.Droid.Resource.Attribute.layout_keyline;
 			global::Plugin.Media.Resource.Attribute.statusBarBackground = global::OpravaMesta.Droid.Resource.Attribute.statusBarBackground;
-<<<<<<< HEAD
 			global::Plugin.Media.Resource.Attribute.ttcIndex = global::OpravaMesta.Droid.Resource.Attribute.ttcIndex;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Plugin.Media.Resource.Color.browser_actions_bg_grey = global::OpravaMesta.Droid.Resource.Color.browser_actions_bg_grey;
 			global::Plugin.Media.Resource.Color.browser_actions_divider_color = global::OpravaMesta.Droid.Resource.Color.browser_actions_divider_color;
 			global::Plugin.Media.Resource.Color.browser_actions_text_color = global::OpravaMesta.Droid.Resource.Color.browser_actions_text_color;
 			global::Plugin.Media.Resource.Color.browser_actions_title_color = global::OpravaMesta.Droid.Resource.Color.browser_actions_title_color;
-<<<<<<< HEAD
 			global::Plugin.Media.Resource.Color.notification_action_color_filter = global::OpravaMesta.Droid.Resource.Color.notification_action_color_filter;
 			global::Plugin.Media.Resource.Color.notification_icon_bg_color = global::OpravaMesta.Droid.Resource.Color.notification_icon_bg_color;
 			global::Plugin.Media.Resource.Color.ripple_material_light = global::OpravaMesta.Droid.Resource.Color.ripple_material_light;
@@ -3575,11 +3233,6 @@ namespace OpravaMesta.Droid
 			global::Plugin.Media.Resource.Id.all = global::OpravaMesta.Droid.Resource.Id.all;
 			global::Plugin.Media.Resource.Id.async = global::OpravaMesta.Droid.Resource.Id.async;
 			global::Plugin.Media.Resource.Id.blocking = global::OpravaMesta.Droid.Resource.Id.blocking;
-=======
-			global::Plugin.Media.Resource.Dimension.browser_actions_context_menu_max_width = global::OpravaMesta.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
-			global::Plugin.Media.Resource.Dimension.browser_actions_context_menu_min_padding = global::OpravaMesta.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
-			global::Plugin.Media.Resource.Id.all = global::OpravaMesta.Droid.Resource.Id.all;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Plugin.Media.Resource.Id.bottom = global::OpravaMesta.Droid.Resource.Id.bottom;
 			global::Plugin.Media.Resource.Id.browser_actions_header_text = global::OpravaMesta.Droid.Resource.Id.browser_actions_header_text;
 			global::Plugin.Media.Resource.Id.browser_actions_menu_items = global::OpravaMesta.Droid.Resource.Id.browser_actions_menu_items;
@@ -3589,17 +3242,13 @@ namespace OpravaMesta.Droid
 			global::Plugin.Media.Resource.Id.center = global::OpravaMesta.Droid.Resource.Id.center;
 			global::Plugin.Media.Resource.Id.center_horizontal = global::OpravaMesta.Droid.Resource.Id.center_horizontal;
 			global::Plugin.Media.Resource.Id.center_vertical = global::OpravaMesta.Droid.Resource.Id.center_vertical;
-<<<<<<< HEAD
 			global::Plugin.Media.Resource.Id.chronometer = global::OpravaMesta.Droid.Resource.Id.chronometer;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Plugin.Media.Resource.Id.clip_horizontal = global::OpravaMesta.Droid.Resource.Id.clip_horizontal;
 			global::Plugin.Media.Resource.Id.clip_vertical = global::OpravaMesta.Droid.Resource.Id.clip_vertical;
 			global::Plugin.Media.Resource.Id.end = global::OpravaMesta.Droid.Resource.Id.end;
 			global::Plugin.Media.Resource.Id.fill = global::OpravaMesta.Droid.Resource.Id.fill;
 			global::Plugin.Media.Resource.Id.fill_horizontal = global::OpravaMesta.Droid.Resource.Id.fill_horizontal;
 			global::Plugin.Media.Resource.Id.fill_vertical = global::OpravaMesta.Droid.Resource.Id.fill_vertical;
-<<<<<<< HEAD
 			global::Plugin.Media.Resource.Id.forever = global::OpravaMesta.Droid.Resource.Id.forever;
 			global::Plugin.Media.Resource.Id.icon = global::OpravaMesta.Droid.Resource.Id.icon;
 			global::Plugin.Media.Resource.Id.icon_group = global::OpravaMesta.Droid.Resource.Id.icon_group;
@@ -3647,17 +3296,6 @@ namespace OpravaMesta.Droid
 			global::Plugin.Media.Resource.Styleable.ColorStateListItem_alpha = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Plugin.Media.Resource.Styleable.ColorStateListItem_android_alpha = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Plugin.Media.Resource.Styleable.ColorStateListItem_android_color = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem_android_color;
-=======
-			global::Plugin.Media.Resource.Id.left = global::OpravaMesta.Droid.Resource.Id.left;
-			global::Plugin.Media.Resource.Id.none = global::OpravaMesta.Droid.Resource.Id.none;
-			global::Plugin.Media.Resource.Id.normal = global::OpravaMesta.Droid.Resource.Id.normal;
-			global::Plugin.Media.Resource.Id.right = global::OpravaMesta.Droid.Resource.Id.right;
-			global::Plugin.Media.Resource.Id.start = global::OpravaMesta.Droid.Resource.Id.start;
-			global::Plugin.Media.Resource.Id.top = global::OpravaMesta.Droid.Resource.Id.top;
-			global::Plugin.Media.Resource.Layout.browser_actions_context_menu_page = global::OpravaMesta.Droid.Resource.Layout.browser_actions_context_menu_page;
-			global::Plugin.Media.Resource.Layout.browser_actions_context_menu_row = global::OpravaMesta.Droid.Resource.Layout.browser_actions_context_menu_row;
-			global::Plugin.Media.Resource.Style.Widget_Support_CoordinatorLayout = global::OpravaMesta.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Plugin.Media.Resource.Styleable.CoordinatorLayout = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout;
 			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_keylines = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_keylines;
 			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout;
@@ -3669,7 +3307,6 @@ namespace OpravaMesta.Droid
 			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
 			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
 			global::Plugin.Media.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-<<<<<<< HEAD
 			global::Plugin.Media.Resource.Styleable.FontFamily = global::OpravaMesta.Droid.Resource.Styleable.FontFamily;
 			global::Plugin.Media.Resource.Styleable.FontFamilyFont = global::OpravaMesta.Droid.Resource.Styleable.FontFamilyFont;
 			global::Plugin.Media.Resource.Styleable.FontFamilyFont_android_font = global::OpravaMesta.Droid.Resource.Styleable.FontFamilyFont_android_font;
@@ -3717,9 +3354,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Essentials.Resource.Attribute.fontStyle = global::OpravaMesta.Droid.Resource.Attribute.fontStyle;
 			global::Xamarin.Essentials.Resource.Attribute.fontVariationSettings = global::OpravaMesta.Droid.Resource.Attribute.fontVariationSettings;
 			global::Xamarin.Essentials.Resource.Attribute.fontWeight = global::OpravaMesta.Droid.Resource.Attribute.fontWeight;
-=======
-			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::OpravaMesta.Droid.Resource.Attribute.coordinatorLayoutStyle;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Essentials.Resource.Attribute.keylines = global::OpravaMesta.Droid.Resource.Attribute.keylines;
 			global::Xamarin.Essentials.Resource.Attribute.layout_anchor = global::OpravaMesta.Droid.Resource.Attribute.layout_anchor;
 			global::Xamarin.Essentials.Resource.Attribute.layout_anchorGravity = global::OpravaMesta.Droid.Resource.Attribute.layout_anchorGravity;
@@ -3728,15 +3362,11 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Essentials.Resource.Attribute.layout_insetEdge = global::OpravaMesta.Droid.Resource.Attribute.layout_insetEdge;
 			global::Xamarin.Essentials.Resource.Attribute.layout_keyline = global::OpravaMesta.Droid.Resource.Attribute.layout_keyline;
 			global::Xamarin.Essentials.Resource.Attribute.statusBarBackground = global::OpravaMesta.Droid.Resource.Attribute.statusBarBackground;
-<<<<<<< HEAD
 			global::Xamarin.Essentials.Resource.Attribute.ttcIndex = global::OpravaMesta.Droid.Resource.Attribute.ttcIndex;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Essentials.Resource.Color.browser_actions_bg_grey = global::OpravaMesta.Droid.Resource.Color.browser_actions_bg_grey;
 			global::Xamarin.Essentials.Resource.Color.browser_actions_divider_color = global::OpravaMesta.Droid.Resource.Color.browser_actions_divider_color;
 			global::Xamarin.Essentials.Resource.Color.browser_actions_text_color = global::OpravaMesta.Droid.Resource.Color.browser_actions_text_color;
 			global::Xamarin.Essentials.Resource.Color.browser_actions_title_color = global::OpravaMesta.Droid.Resource.Color.browser_actions_title_color;
-<<<<<<< HEAD
 			global::Xamarin.Essentials.Resource.Color.notification_action_color_filter = global::OpravaMesta.Droid.Resource.Color.notification_action_color_filter;
 			global::Xamarin.Essentials.Resource.Color.notification_icon_bg_color = global::OpravaMesta.Droid.Resource.Color.notification_icon_bg_color;
 			global::Xamarin.Essentials.Resource.Color.ripple_material_light = global::OpravaMesta.Droid.Resource.Color.ripple_material_light;
@@ -3785,11 +3415,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Essentials.Resource.Id.all = global::OpravaMesta.Droid.Resource.Id.all;
 			global::Xamarin.Essentials.Resource.Id.async = global::OpravaMesta.Droid.Resource.Id.async;
 			global::Xamarin.Essentials.Resource.Id.blocking = global::OpravaMesta.Droid.Resource.Id.blocking;
-=======
-			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_max_width = global::OpravaMesta.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
-			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_min_padding = global::OpravaMesta.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
-			global::Xamarin.Essentials.Resource.Id.all = global::OpravaMesta.Droid.Resource.Id.all;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Essentials.Resource.Id.bottom = global::OpravaMesta.Droid.Resource.Id.bottom;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_header_text = global::OpravaMesta.Droid.Resource.Id.browser_actions_header_text;
 			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_items = global::OpravaMesta.Droid.Resource.Id.browser_actions_menu_items;
@@ -3799,17 +3424,13 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Essentials.Resource.Id.center = global::OpravaMesta.Droid.Resource.Id.center;
 			global::Xamarin.Essentials.Resource.Id.center_horizontal = global::OpravaMesta.Droid.Resource.Id.center_horizontal;
 			global::Xamarin.Essentials.Resource.Id.center_vertical = global::OpravaMesta.Droid.Resource.Id.center_vertical;
-<<<<<<< HEAD
 			global::Xamarin.Essentials.Resource.Id.chronometer = global::OpravaMesta.Droid.Resource.Id.chronometer;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Essentials.Resource.Id.clip_horizontal = global::OpravaMesta.Droid.Resource.Id.clip_horizontal;
 			global::Xamarin.Essentials.Resource.Id.clip_vertical = global::OpravaMesta.Droid.Resource.Id.clip_vertical;
 			global::Xamarin.Essentials.Resource.Id.end = global::OpravaMesta.Droid.Resource.Id.end;
 			global::Xamarin.Essentials.Resource.Id.fill = global::OpravaMesta.Droid.Resource.Id.fill;
 			global::Xamarin.Essentials.Resource.Id.fill_horizontal = global::OpravaMesta.Droid.Resource.Id.fill_horizontal;
 			global::Xamarin.Essentials.Resource.Id.fill_vertical = global::OpravaMesta.Droid.Resource.Id.fill_vertical;
-<<<<<<< HEAD
 			global::Xamarin.Essentials.Resource.Id.forever = global::OpravaMesta.Droid.Resource.Id.forever;
 			global::Xamarin.Essentials.Resource.Id.icon = global::OpravaMesta.Droid.Resource.Id.icon;
 			global::Xamarin.Essentials.Resource.Id.icon_group = global::OpravaMesta.Droid.Resource.Id.icon_group;
@@ -3857,17 +3478,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_alpha = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_alpha = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_color = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem_android_color;
-=======
-			global::Xamarin.Essentials.Resource.Id.left = global::OpravaMesta.Droid.Resource.Id.left;
-			global::Xamarin.Essentials.Resource.Id.none = global::OpravaMesta.Droid.Resource.Id.none;
-			global::Xamarin.Essentials.Resource.Id.normal = global::OpravaMesta.Droid.Resource.Id.normal;
-			global::Xamarin.Essentials.Resource.Id.right = global::OpravaMesta.Droid.Resource.Id.right;
-			global::Xamarin.Essentials.Resource.Id.start = global::OpravaMesta.Droid.Resource.Id.start;
-			global::Xamarin.Essentials.Resource.Id.top = global::OpravaMesta.Droid.Resource.Id.top;
-			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_page = global::OpravaMesta.Droid.Resource.Layout.browser_actions_context_menu_page;
-			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_row = global::OpravaMesta.Droid.Resource.Layout.browser_actions_context_menu_row;
-			global::Xamarin.Essentials.Resource.Style.Widget_Support_CoordinatorLayout = global::OpravaMesta.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_keylines = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_keylines;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout;
@@ -3879,7 +3489,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
 			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-<<<<<<< HEAD
 			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::OpravaMesta.Droid.Resource.Styleable.FontFamily;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::OpravaMesta.Droid.Resource.Styleable.FontFamilyFont;
 			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::OpravaMesta.Droid.Resource.Styleable.FontFamilyFont_android_font;
@@ -3931,13 +3540,10 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::OpravaMesta.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_in = global::OpravaMesta.Droid.Resource.Animation.design_snackbar_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_out = global::OpravaMesta.Droid.Resource.Animation.design_snackbar_out;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromLeft = global::OpravaMesta.Droid.Resource.Animation.EnterFromLeft;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromRight = global::OpravaMesta.Droid.Resource.Animation.EnterFromRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToLeft = global::OpravaMesta.Droid.Resource.Animation.ExitToLeft;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToRight = global::OpravaMesta.Droid.Resource.Animation.ExitToRight;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_appbar_state_list_animator = global::OpravaMesta.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_fab_hide_motion_spec = global::OpravaMesta.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_fab_show_motion_spec = global::OpravaMesta.Droid.Resource.Animator.design_fab_show_motion_spec;
@@ -4003,20 +3609,13 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundTint = global::OpravaMesta.Droid.Resource.Attribute.backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundTintMode = global::OpravaMesta.Droid.Resource.Attribute.backgroundTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.barLength = global::OpravaMesta.Droid.Resource.Attribute.barLength;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundTint = global::OpravaMesta.Droid.Resource.Attribute.backgroundTint;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.backgroundTintMode = global::OpravaMesta.Droid.Resource.Attribute.backgroundTintMode;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_autoHide = global::OpravaMesta.Droid.Resource.Attribute.behavior_autoHide;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_fitToContents = global::OpravaMesta.Droid.Resource.Attribute.behavior_fitToContents;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_hideable = global::OpravaMesta.Droid.Resource.Attribute.behavior_hideable;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_overlapTop = global::OpravaMesta.Droid.Resource.Attribute.behavior_overlapTop;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_peekHeight = global::OpravaMesta.Droid.Resource.Attribute.behavior_peekHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.behavior_skipCollapsed = global::OpravaMesta.Droid.Resource.Attribute.behavior_skipCollapsed;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.borderlessButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.borderlessButtonStyle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.borderWidth = global::OpravaMesta.Droid.Resource.Attribute.borderWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.bottomAppBarStyle = global::OpravaMesta.Droid.Resource.Attribute.bottomAppBarStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.bottomNavigationStyle = global::OpravaMesta.Droid.Resource.Attribute.bottomNavigationStyle;
@@ -4031,7 +3630,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxCornerRadiusTopStart = global::OpravaMesta.Droid.Resource.Attribute.boxCornerRadiusTopStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeColor = global::OpravaMesta.Droid.Resource.Attribute.boxStrokeColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.boxStrokeWidth = global::OpravaMesta.Droid.Resource.Attribute.boxStrokeWidth;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
@@ -4044,9 +3642,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonStyleSmall = global::OpravaMesta.Droid.Resource.Attribute.buttonStyleSmall;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonTint = global::OpravaMesta.Droid.Resource.Attribute.buttonTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonTintMode = global::OpravaMesta.Droid.Resource.Attribute.buttonTintMode;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.buttonTint = global::OpravaMesta.Droid.Resource.Attribute.buttonTint;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardBackgroundColor = global::OpravaMesta.Droid.Resource.Attribute.cardBackgroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardCornerRadius = global::OpravaMesta.Droid.Resource.Attribute.cardCornerRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardElevation = global::OpravaMesta.Droid.Resource.Attribute.cardElevation;
@@ -4054,18 +3649,12 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardPreventCornerOverlap = global::OpravaMesta.Droid.Resource.Attribute.cardPreventCornerOverlap;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardUseCompatPadding = global::OpravaMesta.Droid.Resource.Attribute.cardUseCompatPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cardViewStyle = global::OpravaMesta.Droid.Resource.Attribute.cardViewStyle;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkboxStyle = global::OpravaMesta.Droid.Resource.Attribute.checkboxStyle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedChip = global::OpravaMesta.Droid.Resource.Attribute.checkedChip;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIcon = global::OpravaMesta.Droid.Resource.Attribute.checkedIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconEnabled = global::OpravaMesta.Droid.Resource.Attribute.checkedIconEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconVisible = global::OpravaMesta.Droid.Resource.Attribute.checkedIconVisible;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedTextViewStyle = global::OpravaMesta.Droid.Resource.Attribute.checkedTextViewStyle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipBackgroundColor = global::OpravaMesta.Droid.Resource.Attribute.chipBackgroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipCornerRadius = global::OpravaMesta.Droid.Resource.Attribute.chipCornerRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipEndPadding = global::OpravaMesta.Droid.Resource.Attribute.chipEndPadding;
@@ -4091,7 +3680,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIconStartPadding = global::OpravaMesta.Droid.Resource.Attribute.closeIconStartPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIconTint = global::OpravaMesta.Droid.Resource.Attribute.closeIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeIconVisible = global::OpravaMesta.Droid.Resource.Attribute.closeIconVisible;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.closeItemLayout = global::OpravaMesta.Droid.Resource.Attribute.closeItemLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapseContentDescription = global::OpravaMesta.Droid.Resource.Attribute.collapseContentDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapsedTitleGravity = global::OpravaMesta.Droid.Resource.Attribute.collapsedTitleGravity;
@@ -4117,28 +3705,19 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentInsetRight = global::OpravaMesta.Droid.Resource.Attribute.contentInsetRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentInsetStart = global::OpravaMesta.Droid.Resource.Attribute.contentInsetStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentInsetStartWithNavigation = global::OpravaMesta.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapsedTitleGravity = global::OpravaMesta.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.collapsedTitleTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSecondary = global::OpravaMesta.Droid.Resource.Attribute.colorSecondary;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentPadding = global::OpravaMesta.Droid.Resource.Attribute.contentPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentPaddingBottom = global::OpravaMesta.Droid.Resource.Attribute.contentPaddingBottom;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentPaddingLeft = global::OpravaMesta.Droid.Resource.Attribute.contentPaddingLeft;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentPaddingRight = global::OpravaMesta.Droid.Resource.Attribute.contentPaddingRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentPaddingTop = global::OpravaMesta.Droid.Resource.Attribute.contentPaddingTop;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.contentScrim = global::OpravaMesta.Droid.Resource.Attribute.contentScrim;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.controlBackground = global::OpravaMesta.Droid.Resource.Attribute.controlBackground;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.coordinatorLayoutStyle = global::OpravaMesta.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.cornerRadius = global::OpravaMesta.Droid.Resource.Attribute.cornerRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterEnabled = global::OpravaMesta.Droid.Resource.Attribute.counterEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterMaxLength = global::OpravaMesta.Droid.Resource.Attribute.counterMaxLength;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterOverflowTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.counterOverflowTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.counterTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.counterTextAppearance;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.customNavigationLayout = global::OpravaMesta.Droid.Resource.Attribute.customNavigationLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.defaultQueryHint = global::OpravaMesta.Droid.Resource.Attribute.defaultQueryHint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.dialogCornerRadius = global::OpravaMesta.Droid.Resource.Attribute.dialogCornerRadius;
@@ -4156,17 +3735,12 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.editTextBackground = global::OpravaMesta.Droid.Resource.Attribute.editTextBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.editTextColor = global::OpravaMesta.Droid.Resource.Attribute.editTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.editTextStyle = global::OpravaMesta.Droid.Resource.Attribute.editTextStyle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevation = global::OpravaMesta.Droid.Resource.Attribute.elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.enforceMaterialTheme = global::OpravaMesta.Droid.Resource.Attribute.enforceMaterialTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.enforceTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.enforceTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorEnabled = global::OpravaMesta.Droid.Resource.Attribute.errorEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.errorTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.errorTextAppearance;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::OpravaMesta.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expanded = global::OpravaMesta.Droid.Resource.Attribute.expanded;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleGravity = global::OpravaMesta.Droid.Resource.Attribute.expandedTitleGravity;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.expandedTitleMargin = global::OpravaMesta.Droid.Resource.Attribute.expandedTitleMargin;
@@ -4181,7 +3755,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabCradleVerticalOffset = global::OpravaMesta.Droid.Resource.Attribute.fabCradleVerticalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabCustomSize = global::OpravaMesta.Droid.Resource.Attribute.fabCustomSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fabSize = global::OpravaMesta.Droid.Resource.Attribute.fabSize;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fastScrollEnabled = global::OpravaMesta.Droid.Resource.Attribute.fastScrollEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::OpravaMesta.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::OpravaMesta.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
@@ -4205,60 +3778,39 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.goIcon = global::OpravaMesta.Droid.Resource.Attribute.goIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.headerLayout = global::OpravaMesta.Droid.Resource.Attribute.headerLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.height = global::OpravaMesta.Droid.Resource.Attribute.height;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.floatingActionButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.floatingActionButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.foregroundInsidePadding = global::OpravaMesta.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.headerLayout = global::OpravaMesta.Droid.Resource.Attribute.headerLayout;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.helperText = global::OpravaMesta.Droid.Resource.Attribute.helperText;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.helperTextEnabled = global::OpravaMesta.Droid.Resource.Attribute.helperTextEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.helperTextTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.helperTextTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hideMotionSpec = global::OpravaMesta.Droid.Resource.Attribute.hideMotionSpec;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hideOnContentScroll = global::OpravaMesta.Droid.Resource.Attribute.hideOnContentScroll;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hideOnScroll = global::OpravaMesta.Droid.Resource.Attribute.hideOnScroll;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintAnimationEnabled = global::OpravaMesta.Droid.Resource.Attribute.hintAnimationEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintEnabled = global::OpravaMesta.Droid.Resource.Attribute.hintEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hintTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.hintTextAppearance;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.homeAsUpIndicator = global::OpravaMesta.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.homeLayout = global::OpravaMesta.Droid.Resource.Attribute.homeLayout;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.hoveredFocusedTranslationZ = global::OpravaMesta.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.icon = global::OpravaMesta.Droid.Resource.Attribute.icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconEndPadding = global::OpravaMesta.Droid.Resource.Attribute.iconEndPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconGravity = global::OpravaMesta.Droid.Resource.Attribute.iconGravity;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconifiedByDefault = global::OpravaMesta.Droid.Resource.Attribute.iconifiedByDefault;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconPadding = global::OpravaMesta.Droid.Resource.Attribute.iconPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconSize = global::OpravaMesta.Droid.Resource.Attribute.iconSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconStartPadding = global::OpravaMesta.Droid.Resource.Attribute.iconStartPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconTint = global::OpravaMesta.Droid.Resource.Attribute.iconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.iconTintMode = global::OpravaMesta.Droid.Resource.Attribute.iconTintMode;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.imageButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.imageButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.indeterminateProgressStyle = global::OpravaMesta.Droid.Resource.Attribute.indeterminateProgressStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.initialActivityCount = global::OpravaMesta.Droid.Resource.Attribute.initialActivityCount;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.insetForeground = global::OpravaMesta.Droid.Resource.Attribute.insetForeground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.isLightTheme = global::OpravaMesta.Droid.Resource.Attribute.isLightTheme;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.insetForeground = global::OpravaMesta.Droid.Resource.Attribute.insetForeground;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemBackground = global::OpravaMesta.Droid.Resource.Attribute.itemBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemHorizontalPadding = global::OpravaMesta.Droid.Resource.Attribute.itemHorizontalPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemHorizontalTranslationEnabled = global::OpravaMesta.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemIconPadding = global::OpravaMesta.Droid.Resource.Attribute.itemIconPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemIconSize = global::OpravaMesta.Droid.Resource.Attribute.itemIconSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemIconTint = global::OpravaMesta.Droid.Resource.Attribute.itemIconTint;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemPadding = global::OpravaMesta.Droid.Resource.Attribute.itemPadding;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemSpacing = global::OpravaMesta.Droid.Resource.Attribute.itemSpacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.itemTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextAppearanceActive = global::OpravaMesta.Droid.Resource.Attribute.itemTextAppearanceActive;
@@ -4266,12 +3818,9 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.itemTextColor = global::OpravaMesta.Droid.Resource.Attribute.itemTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.keylines = global::OpravaMesta.Droid.Resource.Attribute.keylines;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.labelVisibilityMode = global::OpravaMesta.Droid.Resource.Attribute.labelVisibilityMode;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lastBaselineToBottomHeight = global::OpravaMesta.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout = global::OpravaMesta.Droid.Resource.Attribute.layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layoutManager = global::OpravaMesta.Droid.Resource.Attribute.layoutManager;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_anchor = global::OpravaMesta.Droid.Resource.Attribute.layout_anchor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_anchorGravity = global::OpravaMesta.Droid.Resource.Attribute.layout_anchorGravity;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.layout_behavior = global::OpravaMesta.Droid.Resource.Attribute.layout_behavior;
@@ -4285,7 +3834,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.liftOnScroll = global::OpravaMesta.Droid.Resource.Attribute.liftOnScroll;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lineHeight = global::OpravaMesta.Droid.Resource.Attribute.lineHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lineSpacing = global::OpravaMesta.Droid.Resource.Attribute.lineSpacing;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::OpravaMesta.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listDividerAlertDialog = global::OpravaMesta.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listItemLayout = global::OpravaMesta.Droid.Resource.Attribute.listItemLayout;
@@ -4320,20 +3868,11 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.panelBackground = global::OpravaMesta.Droid.Resource.Attribute.panelBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.panelMenuListTheme = global::OpravaMesta.Droid.Resource.Attribute.panelMenuListTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.panelMenuListWidth = global::OpravaMesta.Droid.Resource.Attribute.panelMenuListWidth;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.materialButtonStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialCardViewStyle = global::OpravaMesta.Droid.Resource.Attribute.materialCardViewStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxActionInlineWidth = global::OpravaMesta.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.maxImageSize = global::OpravaMesta.Droid.Resource.Attribute.maxImageSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.menu = global::OpravaMesta.Droid.Resource.Attribute.menu;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.navigationViewStyle = global::OpravaMesta.Droid.Resource.Attribute.navigationViewStyle;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleContentDescription = global::OpravaMesta.Droid.Resource.Attribute.passwordToggleContentDescription;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleDrawable = global::OpravaMesta.Droid.Resource.Attribute.passwordToggleDrawable;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleEnabled = global::OpravaMesta.Droid.Resource.Attribute.passwordToggleEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleTint = global::OpravaMesta.Droid.Resource.Attribute.passwordToggleTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.passwordToggleTintMode = global::OpravaMesta.Droid.Resource.Attribute.passwordToggleTintMode;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupMenuStyle = global::OpravaMesta.Droid.Resource.Attribute.popupMenuStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupTheme = global::OpravaMesta.Droid.Resource.Attribute.popupTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.popupWindowStyle = global::OpravaMesta.Droid.Resource.Attribute.popupWindowStyle;
@@ -4348,14 +3887,10 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyleIndicator = global::OpravaMesta.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ratingBarStyleSmall = global::OpravaMesta.Droid.Resource.Attribute.ratingBarStyleSmall;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.reverseLayout = global::OpravaMesta.Droid.Resource.Attribute.reverseLayout;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.pressedTranslationZ = global::OpravaMesta.Droid.Resource.Attribute.pressedTranslationZ;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.rippleColor = global::OpravaMesta.Droid.Resource.Attribute.rippleColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimAnimationDuration = global::OpravaMesta.Droid.Resource.Attribute.scrimAnimationDuration;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimBackground = global::OpravaMesta.Droid.Resource.Attribute.scrimBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::OpravaMesta.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.searchHintIcon = global::OpravaMesta.Droid.Resource.Attribute.searchHintIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.searchIcon = global::OpravaMesta.Droid.Resource.Attribute.searchIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.searchViewStyle = global::OpravaMesta.Droid.Resource.Attribute.searchViewStyle;
@@ -4368,14 +3903,10 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showText = global::OpravaMesta.Droid.Resource.Attribute.showText;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showTitle = global::OpravaMesta.Droid.Resource.Attribute.showTitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleChoiceItemLayout = global::OpravaMesta.Droid.Resource.Attribute.singleChoiceItemLayout;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.showMotionSpec = global::OpravaMesta.Droid.Resource.Attribute.showMotionSpec;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleLine = global::OpravaMesta.Droid.Resource.Attribute.singleLine;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.singleSelection = global::OpravaMesta.Droid.Resource.Attribute.singleSelection;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.snackbarButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.snackbarStyle = global::OpravaMesta.Droid.Resource.Attribute.snackbarStyle;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spanCount = global::OpravaMesta.Droid.Resource.Attribute.spanCount;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spinBars = global::OpravaMesta.Droid.Resource.Attribute.spinBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.spinnerDropDownItemStyle = global::OpravaMesta.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -4384,8 +3915,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.srcCompat = global::OpravaMesta.Droid.Resource.Attribute.srcCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.stackFromEnd = global::OpravaMesta.Droid.Resource.Attribute.stackFromEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_above_anchor = global::OpravaMesta.Droid.Resource.Attribute.state_above_anchor;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_collapsed = global::OpravaMesta.Droid.Resource.Attribute.state_collapsed;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_collapsible = global::OpravaMesta.Droid.Resource.Attribute.state_collapsible;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.state_liftable = global::OpravaMesta.Droid.Resource.Attribute.state_liftable;
@@ -4394,7 +3923,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.statusBarScrim = global::OpravaMesta.Droid.Resource.Attribute.statusBarScrim;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.strokeColor = global::OpravaMesta.Droid.Resource.Attribute.strokeColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.strokeWidth = global::OpravaMesta.Droid.Resource.Attribute.strokeWidth;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subMenuArrow = global::OpravaMesta.Droid.Resource.Attribute.subMenuArrow;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.submitBackground = global::OpravaMesta.Droid.Resource.Attribute.submitBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.subtitle = global::OpravaMesta.Droid.Resource.Attribute.subtitle;
@@ -4406,8 +3934,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchPadding = global::OpravaMesta.Droid.Resource.Attribute.switchPadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchStyle = global::OpravaMesta.Droid.Resource.Attribute.switchStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.switchTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.switchTextAppearance;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabBackground = global::OpravaMesta.Droid.Resource.Attribute.tabBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabContentStart = global::OpravaMesta.Droid.Resource.Attribute.tabContentStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabGravity = global::OpravaMesta.Droid.Resource.Attribute.tabGravity;
@@ -4434,10 +3960,7 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.tabTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabTextColor = global::OpravaMesta.Droid.Resource.Attribute.tabTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.tabUnboundedRipple = global::OpravaMesta.Droid.Resource.Attribute.tabUnboundedRipple;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAllCaps = global::OpravaMesta.Droid.Resource.Attribute.textAllCaps;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceBody1 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceBody1;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceBody2 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceBody2;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceButton = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceButton;
@@ -4448,7 +3971,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceHeadline4 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceHeadline4;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceHeadline5 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceHeadline5;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceHeadline6 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceHeadline6;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceListItem = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceListItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceListItemSecondary = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceListItemSecondary;
@@ -4550,19 +4072,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.bright_foreground_material_light = global::OpravaMesta.Droid.Resource.Color.bright_foreground_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.button_material_dark = global::OpravaMesta.Droid.Resource.Color.button_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.button_material_light = global::OpravaMesta.Droid.Resource.Color.button_material_light;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceOverline = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceOverline;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceSubtitle1 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceSubtitle1;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textAppearanceSubtitle2 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceSubtitle2;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textEndPadding = global::OpravaMesta.Droid.Resource.Attribute.textEndPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textInputStyle = global::OpravaMesta.Droid.Resource.Attribute.textInputStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textStartPadding = global::OpravaMesta.Droid.Resource.Attribute.textStartPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.title = global::OpravaMesta.Droid.Resource.Attribute.title;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.titleEnabled = global::OpravaMesta.Droid.Resource.Attribute.titleEnabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.toolbarId = global::OpravaMesta.Droid.Resource.Attribute.toolbarId;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.useCompatPadding = global::OpravaMesta.Droid.Resource.Attribute.useCompatPadding;
-			global::Xamarin.Forms.Platform.Android.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::OpravaMesta.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_dark_background = global::OpravaMesta.Droid.Resource.Color.cardview_dark_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_light_background = global::OpravaMesta.Droid.Resource.Color.cardview_light_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_shadow_end_color = global::OpravaMesta.Droid.Resource.Color.cardview_shadow_end_color;
@@ -4570,10 +4079,7 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_bottom_navigation_shadow_color = global::OpravaMesta.Droid.Resource.Color.design_bottom_navigation_shadow_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_primary = global::OpravaMesta.Droid.Resource.Color.design_default_color_primary;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_default_color_primary_dark = global::OpravaMesta.Droid.Resource.Color.design_default_color_primary_dark;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_error = global::OpravaMesta.Droid.Resource.Color.design_error;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_shadow_end_color = global::OpravaMesta.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_shadow_mid_color = global::OpravaMesta.Droid.Resource.Color.design_fab_shadow_mid_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_shadow_start_color = global::OpravaMesta.Droid.Resource.Color.design_fab_shadow_start_color;
@@ -4582,7 +4088,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_top_inner_color = global::OpravaMesta.Droid.Resource.Color.design_fab_stroke_top_inner_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_fab_stroke_top_outer_color = global::OpravaMesta.Droid.Resource.Color.design_fab_stroke_top_outer_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_snackbar_background_color = global::OpravaMesta.Droid.Resource.Color.design_snackbar_background_color;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Color.dim_foreground_disabled_material_dark = global::OpravaMesta.Droid.Resource.Color.dim_foreground_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.dim_foreground_disabled_material_light = global::OpravaMesta.Droid.Resource.Color.dim_foreground_disabled_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.dim_foreground_material_dark = global::OpravaMesta.Droid.Resource.Color.dim_foreground_material_dark;
@@ -4625,16 +4130,10 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::OpravaMesta.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::OpravaMesta.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_tabs_ripple_color = global::OpravaMesta.Droid.Resource.Color.mtrl_tabs_ripple_color;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_text_color_disabled = global::OpravaMesta.Droid.Resource.Color.mtrl_btn_text_color_disabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_btn_transparent_bg_color = global::OpravaMesta.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_scrim_color = global::OpravaMesta.Droid.Resource.Color.mtrl_scrim_color;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_default_box_stroke_color = global::OpravaMesta.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_disabled_color = global::OpravaMesta.Droid.Resource.Color.mtrl_textinput_disabled_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::OpravaMesta.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::OpravaMesta.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Color.mtrl_text_btn_text_color_selector = global::OpravaMesta.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.notification_action_color_filter = global::OpravaMesta.Droid.Resource.Color.notification_action_color_filter;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.notification_icon_bg_color = global::OpravaMesta.Droid.Resource.Color.notification_icon_bg_color;
@@ -4746,11 +4245,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_control_corner_material = global::OpravaMesta.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::OpravaMesta.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::OpravaMesta.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_compat_inset_shadow = global::OpravaMesta.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_default_elevation = global::OpravaMesta.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_default_radius = global::OpravaMesta.Droid.Resource.Dimension.cardview_default_radius;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_appbar_elevation = global::OpravaMesta.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::OpravaMesta.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::OpravaMesta.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
@@ -4795,7 +4289,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_tab_text_size = global::OpravaMesta.Droid.Resource.Dimension.design_tab_text_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_tab_text_size_2line = global::OpravaMesta.Droid.Resource.Dimension.design_tab_text_size_2line;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_textinput_caption_translate_y = global::OpravaMesta.Droid.Resource.Dimension.design_textinput_caption_translate_y;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.disabled_alpha_material_dark = global::OpravaMesta.Droid.Resource.Dimension.disabled_alpha_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.disabled_alpha_material_light = global::OpravaMesta.Droid.Resource.Dimension.disabled_alpha_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.fastscroll_default_thickness = global::OpravaMesta.Droid.Resource.Dimension.fastscroll_default_thickness;
@@ -4811,8 +4304,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::OpravaMesta.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::OpravaMesta.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::OpravaMesta.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::OpravaMesta.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::OpravaMesta.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::OpravaMesta.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
@@ -4859,7 +4350,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::OpravaMesta.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::OpravaMesta.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_toolbar_default_height = global::OpravaMesta.Droid.Resource.Dimension.mtrl_toolbar_default_height;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_action_icon_size = global::OpravaMesta.Droid.Resource.Dimension.notification_action_icon_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_action_text_size = global::OpravaMesta.Droid.Resource.Dimension.notification_action_text_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_big_circle_margin = global::OpravaMesta.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -5059,24 +4549,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.exitUntilCollapsed = global::OpravaMesta.Droid.Resource.Id.exitUntilCollapsed;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.expanded_menu = global::OpravaMesta.Droid.Resource.Id.expanded_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.expand_activities_button = global::OpravaMesta.Droid.Resource.Id.expand_activities_button;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Id.add = global::OpravaMesta.Droid.Resource.Id.add;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.all = global::OpravaMesta.Droid.Resource.Id.all;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.auto = global::OpravaMesta.Droid.Resource.Id.auto;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.bottom = global::OpravaMesta.Droid.Resource.Id.bottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.bottomtab_navarea = global::OpravaMesta.Droid.Resource.Id.bottomtab_navarea;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.bottomtab_tabbar = global::OpravaMesta.Droid.Resource.Id.bottomtab_tabbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.center = global::OpravaMesta.Droid.Resource.Id.center;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.center_horizontal = global::OpravaMesta.Droid.Resource.Id.center_horizontal;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.center_vertical = global::OpravaMesta.Droid.Resource.Id.center_vertical;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.clip_horizontal = global::OpravaMesta.Droid.Resource.Id.clip_horizontal;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.clip_vertical = global::OpravaMesta.Droid.Resource.Id.clip_vertical;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.custom = global::OpravaMesta.Droid.Resource.Id.custom;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.end = global::OpravaMesta.Droid.Resource.Id.end;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.enterAlways = global::OpravaMesta.Droid.Resource.Id.enterAlways;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.enterAlwaysCollapsed = global::OpravaMesta.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.exitUntilCollapsed = global::OpravaMesta.Droid.Resource.Id.exitUntilCollapsed;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill = global::OpravaMesta.Droid.Resource.Id.fill;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.filled = global::OpravaMesta.Droid.Resource.Id.filled;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill_horizontal = global::OpravaMesta.Droid.Resource.Id.fill_horizontal;
@@ -5084,7 +4556,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@fixed = global::OpravaMesta.Droid.Resource.Id.@fixed;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_appbar = global::OpravaMesta.Droid.Resource.Id.flyoutcontent_appbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_recycler = global::OpravaMesta.Droid.Resource.Id.flyoutcontent_recycler;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Id.forever = global::OpravaMesta.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.FUNCTION = global::OpravaMesta.Droid.Resource.Id.FUNCTION;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view = global::OpravaMesta.Droid.Resource.Id.ghost_view;
@@ -5105,28 +4576,19 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.line3 = global::OpravaMesta.Droid.Resource.Id.line3;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.listMode = global::OpravaMesta.Droid.Resource.Id.listMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.list_item = global::OpravaMesta.Droid.Resource.Id.list_item;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view = global::OpravaMesta.Droid.Resource.Id.ghost_view;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.labeled = global::OpravaMesta.Droid.Resource.Id.labeled;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.left = global::OpravaMesta.Droid.Resource.Id.left;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Id.main_appbar = global::OpravaMesta.Droid.Resource.Id.main_appbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.main_tablayout = global::OpravaMesta.Droid.Resource.Id.main_tablayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.main_toolbar = global::OpravaMesta.Droid.Resource.Id.main_toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.main_viewpager = global::OpravaMesta.Droid.Resource.Id.main_viewpager;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Id.masked = global::OpravaMesta.Droid.Resource.Id.masked;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.media_actions = global::OpravaMesta.Droid.Resource.Id.media_actions;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.message = global::OpravaMesta.Droid.Resource.Id.message;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.META = global::OpravaMesta.Droid.Resource.Id.META;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.middle = global::OpravaMesta.Droid.Resource.Id.middle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Id.mini = global::OpravaMesta.Droid.Resource.Id.mini;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_child_content_container = global::OpravaMesta.Droid.Resource.Id.mtrl_child_content_container;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.mtrl_internal_children_alpha_tag = global::OpravaMesta.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.multiply = global::OpravaMesta.Droid.Resource.Id.multiply;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Id.navigation_header_container = global::OpravaMesta.Droid.Resource.Id.navigation_header_container;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.never = global::OpravaMesta.Droid.Resource.Id.never;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.none = global::OpravaMesta.Droid.Resource.Id.none;
@@ -5145,20 +4607,10 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.right = global::OpravaMesta.Droid.Resource.Id.right;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.right_icon = global::OpravaMesta.Droid.Resource.Id.right_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.right_side = global::OpravaMesta.Droid.Resource.Id.right_side;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Id.none = global::OpravaMesta.Droid.Resource.Id.none;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.normal = global::OpravaMesta.Droid.Resource.Id.normal;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.outline = global::OpravaMesta.Droid.Resource.Id.outline;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.parallax = global::OpravaMesta.Droid.Resource.Id.parallax;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.parent_matrix = global::OpravaMesta.Droid.Resource.Id.parent_matrix;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.pin = global::OpravaMesta.Droid.Resource.Id.pin;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.right = global::OpravaMesta.Droid.Resource.Id.right;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Id.save_non_transition_alpha = global::OpravaMesta.Droid.Resource.Id.save_non_transition_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.screen = global::OpravaMesta.Droid.Resource.Id.screen;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.scroll = global::OpravaMesta.Droid.Resource.Id.scroll;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.scrollable = global::OpravaMesta.Droid.Resource.Id.scrollable;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Id.scrollIndicatorDown = global::OpravaMesta.Droid.Resource.Id.scrollIndicatorDown;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.scrollIndicatorUp = global::OpravaMesta.Droid.Resource.Id.scrollIndicatorUp;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.scrollView = global::OpravaMesta.Droid.Resource.Id.scrollView;
@@ -5182,25 +4634,16 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.showHome = global::OpravaMesta.Droid.Resource.Id.showHome;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.showTitle = global::OpravaMesta.Droid.Resource.Id.showTitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.smallLabel = global::OpravaMesta.Droid.Resource.Id.smallLabel;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Id.selected = global::OpravaMesta.Droid.Resource.Id.selected;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.shellcontent_appbar = global::OpravaMesta.Droid.Resource.Id.shellcontent_appbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.shellcontent_toolbar = global::OpravaMesta.Droid.Resource.Id.shellcontent_toolbar;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Id.snackbar_action = global::OpravaMesta.Droid.Resource.Id.snackbar_action;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.snackbar_text = global::OpravaMesta.Droid.Resource.Id.snackbar_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.snap = global::OpravaMesta.Droid.Resource.Id.snap;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.snapMargins = global::OpravaMesta.Droid.Resource.Id.snapMargins;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Id.spacer = global::OpravaMesta.Droid.Resource.Id.spacer;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.split_action_bar = global::OpravaMesta.Droid.Resource.Id.split_action_bar;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Id.src_atop = global::OpravaMesta.Droid.Resource.Id.src_atop;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.src_in = global::OpravaMesta.Droid.Resource.Id.src_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.src_over = global::OpravaMesta.Droid.Resource.Id.src_over;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.start = global::OpravaMesta.Droid.Resource.Id.start;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Id.status_bar_latest_event_content = global::OpravaMesta.Droid.Resource.Id.status_bar_latest_event_content;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.stretch = global::OpravaMesta.Droid.Resource.Id.stretch;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.submenuarrow = global::OpravaMesta.Droid.Resource.Id.submenuarrow;
@@ -5225,20 +4668,11 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.top = global::OpravaMesta.Droid.Resource.Id.top;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.topPanel = global::OpravaMesta.Droid.Resource.Id.topPanel;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.touch_outside = global::OpravaMesta.Droid.Resource.Id.touch_outside;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Id.stretch = global::OpravaMesta.Droid.Resource.Id.stretch;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_counter = global::OpravaMesta.Droid.Resource.Id.textinput_counter;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_error = global::OpravaMesta.Droid.Resource.Id.textinput_error;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.textinput_helper_text = global::OpravaMesta.Droid.Resource.Id.textinput_helper_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.textStart = global::OpravaMesta.Droid.Resource.Id.textStart;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.top = global::OpravaMesta.Droid.Resource.Id.top;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_current_scene = global::OpravaMesta.Droid.Resource.Id.transition_current_scene;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_layout_save = global::OpravaMesta.Droid.Resource.Id.transition_layout_save;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_position = global::OpravaMesta.Droid.Resource.Id.transition_position;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_scene_layoutid_cache = global::OpravaMesta.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.transition_transform = global::OpravaMesta.Droid.Resource.Id.transition_transform;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Id.uniform = global::OpravaMesta.Droid.Resource.Id.uniform;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.unlabeled = global::OpravaMesta.Droid.Resource.Id.unlabeled;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.up = global::OpravaMesta.Droid.Resource.Id.up;
@@ -5253,12 +4687,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.bottom_sheet_slide_duration = global::OpravaMesta.Droid.Resource.Integer.bottom_sheet_slide_duration;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.cancel_button_image_alpha = global::OpravaMesta.Droid.Resource.Integer.cancel_button_image_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.config_tooltipAnimTime = global::OpravaMesta.Droid.Resource.Integer.config_tooltipAnimTime;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Id.unlabeled = global::OpravaMesta.Droid.Resource.Id.unlabeled;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.view_offset_helper = global::OpravaMesta.Droid.Resource.Id.view_offset_helper;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.app_bar_elevation_anim_duration = global::OpravaMesta.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::Xamarin.Forms.Platform.Android.Resource.Integer.bottom_sheet_slide_duration = global::OpravaMesta.Droid.Resource.Integer.bottom_sheet_slide_duration;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.design_snackbar_text_max_lines = global::OpravaMesta.Droid.Resource.Integer.design_snackbar_text_max_lines;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.design_tab_indicator_anim_duration_ms = global::OpravaMesta.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.hide_password_duration = global::OpravaMesta.Droid.Resource.Integer.hide_password_duration;
@@ -5267,7 +4695,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_chip_anim_duration = global::OpravaMesta.Droid.Resource.Integer.mtrl_chip_anim_duration;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::OpravaMesta.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.show_password_duration = global::OpravaMesta.Droid.Resource.Integer.show_password_duration;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.status_bar_notification_info_maxnum = global::OpravaMesta.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.mtrl_fast_out_linear_in = global::OpravaMesta.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Interpolator.mtrl_fast_out_slow_in = global::OpravaMesta.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
@@ -5366,12 +4793,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_shareactionprovider_share_with = global::OpravaMesta.Droid.Resource.String.abc_shareactionprovider_share_with;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_shareactionprovider_share_with_application = global::OpravaMesta.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_toolbar_collapse_description = global::OpravaMesta.Droid.Resource.String.abc_toolbar_collapse_description;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.BottomTabLayout = global::OpravaMesta.Droid.Resource.Layout.BottomTabLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.FlyoutContent = global::OpravaMesta.Droid.Resource.Layout.FlyoutContent;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.RootLayout = global::OpravaMesta.Droid.Resource.Layout.RootLayout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::OpravaMesta.Droid.Resource.Layout.ShellContent;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.String.appbar_scrolling_view_behavior = global::OpravaMesta.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.bottom_sheet_behavior = global::OpravaMesta.Droid.Resource.String.bottom_sheet_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_content_description = global::OpravaMesta.Droid.Resource.String.character_counter_content_description;
@@ -5385,7 +4806,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_eye_mask_strike_through = global::OpravaMesta.Droid.Resource.String.path_password_eye_mask_strike_through;
 			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_eye_mask_visible = global::OpravaMesta.Droid.Resource.String.path_password_eye_mask_visible;
 			global::Xamarin.Forms.Platform.Android.Resource.String.path_password_strike_through = global::OpravaMesta.Droid.Resource.String.path_password_strike_through;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.String.search_menu_title = global::OpravaMesta.Droid.Resource.String.search_menu_title;
 			global::Xamarin.Forms.Platform.Android.Resource.String.status_bar_notification_info_overflow = global::OpravaMesta.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat = global::OpravaMesta.Droid.Resource.Style.AlertDialog_AppCompat;
@@ -5474,13 +4894,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::OpravaMesta.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::OpravaMesta.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::OpravaMesta.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-=======
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::OpravaMesta.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.AppCompatDialogStyle = global::OpravaMesta.Droid.Resource.Style.AppCompatDialogStyle;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_CardView = global::OpravaMesta.Droid.Resource.Style.Base_CardView;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::OpravaMesta.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::OpravaMesta.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents = global::OpravaMesta.Droid.Resource.Style.Base_Theme_MaterialComponents;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::OpravaMesta.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::OpravaMesta.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
@@ -5507,7 +4920,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::OpravaMesta.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::OpravaMesta.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::OpravaMesta.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::OpravaMesta.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat = global::OpravaMesta.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::OpravaMesta.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
@@ -5587,8 +4999,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::OpravaMesta.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::OpravaMesta.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::OpravaMesta.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_Design_TabLayout = global::OpravaMesta.Droid.Resource.Style.Base_Widget_Design_TabLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_Chip = global::OpravaMesta.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::OpravaMesta.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
@@ -5599,16 +5009,12 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewStyle = global::OpravaMesta.Droid.Resource.Style.collectionViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme = global::OpravaMesta.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme_Base = global::OpravaMesta.Droid.Resource.Style.MainTheme_Base;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat = global::OpravaMesta.Droid.Resource.Style.Platform_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat_Light = global::OpravaMesta.Droid.Resource.Style.Platform_AppCompat_Light;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_MaterialComponents = global::OpravaMesta.Droid.Resource.Style.Platform_MaterialComponents;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_MaterialComponents_Dialog = global::OpravaMesta.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_MaterialComponents_Light = global::OpravaMesta.Droid.Resource.Style.Platform_MaterialComponents_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::OpravaMesta.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::OpravaMesta.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::OpravaMesta.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::OpravaMesta.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
@@ -5692,8 +5098,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Counter = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Design_Counter;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
@@ -5716,7 +5120,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Overline = global::OpravaMesta.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::OpravaMesta.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::OpravaMesta.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -5727,8 +5130,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
@@ -5741,7 +5142,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat_DayNight;
@@ -5763,8 +5163,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_Design = global::OpravaMesta.Droid.Resource.Style.Theme_Design;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::OpravaMesta.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_Design_Light = global::OpravaMesta.Droid.Resource.Style.Theme_Design_Light;
@@ -5792,7 +5190,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::OpravaMesta.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_NoActionBar = global::OpravaMesta.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::OpravaMesta.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar = global::OpravaMesta.Droid.Resource.Style.Widget_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::OpravaMesta.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::OpravaMesta.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
@@ -5867,8 +5264,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::OpravaMesta.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::OpravaMesta.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Compat_NotificationActionText = global::OpravaMesta.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_AppBarLayout = global::OpravaMesta.Droid.Resource.Style.Widget_Design_AppBarLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_BottomNavigationView = global::OpravaMesta.Droid.Resource.Style.Widget_Design_BottomNavigationView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::OpravaMesta.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
@@ -5916,7 +5311,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::OpravaMesta.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_MaterialComponents_Toolbar = global::OpravaMesta.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Widget_Support_CoordinatorLayout = global::OpravaMesta.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBar = global::OpravaMesta.Droid.Resource.Styleable.ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBarLayout = global::OpravaMesta.Droid.Resource.Styleable.ActionBarLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::OpravaMesta.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
@@ -5971,8 +5365,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::OpravaMesta.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_showTitle = global::OpravaMesta.Droid.Resource.Styleable.AlertDialog_showTitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::OpravaMesta.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableCompat = global::OpravaMesta.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::OpravaMesta.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::OpravaMesta.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
@@ -6003,7 +5395,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::OpravaMesta.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::OpravaMesta.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_liftOnScroll = global::OpravaMesta.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView = global::OpravaMesta.Droid.Resource.Styleable.AppCompatImageView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_android_src = global::OpravaMesta.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::OpravaMesta.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -6156,8 +5547,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::OpravaMesta.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::OpravaMesta.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::OpravaMesta.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar = global::OpravaMesta.Droid.Resource.Styleable.BottomAppBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_backgroundTint = global::OpravaMesta.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::OpravaMesta.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
@@ -6181,11 +5570,8 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::OpravaMesta.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::OpravaMesta.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::OpravaMesta.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ButtonBarLayout = global::OpravaMesta.Droid.Resource.Styleable.ButtonBarLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::OpravaMesta.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView = global::OpravaMesta.Droid.Resource.Styleable.CardView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_android_minHeight = global::OpravaMesta.Droid.Resource.Styleable.CardView_android_minHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CardView_android_minWidth = global::OpravaMesta.Droid.Resource.Styleable.CardView_android_minWidth;
@@ -6262,7 +5648,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::OpravaMesta.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::OpravaMesta.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::OpravaMesta.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_alpha = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
@@ -6271,8 +5656,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_android_button = global::OpravaMesta.Droid.Resource.Styleable.CompoundButton_android_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonTint = global::OpravaMesta.Droid.Resource.Styleable.CompoundButton_buttonTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::OpravaMesta.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_keylines = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_keylines;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout;
@@ -6284,7 +5667,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
@@ -6294,8 +5676,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton = global::OpravaMesta.Droid.Resource.Styleable.FloatingActionButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::OpravaMesta.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::OpravaMesta.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
@@ -6315,7 +5695,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FlowLayout = global::OpravaMesta.Droid.Resource.Styleable.FlowLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FlowLayout_itemSpacing = global::OpravaMesta.Droid.Resource.Styleable.FlowLayout_itemSpacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FlowLayout_lineSpacing = global::OpravaMesta.Droid.Resource.Styleable.FlowLayout_lineSpacing;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily = global::OpravaMesta.Droid.Resource.Styleable.FontFamily;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont = global::OpravaMesta.Droid.Resource.Styleable.FontFamilyFont;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamilyFont_android_font = global::OpravaMesta.Droid.Resource.Styleable.FontFamilyFont_android_font;
@@ -6334,13 +5713,10 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::OpravaMesta.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::OpravaMesta.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::OpravaMesta.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout = global::OpravaMesta.Droid.Resource.Styleable.ForegroundLinearLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::OpravaMesta.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::OpravaMesta.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::OpravaMesta.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColor = global::OpravaMesta.Droid.Resource.Styleable.GradientColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColorItem = global::OpravaMesta.Droid.Resource.Styleable.GradientColorItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.GradientColorItem_android_color = global::OpravaMesta.Droid.Resource.Styleable.GradientColorItem_android_color;
@@ -6375,8 +5751,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ListPopupWindow = global::OpravaMesta.Droid.Resource.Styleable.ListPopupWindow;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::OpravaMesta.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::OpravaMesta.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton = global::OpravaMesta.Droid.Resource.Styleable.MaterialButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_insetBottom = global::OpravaMesta.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialButton_android_insetLeft = global::OpravaMesta.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
@@ -6397,7 +5771,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView = global::OpravaMesta.Droid.Resource.Styleable.MaterialCardView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_strokeColor = global::OpravaMesta.Droid.Resource.Styleable.MaterialCardView_strokeColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MaterialCardView_strokeWidth = global::OpravaMesta.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup = global::OpravaMesta.Droid.Resource.Styleable.MenuGroup;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::OpravaMesta.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_enabled = global::OpravaMesta.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -6439,8 +5812,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::OpravaMesta.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::OpravaMesta.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.MenuView_subMenuArrow = global::OpravaMesta.Droid.Resource.Styleable.MenuView_subMenuArrow;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView = global::OpravaMesta.Droid.Resource.Styleable.NavigationView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_android_background = global::OpravaMesta.Droid.Resource.Styleable.NavigationView_android_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::OpravaMesta.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
@@ -6454,7 +5825,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::OpravaMesta.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_itemTextColor = global::OpravaMesta.Droid.Resource.Styleable.NavigationView_itemTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.NavigationView_menu = global::OpravaMesta.Droid.Resource.Styleable.NavigationView_menu;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindow = global::OpravaMesta.Droid.Resource.Styleable.PopupWindow;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindowBackgroundState = global::OpravaMesta.Droid.Resource.Styleable.PopupWindowBackgroundState;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::OpravaMesta.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
@@ -6476,13 +5846,10 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_reverseLayout = global::OpravaMesta.Droid.Resource.Styleable.RecyclerView_reverseLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_spanCount = global::OpravaMesta.Droid.Resource.Styleable.RecyclerView_spanCount;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::OpravaMesta.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::OpravaMesta.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::OpravaMesta.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::OpravaMesta.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::OpravaMesta.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView = global::OpravaMesta.Droid.Resource.Styleable.SearchView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_android_focusable = global::OpravaMesta.Droid.Resource.Styleable.SearchView_android_focusable;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_android_imeOptions = global::OpravaMesta.Droid.Resource.Styleable.SearchView_android_imeOptions;
@@ -6501,8 +5868,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_submitBackground = global::OpravaMesta.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::OpravaMesta.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_voiceIcon = global::OpravaMesta.Droid.Resource.Styleable.SearchView_voiceIcon;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar = global::OpravaMesta.Droid.Resource.Styleable.Snackbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout = global::OpravaMesta.Droid.Resource.Styleable.SnackbarLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::OpravaMesta.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
@@ -6510,15 +5875,12 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::OpravaMesta.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar_snackbarButtonStyle = global::OpravaMesta.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Snackbar_snackbarStyle = global::OpravaMesta.Droid.Resource.Styleable.Snackbar_snackbarStyle;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner = global::OpravaMesta.Droid.Resource.Styleable.Spinner;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::OpravaMesta.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_entries = global::OpravaMesta.Droid.Resource.Styleable.Spinner_android_entries;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_popupBackground = global::OpravaMesta.Droid.Resource.Styleable.Spinner_android_popupBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_android_prompt = global::OpravaMesta.Droid.Resource.Styleable.Spinner_android_prompt;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Spinner_popupTheme = global::OpravaMesta.Droid.Resource.Styleable.Spinner_popupTheme;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawable = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawable;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawableItem = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawableItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawableItem_android_drawable = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
@@ -6528,7 +5890,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawable_android_variablePadding = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.StateListDrawable_android_visible = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawable_android_visible;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_android_textOff = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_android_textOn = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -6544,8 +5905,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_track = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat_track;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_trackTint = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat_trackTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem = global::OpravaMesta.Droid.Resource.Styleable.TabItem;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem_android_icon = global::OpravaMesta.Droid.Resource.Styleable.TabItem_android_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabItem_android_layout = global::OpravaMesta.Droid.Resource.Styleable.TabItem_android_layout;
@@ -6576,7 +5935,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::OpravaMesta.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabTextColor = global::OpravaMesta.Droid.Resource.Styleable.TabLayout_tabTextColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TabLayout_tabUnboundedRipple = global::OpravaMesta.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
@@ -6591,8 +5949,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_typeface = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance_android_typeface;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_fontFamily = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance_fontFamily;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextAppearance_textAllCaps = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout = global::OpravaMesta.Droid.Resource.Styleable.TextInputLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_hint = global::OpravaMesta.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::OpravaMesta.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
@@ -6626,7 +5982,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::OpravaMesta.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::OpravaMesta.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::OpravaMesta.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar = global::OpravaMesta.Droid.Resource.Styleable.Toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_android_gravity = global::OpravaMesta.Droid.Resource.Styleable.Toolbar_android_gravity;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Toolbar_android_minHeight = global::OpravaMesta.Droid.Resource.Styleable.Toolbar_android_minHeight;
@@ -6687,13 +6042,10 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Animation.design_bottom_sheet_slide_out = global::OpravaMesta.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_snackbar_in = global::OpravaMesta.Droid.Resource.Animation.design_snackbar_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_snackbar_out = global::OpravaMesta.Droid.Resource.Animation.design_snackbar_out;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Animation.EnterFromLeft = global::OpravaMesta.Droid.Resource.Animation.EnterFromLeft;
 			global::Xamarin.Forms.Platform.Resource.Animation.EnterFromRight = global::OpravaMesta.Droid.Resource.Animation.EnterFromRight;
 			global::Xamarin.Forms.Platform.Resource.Animation.ExitToLeft = global::OpravaMesta.Droid.Resource.Animation.ExitToLeft;
 			global::Xamarin.Forms.Platform.Resource.Animation.ExitToRight = global::OpravaMesta.Droid.Resource.Animation.ExitToRight;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Animator.design_appbar_state_list_animator = global::OpravaMesta.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Xamarin.Forms.Platform.Resource.Animator.design_fab_hide_motion_spec = global::OpravaMesta.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Xamarin.Forms.Platform.Resource.Animator.design_fab_show_motion_spec = global::OpravaMesta.Droid.Resource.Animator.design_fab_show_motion_spec;
@@ -6759,20 +6111,13 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundTint = global::OpravaMesta.Droid.Resource.Attribute.backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundTintMode = global::OpravaMesta.Droid.Resource.Attribute.backgroundTintMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.barLength = global::OpravaMesta.Droid.Resource.Attribute.barLength;
-=======
-			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundTint = global::OpravaMesta.Droid.Resource.Attribute.backgroundTint;
-			global::Xamarin.Forms.Platform.Resource.Attribute.backgroundTintMode = global::OpravaMesta.Droid.Resource.Attribute.backgroundTintMode;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_autoHide = global::OpravaMesta.Droid.Resource.Attribute.behavior_autoHide;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_fitToContents = global::OpravaMesta.Droid.Resource.Attribute.behavior_fitToContents;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_hideable = global::OpravaMesta.Droid.Resource.Attribute.behavior_hideable;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_overlapTop = global::OpravaMesta.Droid.Resource.Attribute.behavior_overlapTop;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_peekHeight = global::OpravaMesta.Droid.Resource.Attribute.behavior_peekHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.behavior_skipCollapsed = global::OpravaMesta.Droid.Resource.Attribute.behavior_skipCollapsed;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.borderlessButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.borderlessButtonStyle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.borderWidth = global::OpravaMesta.Droid.Resource.Attribute.borderWidth;
 			global::Xamarin.Forms.Platform.Resource.Attribute.bottomAppBarStyle = global::OpravaMesta.Droid.Resource.Attribute.bottomAppBarStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.bottomNavigationStyle = global::OpravaMesta.Droid.Resource.Attribute.bottomNavigationStyle;
@@ -6787,7 +6132,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxCornerRadiusTopStart = global::OpravaMesta.Droid.Resource.Attribute.boxCornerRadiusTopStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxStrokeColor = global::OpravaMesta.Droid.Resource.Attribute.boxStrokeColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.boxStrokeWidth = global::OpravaMesta.Droid.Resource.Attribute.boxStrokeWidth;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonBarButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonBarNegativeButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonBarNeutralButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
@@ -6800,9 +6144,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonStyleSmall = global::OpravaMesta.Droid.Resource.Attribute.buttonStyleSmall;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonTint = global::OpravaMesta.Droid.Resource.Attribute.buttonTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.buttonTintMode = global::OpravaMesta.Droid.Resource.Attribute.buttonTintMode;
-=======
-			global::Xamarin.Forms.Platform.Resource.Attribute.buttonTint = global::OpravaMesta.Droid.Resource.Attribute.buttonTint;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardBackgroundColor = global::OpravaMesta.Droid.Resource.Attribute.cardBackgroundColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardCornerRadius = global::OpravaMesta.Droid.Resource.Attribute.cardCornerRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardElevation = global::OpravaMesta.Droid.Resource.Attribute.cardElevation;
@@ -6810,18 +6151,12 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardPreventCornerOverlap = global::OpravaMesta.Droid.Resource.Attribute.cardPreventCornerOverlap;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardUseCompatPadding = global::OpravaMesta.Droid.Resource.Attribute.cardUseCompatPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cardViewStyle = global::OpravaMesta.Droid.Resource.Attribute.cardViewStyle;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkboxStyle = global::OpravaMesta.Droid.Resource.Attribute.checkboxStyle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedChip = global::OpravaMesta.Droid.Resource.Attribute.checkedChip;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIcon = global::OpravaMesta.Droid.Resource.Attribute.checkedIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIconEnabled = global::OpravaMesta.Droid.Resource.Attribute.checkedIconEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIconVisible = global::OpravaMesta.Droid.Resource.Attribute.checkedIconVisible;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedTextViewStyle = global::OpravaMesta.Droid.Resource.Attribute.checkedTextViewStyle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipBackgroundColor = global::OpravaMesta.Droid.Resource.Attribute.chipBackgroundColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipCornerRadius = global::OpravaMesta.Droid.Resource.Attribute.chipCornerRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipEndPadding = global::OpravaMesta.Droid.Resource.Attribute.chipEndPadding;
@@ -6847,7 +6182,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.closeIconStartPadding = global::OpravaMesta.Droid.Resource.Attribute.closeIconStartPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.closeIconTint = global::OpravaMesta.Droid.Resource.Attribute.closeIconTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.closeIconVisible = global::OpravaMesta.Droid.Resource.Attribute.closeIconVisible;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.closeItemLayout = global::OpravaMesta.Droid.Resource.Attribute.closeItemLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.collapseContentDescription = global::OpravaMesta.Droid.Resource.Attribute.collapseContentDescription;
 			global::Xamarin.Forms.Platform.Resource.Attribute.collapsedTitleGravity = global::OpravaMesta.Droid.Resource.Attribute.collapsedTitleGravity;
@@ -6873,28 +6207,19 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.contentInsetRight = global::OpravaMesta.Droid.Resource.Attribute.contentInsetRight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.contentInsetStart = global::OpravaMesta.Droid.Resource.Attribute.contentInsetStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.contentInsetStartWithNavigation = global::OpravaMesta.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-=======
-			global::Xamarin.Forms.Platform.Resource.Attribute.collapsedTitleGravity = global::OpravaMesta.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Xamarin.Forms.Platform.Resource.Attribute.collapsedTitleTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Xamarin.Forms.Platform.Resource.Attribute.colorSecondary = global::OpravaMesta.Droid.Resource.Attribute.colorSecondary;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.contentPadding = global::OpravaMesta.Droid.Resource.Attribute.contentPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.contentPaddingBottom = global::OpravaMesta.Droid.Resource.Attribute.contentPaddingBottom;
 			global::Xamarin.Forms.Platform.Resource.Attribute.contentPaddingLeft = global::OpravaMesta.Droid.Resource.Attribute.contentPaddingLeft;
 			global::Xamarin.Forms.Platform.Resource.Attribute.contentPaddingRight = global::OpravaMesta.Droid.Resource.Attribute.contentPaddingRight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.contentPaddingTop = global::OpravaMesta.Droid.Resource.Attribute.contentPaddingTop;
 			global::Xamarin.Forms.Platform.Resource.Attribute.contentScrim = global::OpravaMesta.Droid.Resource.Attribute.contentScrim;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.controlBackground = global::OpravaMesta.Droid.Resource.Attribute.controlBackground;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.coordinatorLayoutStyle = global::OpravaMesta.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.cornerRadius = global::OpravaMesta.Droid.Resource.Attribute.cornerRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.counterEnabled = global::OpravaMesta.Droid.Resource.Attribute.counterEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.counterMaxLength = global::OpravaMesta.Droid.Resource.Attribute.counterMaxLength;
 			global::Xamarin.Forms.Platform.Resource.Attribute.counterOverflowTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.counterOverflowTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.counterTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.counterTextAppearance;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.customNavigationLayout = global::OpravaMesta.Droid.Resource.Attribute.customNavigationLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.defaultQueryHint = global::OpravaMesta.Droid.Resource.Attribute.defaultQueryHint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.dialogCornerRadius = global::OpravaMesta.Droid.Resource.Attribute.dialogCornerRadius;
@@ -6912,17 +6237,12 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.editTextBackground = global::OpravaMesta.Droid.Resource.Attribute.editTextBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.editTextColor = global::OpravaMesta.Droid.Resource.Attribute.editTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.editTextStyle = global::OpravaMesta.Droid.Resource.Attribute.editTextStyle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.elevation = global::OpravaMesta.Droid.Resource.Attribute.elevation;
 			global::Xamarin.Forms.Platform.Resource.Attribute.enforceMaterialTheme = global::OpravaMesta.Droid.Resource.Attribute.enforceMaterialTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.enforceTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.enforceTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.errorEnabled = global::OpravaMesta.Droid.Resource.Attribute.errorEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.errorTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.errorTextAppearance;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.expandActivityOverflowButtonDrawable = global::OpravaMesta.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.expanded = global::OpravaMesta.Droid.Resource.Attribute.expanded;
 			global::Xamarin.Forms.Platform.Resource.Attribute.expandedTitleGravity = global::OpravaMesta.Droid.Resource.Attribute.expandedTitleGravity;
 			global::Xamarin.Forms.Platform.Resource.Attribute.expandedTitleMargin = global::OpravaMesta.Droid.Resource.Attribute.expandedTitleMargin;
@@ -6937,7 +6257,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.fabCradleVerticalOffset = global::OpravaMesta.Droid.Resource.Attribute.fabCradleVerticalOffset;
 			global::Xamarin.Forms.Platform.Resource.Attribute.fabCustomSize = global::OpravaMesta.Droid.Resource.Attribute.fabCustomSize;
 			global::Xamarin.Forms.Platform.Resource.Attribute.fabSize = global::OpravaMesta.Droid.Resource.Attribute.fabSize;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.fastScrollEnabled = global::OpravaMesta.Droid.Resource.Attribute.fastScrollEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::OpravaMesta.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
 			global::Xamarin.Forms.Platform.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::OpravaMesta.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
@@ -6961,60 +6280,39 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.goIcon = global::OpravaMesta.Droid.Resource.Attribute.goIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.headerLayout = global::OpravaMesta.Droid.Resource.Attribute.headerLayout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.height = global::OpravaMesta.Droid.Resource.Attribute.height;
-=======
-			global::Xamarin.Forms.Platform.Resource.Attribute.floatingActionButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.floatingActionButtonStyle;
-			global::Xamarin.Forms.Platform.Resource.Attribute.foregroundInsidePadding = global::OpravaMesta.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Xamarin.Forms.Platform.Resource.Attribute.headerLayout = global::OpravaMesta.Droid.Resource.Attribute.headerLayout;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.helperText = global::OpravaMesta.Droid.Resource.Attribute.helperText;
 			global::Xamarin.Forms.Platform.Resource.Attribute.helperTextEnabled = global::OpravaMesta.Droid.Resource.Attribute.helperTextEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.helperTextTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.helperTextTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hideMotionSpec = global::OpravaMesta.Droid.Resource.Attribute.hideMotionSpec;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.hideOnContentScroll = global::OpravaMesta.Droid.Resource.Attribute.hideOnContentScroll;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.hideOnScroll = global::OpravaMesta.Droid.Resource.Attribute.hideOnScroll;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hintAnimationEnabled = global::OpravaMesta.Droid.Resource.Attribute.hintAnimationEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hintEnabled = global::OpravaMesta.Droid.Resource.Attribute.hintEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.hintTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.hintTextAppearance;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.homeAsUpIndicator = global::OpravaMesta.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::Xamarin.Forms.Platform.Resource.Attribute.homeLayout = global::OpravaMesta.Droid.Resource.Attribute.homeLayout;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.hoveredFocusedTranslationZ = global::OpravaMesta.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::Xamarin.Forms.Platform.Resource.Attribute.icon = global::OpravaMesta.Droid.Resource.Attribute.icon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.iconEndPadding = global::OpravaMesta.Droid.Resource.Attribute.iconEndPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.iconGravity = global::OpravaMesta.Droid.Resource.Attribute.iconGravity;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.iconifiedByDefault = global::OpravaMesta.Droid.Resource.Attribute.iconifiedByDefault;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.iconPadding = global::OpravaMesta.Droid.Resource.Attribute.iconPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.iconSize = global::OpravaMesta.Droid.Resource.Attribute.iconSize;
 			global::Xamarin.Forms.Platform.Resource.Attribute.iconStartPadding = global::OpravaMesta.Droid.Resource.Attribute.iconStartPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.iconTint = global::OpravaMesta.Droid.Resource.Attribute.iconTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.iconTintMode = global::OpravaMesta.Droid.Resource.Attribute.iconTintMode;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.imageButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.imageButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.indeterminateProgressStyle = global::OpravaMesta.Droid.Resource.Attribute.indeterminateProgressStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.initialActivityCount = global::OpravaMesta.Droid.Resource.Attribute.initialActivityCount;
 			global::Xamarin.Forms.Platform.Resource.Attribute.insetForeground = global::OpravaMesta.Droid.Resource.Attribute.insetForeground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.isLightTheme = global::OpravaMesta.Droid.Resource.Attribute.isLightTheme;
-=======
-			global::Xamarin.Forms.Platform.Resource.Attribute.insetForeground = global::OpravaMesta.Droid.Resource.Attribute.insetForeground;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemBackground = global::OpravaMesta.Droid.Resource.Attribute.itemBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemHorizontalPadding = global::OpravaMesta.Droid.Resource.Attribute.itemHorizontalPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemHorizontalTranslationEnabled = global::OpravaMesta.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemIconPadding = global::OpravaMesta.Droid.Resource.Attribute.itemIconPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemIconSize = global::OpravaMesta.Droid.Resource.Attribute.itemIconSize;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemIconTint = global::OpravaMesta.Droid.Resource.Attribute.itemIconTint;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemPadding = global::OpravaMesta.Droid.Resource.Attribute.itemPadding;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemSpacing = global::OpravaMesta.Droid.Resource.Attribute.itemSpacing;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.itemTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemTextAppearanceActive = global::OpravaMesta.Droid.Resource.Attribute.itemTextAppearanceActive;
@@ -7022,12 +6320,9 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.itemTextColor = global::OpravaMesta.Droid.Resource.Attribute.itemTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.keylines = global::OpravaMesta.Droid.Resource.Attribute.keylines;
 			global::Xamarin.Forms.Platform.Resource.Attribute.labelVisibilityMode = global::OpravaMesta.Droid.Resource.Attribute.labelVisibilityMode;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.lastBaselineToBottomHeight = global::OpravaMesta.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.layout = global::OpravaMesta.Droid.Resource.Attribute.layout;
 			global::Xamarin.Forms.Platform.Resource.Attribute.layoutManager = global::OpravaMesta.Droid.Resource.Attribute.layoutManager;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.layout_anchor = global::OpravaMesta.Droid.Resource.Attribute.layout_anchor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.layout_anchorGravity = global::OpravaMesta.Droid.Resource.Attribute.layout_anchorGravity;
 			global::Xamarin.Forms.Platform.Resource.Attribute.layout_behavior = global::OpravaMesta.Droid.Resource.Attribute.layout_behavior;
@@ -7041,7 +6336,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.liftOnScroll = global::OpravaMesta.Droid.Resource.Attribute.liftOnScroll;
 			global::Xamarin.Forms.Platform.Resource.Attribute.lineHeight = global::OpravaMesta.Droid.Resource.Attribute.lineHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.lineSpacing = global::OpravaMesta.Droid.Resource.Attribute.lineSpacing;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.listChoiceBackgroundIndicator = global::OpravaMesta.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listDividerAlertDialog = global::OpravaMesta.Droid.Resource.Attribute.listDividerAlertDialog;
 			global::Xamarin.Forms.Platform.Resource.Attribute.listItemLayout = global::OpravaMesta.Droid.Resource.Attribute.listItemLayout;
@@ -7076,20 +6370,11 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.panelBackground = global::OpravaMesta.Droid.Resource.Attribute.panelBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.panelMenuListTheme = global::OpravaMesta.Droid.Resource.Attribute.panelMenuListTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.panelMenuListWidth = global::OpravaMesta.Droid.Resource.Attribute.panelMenuListWidth;
-=======
-			global::Xamarin.Forms.Platform.Resource.Attribute.materialButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.materialButtonStyle;
-			global::Xamarin.Forms.Platform.Resource.Attribute.materialCardViewStyle = global::OpravaMesta.Droid.Resource.Attribute.materialCardViewStyle;
-			global::Xamarin.Forms.Platform.Resource.Attribute.maxActionInlineWidth = global::OpravaMesta.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Xamarin.Forms.Platform.Resource.Attribute.maxImageSize = global::OpravaMesta.Droid.Resource.Attribute.maxImageSize;
-			global::Xamarin.Forms.Platform.Resource.Attribute.menu = global::OpravaMesta.Droid.Resource.Attribute.menu;
-			global::Xamarin.Forms.Platform.Resource.Attribute.navigationViewStyle = global::OpravaMesta.Droid.Resource.Attribute.navigationViewStyle;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.passwordToggleContentDescription = global::OpravaMesta.Droid.Resource.Attribute.passwordToggleContentDescription;
 			global::Xamarin.Forms.Platform.Resource.Attribute.passwordToggleDrawable = global::OpravaMesta.Droid.Resource.Attribute.passwordToggleDrawable;
 			global::Xamarin.Forms.Platform.Resource.Attribute.passwordToggleEnabled = global::OpravaMesta.Droid.Resource.Attribute.passwordToggleEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.passwordToggleTint = global::OpravaMesta.Droid.Resource.Attribute.passwordToggleTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.passwordToggleTintMode = global::OpravaMesta.Droid.Resource.Attribute.passwordToggleTintMode;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.popupMenuStyle = global::OpravaMesta.Droid.Resource.Attribute.popupMenuStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.popupTheme = global::OpravaMesta.Droid.Resource.Attribute.popupTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.popupWindowStyle = global::OpravaMesta.Droid.Resource.Attribute.popupWindowStyle;
@@ -7104,14 +6389,10 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.ratingBarStyleIndicator = global::OpravaMesta.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Xamarin.Forms.Platform.Resource.Attribute.ratingBarStyleSmall = global::OpravaMesta.Droid.Resource.Attribute.ratingBarStyleSmall;
 			global::Xamarin.Forms.Platform.Resource.Attribute.reverseLayout = global::OpravaMesta.Droid.Resource.Attribute.reverseLayout;
-=======
-			global::Xamarin.Forms.Platform.Resource.Attribute.pressedTranslationZ = global::OpravaMesta.Droid.Resource.Attribute.pressedTranslationZ;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.rippleColor = global::OpravaMesta.Droid.Resource.Attribute.rippleColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.scrimAnimationDuration = global::OpravaMesta.Droid.Resource.Attribute.scrimAnimationDuration;
 			global::Xamarin.Forms.Platform.Resource.Attribute.scrimBackground = global::OpravaMesta.Droid.Resource.Attribute.scrimBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.scrimVisibleHeightTrigger = global::OpravaMesta.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.searchHintIcon = global::OpravaMesta.Droid.Resource.Attribute.searchHintIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.searchIcon = global::OpravaMesta.Droid.Resource.Attribute.searchIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.searchViewStyle = global::OpravaMesta.Droid.Resource.Attribute.searchViewStyle;
@@ -7124,14 +6405,10 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.showText = global::OpravaMesta.Droid.Resource.Attribute.showText;
 			global::Xamarin.Forms.Platform.Resource.Attribute.showTitle = global::OpravaMesta.Droid.Resource.Attribute.showTitle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.singleChoiceItemLayout = global::OpravaMesta.Droid.Resource.Attribute.singleChoiceItemLayout;
-=======
-			global::Xamarin.Forms.Platform.Resource.Attribute.showMotionSpec = global::OpravaMesta.Droid.Resource.Attribute.showMotionSpec;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.singleLine = global::OpravaMesta.Droid.Resource.Attribute.singleLine;
 			global::Xamarin.Forms.Platform.Resource.Attribute.singleSelection = global::OpravaMesta.Droid.Resource.Attribute.singleSelection;
 			global::Xamarin.Forms.Platform.Resource.Attribute.snackbarButtonStyle = global::OpravaMesta.Droid.Resource.Attribute.snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.snackbarStyle = global::OpravaMesta.Droid.Resource.Attribute.snackbarStyle;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.spanCount = global::OpravaMesta.Droid.Resource.Attribute.spanCount;
 			global::Xamarin.Forms.Platform.Resource.Attribute.spinBars = global::OpravaMesta.Droid.Resource.Attribute.spinBars;
 			global::Xamarin.Forms.Platform.Resource.Attribute.spinnerDropDownItemStyle = global::OpravaMesta.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -7140,8 +6417,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.srcCompat = global::OpravaMesta.Droid.Resource.Attribute.srcCompat;
 			global::Xamarin.Forms.Platform.Resource.Attribute.stackFromEnd = global::OpravaMesta.Droid.Resource.Attribute.stackFromEnd;
 			global::Xamarin.Forms.Platform.Resource.Attribute.state_above_anchor = global::OpravaMesta.Droid.Resource.Attribute.state_above_anchor;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.state_collapsed = global::OpravaMesta.Droid.Resource.Attribute.state_collapsed;
 			global::Xamarin.Forms.Platform.Resource.Attribute.state_collapsible = global::OpravaMesta.Droid.Resource.Attribute.state_collapsible;
 			global::Xamarin.Forms.Platform.Resource.Attribute.state_liftable = global::OpravaMesta.Droid.Resource.Attribute.state_liftable;
@@ -7150,7 +6425,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.statusBarScrim = global::OpravaMesta.Droid.Resource.Attribute.statusBarScrim;
 			global::Xamarin.Forms.Platform.Resource.Attribute.strokeColor = global::OpravaMesta.Droid.Resource.Attribute.strokeColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.strokeWidth = global::OpravaMesta.Droid.Resource.Attribute.strokeWidth;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.subMenuArrow = global::OpravaMesta.Droid.Resource.Attribute.subMenuArrow;
 			global::Xamarin.Forms.Platform.Resource.Attribute.submitBackground = global::OpravaMesta.Droid.Resource.Attribute.submitBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.subtitle = global::OpravaMesta.Droid.Resource.Attribute.subtitle;
@@ -7162,8 +6436,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.switchPadding = global::OpravaMesta.Droid.Resource.Attribute.switchPadding;
 			global::Xamarin.Forms.Platform.Resource.Attribute.switchStyle = global::OpravaMesta.Droid.Resource.Attribute.switchStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.switchTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.switchTextAppearance;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.tabBackground = global::OpravaMesta.Droid.Resource.Attribute.tabBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tabContentStart = global::OpravaMesta.Droid.Resource.Attribute.tabContentStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tabGravity = global::OpravaMesta.Droid.Resource.Attribute.tabGravity;
@@ -7190,10 +6462,7 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.tabTextAppearance = global::OpravaMesta.Droid.Resource.Attribute.tabTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tabTextColor = global::OpravaMesta.Droid.Resource.Attribute.tabTextColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.tabUnboundedRipple = global::OpravaMesta.Droid.Resource.Attribute.tabUnboundedRipple;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAllCaps = global::OpravaMesta.Droid.Resource.Attribute.textAllCaps;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceBody1 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceBody1;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceBody2 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceBody2;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceButton = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceButton;
@@ -7204,7 +6473,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceHeadline4 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceHeadline4;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceHeadline5 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceHeadline5;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceHeadline6 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceHeadline6;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceLargePopupMenu = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceListItem = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceListItem;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceListItemSecondary = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceListItemSecondary;
@@ -7306,19 +6574,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.bright_foreground_material_light = global::OpravaMesta.Droid.Resource.Color.bright_foreground_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.button_material_dark = global::OpravaMesta.Droid.Resource.Color.button_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.button_material_light = global::OpravaMesta.Droid.Resource.Color.button_material_light;
-=======
-			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceOverline = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceOverline;
-			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceSubtitle1 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceSubtitle1;
-			global::Xamarin.Forms.Platform.Resource.Attribute.textAppearanceSubtitle2 = global::OpravaMesta.Droid.Resource.Attribute.textAppearanceSubtitle2;
-			global::Xamarin.Forms.Platform.Resource.Attribute.textEndPadding = global::OpravaMesta.Droid.Resource.Attribute.textEndPadding;
-			global::Xamarin.Forms.Platform.Resource.Attribute.textInputStyle = global::OpravaMesta.Droid.Resource.Attribute.textInputStyle;
-			global::Xamarin.Forms.Platform.Resource.Attribute.textStartPadding = global::OpravaMesta.Droid.Resource.Attribute.textStartPadding;
-			global::Xamarin.Forms.Platform.Resource.Attribute.title = global::OpravaMesta.Droid.Resource.Attribute.title;
-			global::Xamarin.Forms.Platform.Resource.Attribute.titleEnabled = global::OpravaMesta.Droid.Resource.Attribute.titleEnabled;
-			global::Xamarin.Forms.Platform.Resource.Attribute.toolbarId = global::OpravaMesta.Droid.Resource.Attribute.toolbarId;
-			global::Xamarin.Forms.Platform.Resource.Attribute.useCompatPadding = global::OpravaMesta.Droid.Resource.Attribute.useCompatPadding;
-			global::Xamarin.Forms.Platform.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::OpravaMesta.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_dark_background = global::OpravaMesta.Droid.Resource.Color.cardview_dark_background;
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_light_background = global::OpravaMesta.Droid.Resource.Color.cardview_light_background;
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_shadow_end_color = global::OpravaMesta.Droid.Resource.Color.cardview_shadow_end_color;
@@ -7326,10 +6581,7 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.design_bottom_navigation_shadow_color = global::OpravaMesta.Droid.Resource.Color.design_bottom_navigation_shadow_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_primary = global::OpravaMesta.Droid.Resource.Color.design_default_color_primary;
 			global::Xamarin.Forms.Platform.Resource.Color.design_default_color_primary_dark = global::OpravaMesta.Droid.Resource.Color.design_default_color_primary_dark;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Color.design_error = global::OpravaMesta.Droid.Resource.Color.design_error;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Color.design_fab_shadow_end_color = global::OpravaMesta.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_fab_shadow_mid_color = global::OpravaMesta.Droid.Resource.Color.design_fab_shadow_mid_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_fab_shadow_start_color = global::OpravaMesta.Droid.Resource.Color.design_fab_shadow_start_color;
@@ -7338,7 +6590,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.design_fab_stroke_top_inner_color = global::OpravaMesta.Droid.Resource.Color.design_fab_stroke_top_inner_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_fab_stroke_top_outer_color = global::OpravaMesta.Droid.Resource.Color.design_fab_stroke_top_outer_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_snackbar_background_color = global::OpravaMesta.Droid.Resource.Color.design_snackbar_background_color;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Color.dim_foreground_disabled_material_dark = global::OpravaMesta.Droid.Resource.Color.dim_foreground_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.dim_foreground_disabled_material_light = global::OpravaMesta.Droid.Resource.Color.dim_foreground_disabled_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.dim_foreground_material_dark = global::OpravaMesta.Droid.Resource.Color.dim_foreground_material_dark;
@@ -7381,16 +6632,10 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::OpravaMesta.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::OpravaMesta.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_tabs_ripple_color = global::OpravaMesta.Droid.Resource.Color.mtrl_tabs_ripple_color;
-=======
-			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_text_color_disabled = global::OpravaMesta.Droid.Resource.Color.mtrl_btn_text_color_disabled;
-			global::Xamarin.Forms.Platform.Resource.Color.mtrl_btn_transparent_bg_color = global::OpravaMesta.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
-			global::Xamarin.Forms.Platform.Resource.Color.mtrl_scrim_color = global::OpravaMesta.Droid.Resource.Color.mtrl_scrim_color;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_textinput_default_box_stroke_color = global::OpravaMesta.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_textinput_disabled_color = global::OpravaMesta.Droid.Resource.Color.mtrl_textinput_disabled_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::OpravaMesta.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::OpravaMesta.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Color.mtrl_text_btn_text_color_selector = global::OpravaMesta.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
 			global::Xamarin.Forms.Platform.Resource.Color.notification_action_color_filter = global::OpravaMesta.Droid.Resource.Color.notification_action_color_filter;
 			global::Xamarin.Forms.Platform.Resource.Color.notification_icon_bg_color = global::OpravaMesta.Droid.Resource.Color.notification_icon_bg_color;
@@ -7502,11 +6747,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_control_corner_material = global::OpravaMesta.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_notification_large_icon_max_height = global::OpravaMesta.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_notification_large_icon_max_width = global::OpravaMesta.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-=======
-			global::Xamarin.Forms.Platform.Resource.Dimension.cardview_compat_inset_shadow = global::OpravaMesta.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Xamarin.Forms.Platform.Resource.Dimension.cardview_default_elevation = global::OpravaMesta.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Xamarin.Forms.Platform.Resource.Dimension.cardview_default_radius = global::OpravaMesta.Droid.Resource.Dimension.cardview_default_radius;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_appbar_elevation = global::OpravaMesta.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::OpravaMesta.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::OpravaMesta.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
@@ -7551,7 +6791,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_tab_text_size = global::OpravaMesta.Droid.Resource.Dimension.design_tab_text_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_tab_text_size_2line = global::OpravaMesta.Droid.Resource.Dimension.design_tab_text_size_2line;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_textinput_caption_translate_y = global::OpravaMesta.Droid.Resource.Dimension.design_textinput_caption_translate_y;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Dimension.disabled_alpha_material_dark = global::OpravaMesta.Droid.Resource.Dimension.disabled_alpha_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Dimension.disabled_alpha_material_light = global::OpravaMesta.Droid.Resource.Dimension.disabled_alpha_material_light;
 			global::Xamarin.Forms.Platform.Resource.Dimension.fastscroll_default_thickness = global::OpravaMesta.Droid.Resource.Dimension.fastscroll_default_thickness;
@@ -7567,8 +6806,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::OpravaMesta.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::Xamarin.Forms.Platform.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::OpravaMesta.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::Xamarin.Forms.Platform.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::OpravaMesta.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::OpravaMesta.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::OpravaMesta.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::OpravaMesta.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
@@ -7615,7 +6852,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::OpravaMesta.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::OpravaMesta.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_toolbar_default_height = global::OpravaMesta.Droid.Resource.Dimension.mtrl_toolbar_default_height;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_action_icon_size = global::OpravaMesta.Droid.Resource.Dimension.notification_action_icon_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_action_text_size = global::OpravaMesta.Droid.Resource.Dimension.notification_action_text_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_big_circle_margin = global::OpravaMesta.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -7815,24 +7051,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.exitUntilCollapsed = global::OpravaMesta.Droid.Resource.Id.exitUntilCollapsed;
 			global::Xamarin.Forms.Platform.Resource.Id.expanded_menu = global::OpravaMesta.Droid.Resource.Id.expanded_menu;
 			global::Xamarin.Forms.Platform.Resource.Id.expand_activities_button = global::OpravaMesta.Droid.Resource.Id.expand_activities_button;
-=======
-			global::Xamarin.Forms.Platform.Resource.Id.add = global::OpravaMesta.Droid.Resource.Id.add;
-			global::Xamarin.Forms.Platform.Resource.Id.all = global::OpravaMesta.Droid.Resource.Id.all;
-			global::Xamarin.Forms.Platform.Resource.Id.auto = global::OpravaMesta.Droid.Resource.Id.auto;
-			global::Xamarin.Forms.Platform.Resource.Id.bottom = global::OpravaMesta.Droid.Resource.Id.bottom;
-			global::Xamarin.Forms.Platform.Resource.Id.bottomtab_navarea = global::OpravaMesta.Droid.Resource.Id.bottomtab_navarea;
-			global::Xamarin.Forms.Platform.Resource.Id.bottomtab_tabbar = global::OpravaMesta.Droid.Resource.Id.bottomtab_tabbar;
-			global::Xamarin.Forms.Platform.Resource.Id.center = global::OpravaMesta.Droid.Resource.Id.center;
-			global::Xamarin.Forms.Platform.Resource.Id.center_horizontal = global::OpravaMesta.Droid.Resource.Id.center_horizontal;
-			global::Xamarin.Forms.Platform.Resource.Id.center_vertical = global::OpravaMesta.Droid.Resource.Id.center_vertical;
-			global::Xamarin.Forms.Platform.Resource.Id.clip_horizontal = global::OpravaMesta.Droid.Resource.Id.clip_horizontal;
-			global::Xamarin.Forms.Platform.Resource.Id.clip_vertical = global::OpravaMesta.Droid.Resource.Id.clip_vertical;
-			global::Xamarin.Forms.Platform.Resource.Id.custom = global::OpravaMesta.Droid.Resource.Id.custom;
-			global::Xamarin.Forms.Platform.Resource.Id.end = global::OpravaMesta.Droid.Resource.Id.end;
-			global::Xamarin.Forms.Platform.Resource.Id.enterAlways = global::OpravaMesta.Droid.Resource.Id.enterAlways;
-			global::Xamarin.Forms.Platform.Resource.Id.enterAlwaysCollapsed = global::OpravaMesta.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Xamarin.Forms.Platform.Resource.Id.exitUntilCollapsed = global::OpravaMesta.Droid.Resource.Id.exitUntilCollapsed;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Id.fill = global::OpravaMesta.Droid.Resource.Id.fill;
 			global::Xamarin.Forms.Platform.Resource.Id.filled = global::OpravaMesta.Droid.Resource.Id.filled;
 			global::Xamarin.Forms.Platform.Resource.Id.fill_horizontal = global::OpravaMesta.Droid.Resource.Id.fill_horizontal;
@@ -7840,7 +7058,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.@fixed = global::OpravaMesta.Droid.Resource.Id.@fixed;
 			global::Xamarin.Forms.Platform.Resource.Id.flyoutcontent_appbar = global::OpravaMesta.Droid.Resource.Id.flyoutcontent_appbar;
 			global::Xamarin.Forms.Platform.Resource.Id.flyoutcontent_recycler = global::OpravaMesta.Droid.Resource.Id.flyoutcontent_recycler;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Id.forever = global::OpravaMesta.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Platform.Resource.Id.FUNCTION = global::OpravaMesta.Droid.Resource.Id.FUNCTION;
 			global::Xamarin.Forms.Platform.Resource.Id.ghost_view = global::OpravaMesta.Droid.Resource.Id.ghost_view;
@@ -7861,28 +7078,19 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.line3 = global::OpravaMesta.Droid.Resource.Id.line3;
 			global::Xamarin.Forms.Platform.Resource.Id.listMode = global::OpravaMesta.Droid.Resource.Id.listMode;
 			global::Xamarin.Forms.Platform.Resource.Id.list_item = global::OpravaMesta.Droid.Resource.Id.list_item;
-=======
-			global::Xamarin.Forms.Platform.Resource.Id.ghost_view = global::OpravaMesta.Droid.Resource.Id.ghost_view;
-			global::Xamarin.Forms.Platform.Resource.Id.labeled = global::OpravaMesta.Droid.Resource.Id.labeled;
-			global::Xamarin.Forms.Platform.Resource.Id.left = global::OpravaMesta.Droid.Resource.Id.left;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Id.main_appbar = global::OpravaMesta.Droid.Resource.Id.main_appbar;
 			global::Xamarin.Forms.Platform.Resource.Id.main_tablayout = global::OpravaMesta.Droid.Resource.Id.main_tablayout;
 			global::Xamarin.Forms.Platform.Resource.Id.main_toolbar = global::OpravaMesta.Droid.Resource.Id.main_toolbar;
 			global::Xamarin.Forms.Platform.Resource.Id.main_viewpager = global::OpravaMesta.Droid.Resource.Id.main_viewpager;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Id.masked = global::OpravaMesta.Droid.Resource.Id.masked;
 			global::Xamarin.Forms.Platform.Resource.Id.media_actions = global::OpravaMesta.Droid.Resource.Id.media_actions;
 			global::Xamarin.Forms.Platform.Resource.Id.message = global::OpravaMesta.Droid.Resource.Id.message;
 			global::Xamarin.Forms.Platform.Resource.Id.META = global::OpravaMesta.Droid.Resource.Id.META;
 			global::Xamarin.Forms.Platform.Resource.Id.middle = global::OpravaMesta.Droid.Resource.Id.middle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Id.mini = global::OpravaMesta.Droid.Resource.Id.mini;
 			global::Xamarin.Forms.Platform.Resource.Id.mtrl_child_content_container = global::OpravaMesta.Droid.Resource.Id.mtrl_child_content_container;
 			global::Xamarin.Forms.Platform.Resource.Id.mtrl_internal_children_alpha_tag = global::OpravaMesta.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
 			global::Xamarin.Forms.Platform.Resource.Id.multiply = global::OpravaMesta.Droid.Resource.Id.multiply;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Id.navigation_header_container = global::OpravaMesta.Droid.Resource.Id.navigation_header_container;
 			global::Xamarin.Forms.Platform.Resource.Id.never = global::OpravaMesta.Droid.Resource.Id.never;
 			global::Xamarin.Forms.Platform.Resource.Id.none = global::OpravaMesta.Droid.Resource.Id.none;
@@ -7901,20 +7109,10 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.right = global::OpravaMesta.Droid.Resource.Id.right;
 			global::Xamarin.Forms.Platform.Resource.Id.right_icon = global::OpravaMesta.Droid.Resource.Id.right_icon;
 			global::Xamarin.Forms.Platform.Resource.Id.right_side = global::OpravaMesta.Droid.Resource.Id.right_side;
-=======
-			global::Xamarin.Forms.Platform.Resource.Id.none = global::OpravaMesta.Droid.Resource.Id.none;
-			global::Xamarin.Forms.Platform.Resource.Id.normal = global::OpravaMesta.Droid.Resource.Id.normal;
-			global::Xamarin.Forms.Platform.Resource.Id.outline = global::OpravaMesta.Droid.Resource.Id.outline;
-			global::Xamarin.Forms.Platform.Resource.Id.parallax = global::OpravaMesta.Droid.Resource.Id.parallax;
-			global::Xamarin.Forms.Platform.Resource.Id.parent_matrix = global::OpravaMesta.Droid.Resource.Id.parent_matrix;
-			global::Xamarin.Forms.Platform.Resource.Id.pin = global::OpravaMesta.Droid.Resource.Id.pin;
-			global::Xamarin.Forms.Platform.Resource.Id.right = global::OpravaMesta.Droid.Resource.Id.right;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Id.save_non_transition_alpha = global::OpravaMesta.Droid.Resource.Id.save_non_transition_alpha;
 			global::Xamarin.Forms.Platform.Resource.Id.screen = global::OpravaMesta.Droid.Resource.Id.screen;
 			global::Xamarin.Forms.Platform.Resource.Id.scroll = global::OpravaMesta.Droid.Resource.Id.scroll;
 			global::Xamarin.Forms.Platform.Resource.Id.scrollable = global::OpravaMesta.Droid.Resource.Id.scrollable;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Id.scrollIndicatorDown = global::OpravaMesta.Droid.Resource.Id.scrollIndicatorDown;
 			global::Xamarin.Forms.Platform.Resource.Id.scrollIndicatorUp = global::OpravaMesta.Droid.Resource.Id.scrollIndicatorUp;
 			global::Xamarin.Forms.Platform.Resource.Id.scrollView = global::OpravaMesta.Droid.Resource.Id.scrollView;
@@ -7938,25 +7136,16 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.showHome = global::OpravaMesta.Droid.Resource.Id.showHome;
 			global::Xamarin.Forms.Platform.Resource.Id.showTitle = global::OpravaMesta.Droid.Resource.Id.showTitle;
 			global::Xamarin.Forms.Platform.Resource.Id.smallLabel = global::OpravaMesta.Droid.Resource.Id.smallLabel;
-=======
-			global::Xamarin.Forms.Platform.Resource.Id.selected = global::OpravaMesta.Droid.Resource.Id.selected;
-			global::Xamarin.Forms.Platform.Resource.Id.shellcontent_appbar = global::OpravaMesta.Droid.Resource.Id.shellcontent_appbar;
-			global::Xamarin.Forms.Platform.Resource.Id.shellcontent_toolbar = global::OpravaMesta.Droid.Resource.Id.shellcontent_toolbar;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Id.snackbar_action = global::OpravaMesta.Droid.Resource.Id.snackbar_action;
 			global::Xamarin.Forms.Platform.Resource.Id.snackbar_text = global::OpravaMesta.Droid.Resource.Id.snackbar_text;
 			global::Xamarin.Forms.Platform.Resource.Id.snap = global::OpravaMesta.Droid.Resource.Id.snap;
 			global::Xamarin.Forms.Platform.Resource.Id.snapMargins = global::OpravaMesta.Droid.Resource.Id.snapMargins;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Id.spacer = global::OpravaMesta.Droid.Resource.Id.spacer;
 			global::Xamarin.Forms.Platform.Resource.Id.split_action_bar = global::OpravaMesta.Droid.Resource.Id.split_action_bar;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Id.src_atop = global::OpravaMesta.Droid.Resource.Id.src_atop;
 			global::Xamarin.Forms.Platform.Resource.Id.src_in = global::OpravaMesta.Droid.Resource.Id.src_in;
 			global::Xamarin.Forms.Platform.Resource.Id.src_over = global::OpravaMesta.Droid.Resource.Id.src_over;
 			global::Xamarin.Forms.Platform.Resource.Id.start = global::OpravaMesta.Droid.Resource.Id.start;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Id.status_bar_latest_event_content = global::OpravaMesta.Droid.Resource.Id.status_bar_latest_event_content;
 			global::Xamarin.Forms.Platform.Resource.Id.stretch = global::OpravaMesta.Droid.Resource.Id.stretch;
 			global::Xamarin.Forms.Platform.Resource.Id.submenuarrow = global::OpravaMesta.Droid.Resource.Id.submenuarrow;
@@ -7981,20 +7170,11 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.top = global::OpravaMesta.Droid.Resource.Id.top;
 			global::Xamarin.Forms.Platform.Resource.Id.topPanel = global::OpravaMesta.Droid.Resource.Id.topPanel;
 			global::Xamarin.Forms.Platform.Resource.Id.touch_outside = global::OpravaMesta.Droid.Resource.Id.touch_outside;
-=======
-			global::Xamarin.Forms.Platform.Resource.Id.stretch = global::OpravaMesta.Droid.Resource.Id.stretch;
-			global::Xamarin.Forms.Platform.Resource.Id.textinput_counter = global::OpravaMesta.Droid.Resource.Id.textinput_counter;
-			global::Xamarin.Forms.Platform.Resource.Id.textinput_error = global::OpravaMesta.Droid.Resource.Id.textinput_error;
-			global::Xamarin.Forms.Platform.Resource.Id.textinput_helper_text = global::OpravaMesta.Droid.Resource.Id.textinput_helper_text;
-			global::Xamarin.Forms.Platform.Resource.Id.textStart = global::OpravaMesta.Droid.Resource.Id.textStart;
-			global::Xamarin.Forms.Platform.Resource.Id.top = global::OpravaMesta.Droid.Resource.Id.top;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Id.transition_current_scene = global::OpravaMesta.Droid.Resource.Id.transition_current_scene;
 			global::Xamarin.Forms.Platform.Resource.Id.transition_layout_save = global::OpravaMesta.Droid.Resource.Id.transition_layout_save;
 			global::Xamarin.Forms.Platform.Resource.Id.transition_position = global::OpravaMesta.Droid.Resource.Id.transition_position;
 			global::Xamarin.Forms.Platform.Resource.Id.transition_scene_layoutid_cache = global::OpravaMesta.Droid.Resource.Id.transition_scene_layoutid_cache;
 			global::Xamarin.Forms.Platform.Resource.Id.transition_transform = global::OpravaMesta.Droid.Resource.Id.transition_transform;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Id.uniform = global::OpravaMesta.Droid.Resource.Id.uniform;
 			global::Xamarin.Forms.Platform.Resource.Id.unlabeled = global::OpravaMesta.Droid.Resource.Id.unlabeled;
 			global::Xamarin.Forms.Platform.Resource.Id.up = global::OpravaMesta.Droid.Resource.Id.up;
@@ -8009,12 +7189,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Integer.bottom_sheet_slide_duration = global::OpravaMesta.Droid.Resource.Integer.bottom_sheet_slide_duration;
 			global::Xamarin.Forms.Platform.Resource.Integer.cancel_button_image_alpha = global::OpravaMesta.Droid.Resource.Integer.cancel_button_image_alpha;
 			global::Xamarin.Forms.Platform.Resource.Integer.config_tooltipAnimTime = global::OpravaMesta.Droid.Resource.Integer.config_tooltipAnimTime;
-=======
-			global::Xamarin.Forms.Platform.Resource.Id.unlabeled = global::OpravaMesta.Droid.Resource.Id.unlabeled;
-			global::Xamarin.Forms.Platform.Resource.Id.view_offset_helper = global::OpravaMesta.Droid.Resource.Id.view_offset_helper;
-			global::Xamarin.Forms.Platform.Resource.Integer.app_bar_elevation_anim_duration = global::OpravaMesta.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::Xamarin.Forms.Platform.Resource.Integer.bottom_sheet_slide_duration = global::OpravaMesta.Droid.Resource.Integer.bottom_sheet_slide_duration;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Integer.design_snackbar_text_max_lines = global::OpravaMesta.Droid.Resource.Integer.design_snackbar_text_max_lines;
 			global::Xamarin.Forms.Platform.Resource.Integer.design_tab_indicator_anim_duration_ms = global::OpravaMesta.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Resource.Integer.hide_password_duration = global::OpravaMesta.Droid.Resource.Integer.hide_password_duration;
@@ -8023,7 +7197,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_chip_anim_duration = global::OpravaMesta.Droid.Resource.Integer.mtrl_chip_anim_duration;
 			global::Xamarin.Forms.Platform.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::OpravaMesta.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Xamarin.Forms.Platform.Resource.Integer.show_password_duration = global::OpravaMesta.Droid.Resource.Integer.show_password_duration;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Integer.status_bar_notification_info_maxnum = global::OpravaMesta.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::Xamarin.Forms.Platform.Resource.Interpolator.mtrl_fast_out_linear_in = global::OpravaMesta.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
 			global::Xamarin.Forms.Platform.Resource.Interpolator.mtrl_fast_out_slow_in = global::OpravaMesta.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
@@ -8122,12 +7295,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.String.abc_shareactionprovider_share_with = global::OpravaMesta.Droid.Resource.String.abc_shareactionprovider_share_with;
 			global::Xamarin.Forms.Platform.Resource.String.abc_shareactionprovider_share_with_application = global::OpravaMesta.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::Xamarin.Forms.Platform.Resource.String.abc_toolbar_collapse_description = global::OpravaMesta.Droid.Resource.String.abc_toolbar_collapse_description;
-=======
-			global::Xamarin.Forms.Platform.Resource.Layout.BottomTabLayout = global::OpravaMesta.Droid.Resource.Layout.BottomTabLayout;
-			global::Xamarin.Forms.Platform.Resource.Layout.FlyoutContent = global::OpravaMesta.Droid.Resource.Layout.FlyoutContent;
-			global::Xamarin.Forms.Platform.Resource.Layout.RootLayout = global::OpravaMesta.Droid.Resource.Layout.RootLayout;
-			global::Xamarin.Forms.Platform.Resource.Layout.ShellContent = global::OpravaMesta.Droid.Resource.Layout.ShellContent;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.String.appbar_scrolling_view_behavior = global::OpravaMesta.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.bottom_sheet_behavior = global::OpravaMesta.Droid.Resource.String.bottom_sheet_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.character_counter_content_description = global::OpravaMesta.Droid.Resource.String.character_counter_content_description;
@@ -8141,7 +7308,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.String.path_password_eye_mask_strike_through = global::OpravaMesta.Droid.Resource.String.path_password_eye_mask_strike_through;
 			global::Xamarin.Forms.Platform.Resource.String.path_password_eye_mask_visible = global::OpravaMesta.Droid.Resource.String.path_password_eye_mask_visible;
 			global::Xamarin.Forms.Platform.Resource.String.path_password_strike_through = global::OpravaMesta.Droid.Resource.String.path_password_strike_through;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.String.search_menu_title = global::OpravaMesta.Droid.Resource.String.search_menu_title;
 			global::Xamarin.Forms.Platform.Resource.String.status_bar_notification_info_overflow = global::OpravaMesta.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Forms.Platform.Resource.Style.AlertDialog_AppCompat = global::OpravaMesta.Droid.Resource.Style.AlertDialog_AppCompat;
@@ -8230,13 +7396,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::OpravaMesta.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::OpravaMesta.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::OpravaMesta.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-=======
-			global::Xamarin.Forms.Platform.Resource.Style.Animation_Design_BottomSheetDialog = global::OpravaMesta.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Xamarin.Forms.Platform.Resource.Style.AppCompatDialogStyle = global::OpravaMesta.Droid.Resource.Style.AppCompatDialogStyle;
-			global::Xamarin.Forms.Platform.Resource.Style.Base_CardView = global::OpravaMesta.Droid.Resource.Style.Base_CardView;
-			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::OpravaMesta.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
-			global::Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::OpravaMesta.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents = global::OpravaMesta.Droid.Resource.Style.Base_Theme_MaterialComponents;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::OpravaMesta.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::OpravaMesta.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
@@ -8263,7 +7422,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::OpravaMesta.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::OpravaMesta.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::OpravaMesta.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::OpravaMesta.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat = global::OpravaMesta.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::OpravaMesta.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
@@ -8343,8 +7501,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::OpravaMesta.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Toolbar = global::OpravaMesta.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::OpravaMesta.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_Design_TabLayout = global::OpravaMesta.Droid.Resource.Style.Base_Widget_Design_TabLayout;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_Chip = global::OpravaMesta.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
 			global::Xamarin.Forms.Platform.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::OpravaMesta.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
@@ -8355,16 +7511,12 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.collectionViewStyle = global::OpravaMesta.Droid.Resource.Style.collectionViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme = global::OpravaMesta.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme_Base = global::OpravaMesta.Droid.Resource.Style.MainTheme_Base;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_AppCompat = global::OpravaMesta.Droid.Resource.Style.Platform_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_AppCompat_Light = global::OpravaMesta.Droid.Resource.Style.Platform_AppCompat_Light;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_MaterialComponents = global::OpravaMesta.Droid.Resource.Style.Platform_MaterialComponents;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_MaterialComponents_Dialog = global::OpravaMesta.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_MaterialComponents_Light = global::OpravaMesta.Droid.Resource.Style.Platform_MaterialComponents_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::OpravaMesta.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_ThemeOverlay_AppCompat = global::OpravaMesta.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::OpravaMesta.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
 			global::Xamarin.Forms.Platform.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::OpravaMesta.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
@@ -8448,8 +7600,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Compat_Notification_Title = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Counter = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Design_Counter;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Counter_Overflow = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
@@ -8472,7 +7622,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Overline = global::OpravaMesta.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::OpravaMesta.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::OpravaMesta.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::OpravaMesta.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -8483,8 +7632,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Light = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
@@ -8497,7 +7644,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::OpravaMesta.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_CompactMenu = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_DayNight = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat_DayNight;
@@ -8519,8 +7665,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_NoActionBar = global::OpravaMesta.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_Design = global::OpravaMesta.Droid.Resource.Style.Theme_Design;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_Design_BottomSheetDialog = global::OpravaMesta.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_Design_Light = global::OpravaMesta.Droid.Resource.Style.Theme_Design_Light;
@@ -8548,7 +7692,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::OpravaMesta.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_NoActionBar = global::OpravaMesta.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::OpravaMesta.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ActionBar = global::OpravaMesta.Droid.Resource.Style.Widget_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::OpravaMesta.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::OpravaMesta.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
@@ -8623,8 +7766,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::OpravaMesta.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Compat_NotificationActionContainer = global::OpravaMesta.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Compat_NotificationActionText = global::OpravaMesta.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_AppBarLayout = global::OpravaMesta.Droid.Resource.Style.Widget_Design_AppBarLayout;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_BottomNavigationView = global::OpravaMesta.Droid.Resource.Style.Widget_Design_BottomNavigationView;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Design_BottomSheet_Modal = global::OpravaMesta.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
@@ -8672,7 +7813,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::OpravaMesta.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_MaterialComponents_Toolbar = global::OpravaMesta.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
 			global::Xamarin.Forms.Platform.Resource.Style.Widget_Support_CoordinatorLayout = global::OpravaMesta.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Styleable.ActionBar = global::OpravaMesta.Droid.Resource.Styleable.ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ActionBarLayout = global::OpravaMesta.Droid.Resource.Styleable.ActionBarLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::OpravaMesta.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
@@ -8727,8 +7867,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::OpravaMesta.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AlertDialog_showTitle = global::OpravaMesta.Droid.Resource.Styleable.AlertDialog_showTitle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::OpravaMesta.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Styleable.AnimatedStateListDrawableCompat = global::OpravaMesta.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::OpravaMesta.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::OpravaMesta.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
@@ -8759,7 +7897,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::OpravaMesta.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::OpravaMesta.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_liftOnScroll = global::OpravaMesta.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView = global::OpravaMesta.Droid.Resource.Styleable.AppCompatImageView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView_android_src = global::OpravaMesta.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView_srcCompat = global::OpravaMesta.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -8912,8 +8049,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::OpravaMesta.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::OpravaMesta.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTheme_windowNoTitle = global::OpravaMesta.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar = global::OpravaMesta.Droid.Resource.Styleable.BottomAppBar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_backgroundTint = global::OpravaMesta.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::OpravaMesta.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
@@ -8937,11 +8072,8 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::OpravaMesta.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::OpravaMesta.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::OpravaMesta.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Styleable.ButtonBarLayout = global::OpravaMesta.Droid.Resource.Styleable.ButtonBarLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ButtonBarLayout_allowStacking = global::OpravaMesta.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Styleable.CardView = global::OpravaMesta.Droid.Resource.Styleable.CardView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CardView_android_minHeight = global::OpravaMesta.Droid.Resource.Styleable.CardView_android_minHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CardView_android_minWidth = global::OpravaMesta.Droid.Resource.Styleable.CardView_android_minWidth;
@@ -9018,7 +8150,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_title = global::OpravaMesta.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::OpravaMesta.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::OpravaMesta.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_alpha = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_android_alpha = global::OpravaMesta.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
@@ -9027,8 +8158,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_android_button = global::OpravaMesta.Droid.Resource.Styleable.CompoundButton_android_button;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_buttonTint = global::OpravaMesta.Droid.Resource.Styleable.CompoundButton_buttonTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_buttonTintMode = global::OpravaMesta.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout_keylines = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_keylines;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout_Layout = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout;
@@ -9040,7 +8169,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::OpravaMesta.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
 			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
@@ -9050,8 +8178,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
 			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_spinBars = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
 			global::Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_thickness = global::OpravaMesta.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton = global::OpravaMesta.Droid.Resource.Styleable.FloatingActionButton;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_backgroundTint = global::OpravaMesta.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::OpravaMesta.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
@@ -9071,7 +8197,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.FlowLayout = global::OpravaMesta.Droid.Resource.Styleable.FlowLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FlowLayout_itemSpacing = global::OpravaMesta.Droid.Resource.Styleable.FlowLayout_itemSpacing;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FlowLayout_lineSpacing = global::OpravaMesta.Droid.Resource.Styleable.FlowLayout_lineSpacing;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Styleable.FontFamily = global::OpravaMesta.Droid.Resource.Styleable.FontFamily;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FontFamilyFont = global::OpravaMesta.Droid.Resource.Styleable.FontFamilyFont;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FontFamilyFont_android_font = global::OpravaMesta.Droid.Resource.Styleable.FontFamilyFont_android_font;
@@ -9090,13 +8215,10 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::OpravaMesta.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FontFamily_fontProviderPackage = global::OpravaMesta.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
 			global::Xamarin.Forms.Platform.Resource.Styleable.FontFamily_fontProviderQuery = global::OpravaMesta.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Styleable.ForegroundLinearLayout = global::OpravaMesta.Droid.Resource.Styleable.ForegroundLinearLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::OpravaMesta.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::OpravaMesta.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::OpravaMesta.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColor = global::OpravaMesta.Droid.Resource.Styleable.GradientColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColorItem = global::OpravaMesta.Droid.Resource.Styleable.GradientColorItem;
 			global::Xamarin.Forms.Platform.Resource.Styleable.GradientColorItem_android_color = global::OpravaMesta.Droid.Resource.Styleable.GradientColorItem_android_color;
@@ -9131,8 +8253,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ListPopupWindow = global::OpravaMesta.Droid.Resource.Styleable.ListPopupWindow;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::OpravaMesta.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::OpravaMesta.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton = global::OpravaMesta.Droid.Resource.Styleable.MaterialButton;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_insetBottom = global::OpravaMesta.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialButton_android_insetLeft = global::OpravaMesta.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
@@ -9153,7 +8273,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView = global::OpravaMesta.Droid.Resource.Styleable.MaterialCardView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_strokeColor = global::OpravaMesta.Droid.Resource.Styleable.MaterialCardView_strokeColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MaterialCardView_strokeWidth = global::OpravaMesta.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Styleable.MenuGroup = global::OpravaMesta.Droid.Resource.Styleable.MenuGroup;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MenuGroup_android_checkableBehavior = global::OpravaMesta.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MenuGroup_android_enabled = global::OpravaMesta.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -9195,8 +8314,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.MenuView_android_windowAnimationStyle = global::OpravaMesta.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MenuView_preserveIconSpacing = global::OpravaMesta.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
 			global::Xamarin.Forms.Platform.Resource.Styleable.MenuView_subMenuArrow = global::OpravaMesta.Droid.Resource.Styleable.MenuView_subMenuArrow;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView = global::OpravaMesta.Droid.Resource.Styleable.NavigationView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_android_background = global::OpravaMesta.Droid.Resource.Styleable.NavigationView_android_background;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::OpravaMesta.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
@@ -9210,7 +8327,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemTextAppearance = global::OpravaMesta.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemTextColor = global::OpravaMesta.Droid.Resource.Styleable.NavigationView_itemTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.NavigationView_menu = global::OpravaMesta.Droid.Resource.Styleable.NavigationView_menu;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Styleable.PopupWindow = global::OpravaMesta.Droid.Resource.Styleable.PopupWindow;
 			global::Xamarin.Forms.Platform.Resource.Styleable.PopupWindowBackgroundState = global::OpravaMesta.Droid.Resource.Styleable.PopupWindowBackgroundState;
 			global::Xamarin.Forms.Platform.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::OpravaMesta.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
@@ -9232,13 +8348,10 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecyclerView_reverseLayout = global::OpravaMesta.Droid.Resource.Styleable.RecyclerView_reverseLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecyclerView_spanCount = global::OpravaMesta.Droid.Resource.Styleable.RecyclerView_spanCount;
 			global::Xamarin.Forms.Platform.Resource.Styleable.RecyclerView_stackFromEnd = global::OpravaMesta.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Styleable.ScrimInsetsFrameLayout = global::OpravaMesta.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::OpravaMesta.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ScrollingViewBehavior_Layout = global::OpravaMesta.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::OpravaMesta.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView = global::OpravaMesta.Droid.Resource.Styleable.SearchView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_android_focusable = global::OpravaMesta.Droid.Resource.Styleable.SearchView_android_focusable;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_android_imeOptions = global::OpravaMesta.Droid.Resource.Styleable.SearchView_android_imeOptions;
@@ -9257,8 +8370,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_submitBackground = global::OpravaMesta.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_suggestionRowLayout = global::OpravaMesta.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_voiceIcon = global::OpravaMesta.Droid.Resource.Styleable.SearchView_voiceIcon;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Styleable.Snackbar = global::OpravaMesta.Droid.Resource.Styleable.Snackbar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout = global::OpravaMesta.Droid.Resource.Styleable.SnackbarLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_android_maxWidth = global::OpravaMesta.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
@@ -9266,15 +8377,12 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::OpravaMesta.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Snackbar_snackbarButtonStyle = global::OpravaMesta.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Snackbar_snackbarStyle = global::OpravaMesta.Droid.Resource.Styleable.Snackbar_snackbarStyle;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Styleable.Spinner = global::OpravaMesta.Droid.Resource.Styleable.Spinner;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Spinner_android_dropDownWidth = global::OpravaMesta.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Spinner_android_entries = global::OpravaMesta.Droid.Resource.Styleable.Spinner_android_entries;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Spinner_android_popupBackground = global::OpravaMesta.Droid.Resource.Styleable.Spinner_android_popupBackground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Spinner_android_prompt = global::OpravaMesta.Droid.Resource.Styleable.Spinner_android_prompt;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Spinner_popupTheme = global::OpravaMesta.Droid.Resource.Styleable.Spinner_popupTheme;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Styleable.StateListDrawable = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawable;
 			global::Xamarin.Forms.Platform.Resource.Styleable.StateListDrawableItem = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawableItem;
 			global::Xamarin.Forms.Platform.Resource.Styleable.StateListDrawableItem_android_drawable = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
@@ -9284,7 +8392,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
 			global::Xamarin.Forms.Platform.Resource.Styleable.StateListDrawable_android_variablePadding = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
 			global::Xamarin.Forms.Platform.Resource.Styleable.StateListDrawable_android_visible = global::OpravaMesta.Droid.Resource.Styleable.StateListDrawable_android_visible;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_android_textOff = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_android_textOn = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -9300,8 +8407,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_track = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat_track;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_trackTint = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat_trackTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_trackTintMode = global::OpravaMesta.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Styleable.TabItem = global::OpravaMesta.Droid.Resource.Styleable.TabItem;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TabItem_android_icon = global::OpravaMesta.Droid.Resource.Styleable.TabItem_android_icon;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TabItem_android_layout = global::OpravaMesta.Droid.Resource.Styleable.TabItem_android_layout;
@@ -9332,7 +8437,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabTextAppearance = global::OpravaMesta.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabTextColor = global::OpravaMesta.Droid.Resource.Styleable.TabLayout_tabTextColor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabUnboundedRipple = global::OpravaMesta.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_fontFamily = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_shadowColor = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
@@ -9347,8 +8451,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_typeface = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance_android_typeface;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_fontFamily = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance_fontFamily;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_textAllCaps = global::OpravaMesta.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout = global::OpravaMesta.Droid.Resource.Styleable.TextInputLayout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_android_hint = global::OpravaMesta.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_android_textColorHint = global::OpravaMesta.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
@@ -9382,7 +8484,6 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::OpravaMesta.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::OpravaMesta.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::OpravaMesta.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
-<<<<<<< HEAD
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar = global::OpravaMesta.Droid.Resource.Styleable.Toolbar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_android_gravity = global::OpravaMesta.Droid.Resource.Styleable.Toolbar_android_gravity;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Toolbar_android_minHeight = global::OpravaMesta.Droid.Resource.Styleable.Toolbar_android_minHeight;
@@ -9427,14 +8528,11 @@ namespace OpravaMesta.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingEnd = global::OpravaMesta.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingStart = global::OpravaMesta.Droid.Resource.Styleable.View_paddingStart;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_theme = global::OpravaMesta.Droid.Resource.Styleable.View_theme;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 		}
 		
 		public partial class Animation
 		{
 			
-<<<<<<< HEAD
 			// aapt resource value: 0x7F010004
 			public const int abc_fade_in = 2130771972;
 			
@@ -9519,8 +8617,6 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 0x7F01001F
 			public const int design_snackbar_out = 2130771999;
 			
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			// aapt resource value: 0x7F010000
 			public const int EnterFromLeft = 2130771968;
 			
@@ -9532,7 +8628,6 @@ namespace OpravaMesta.Droid
 			
 			// aapt resource value: 0x7F010003
 			public const int ExitToRight = 2130771971;
-<<<<<<< HEAD
 			
 			// aapt resource value: 0x7F010020
 			public const int fragment_close_enter = 2130772000;
@@ -9563,8 +8658,6 @@ namespace OpravaMesta.Droid
 			
 			// aapt resource value: 0x7F010029
 			public const int mtrl_card_lowers_interpolator = 2130772009;
-=======
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			
 			static Animation()
 			{
@@ -9576,2050 +8669,1996 @@ namespace OpravaMesta.Droid
 			}
 		}
 		
-		public partial class Attribute
+		public partial class Animator
 		{
 			
 			// aapt resource value: 0x7F020000
-			public const int actionTextColorAlpha = 2130837504;
+			public const int design_appbar_state_list_animator = 2130837504;
 			
 			// aapt resource value: 0x7F020001
-			public const int animationMode = 2130837505;
+			public const int design_fab_hide_motion_spec = 2130837505;
 			
 			// aapt resource value: 0x7F020002
-			public const int appBarLayoutStyle = 2130837506;
+			public const int design_fab_show_motion_spec = 2130837506;
 			
 			// aapt resource value: 0x7F020003
-			public const int backgroundColor = 2130837507;
+			public const int mtrl_btn_state_list_anim = 2130837507;
 			
 			// aapt resource value: 0x7F020004
-			public const int backgroundInsetBottom = 2130837508;
+			public const int mtrl_btn_unelevated_state_list_anim = 2130837508;
 			
 			// aapt resource value: 0x7F020005
-			public const int backgroundInsetEnd = 2130837509;
+			public const int mtrl_card_state_list_anim = 2130837509;
 			
 			// aapt resource value: 0x7F020006
-			public const int backgroundInsetStart = 2130837510;
+			public const int mtrl_chip_state_list_anim = 2130837510;
 			
 			// aapt resource value: 0x7F020007
-			public const int backgroundInsetTop = 2130837511;
+			public const int mtrl_extended_fab_change_size_motion_spec = 2130837511;
 			
 			// aapt resource value: 0x7F020008
-			public const int backgroundOverlayColorAlpha = 2130837512;
+			public const int mtrl_extended_fab_hide_motion_spec = 2130837512;
 			
 			// aapt resource value: 0x7F020009
-			public const int backgroundTint = 2130837513;
+			public const int mtrl_extended_fab_show_motion_spec = 2130837513;
 			
 			// aapt resource value: 0x7F02000A
-			public const int backgroundTintMode = 2130837514;
+			public const int mtrl_extended_fab_state_list_animator = 2130837514;
 			
 			// aapt resource value: 0x7F02000B
-			public const int badgeGravity = 2130837515;
+			public const int mtrl_fab_hide_motion_spec = 2130837515;
 			
 			// aapt resource value: 0x7F02000C
-			public const int badgeStyle = 2130837516;
+			public const int mtrl_fab_show_motion_spec = 2130837516;
 			
 			// aapt resource value: 0x7F02000D
-			public const int badgeTextColor = 2130837517;
+			public const int mtrl_fab_transformation_sheet_collapse_spec = 2130837517;
 			
 			// aapt resource value: 0x7F02000E
-			public const int behavior_autoHide = 2130837518;
+			public const int mtrl_fab_transformation_sheet_expand_spec = 2130837518;
 			
-			// aapt resource value: 0x7F02000F
-			public const int behavior_autoShrink = 2130837519;
-			
-			// aapt resource value: 0x7F020010
-			public const int behavior_draggable = 2130837520;
-			
-			// aapt resource value: 0x7F020011
-			public const int behavior_expandedOffset = 2130837521;
-			
-			// aapt resource value: 0x7F020012
-			public const int behavior_fitToContents = 2130837522;
-			
-			// aapt resource value: 0x7F020013
-			public const int behavior_halfExpandedRatio = 2130837523;
-			
-			// aapt resource value: 0x7F020014
-			public const int behavior_hideable = 2130837524;
-			
-			// aapt resource value: 0x7F020015
-			public const int behavior_overlapTop = 2130837525;
-			
-			// aapt resource value: 0x7F020016
-			public const int behavior_peekHeight = 2130837526;
-			
-			// aapt resource value: 0x7F020017
-			public const int behavior_saveFlags = 2130837527;
-			
-			// aapt resource value: 0x7F020018
-			public const int behavior_skipCollapsed = 2130837528;
-			
-			// aapt resource value: 0x7F020019
-			public const int borderWidth = 2130837529;
-			
-			// aapt resource value: 0x7F02001A
-			public const int bottomAppBarStyle = 2130837530;
-			
-			// aapt resource value: 0x7F02001B
-			public const int bottomNavigationStyle = 2130837531;
-			
-			// aapt resource value: 0x7F02001C
-			public const int bottomSheetDialogTheme = 2130837532;
-			
-			// aapt resource value: 0x7F02001D
-			public const int bottomSheetStyle = 2130837533;
-			
-			// aapt resource value: 0x7F02001E
-			public const int boxBackgroundColor = 2130837534;
-			
-			// aapt resource value: 0x7F02001F
-			public const int boxBackgroundMode = 2130837535;
-			
-			// aapt resource value: 0x7F020020
-			public const int boxCollapsedPaddingTop = 2130837536;
-			
-			// aapt resource value: 0x7F020021
-			public const int boxCornerRadiusBottomEnd = 2130837537;
-			
-			// aapt resource value: 0x7F020022
-			public const int boxCornerRadiusBottomStart = 2130837538;
-			
-			// aapt resource value: 0x7F020023
-			public const int boxCornerRadiusTopEnd = 2130837539;
-			
-			// aapt resource value: 0x7F020024
-			public const int boxCornerRadiusTopStart = 2130837540;
-			
-			// aapt resource value: 0x7F020025
-			public const int boxStrokeColor = 2130837541;
-			
-			// aapt resource value: 0x7F020026
-			public const int boxStrokeErrorColor = 2130837542;
-			
-			// aapt resource value: 0x7F020027
-			public const int boxStrokeWidth = 2130837543;
-			
-			// aapt resource value: 0x7F020028
-			public const int boxStrokeWidthFocused = 2130837544;
-			
-			// aapt resource value: 0x7F020029
-			public const int buttonTint = 2130837545;
-			
-			// aapt resource value: 0x7F02002A
-			public const int cardBackgroundColor = 2130837546;
-			
-			// aapt resource value: 0x7F02002B
-			public const int cardCornerRadius = 2130837547;
-			
-			// aapt resource value: 0x7F02002C
-			public const int cardElevation = 2130837548;
-			
-			// aapt resource value: 0x7F02002D
-			public const int cardForegroundColor = 2130837549;
-			
-			// aapt resource value: 0x7F02002E
-			public const int cardMaxElevation = 2130837550;
-			
-			// aapt resource value: 0x7F02002F
-			public const int cardPreventCornerOverlap = 2130837551;
-			
-			// aapt resource value: 0x7F020030
-			public const int cardUseCompatPadding = 2130837552;
-			
-			// aapt resource value: 0x7F020031
-			public const int cardViewStyle = 2130837553;
-			
-			// aapt resource value: 0x7F020032
-			public const int checkedButton = 2130837554;
-			
-			// aapt resource value: 0x7F020033
-			public const int checkedChip = 2130837555;
-			
-			// aapt resource value: 0x7F020034
-			public const int checkedIcon = 2130837556;
-			
-			// aapt resource value: 0x7F020035
-			public const int checkedIconEnabled = 2130837557;
-			
-			// aapt resource value: 0x7F020036
-			public const int checkedIconTint = 2130837558;
-			
-			// aapt resource value: 0x7F020037
-			public const int checkedIconVisible = 2130837559;
-			
-			// aapt resource value: 0x7F020038
-			public const int chipBackgroundColor = 2130837560;
-			
-			// aapt resource value: 0x7F020039
-			public const int chipCornerRadius = 2130837561;
-			
-			// aapt resource value: 0x7F02003A
-			public const int chipEndPadding = 2130837562;
-			
-			// aapt resource value: 0x7F02003B
-			public const int chipGroupStyle = 2130837563;
-			
-			// aapt resource value: 0x7F02003C
-			public const int chipIcon = 2130837564;
-			
-			// aapt resource value: 0x7F02003D
-			public const int chipIconEnabled = 2130837565;
-			
-			// aapt resource value: 0x7F02003E
-			public const int chipIconSize = 2130837566;
-			
-			// aapt resource value: 0x7F02003F
-			public const int chipIconTint = 2130837567;
-			
-			// aapt resource value: 0x7F020040
-			public const int chipIconVisible = 2130837568;
-			
-			// aapt resource value: 0x7F020041
-			public const int chipMinHeight = 2130837569;
-			
-			// aapt resource value: 0x7F020042
-			public const int chipMinTouchTargetSize = 2130837570;
-			
-			// aapt resource value: 0x7F020043
-			public const int chipSpacing = 2130837571;
-			
-			// aapt resource value: 0x7F020044
-			public const int chipSpacingHorizontal = 2130837572;
-			
-			// aapt resource value: 0x7F020045
-			public const int chipSpacingVertical = 2130837573;
-			
-			// aapt resource value: 0x7F020046
-			public const int chipStandaloneStyle = 2130837574;
-			
-			// aapt resource value: 0x7F020047
-			public const int chipStartPadding = 2130837575;
-			
-			// aapt resource value: 0x7F020048
-			public const int chipStrokeColor = 2130837576;
-			
-			// aapt resource value: 0x7F020049
-			public const int chipStrokeWidth = 2130837577;
-			
-			// aapt resource value: 0x7F02004A
-			public const int chipStyle = 2130837578;
-			
-			// aapt resource value: 0x7F02004B
-			public const int chipSurfaceColor = 2130837579;
-			
-			// aapt resource value: 0x7F02004C
-			public const int closeIcon = 2130837580;
-			
-			// aapt resource value: 0x7F02004D
-			public const int closeIconEnabled = 2130837581;
-			
-			// aapt resource value: 0x7F02004E
-			public const int closeIconEndPadding = 2130837582;
-			
-			// aapt resource value: 0x7F02004F
-			public const int closeIconSize = 2130837583;
-			
-			// aapt resource value: 0x7F020050
-			public const int closeIconStartPadding = 2130837584;
-			
-			// aapt resource value: 0x7F020051
-			public const int closeIconTint = 2130837585;
-			
-			// aapt resource value: 0x7F020052
-			public const int closeIconVisible = 2130837586;
-			
-			// aapt resource value: 0x7F020053
-			public const int collapsedTitleGravity = 2130837587;
-			
-			// aapt resource value: 0x7F020054
-			public const int collapsedTitleTextAppearance = 2130837588;
-			
-			// aapt resource value: 0x7F020055
-			public const int colorOnBackground = 2130837589;
-			
-			// aapt resource value: 0x7F020056
-			public const int colorOnError = 2130837590;
-			
-			// aapt resource value: 0x7F020057
-			public const int colorOnPrimary = 2130837591;
-			
-			// aapt resource value: 0x7F020058
-			public const int colorOnPrimarySurface = 2130837592;
-			
-			// aapt resource value: 0x7F020059
-			public const int colorOnSecondary = 2130837593;
-			
-			// aapt resource value: 0x7F02005A
-			public const int colorOnSurface = 2130837594;
-			
-			// aapt resource value: 0x7F02005B
-			public const int colorPrimarySurface = 2130837595;
-			
-			// aapt resource value: 0x7F02005C
-			public const int colorPrimaryVariant = 2130837596;
-			
-			// aapt resource value: 0x7F02005D
-			public const int colorSecondary = 2130837597;
-			
-			// aapt resource value: 0x7F02005E
-			public const int colorSecondaryVariant = 2130837598;
-			
-			// aapt resource value: 0x7F02005F
-			public const int colorSurface = 2130837599;
-			
-			// aapt resource value: 0x7F020060
-			public const int contentPadding = 2130837600;
-			
-			// aapt resource value: 0x7F020061
-			public const int contentPaddingBottom = 2130837601;
-			
-			// aapt resource value: 0x7F020062
-			public const int contentPaddingLeft = 2130837602;
-			
-			// aapt resource value: 0x7F020063
-			public const int contentPaddingRight = 2130837603;
-			
-			// aapt resource value: 0x7F020064
-			public const int contentPaddingTop = 2130837604;
-			
-			// aapt resource value: 0x7F020065
-			public const int contentScrim = 2130837605;
-			
-			// aapt resource value: 0x7F020066
-			public const int coordinatorLayoutStyle = 2130837606;
-			
-			// aapt resource value: 0x7F020067
-			public const int cornerFamily = 2130837607;
-			
-			// aapt resource value: 0x7F020068
-			public const int cornerFamilyBottomLeft = 2130837608;
-			
-			// aapt resource value: 0x7F020069
-			public const int cornerFamilyBottomRight = 2130837609;
-			
-			// aapt resource value: 0x7F02006A
-			public const int cornerFamilyTopLeft = 2130837610;
-			
-			// aapt resource value: 0x7F02006B
-			public const int cornerFamilyTopRight = 2130837611;
-			
-			// aapt resource value: 0x7F02006C
-			public const int cornerRadius = 2130837612;
-			
-			// aapt resource value: 0x7F02006D
-			public const int cornerSize = 2130837613;
-			
-			// aapt resource value: 0x7F02006E
-			public const int cornerSizeBottomLeft = 2130837614;
-			
-			// aapt resource value: 0x7F02006F
-			public const int cornerSizeBottomRight = 2130837615;
-			
-			// aapt resource value: 0x7F020070
-			public const int cornerSizeTopLeft = 2130837616;
-			
-			// aapt resource value: 0x7F020071
-			public const int cornerSizeTopRight = 2130837617;
-			
-			// aapt resource value: 0x7F020072
-			public const int counterEnabled = 2130837618;
-			
-			// aapt resource value: 0x7F020073
-			public const int counterMaxLength = 2130837619;
-			
-			// aapt resource value: 0x7F020074
-			public const int counterOverflowTextAppearance = 2130837620;
-			
-			// aapt resource value: 0x7F020075
-			public const int counterOverflowTextColor = 2130837621;
-			
-			// aapt resource value: 0x7F020076
-			public const int counterTextAppearance = 2130837622;
-			
-			// aapt resource value: 0x7F020077
-			public const int counterTextColor = 2130837623;
-			
-			// aapt resource value: 0x7F020078
-			public const int dayInvalidStyle = 2130837624;
-			
-			// aapt resource value: 0x7F020079
-			public const int daySelectedStyle = 2130837625;
-			
-			// aapt resource value: 0x7F02007A
-			public const int dayStyle = 2130837626;
-			
-			// aapt resource value: 0x7F02007B
-			public const int dayTodayStyle = 2130837627;
-			
-			// aapt resource value: 0x7F02007C
-			public const int elevation = 2130837628;
-			
-			// aapt resource value: 0x7F02007D
-			public const int elevationOverlayColor = 2130837629;
-			
-			// aapt resource value: 0x7F02007E
-			public const int elevationOverlayEnabled = 2130837630;
-			
-			// aapt resource value: 0x7F02007F
-			public const int endIconCheckable = 2130837631;
-			
-			// aapt resource value: 0x7F020080
-			public const int endIconContentDescription = 2130837632;
-			
-			// aapt resource value: 0x7F020081
-			public const int endIconDrawable = 2130837633;
-			
-			// aapt resource value: 0x7F020082
-			public const int endIconMode = 2130837634;
-			
-			// aapt resource value: 0x7F020083
-			public const int endIconTint = 2130837635;
-			
-			// aapt resource value: 0x7F020084
-			public const int endIconTintMode = 2130837636;
-			
-			// aapt resource value: 0x7F020085
-			public const int enforceMaterialTheme = 2130837637;
-			
-			// aapt resource value: 0x7F020086
-			public const int enforceTextAppearance = 2130837638;
-			
-			// aapt resource value: 0x7F020087
-			public const int ensureMinTouchTargetSize = 2130837639;
-			
-			// aapt resource value: 0x7F020088
-			public const int errorContentDescription = 2130837640;
-			
-			// aapt resource value: 0x7F020089
-			public const int errorEnabled = 2130837641;
-			
-			// aapt resource value: 0x7F02008A
-			public const int errorIconDrawable = 2130837642;
-			
-			// aapt resource value: 0x7F02008B
-			public const int errorIconTint = 2130837643;
-			
-			// aapt resource value: 0x7F02008C
-			public const int errorIconTintMode = 2130837644;
-			
-			// aapt resource value: 0x7F02008D
-			public const int errorTextAppearance = 2130837645;
-			
-			// aapt resource value: 0x7F02008E
-			public const int errorTextColor = 2130837646;
-			
-			// aapt resource value: 0x7F02008F
-			public const int expanded = 2130837647;
-			
-			// aapt resource value: 0x7F020090
-			public const int expandedTitleGravity = 2130837648;
-			
-			// aapt resource value: 0x7F020091
-			public const int expandedTitleMargin = 2130837649;
-			
-			// aapt resource value: 0x7F020092
-			public const int expandedTitleMarginBottom = 2130837650;
-			
-			// aapt resource value: 0x7F020093
-			public const int expandedTitleMarginEnd = 2130837651;
-			
-			// aapt resource value: 0x7F020094
-			public const int expandedTitleMarginStart = 2130837652;
-			
-			// aapt resource value: 0x7F020095
-			public const int expandedTitleMarginTop = 2130837653;
-			
-			// aapt resource value: 0x7F020096
-			public const int expandedTitleTextAppearance = 2130837654;
-			
-			// aapt resource value: 0x7F020098
-			public const int extendedFloatingActionButtonStyle = 2130837656;
-			
-			// aapt resource value: 0x7F020097
-			public const int extendMotionSpec = 2130837655;
-			
-			// aapt resource value: 0x7F020099
-			public const int fabAlignmentMode = 2130837657;
-			
-			// aapt resource value: 0x7F02009A
-			public const int fabAnimationMode = 2130837658;
-			
-			// aapt resource value: 0x7F02009B
-			public const int fabCradleMargin = 2130837659;
-			
-			// aapt resource value: 0x7F02009C
-			public const int fabCradleRoundedCornerRadius = 2130837660;
-			
-			// aapt resource value: 0x7F02009D
-			public const int fabCradleVerticalOffset = 2130837661;
-			
-			// aapt resource value: 0x7F02009E
-			public const int fabCustomSize = 2130837662;
-			
-			// aapt resource value: 0x7F02009F
-			public const int fabSize = 2130837663;
-			
-			// aapt resource value: 0x7F0200A0
-			public const int floatingActionButtonStyle = 2130837664;
-			
-			// aapt resource value: 0x7F0200A1
-			public const int foregroundInsidePadding = 2130837665;
-			
-			// aapt resource value: 0x7F0200A2
-			public const int gestureInsetBottomIgnored = 2130837666;
-			
-			// aapt resource value: 0x7F0200A3
-			public const int haloColor = 2130837667;
-			
-			// aapt resource value: 0x7F0200A4
-			public const int haloRadius = 2130837668;
-			
-			// aapt resource value: 0x7F0200A5
-			public const int headerLayout = 2130837669;
-			
-			// aapt resource value: 0x7F0200A6
-			public const int helperText = 2130837670;
-			
-			// aapt resource value: 0x7F0200A7
-			public const int helperTextEnabled = 2130837671;
-			
-			// aapt resource value: 0x7F0200A8
-			public const int helperTextTextAppearance = 2130837672;
-			
-			// aapt resource value: 0x7F0200A9
-			public const int helperTextTextColor = 2130837673;
-			
-			// aapt resource value: 0x7F0200AA
-			public const int hideMotionSpec = 2130837674;
-			
-			// aapt resource value: 0x7F0200AB
-			public const int hideOnScroll = 2130837675;
-			
-			// aapt resource value: 0x7F0200AC
-			public const int hintAnimationEnabled = 2130837676;
-			
-			// aapt resource value: 0x7F0200AD
-			public const int hintEnabled = 2130837677;
-			
-			// aapt resource value: 0x7F0200AE
-			public const int hintTextAppearance = 2130837678;
-			
-			// aapt resource value: 0x7F0200AF
-			public const int hintTextColor = 2130837679;
-			
-			// aapt resource value: 0x7F0200B0
-			public const int horizontalOffset = 2130837680;
-			
-			// aapt resource value: 0x7F0200B1
-			public const int hoveredFocusedTranslationZ = 2130837681;
-			
-			// aapt resource value: 0x7F0200B2
-			public const int icon = 2130837682;
-			
-			// aapt resource value: 0x7F0200B3
-			public const int iconEndPadding = 2130837683;
-			
-			// aapt resource value: 0x7F0200B4
-			public const int iconGravity = 2130837684;
-			
-			// aapt resource value: 0x7F0200B5
-			public const int iconPadding = 2130837685;
-			
-			// aapt resource value: 0x7F0200B6
-			public const int iconSize = 2130837686;
-			
-			// aapt resource value: 0x7F0200B7
-			public const int iconStartPadding = 2130837687;
-			
-			// aapt resource value: 0x7F0200B8
-			public const int iconTint = 2130837688;
-			
-			// aapt resource value: 0x7F0200B9
-			public const int iconTintMode = 2130837689;
-			
-			// aapt resource value: 0x7F0200BA
-			public const int insetForeground = 2130837690;
-			
-			// aapt resource value: 0x7F0200BB
-			public const int isMaterialTheme = 2130837691;
-			
-			// aapt resource value: 0x7F0200BC
-			public const int itemBackground = 2130837692;
-			
-			// aapt resource value: 0x7F0200BD
-			public const int itemFillColor = 2130837693;
-			
-			// aapt resource value: 0x7F0200BE
-			public const int itemHorizontalPadding = 2130837694;
-			
-			// aapt resource value: 0x7F0200BF
-			public const int itemHorizontalTranslationEnabled = 2130837695;
-			
-			// aapt resource value: 0x7F0200C0
-			public const int itemIconPadding = 2130837696;
-			
-			// aapt resource value: 0x7F0200C1
-			public const int itemIconSize = 2130837697;
-			
-			// aapt resource value: 0x7F0200C2
-			public const int itemIconTint = 2130837698;
-			
-			// aapt resource value: 0x7F0200C3
-			public const int itemMaxLines = 2130837699;
-			
-			// aapt resource value: 0x7F0200C4
-			public const int itemRippleColor = 2130837700;
-			
-			// aapt resource value: 0x7F0200C5
-			public const int itemShapeAppearance = 2130837701;
-			
-			// aapt resource value: 0x7F0200C6
-			public const int itemShapeAppearanceOverlay = 2130837702;
-			
-			// aapt resource value: 0x7F0200C7
-			public const int itemShapeFillColor = 2130837703;
-			
-			// aapt resource value: 0x7F0200C8
-			public const int itemShapeInsetBottom = 2130837704;
-			
-			// aapt resource value: 0x7F0200C9
-			public const int itemShapeInsetEnd = 2130837705;
-			
-			// aapt resource value: 0x7F0200CA
-			public const int itemShapeInsetStart = 2130837706;
-			
-			// aapt resource value: 0x7F0200CB
-			public const int itemShapeInsetTop = 2130837707;
-			
-			// aapt resource value: 0x7F0200CC
-			public const int itemSpacing = 2130837708;
-			
-			// aapt resource value: 0x7F0200CD
-			public const int itemStrokeColor = 2130837709;
-			
-			// aapt resource value: 0x7F0200CE
-			public const int itemStrokeWidth = 2130837710;
-			
-			// aapt resource value: 0x7F0200CF
-			public const int itemTextAppearance = 2130837711;
-			
-			// aapt resource value: 0x7F0200D0
-			public const int itemTextAppearanceActive = 2130837712;
-			
-			// aapt resource value: 0x7F0200D1
-			public const int itemTextAppearanceInactive = 2130837713;
-			
-			// aapt resource value: 0x7F0200D2
-			public const int itemTextColor = 2130837714;
-			
-			// aapt resource value: 0x7F0200D3
-			public const int keylines = 2130837715;
-			
-			// aapt resource value: 0x7F0200D4
-			public const int labelBehavior = 2130837716;
-			
-			// aapt resource value: 0x7F0200D5
-			public const int labelStyle = 2130837717;
-			
-			// aapt resource value: 0x7F0200D6
-			public const int labelVisibilityMode = 2130837718;
-			
-			// aapt resource value: 0x7F0200D7
-			public const int layout_anchor = 2130837719;
-			
-			// aapt resource value: 0x7F0200D8
-			public const int layout_anchorGravity = 2130837720;
-			
-			// aapt resource value: 0x7F0200D9
-			public const int layout_behavior = 2130837721;
-			
-			// aapt resource value: 0x7F0200DA
-			public const int layout_collapseMode = 2130837722;
-			
-			// aapt resource value: 0x7F0200DB
-			public const int layout_collapseParallaxMultiplier = 2130837723;
-			
-			// aapt resource value: 0x7F0200DC
-			public const int layout_dodgeInsetEdges = 2130837724;
-			
-			// aapt resource value: 0x7F0200DD
-			public const int layout_insetEdge = 2130837725;
-			
-			// aapt resource value: 0x7F0200DE
-			public const int layout_keyline = 2130837726;
-			
-			// aapt resource value: 0x7F0200DF
-			public const int layout_scrollFlags = 2130837727;
-			
-			// aapt resource value: 0x7F0200E0
-			public const int layout_scrollInterpolator = 2130837728;
-			
-			// aapt resource value: 0x7F0200E1
-			public const int liftOnScroll = 2130837729;
-			
-			// aapt resource value: 0x7F0200E2
-			public const int liftOnScrollTargetViewId = 2130837730;
-			
-			// aapt resource value: 0x7F0200E3
-			public const int lineHeight = 2130837731;
-			
-			// aapt resource value: 0x7F0200E4
-			public const int lineSpacing = 2130837732;
-			
-			// aapt resource value: 0x7F0200E5
-			public const int materialAlertDialogBodyTextStyle = 2130837733;
-			
-			// aapt resource value: 0x7F0200E6
-			public const int materialAlertDialogTheme = 2130837734;
-			
-			// aapt resource value: 0x7F0200E7
-			public const int materialAlertDialogTitleIconStyle = 2130837735;
-			
-			// aapt resource value: 0x7F0200E8
-			public const int materialAlertDialogTitlePanelStyle = 2130837736;
-			
-			// aapt resource value: 0x7F0200E9
-			public const int materialAlertDialogTitleTextStyle = 2130837737;
-			
-			// aapt resource value: 0x7F0200EA
-			public const int materialButtonOutlinedStyle = 2130837738;
-			
-			// aapt resource value: 0x7F0200EB
-			public const int materialButtonStyle = 2130837739;
-			
-			// aapt resource value: 0x7F0200EC
-			public const int materialButtonToggleGroupStyle = 2130837740;
-			
-			// aapt resource value: 0x7F0200ED
-			public const int materialCalendarDay = 2130837741;
-			
-			// aapt resource value: 0x7F0200EE
-			public const int materialCalendarFullscreenTheme = 2130837742;
-			
-			// aapt resource value: 0x7F0200EF
-			public const int materialCalendarHeaderConfirmButton = 2130837743;
-			
-			// aapt resource value: 0x7F0200F0
-			public const int materialCalendarHeaderDivider = 2130837744;
-			
-			// aapt resource value: 0x7F0200F1
-			public const int materialCalendarHeaderLayout = 2130837745;
-			
-			// aapt resource value: 0x7F0200F2
-			public const int materialCalendarHeaderSelection = 2130837746;
-			
-			// aapt resource value: 0x7F0200F3
-			public const int materialCalendarHeaderTitle = 2130837747;
-			
-			// aapt resource value: 0x7F0200F4
-			public const int materialCalendarHeaderToggleButton = 2130837748;
-			
-			// aapt resource value: 0x7F0200F5
-			public const int materialCalendarStyle = 2130837749;
-			
-			// aapt resource value: 0x7F0200F6
-			public const int materialCalendarTheme = 2130837750;
-			
-			// aapt resource value: 0x7F0200F7
-			public const int materialCardViewStyle = 2130837751;
-			
-			// aapt resource value: 0x7F0200F8
-			public const int materialThemeOverlay = 2130837752;
-			
-			// aapt resource value: 0x7F0200F9
-			public const int maxActionInlineWidth = 2130837753;
-			
-			// aapt resource value: 0x7F0200FA
-			public const int maxCharacterCount = 2130837754;
-			
-			// aapt resource value: 0x7F0200FB
-			public const int maxImageSize = 2130837755;
-			
-			// aapt resource value: 0x7F0200FC
-			public const int maxLines = 2130837756;
-			
-			// aapt resource value: 0x7F0200FD
-			public const int menu = 2130837757;
-			
-			// aapt resource value: 0x7F0200FE
-			public const int minTouchTargetSize = 2130837758;
-			
-			// aapt resource value: 0x7F0200FF
-			public const int navigationViewStyle = 2130837759;
-			
-			// aapt resource value: 0x7F020100
-			public const int number = 2130837760;
-			
-			// aapt resource value: 0x7F020101
-			public const int paddingBottomSystemWindowInsets = 2130837761;
-			
-			// aapt resource value: 0x7F020102
-			public const int paddingLeftSystemWindowInsets = 2130837762;
-			
-			// aapt resource value: 0x7F020103
-			public const int paddingRightSystemWindowInsets = 2130837763;
-			
-			// aapt resource value: 0x7F020104
-			public const int passwordToggleContentDescription = 2130837764;
-			
-			// aapt resource value: 0x7F020105
-			public const int passwordToggleDrawable = 2130837765;
-			
-			// aapt resource value: 0x7F020106
-			public const int passwordToggleEnabled = 2130837766;
-			
-			// aapt resource value: 0x7F020107
-			public const int passwordToggleTint = 2130837767;
-			
-			// aapt resource value: 0x7F020108
-			public const int passwordToggleTintMode = 2130837768;
-			
-			// aapt resource value: 0x7F020109
-			public const int placeholderText = 2130837769;
-			
-			// aapt resource value: 0x7F02010A
-			public const int placeholderTextAppearance = 2130837770;
-			
-			// aapt resource value: 0x7F02010B
-			public const int placeholderTextColor = 2130837771;
-			
-			// aapt resource value: 0x7F02010C
-			public const int popupMenuBackground = 2130837772;
-			
-			// aapt resource value: 0x7F02010D
-			public const int prefixText = 2130837773;
-			
-			// aapt resource value: 0x7F02010E
-			public const int prefixTextAppearance = 2130837774;
-			
-			// aapt resource value: 0x7F02010F
-			public const int prefixTextColor = 2130837775;
-			
-			// aapt resource value: 0x7F020110
-			public const int pressedTranslationZ = 2130837776;
-			
-			// aapt resource value: 0x7F020111
-			public const int rangeFillColor = 2130837777;
-			
-			// aapt resource value: 0x7F020112
-			public const int rippleColor = 2130837778;
-			
-			// aapt resource value: 0x7F020113
-			public const int scrimAnimationDuration = 2130837779;
-			
-			// aapt resource value: 0x7F020114
-			public const int scrimBackground = 2130837780;
-			
-			// aapt resource value: 0x7F020115
-			public const int scrimVisibleHeightTrigger = 2130837781;
-			
-			// aapt resource value: 0x7F020116
-			public const int selectionRequired = 2130837782;
-			
-			// aapt resource value: 0x7F020117
-			public const int shapeAppearance = 2130837783;
-			
-			// aapt resource value: 0x7F020118
-			public const int shapeAppearanceLargeComponent = 2130837784;
-			
-			// aapt resource value: 0x7F020119
-			public const int shapeAppearanceMediumComponent = 2130837785;
-			
-			// aapt resource value: 0x7F02011A
-			public const int shapeAppearanceOverlay = 2130837786;
-			
-			// aapt resource value: 0x7F02011B
-			public const int shapeAppearanceSmallComponent = 2130837787;
-			
-			// aapt resource value: 0x7F02011C
-			public const int showMotionSpec = 2130837788;
-			
-			// aapt resource value: 0x7F02011D
-			public const int shrinkMotionSpec = 2130837789;
-			
-			// aapt resource value: 0x7F02011E
-			public const int singleLine = 2130837790;
-			
-			// aapt resource value: 0x7F02011F
-			public const int singleSelection = 2130837791;
-			
-			// aapt resource value: 0x7F020120
-			public const int sliderStyle = 2130837792;
-			
-			// aapt resource value: 0x7F020121
-			public const int snackbarButtonStyle = 2130837793;
-			
-			// aapt resource value: 0x7F020122
-			public const int snackbarStyle = 2130837794;
-			
-			// aapt resource value: 0x7F020123
-			public const int snackbarTextViewStyle = 2130837795;
-			
-			// aapt resource value: 0x7F020124
-			public const int startIconCheckable = 2130837796;
-			
-			// aapt resource value: 0x7F020125
-			public const int startIconContentDescription = 2130837797;
-			
-			// aapt resource value: 0x7F020126
-			public const int startIconDrawable = 2130837798;
-			
-			// aapt resource value: 0x7F020127
-			public const int startIconTint = 2130837799;
-			
-			// aapt resource value: 0x7F020128
-			public const int startIconTintMode = 2130837800;
-			
-			// aapt resource value: 0x7F020129
-			public const int state_collapsed = 2130837801;
-			
-			// aapt resource value: 0x7F02012A
-			public const int state_collapsible = 2130837802;
-			
-			// aapt resource value: 0x7F02012B
-			public const int state_dragged = 2130837803;
-			
-			// aapt resource value: 0x7F02012C
-			public const int state_liftable = 2130837804;
-			
-			// aapt resource value: 0x7F02012D
-			public const int state_lifted = 2130837805;
-			
-			// aapt resource value: 0x7F02012E
-			public const int statusBarBackground = 2130837806;
-			
-			// aapt resource value: 0x7F02012F
-			public const int statusBarForeground = 2130837807;
-			
-			// aapt resource value: 0x7F020130
-			public const int statusBarScrim = 2130837808;
-			
-			// aapt resource value: 0x7F020131
-			public const int strokeColor = 2130837809;
-			
-			// aapt resource value: 0x7F020132
-			public const int strokeWidth = 2130837810;
-			
-			// aapt resource value: 0x7F020133
-			public const int suffixText = 2130837811;
-			
-			// aapt resource value: 0x7F020134
-			public const int suffixTextAppearance = 2130837812;
-			
-			// aapt resource value: 0x7F020135
-			public const int suffixTextColor = 2130837813;
-			
-			// aapt resource value: 0x7F020136
-			public const int tabBackground = 2130837814;
-			
-			// aapt resource value: 0x7F020137
-			public const int tabContentStart = 2130837815;
-			
-			// aapt resource value: 0x7F020138
-			public const int tabGravity = 2130837816;
-			
-			// aapt resource value: 0x7F020139
-			public const int tabIconTint = 2130837817;
-			
-			// aapt resource value: 0x7F02013A
-			public const int tabIconTintMode = 2130837818;
-			
-			// aapt resource value: 0x7F02013B
-			public const int tabIndicator = 2130837819;
-			
-			// aapt resource value: 0x7F02013C
-			public const int tabIndicatorAnimationDuration = 2130837820;
-			
-			// aapt resource value: 0x7F02013D
-			public const int tabIndicatorColor = 2130837821;
-			
-			// aapt resource value: 0x7F02013E
-			public const int tabIndicatorFullWidth = 2130837822;
-			
-			// aapt resource value: 0x7F02013F
-			public const int tabIndicatorGravity = 2130837823;
-			
-			// aapt resource value: 0x7F020140
-			public const int tabIndicatorHeight = 2130837824;
-			
-			// aapt resource value: 0x7F020141
-			public const int tabInlineLabel = 2130837825;
-			
-			// aapt resource value: 0x7F020142
-			public const int tabMaxWidth = 2130837826;
-			
-			// aapt resource value: 0x7F020143
-			public const int tabMinWidth = 2130837827;
-			
-			// aapt resource value: 0x7F020144
-			public const int tabMode = 2130837828;
-			
-			// aapt resource value: 0x7F020145
-			public const int tabPadding = 2130837829;
-			
-			// aapt resource value: 0x7F020146
-			public const int tabPaddingBottom = 2130837830;
-			
-			// aapt resource value: 0x7F020147
-			public const int tabPaddingEnd = 2130837831;
-			
-			// aapt resource value: 0x7F020148
-			public const int tabPaddingStart = 2130837832;
-			
-			// aapt resource value: 0x7F020149
-			public const int tabPaddingTop = 2130837833;
-			
-			// aapt resource value: 0x7F02014A
-			public const int tabRippleColor = 2130837834;
-			
-			// aapt resource value: 0x7F02014B
-			public const int tabSelectedTextColor = 2130837835;
-			
-			// aapt resource value: 0x7F02014C
-			public const int tabStyle = 2130837836;
-			
-			// aapt resource value: 0x7F02014D
-			public const int tabTextAppearance = 2130837837;
-			
-			// aapt resource value: 0x7F02014E
-			public const int tabTextColor = 2130837838;
-			
-			// aapt resource value: 0x7F02014F
-			public const int tabUnboundedRipple = 2130837839;
-			
-			// aapt resource value: 0x7F020150
-			public const int textAppearanceBody1 = 2130837840;
-			
-			// aapt resource value: 0x7F020151
-			public const int textAppearanceBody2 = 2130837841;
-			
-			// aapt resource value: 0x7F020152
-			public const int textAppearanceButton = 2130837842;
-			
-			// aapt resource value: 0x7F020153
-			public const int textAppearanceCaption = 2130837843;
-			
-			// aapt resource value: 0x7F020154
-			public const int textAppearanceHeadline1 = 2130837844;
-			
-			// aapt resource value: 0x7F020155
-			public const int textAppearanceHeadline2 = 2130837845;
-			
-			// aapt resource value: 0x7F020156
-			public const int textAppearanceHeadline3 = 2130837846;
-			
-			// aapt resource value: 0x7F020157
-			public const int textAppearanceHeadline4 = 2130837847;
-			
-			// aapt resource value: 0x7F020158
-			public const int textAppearanceHeadline5 = 2130837848;
-			
-			// aapt resource value: 0x7F020159
-			public const int textAppearanceHeadline6 = 2130837849;
-			
-			// aapt resource value: 0x7F02015A
-			public const int textAppearanceLineHeightEnabled = 2130837850;
-			
-			// aapt resource value: 0x7F02015B
-			public const int textAppearanceOverline = 2130837851;
-			
-			// aapt resource value: 0x7F02015C
-			public const int textAppearanceSubtitle1 = 2130837852;
-			
-			// aapt resource value: 0x7F02015D
-			public const int textAppearanceSubtitle2 = 2130837853;
-			
-			// aapt resource value: 0x7F02015E
-			public const int textEndPadding = 2130837854;
-			
-			// aapt resource value: 0x7F02015F
-			public const int textInputLayoutFocusedRectEnabled = 2130837855;
-			
-			// aapt resource value: 0x7F020160
-			public const int textInputStyle = 2130837856;
-			
-			// aapt resource value: 0x7F020161
-			public const int textStartPadding = 2130837857;
-			
-			// aapt resource value: 0x7F020162
-			public const int themeLineHeight = 2130837858;
-			
-			// aapt resource value: 0x7F020163
-			public const int thumbColor = 2130837859;
-			
-			// aapt resource value: 0x7F020164
-			public const int thumbElevation = 2130837860;
-			
-			// aapt resource value: 0x7F020165
-			public const int thumbRadius = 2130837861;
-			
-			// aapt resource value: 0x7F020166
-			public const int tickColor = 2130837862;
-			
-			// aapt resource value: 0x7F020167
-			public const int tickColorActive = 2130837863;
-			
-			// aapt resource value: 0x7F020168
-			public const int tickColorInactive = 2130837864;
-			
-			// aapt resource value: 0x7F020169
-			public const int title = 2130837865;
-			
-			// aapt resource value: 0x7F02016A
-			public const int titleEnabled = 2130837866;
-			
-			// aapt resource value: 0x7F02016B
-			public const int toolbarId = 2130837867;
-			
-			// aapt resource value: 0x7F02016C
-			public const int tooltipStyle = 2130837868;
-			
-			// aapt resource value: 0x7F02016D
-			public const int trackColor = 2130837869;
-			
-			// aapt resource value: 0x7F02016E
-			public const int trackColorActive = 2130837870;
-			
-			// aapt resource value: 0x7F02016F
-			public const int trackColorInactive = 2130837871;
-			
-			// aapt resource value: 0x7F020170
-			public const int trackHeight = 2130837872;
-			
-			// aapt resource value: 0x7F020171
-			public const int transitionShapeAppearance = 2130837873;
-			
-			// aapt resource value: 0x7F020172
-			public const int useCompatPadding = 2130837874;
-			
-			// aapt resource value: 0x7F020173
-			public const int useMaterialThemeColors = 2130837875;
-			
-			// aapt resource value: 0x7F020174
-			public const int values = 2130837876;
-			
-			// aapt resource value: 0x7F020175
-			public const int verticalOffset = 2130837877;
-			
-			// aapt resource value: 0x7F020176
-			public const int vpiCentered = 2130837878;
-			
-			// aapt resource value: 0x7F020177
-			public const int vpiCirclePageIndicatorStyle = 2130837879;
-			
-			// aapt resource value: 0x7F020178
-			public const int vpiFillColor = 2130837880;
-			
-			// aapt resource value: 0x7F020179
-			public const int vpiOrientation = 2130837881;
-			
-			// aapt resource value: 0x7F02017A
-			public const int vpiPageColor = 2130837882;
-			
-			// aapt resource value: 0x7F02017B
-			public const int vpiRadius = 2130837883;
-			
-			// aapt resource value: 0x7F02017C
-			public const int vpiSnap = 2130837884;
-			
-			// aapt resource value: 0x7F02017D
-			public const int vpiStrokeColor = 2130837885;
-			
-			// aapt resource value: 0x7F02017E
-			public const int vpiStrokeWidth = 2130837886;
-			
-			// aapt resource value: 0x7F02017F
-			public const int yearSelectedStyle = 2130837887;
-			
-			// aapt resource value: 0x7F020180
-			public const int yearStyle = 2130837888;
-			
-			// aapt resource value: 0x7F020181
-			public const int yearTodayStyle = 2130837889;
-			
-			static Attribute()
+			static Animator()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
-			private Attribute()
+			private Animator()
 			{
 			}
 		}
 		
-		public partial class Boolean
+		public partial class Attribute
 		{
 			
 			// aapt resource value: 0x7F030000
-			public const int default_circle_indicator_centered = 2130903040;
+			public const int actionBarDivider = 2130903040;
 			
 			// aapt resource value: 0x7F030001
-			public const int default_circle_indicator_snap = 2130903041;
+			public const int actionBarItemBackground = 2130903041;
 			
 			// aapt resource value: 0x7F030002
-			public const int mtrl_btn_textappearance_all_caps = 2130903042;
+			public const int actionBarPopupTheme = 2130903042;
 			
-			static Boolean()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
+			// aapt resource value: 0x7F030003
+			public const int actionBarSize = 2130903043;
 			
-			private Boolean()
-			{
-			}
-		}
-		
-		public partial class Color
-		{
+			// aapt resource value: 0x7F030004
+			public const int actionBarSplitStyle = 2130903044;
 			
-			// aapt resource value: 0x7F040000
-			public const int browser_actions_bg_grey = 2130968576;
+			// aapt resource value: 0x7F030005
+			public const int actionBarStyle = 2130903045;
 			
-			// aapt resource value: 0x7F040001
-			public const int browser_actions_divider_color = 2130968577;
+			// aapt resource value: 0x7F030006
+			public const int actionBarTabBarStyle = 2130903046;
 			
-			// aapt resource value: 0x7F040002
-			public const int browser_actions_text_color = 2130968578;
+			// aapt resource value: 0x7F030007
+			public const int actionBarTabStyle = 2130903047;
 			
-			// aapt resource value: 0x7F040003
-			public const int browser_actions_title_color = 2130968579;
+			// aapt resource value: 0x7F030008
+			public const int actionBarTabTextStyle = 2130903048;
 			
-			// aapt resource value: 0x7F040004
-			public const int cardview_dark_background = 2130968580;
+			// aapt resource value: 0x7F030009
+			public const int actionBarTheme = 2130903049;
 			
-			// aapt resource value: 0x7F040005
-			public const int cardview_light_background = 2130968581;
+			// aapt resource value: 0x7F03000A
+			public const int actionBarWidgetTheme = 2130903050;
 			
-			// aapt resource value: 0x7F040006
-			public const int cardview_shadow_end_color = 2130968582;
+			// aapt resource value: 0x7F03000B
+			public const int actionButtonStyle = 2130903051;
 			
-			// aapt resource value: 0x7F040007
-			public const int cardview_shadow_start_color = 2130968583;
+			// aapt resource value: 0x7F03000C
+			public const int actionDropDownStyle = 2130903052;
 			
-			// aapt resource value: 0x7F040008
-			public const int colorAccent = 2130968584;
+			// aapt resource value: 0x7F03000D
+			public const int actionLayout = 2130903053;
 			
-			// aapt resource value: 0x7F040009
-			public const int colorPrimary = 2130968585;
+			// aapt resource value: 0x7F03000E
+			public const int actionMenuTextAppearance = 2130903054;
 			
-			// aapt resource value: 0x7F04000A
-			public const int colorPrimaryDark = 2130968586;
+			// aapt resource value: 0x7F03000F
+			public const int actionMenuTextColor = 2130903055;
 			
-			// aapt resource value: 0x7F04000B
-			public const int default_circle_indicator_fill_color = 2130968587;
+			// aapt resource value: 0x7F030010
+			public const int actionModeBackground = 2130903056;
 			
-			// aapt resource value: 0x7F04000C
-			public const int default_circle_indicator_page_color = 2130968588;
+			// aapt resource value: 0x7F030011
+			public const int actionModeCloseButtonStyle = 2130903057;
 			
-			// aapt resource value: 0x7F04000D
-			public const int default_circle_indicator_stroke_color = 2130968589;
+			// aapt resource value: 0x7F030012
+			public const int actionModeCloseDrawable = 2130903058;
 			
-			// aapt resource value: 0x7F04000E
-			public const int design_bottom_navigation_shadow_color = 2130968590;
+			// aapt resource value: 0x7F030013
+			public const int actionModeCopyDrawable = 2130903059;
 			
-			// aapt resource value: 0x7F04000F
-			public const int design_dark_default_color_background = 2130968591;
+			// aapt resource value: 0x7F030014
+			public const int actionModeCutDrawable = 2130903060;
 			
-			// aapt resource value: 0x7F040010
-			public const int design_dark_default_color_error = 2130968592;
+			// aapt resource value: 0x7F030015
+			public const int actionModeFindDrawable = 2130903061;
 			
-			// aapt resource value: 0x7F040011
-			public const int design_dark_default_color_on_background = 2130968593;
+			// aapt resource value: 0x7F030016
+			public const int actionModePasteDrawable = 2130903062;
 			
-			// aapt resource value: 0x7F040012
-			public const int design_dark_default_color_on_error = 2130968594;
+			// aapt resource value: 0x7F030017
+			public const int actionModePopupWindowStyle = 2130903063;
 			
-			// aapt resource value: 0x7F040013
-			public const int design_dark_default_color_on_primary = 2130968595;
+			// aapt resource value: 0x7F030018
+			public const int actionModeSelectAllDrawable = 2130903064;
 			
-			// aapt resource value: 0x7F040014
-			public const int design_dark_default_color_on_secondary = 2130968596;
+			// aapt resource value: 0x7F030019
+			public const int actionModeShareDrawable = 2130903065;
 			
-			// aapt resource value: 0x7F040015
-			public const int design_dark_default_color_on_surface = 2130968597;
+			// aapt resource value: 0x7F03001A
+			public const int actionModeSplitBackground = 2130903066;
 			
-			// aapt resource value: 0x7F040016
-			public const int design_dark_default_color_primary = 2130968598;
+			// aapt resource value: 0x7F03001B
+			public const int actionModeStyle = 2130903067;
 			
-			// aapt resource value: 0x7F040017
-			public const int design_dark_default_color_primary_dark = 2130968599;
+			// aapt resource value: 0x7F03001C
+			public const int actionModeWebSearchDrawable = 2130903068;
 			
-			// aapt resource value: 0x7F040018
-			public const int design_dark_default_color_primary_variant = 2130968600;
+			// aapt resource value: 0x7F03001D
+			public const int actionOverflowButtonStyle = 2130903069;
 			
-			// aapt resource value: 0x7F040019
-			public const int design_dark_default_color_secondary = 2130968601;
+			// aapt resource value: 0x7F03001E
+			public const int actionOverflowMenuStyle = 2130903070;
 			
-			// aapt resource value: 0x7F04001A
-			public const int design_dark_default_color_secondary_variant = 2130968602;
+			// aapt resource value: 0x7F03001F
+			public const int actionProviderClass = 2130903071;
 			
-			// aapt resource value: 0x7F04001B
-			public const int design_dark_default_color_surface = 2130968603;
+			// aapt resource value: 0x7F030020
+			public const int actionTextColorAlpha = 2130903072;
 			
-			// aapt resource value: 0x7F04001C
-			public const int design_default_color_background = 2130968604;
+			// aapt resource value: 0x7F030021
+			public const int actionViewClass = 2130903073;
 			
-			// aapt resource value: 0x7F04001D
-			public const int design_default_color_error = 2130968605;
+			// aapt resource value: 0x7F030022
+			public const int activityChooserViewStyle = 2130903074;
 			
-			// aapt resource value: 0x7F04001E
-			public const int design_default_color_on_background = 2130968606;
+			// aapt resource value: 0x7F030023
+			public const int alertDialogButtonGroupStyle = 2130903075;
 			
-			// aapt resource value: 0x7F04001F
-			public const int design_default_color_on_error = 2130968607;
+			// aapt resource value: 0x7F030024
+			public const int alertDialogCenterButtons = 2130903076;
 			
-			// aapt resource value: 0x7F040020
-			public const int design_default_color_on_primary = 2130968608;
+			// aapt resource value: 0x7F030025
+			public const int alertDialogStyle = 2130903077;
 			
-			// aapt resource value: 0x7F040021
-			public const int design_default_color_on_secondary = 2130968609;
+			// aapt resource value: 0x7F030026
+			public const int alertDialogTheme = 2130903078;
 			
-			// aapt resource value: 0x7F040022
-			public const int design_default_color_on_surface = 2130968610;
+			// aapt resource value: 0x7F030027
+			public const int allowStacking = 2130903079;
 			
-			// aapt resource value: 0x7F040023
-			public const int design_default_color_primary = 2130968611;
+			// aapt resource value: 0x7F030028
+			public const int alpha = 2130903080;
 			
-			// aapt resource value: 0x7F040024
-			public const int design_default_color_primary_dark = 2130968612;
+			// aapt resource value: 0x7F030029
+			public const int alphabeticModifiers = 2130903081;
 			
-			// aapt resource value: 0x7F040025
-			public const int design_default_color_primary_variant = 2130968613;
+			// aapt resource value: 0x7F03002A
+			public const int animationMode = 2130903082;
 			
-			// aapt resource value: 0x7F040026
-			public const int design_default_color_secondary = 2130968614;
+			// aapt resource value: 0x7F03002B
+			public const int appBarLayoutStyle = 2130903083;
 			
-			// aapt resource value: 0x7F040027
-			public const int design_default_color_secondary_variant = 2130968615;
+			// aapt resource value: 0x7F03002C
+			public const int arrowHeadLength = 2130903084;
 			
-			// aapt resource value: 0x7F040028
-			public const int design_default_color_surface = 2130968616;
+			// aapt resource value: 0x7F03002D
+			public const int arrowShaftLength = 2130903085;
 			
-			// aapt resource value: 0x7F040029
-			public const int design_fab_shadow_end_color = 2130968617;
+			// aapt resource value: 0x7F03002E
+			public const int autoCompleteTextViewStyle = 2130903086;
 			
-			// aapt resource value: 0x7F04002A
-			public const int design_fab_shadow_mid_color = 2130968618;
+			// aapt resource value: 0x7F03002F
+			public const int autoSizeMaxTextSize = 2130903087;
 			
-			// aapt resource value: 0x7F04002B
-			public const int design_fab_shadow_start_color = 2130968619;
+			// aapt resource value: 0x7F030030
+			public const int autoSizeMinTextSize = 2130903088;
 			
-			// aapt resource value: 0x7F04002C
-			public const int design_fab_stroke_end_inner_color = 2130968620;
+			// aapt resource value: 0x7F030031
+			public const int autoSizePresetSizes = 2130903089;
 			
-			// aapt resource value: 0x7F04002D
-			public const int design_fab_stroke_end_outer_color = 2130968621;
+			// aapt resource value: 0x7F030032
+			public const int autoSizeStepGranularity = 2130903090;
 			
-			// aapt resource value: 0x7F04002E
-			public const int design_fab_stroke_top_inner_color = 2130968622;
+			// aapt resource value: 0x7F030033
+			public const int autoSizeTextType = 2130903091;
 			
-			// aapt resource value: 0x7F04002F
-			public const int design_fab_stroke_top_outer_color = 2130968623;
+			// aapt resource value: 0x7F030034
+			public const int background = 2130903092;
 			
-			// aapt resource value: 0x7F040030
-			public const int design_snackbar_background_color = 2130968624;
+			// aapt resource value: 0x7F030035
+			public const int backgroundColor = 2130903093;
 			
-			// aapt resource value: 0x7F040031
-			public const int launcher_background = 2130968625;
+			// aapt resource value: 0x7F030036
+			public const int backgroundInsetBottom = 2130903094;
 			
-			// aapt resource value: 0x7F040032
-			public const int mtrl_btn_text_color_disabled = 2130968626;
+			// aapt resource value: 0x7F030037
+			public const int backgroundInsetEnd = 2130903095;
 			
-			// aapt resource value: 0x7F040033
-			public const int mtrl_btn_transparent_bg_color = 2130968627;
+			// aapt resource value: 0x7F030038
+			public const int backgroundInsetStart = 2130903096;
 			
-			// aapt resource value: 0x7F040034
-			public const int mtrl_scrim_color = 2130968628;
+			// aapt resource value: 0x7F030039
+			public const int backgroundInsetTop = 2130903097;
 			
-			// aapt resource value: 0x7F040035
-			public const int mtrl_textinput_default_box_stroke_color = 2130968629;
+			// aapt resource value: 0x7F03003A
+			public const int backgroundOverlayColorAlpha = 2130903098;
 			
-			// aapt resource value: 0x7F040036
-			public const int mtrl_textinput_disabled_color = 2130968630;
+			// aapt resource value: 0x7F03003B
+			public const int backgroundSplit = 2130903099;
 			
-			// aapt resource value: 0x7F040037
-			public const int mtrl_textinput_filled_box_default_background_color = 2130968631;
+			// aapt resource value: 0x7F03003C
+			public const int backgroundStacked = 2130903100;
 			
-			// aapt resource value: 0x7F040038
-			public const int mtrl_textinput_focused_box_stroke_color = 2130968632;
+			// aapt resource value: 0x7F03003D
+			public const int backgroundTint = 2130903101;
 			
-			// aapt resource value: 0x7F040039
-			public const int mtrl_textinput_hovered_box_stroke_color = 2130968633;
+			// aapt resource value: 0x7F03003E
+			public const int backgroundTintMode = 2130903102;
 			
-			// aapt resource value: 0x7F04003A
-			public const int vpi__background_holo_dark = 2130968634;
+			// aapt resource value: 0x7F03003F
+			public const int badgeGravity = 2130903103;
 			
-			// aapt resource value: 0x7F04003B
-			public const int vpi__background_holo_light = 2130968635;
+			// aapt resource value: 0x7F030040
+			public const int badgeStyle = 2130903104;
 			
-			// aapt resource value: 0x7F04003C
-			public const int vpi__bright_foreground_disabled_holo_dark = 2130968636;
+			// aapt resource value: 0x7F030041
+			public const int badgeTextColor = 2130903105;
 			
-			// aapt resource value: 0x7F04003D
-			public const int vpi__bright_foreground_disabled_holo_light = 2130968637;
+			// aapt resource value: 0x7F030042
+			public const int barLength = 2130903106;
 			
-			// aapt resource value: 0x7F04003E
-			public const int vpi__bright_foreground_holo_dark = 2130968638;
+			// aapt resource value: 0x7F030043
+			public const int behavior_autoHide = 2130903107;
 			
-			// aapt resource value: 0x7F04003F
-			public const int vpi__bright_foreground_holo_light = 2130968639;
+			// aapt resource value: 0x7F030044
+			public const int behavior_autoShrink = 2130903108;
 			
-			// aapt resource value: 0x7F040040
-			public const int vpi__bright_foreground_inverse_holo_dark = 2130968640;
+			// aapt resource value: 0x7F030045
+			public const int behavior_draggable = 2130903109;
 			
-			// aapt resource value: 0x7F040041
-			public const int vpi__bright_foreground_inverse_holo_light = 2130968641;
+			// aapt resource value: 0x7F030046
+			public const int behavior_expandedOffset = 2130903110;
 			
-			static Color()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
+			// aapt resource value: 0x7F030047
+			public const int behavior_fitToContents = 2130903111;
 			
-			private Color()
-			{
-			}
-		}
-		
-		public partial class Dimension
-		{
+			// aapt resource value: 0x7F030048
+			public const int behavior_halfExpandedRatio = 2130903112;
 			
-			// aapt resource value: 0x7F050000
-			public const int action_bar_size = 2131034112;
+			// aapt resource value: 0x7F030049
+			public const int behavior_hideable = 2130903113;
 			
-			// aapt resource value: 0x7F050001
-			public const int appcompat_dialog_background_inset = 2131034113;
+			// aapt resource value: 0x7F03004A
+			public const int behavior_overlapTop = 2130903114;
 			
-			// aapt resource value: 0x7F050002
-			public const int browser_actions_context_menu_max_width = 2131034114;
+			// aapt resource value: 0x7F03004B
+			public const int behavior_peekHeight = 2130903115;
 			
-			// aapt resource value: 0x7F050003
-			public const int browser_actions_context_menu_min_padding = 2131034115;
+			// aapt resource value: 0x7F03004C
+			public const int behavior_saveFlags = 2130903116;
 			
-			// aapt resource value: 0x7F050004
-			public const int cardview_compat_inset_shadow = 2131034116;
+			// aapt resource value: 0x7F03004D
+			public const int behavior_skipCollapsed = 2130903117;
 			
-			// aapt resource value: 0x7F050005
-			public const int cardview_default_elevation = 2131034117;
+			// aapt resource value: 0x7F03004F
+			public const int borderlessButtonStyle = 2130903119;
 			
-			// aapt resource value: 0x7F050006
-			public const int cardview_default_radius = 2131034118;
+			// aapt resource value: 0x7F03004E
+			public const int borderWidth = 2130903118;
 			
-			// aapt resource value: 0x7F050007
-			public const int default_circle_indicator_radius = 2131034119;
+			// aapt resource value: 0x7F030050
+			public const int bottomAppBarStyle = 2130903120;
 			
-			// aapt resource value: 0x7F050008
-			public const int default_circle_indicator_stroke_width = 2131034120;
+			// aapt resource value: 0x7F030051
+			public const int bottomNavigationStyle = 2130903121;
 			
-			// aapt resource value: 0x7F050009
-			public const int default_dimension = 2131034121;
+			// aapt resource value: 0x7F030052
+			public const int bottomSheetDialogTheme = 2130903122;
 			
-			// aapt resource value: 0x7F05000A
-			public const int design_appbar_elevation = 2131034122;
+			// aapt resource value: 0x7F030053
+			public const int bottomSheetStyle = 2130903123;
 			
-			// aapt resource value: 0x7F05000B
-			public const int design_bottom_navigation_active_item_max_width = 2131034123;
+			// aapt resource value: 0x7F030054
+			public const int boxBackgroundColor = 2130903124;
 			
-			// aapt resource value: 0x7F05000C
-			public const int design_bottom_navigation_active_item_min_width = 2131034124;
+			// aapt resource value: 0x7F030055
+			public const int boxBackgroundMode = 2130903125;
 			
-			// aapt resource value: 0x7F05000D
-			public const int design_bottom_navigation_active_text_size = 2131034125;
+			// aapt resource value: 0x7F030056
+			public const int boxCollapsedPaddingTop = 2130903126;
 			
-			// aapt resource value: 0x7F05000E
-			public const int design_bottom_navigation_elevation = 2131034126;
+			// aapt resource value: 0x7F030057
+			public const int boxCornerRadiusBottomEnd = 2130903127;
 			
-			// aapt resource value: 0x7F05000F
-			public const int design_bottom_navigation_height = 2131034127;
+			// aapt resource value: 0x7F030058
+			public const int boxCornerRadiusBottomStart = 2130903128;
 			
-			// aapt resource value: 0x7F050010
-			public const int design_bottom_navigation_icon_size = 2131034128;
+			// aapt resource value: 0x7F030059
+			public const int boxCornerRadiusTopEnd = 2130903129;
 			
-			// aapt resource value: 0x7F050011
-			public const int design_bottom_navigation_item_max_width = 2131034129;
+			// aapt resource value: 0x7F03005A
+			public const int boxCornerRadiusTopStart = 2130903130;
 			
-			// aapt resource value: 0x7F050012
-			public const int design_bottom_navigation_item_min_width = 2131034130;
+			// aapt resource value: 0x7F03005B
+			public const int boxStrokeColor = 2130903131;
 			
-			// aapt resource value: 0x7F050013
-			public const int design_bottom_navigation_margin = 2131034131;
+			// aapt resource value: 0x7F03005C
+			public const int boxStrokeErrorColor = 2130903132;
 			
-			// aapt resource value: 0x7F050014
-			public const int design_bottom_navigation_shadow_height = 2131034132;
+			// aapt resource value: 0x7F03005D
+			public const int boxStrokeWidth = 2130903133;
 			
-			// aapt resource value: 0x7F050015
-			public const int design_bottom_navigation_text_size = 2131034133;
+			// aapt resource value: 0x7F03005E
+			public const int boxStrokeWidthFocused = 2130903134;
 			
-			// aapt resource value: 0x7F050016
-			public const int design_bottom_sheet_elevation = 2131034134;
+			// aapt resource value: 0x7F03005F
+			public const int buttonBarButtonStyle = 2130903135;
 			
-			// aapt resource value: 0x7F050017
-			public const int design_bottom_sheet_modal_elevation = 2131034135;
+			// aapt resource value: 0x7F030060
+			public const int buttonBarNegativeButtonStyle = 2130903136;
 			
-			// aapt resource value: 0x7F050018
-			public const int design_bottom_sheet_peek_height_min = 2131034136;
+			// aapt resource value: 0x7F030061
+			public const int buttonBarNeutralButtonStyle = 2130903137;
 			
-			// aapt resource value: 0x7F050019
-			public const int design_fab_border_width = 2131034137;
+			// aapt resource value: 0x7F030062
+			public const int buttonBarPositiveButtonStyle = 2130903138;
 			
-			// aapt resource value: 0x7F05001A
-			public const int design_fab_elevation = 2131034138;
+			// aapt resource value: 0x7F030063
+			public const int buttonBarStyle = 2130903139;
 			
-			// aapt resource value: 0x7F05001B
-			public const int design_fab_image_size = 2131034139;
+			// aapt resource value: 0x7F030064
+			public const int buttonCompat = 2130903140;
 			
-			// aapt resource value: 0x7F05001C
-			public const int design_fab_size_mini = 2131034140;
+			// aapt resource value: 0x7F030065
+			public const int buttonGravity = 2130903141;
 			
-			// aapt resource value: 0x7F05001D
-			public const int design_fab_size_normal = 2131034141;
+			// aapt resource value: 0x7F030066
+			public const int buttonIconDimen = 2130903142;
 			
-			// aapt resource value: 0x7F05001E
-			public const int design_fab_translation_z_hovered_focused = 2131034142;
+			// aapt resource value: 0x7F030067
+			public const int buttonPanelSideLayout = 2130903143;
 			
-			// aapt resource value: 0x7F05001F
-			public const int design_fab_translation_z_pressed = 2131034143;
+			// aapt resource value: 0x7F030068
+			public const int buttonStyle = 2130903144;
 			
-			// aapt resource value: 0x7F050020
-			public const int design_navigation_elevation = 2131034144;
+			// aapt resource value: 0x7F030069
+			public const int buttonStyleSmall = 2130903145;
 			
-			// aapt resource value: 0x7F050021
-			public const int design_navigation_icon_padding = 2131034145;
+			// aapt resource value: 0x7F03006A
+			public const int buttonTint = 2130903146;
 			
-			// aapt resource value: 0x7F050022
-			public const int design_navigation_icon_size = 2131034146;
+			// aapt resource value: 0x7F03006B
+			public const int buttonTintMode = 2130903147;
 			
-			// aapt resource value: 0x7F050023
-			public const int design_navigation_item_horizontal_padding = 2131034147;
+			// aapt resource value: 0x7F03006C
+			public const int cardBackgroundColor = 2130903148;
 			
-			// aapt resource value: 0x7F050024
-			public const int design_navigation_item_icon_padding = 2131034148;
+			// aapt resource value: 0x7F03006D
+			public const int cardCornerRadius = 2130903149;
 			
-			// aapt resource value: 0x7F050025
-			public const int design_navigation_max_width = 2131034149;
+			// aapt resource value: 0x7F03006E
+			public const int cardElevation = 2130903150;
 			
-			// aapt resource value: 0x7F050026
-			public const int design_navigation_padding_bottom = 2131034150;
+			// aapt resource value: 0x7F03006F
+			public const int cardForegroundColor = 2130903151;
 			
-			// aapt resource value: 0x7F050027
-			public const int design_navigation_separator_vertical_padding = 2131034151;
+			// aapt resource value: 0x7F030070
+			public const int cardMaxElevation = 2130903152;
 			
-			// aapt resource value: 0x7F050028
-			public const int design_snackbar_action_inline_max_width = 2131034152;
+			// aapt resource value: 0x7F030071
+			public const int cardPreventCornerOverlap = 2130903153;
 			
-			// aapt resource value: 0x7F050029
-			public const int design_snackbar_action_text_color_alpha = 2131034153;
+			// aapt resource value: 0x7F030072
+			public const int cardUseCompatPadding = 2130903154;
 			
-			// aapt resource value: 0x7F05002A
-			public const int design_snackbar_background_corner_radius = 2131034154;
+			// aapt resource value: 0x7F030073
+			public const int cardViewStyle = 2130903155;
 			
-			// aapt resource value: 0x7F05002B
-			public const int design_snackbar_elevation = 2131034155;
+			// aapt resource value: 0x7F030074
+			public const int checkboxStyle = 2130903156;
 			
-			// aapt resource value: 0x7F05002C
-			public const int design_snackbar_extra_spacing_horizontal = 2131034156;
+			// aapt resource value: 0x7F030075
+			public const int checkedButton = 2130903157;
 			
-			// aapt resource value: 0x7F05002D
-			public const int design_snackbar_max_width = 2131034157;
+			// aapt resource value: 0x7F030076
+			public const int checkedChip = 2130903158;
 			
-			// aapt resource value: 0x7F05002E
-			public const int design_snackbar_min_width = 2131034158;
+			// aapt resource value: 0x7F030077
+			public const int checkedIcon = 2130903159;
 			
-			// aapt resource value: 0x7F05002F
-			public const int design_snackbar_padding_horizontal = 2131034159;
+			// aapt resource value: 0x7F030078
+			public const int checkedIconEnabled = 2130903160;
 			
-			// aapt resource value: 0x7F050030
-			public const int design_snackbar_padding_vertical = 2131034160;
+			// aapt resource value: 0x7F030079
+			public const int checkedIconTint = 2130903161;
 			
-			// aapt resource value: 0x7F050031
-			public const int design_snackbar_padding_vertical_2lines = 2131034161;
+			// aapt resource value: 0x7F03007A
+			public const int checkedIconVisible = 2130903162;
 			
-			// aapt resource value: 0x7F050032
-			public const int design_snackbar_text_size = 2131034162;
+			// aapt resource value: 0x7F03007B
+			public const int checkedTextViewStyle = 2130903163;
 			
-			// aapt resource value: 0x7F050033
-			public const int design_tab_max_width = 2131034163;
+			// aapt resource value: 0x7F03007C
+			public const int chipBackgroundColor = 2130903164;
 			
-			// aapt resource value: 0x7F050034
-			public const int design_tab_scrollable_min_width = 2131034164;
+			// aapt resource value: 0x7F03007D
+			public const int chipCornerRadius = 2130903165;
 			
-			// aapt resource value: 0x7F050035
-			public const int design_tab_text_size = 2131034165;
+			// aapt resource value: 0x7F03007E
+			public const int chipEndPadding = 2130903166;
 			
-			// aapt resource value: 0x7F050036
-			public const int design_tab_text_size_2line = 2131034166;
+			// aapt resource value: 0x7F03007F
+			public const int chipGroupStyle = 2130903167;
 			
-			// aapt resource value: 0x7F050037
-			public const int design_textinput_caption_translate_y = 2131034167;
+			// aapt resource value: 0x7F030080
+			public const int chipIcon = 2130903168;
 			
-			// aapt resource value: 0x7F050038
-			public const int material_emphasis_disabled = 2131034168;
+			// aapt resource value: 0x7F030081
+			public const int chipIconEnabled = 2130903169;
 			
-			// aapt resource value: 0x7F050039
-			public const int material_emphasis_high_type = 2131034169;
+			// aapt resource value: 0x7F030082
+			public const int chipIconSize = 2130903170;
 			
-			// aapt resource value: 0x7F05003A
-			public const int material_emphasis_medium = 2131034170;
+			// aapt resource value: 0x7F030083
+			public const int chipIconTint = 2130903171;
 			
-			// aapt resource value: 0x7F05003B
-			public const int material_text_view_test_line_height = 2131034171;
+			// aapt resource value: 0x7F030084
+			public const int chipIconVisible = 2130903172;
 			
-			// aapt resource value: 0x7F05003C
-			public const int material_text_view_test_line_height_override = 2131034172;
+			// aapt resource value: 0x7F030085
+			public const int chipMinHeight = 2130903173;
 			
-			// aapt resource value: 0x7F05003D
-			public const int mtrl_alert_dialog_background_inset_bottom = 2131034173;
+			// aapt resource value: 0x7F030086
+			public const int chipMinTouchTargetSize = 2130903174;
 			
-			// aapt resource value: 0x7F05003E
-			public const int mtrl_alert_dialog_background_inset_end = 2131034174;
+			// aapt resource value: 0x7F030087
+			public const int chipSpacing = 2130903175;
 			
-			// aapt resource value: 0x7F05003F
-			public const int mtrl_alert_dialog_background_inset_start = 2131034175;
+			// aapt resource value: 0x7F030088
+			public const int chipSpacingHorizontal = 2130903176;
 			
-			// aapt resource value: 0x7F050040
-			public const int mtrl_alert_dialog_background_inset_top = 2131034176;
+			// aapt resource value: 0x7F030089
+			public const int chipSpacingVertical = 2130903177;
 			
-			// aapt resource value: 0x7F050041
-			public const int mtrl_alert_dialog_picker_background_inset = 2131034177;
+			// aapt resource value: 0x7F03008A
+			public const int chipStandaloneStyle = 2130903178;
 			
-			// aapt resource value: 0x7F050042
-			public const int mtrl_badge_horizontal_edge_offset = 2131034178;
+			// aapt resource value: 0x7F03008B
+			public const int chipStartPadding = 2130903179;
 			
-			// aapt resource value: 0x7F050043
-			public const int mtrl_badge_long_text_horizontal_padding = 2131034179;
+			// aapt resource value: 0x7F03008C
+			public const int chipStrokeColor = 2130903180;
 			
-			// aapt resource value: 0x7F050044
-			public const int mtrl_badge_radius = 2131034180;
+			// aapt resource value: 0x7F03008D
+			public const int chipStrokeWidth = 2130903181;
 			
-			// aapt resource value: 0x7F050045
-			public const int mtrl_badge_text_horizontal_edge_offset = 2131034181;
+			// aapt resource value: 0x7F03008E
+			public const int chipStyle = 2130903182;
 			
-			// aapt resource value: 0x7F050046
-			public const int mtrl_badge_text_size = 2131034182;
+			// aapt resource value: 0x7F03008F
+			public const int chipSurfaceColor = 2130903183;
 			
-			// aapt resource value: 0x7F050047
-			public const int mtrl_badge_with_text_radius = 2131034183;
+			// aapt resource value: 0x7F030090
+			public const int closeIcon = 2130903184;
 			
-			// aapt resource value: 0x7F050048
-			public const int mtrl_bottomappbar_fabOffsetEndMode = 2131034184;
+			// aapt resource value: 0x7F030091
+			public const int closeIconEnabled = 2130903185;
 			
-			// aapt resource value: 0x7F050049
-			public const int mtrl_bottomappbar_fab_bottom_margin = 2131034185;
+			// aapt resource value: 0x7F030092
+			public const int closeIconEndPadding = 2130903186;
 			
-			// aapt resource value: 0x7F05004A
-			public const int mtrl_bottomappbar_fab_cradle_margin = 2131034186;
+			// aapt resource value: 0x7F030093
+			public const int closeIconSize = 2130903187;
 			
-			// aapt resource value: 0x7F05004B
-			public const int mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 2131034187;
+			// aapt resource value: 0x7F030094
+			public const int closeIconStartPadding = 2130903188;
 			
-			// aapt resource value: 0x7F05004C
-			public const int mtrl_bottomappbar_fab_cradle_vertical_offset = 2131034188;
+			// aapt resource value: 0x7F030095
+			public const int closeIconTint = 2130903189;
 			
-			// aapt resource value: 0x7F05004D
-			public const int mtrl_bottomappbar_height = 2131034189;
+			// aapt resource value: 0x7F030096
+			public const int closeIconVisible = 2130903190;
 			
-			// aapt resource value: 0x7F05004E
-			public const int mtrl_btn_corner_radius = 2131034190;
+			// aapt resource value: 0x7F030097
+			public const int closeItemLayout = 2130903191;
 			
-			// aapt resource value: 0x7F05004F
-			public const int mtrl_btn_dialog_btn_min_width = 2131034191;
+			// aapt resource value: 0x7F030098
+			public const int collapseContentDescription = 2130903192;
 			
-			// aapt resource value: 0x7F050050
-			public const int mtrl_btn_disabled_elevation = 2131034192;
+			// aapt resource value: 0x7F03009A
+			public const int collapsedTitleGravity = 2130903194;
 			
-			// aapt resource value: 0x7F050051
-			public const int mtrl_btn_disabled_z = 2131034193;
+			// aapt resource value: 0x7F03009B
+			public const int collapsedTitleTextAppearance = 2130903195;
 			
-			// aapt resource value: 0x7F050052
-			public const int mtrl_btn_elevation = 2131034194;
+			// aapt resource value: 0x7F030099
+			public const int collapseIcon = 2130903193;
 			
-			// aapt resource value: 0x7F050053
-			public const int mtrl_btn_focused_z = 2131034195;
+			// aapt resource value: 0x7F03009C
+			public const int color = 2130903196;
 			
-			// aapt resource value: 0x7F050054
-			public const int mtrl_btn_hovered_z = 2131034196;
+			// aapt resource value: 0x7F03009D
+			public const int colorAccent = 2130903197;
 			
-			// aapt resource value: 0x7F050055
-			public const int mtrl_btn_icon_btn_padding_left = 2131034197;
+			// aapt resource value: 0x7F03009E
+			public const int colorBackgroundFloating = 2130903198;
 			
-			// aapt resource value: 0x7F050056
-			public const int mtrl_btn_icon_padding = 2131034198;
+			// aapt resource value: 0x7F03009F
+			public const int colorButtonNormal = 2130903199;
 			
-			// aapt resource value: 0x7F050057
-			public const int mtrl_btn_inset = 2131034199;
+			// aapt resource value: 0x7F0300A0
+			public const int colorControlActivated = 2130903200;
 			
-			// aapt resource value: 0x7F050058
-			public const int mtrl_btn_letter_spacing = 2131034200;
+			// aapt resource value: 0x7F0300A1
+			public const int colorControlHighlight = 2130903201;
 			
-			// aapt resource value: 0x7F050059
-			public const int mtrl_btn_padding_bottom = 2131034201;
+			// aapt resource value: 0x7F0300A2
+			public const int colorControlNormal = 2130903202;
 			
-			// aapt resource value: 0x7F05005A
-			public const int mtrl_btn_padding_left = 2131034202;
+			// aapt resource value: 0x7F0300A3
+			public const int colorError = 2130903203;
 			
-			// aapt resource value: 0x7F05005B
-			public const int mtrl_btn_padding_right = 2131034203;
+			// aapt resource value: 0x7F0300A4
+			public const int colorOnBackground = 2130903204;
 			
-			// aapt resource value: 0x7F05005C
-			public const int mtrl_btn_padding_top = 2131034204;
+			// aapt resource value: 0x7F0300A5
+			public const int colorOnError = 2130903205;
 			
-			// aapt resource value: 0x7F05005D
-			public const int mtrl_btn_pressed_z = 2131034205;
+			// aapt resource value: 0x7F0300A6
+			public const int colorOnPrimary = 2130903206;
 			
-			// aapt resource value: 0x7F05005E
-			public const int mtrl_btn_stroke_size = 2131034206;
+			// aapt resource value: 0x7F0300A7
+			public const int colorOnPrimarySurface = 2130903207;
 			
-			// aapt resource value: 0x7F05005F
-			public const int mtrl_btn_text_btn_icon_padding = 2131034207;
+			// aapt resource value: 0x7F0300A8
+			public const int colorOnSecondary = 2130903208;
 			
-			// aapt resource value: 0x7F050060
-			public const int mtrl_btn_text_btn_padding_left = 2131034208;
+			// aapt resource value: 0x7F0300A9
+			public const int colorOnSurface = 2130903209;
 			
-			// aapt resource value: 0x7F050061
-			public const int mtrl_btn_text_btn_padding_right = 2131034209;
+			// aapt resource value: 0x7F0300AA
+			public const int colorPrimary = 2130903210;
 			
-			// aapt resource value: 0x7F050062
-			public const int mtrl_btn_text_size = 2131034210;
+			// aapt resource value: 0x7F0300AB
+			public const int colorPrimaryDark = 2130903211;
 			
-			// aapt resource value: 0x7F050063
-			public const int mtrl_btn_z = 2131034211;
+			// aapt resource value: 0x7F0300AC
+			public const int colorPrimarySurface = 2130903212;
 			
-			// aapt resource value: 0x7F050064
-			public const int mtrl_calendar_action_height = 2131034212;
+			// aapt resource value: 0x7F0300AD
+			public const int colorPrimaryVariant = 2130903213;
 			
-			// aapt resource value: 0x7F050065
-			public const int mtrl_calendar_action_padding = 2131034213;
+			// aapt resource value: 0x7F0300AE
+			public const int colorSecondary = 2130903214;
 			
-			// aapt resource value: 0x7F050066
-			public const int mtrl_calendar_bottom_padding = 2131034214;
+			// aapt resource value: 0x7F0300AF
+			public const int colorSecondaryVariant = 2130903215;
 			
-			// aapt resource value: 0x7F050067
-			public const int mtrl_calendar_content_padding = 2131034215;
+			// aapt resource value: 0x7F0300B0
+			public const int colorSurface = 2130903216;
 			
-			// aapt resource value: 0x7F05006E
-			public const int mtrl_calendar_days_of_week_height = 2131034222;
+			// aapt resource value: 0x7F0300B1
+			public const int colorSwitchThumbNormal = 2130903217;
 			
-			// aapt resource value: 0x7F050068
-			public const int mtrl_calendar_day_corner = 2131034216;
+			// aapt resource value: 0x7F0300B2
+			public const int commitIcon = 2130903218;
 			
-			// aapt resource value: 0x7F050069
-			public const int mtrl_calendar_day_height = 2131034217;
+			// aapt resource value: 0x7F0300B3
+			public const int contentDescription = 2130903219;
 			
-			// aapt resource value: 0x7F05006A
-			public const int mtrl_calendar_day_horizontal_padding = 2131034218;
+			// aapt resource value: 0x7F0300B4
+			public const int contentInsetEnd = 2130903220;
 			
-			// aapt resource value: 0x7F05006B
-			public const int mtrl_calendar_day_today_stroke = 2131034219;
+			// aapt resource value: 0x7F0300B5
+			public const int contentInsetEndWithActions = 2130903221;
 			
-			// aapt resource value: 0x7F05006C
-			public const int mtrl_calendar_day_vertical_padding = 2131034220;
+			// aapt resource value: 0x7F0300B6
+			public const int contentInsetLeft = 2130903222;
 			
-			// aapt resource value: 0x7F05006D
-			public const int mtrl_calendar_day_width = 2131034221;
+			// aapt resource value: 0x7F0300B7
+			public const int contentInsetRight = 2130903223;
 			
-			// aapt resource value: 0x7F05006F
-			public const int mtrl_calendar_dialog_background_inset = 2131034223;
+			// aapt resource value: 0x7F0300B8
+			public const int contentInsetStart = 2130903224;
 			
-			// aapt resource value: 0x7F050070
-			public const int mtrl_calendar_header_content_padding = 2131034224;
+			// aapt resource value: 0x7F0300B9
+			public const int contentInsetStartWithNavigation = 2130903225;
 			
-			// aapt resource value: 0x7F050071
-			public const int mtrl_calendar_header_content_padding_fullscreen = 2131034225;
+			// aapt resource value: 0x7F0300BA
+			public const int contentPadding = 2130903226;
 			
-			// aapt resource value: 0x7F050072
-			public const int mtrl_calendar_header_divider_thickness = 2131034226;
+			// aapt resource value: 0x7F0300BB
+			public const int contentPaddingBottom = 2130903227;
 			
-			// aapt resource value: 0x7F050073
-			public const int mtrl_calendar_header_height = 2131034227;
+			// aapt resource value: 0x7F0300BC
+			public const int contentPaddingLeft = 2130903228;
 			
-			// aapt resource value: 0x7F050074
-			public const int mtrl_calendar_header_height_fullscreen = 2131034228;
+			// aapt resource value: 0x7F0300BD
+			public const int contentPaddingRight = 2130903229;
 			
-			// aapt resource value: 0x7F050075
-			public const int mtrl_calendar_header_selection_line_height = 2131034229;
+			// aapt resource value: 0x7F0300BE
+			public const int contentPaddingTop = 2130903230;
 			
-			// aapt resource value: 0x7F050076
-			public const int mtrl_calendar_header_text_padding = 2131034230;
+			// aapt resource value: 0x7F0300BF
+			public const int contentScrim = 2130903231;
 			
-			// aapt resource value: 0x7F050077
-			public const int mtrl_calendar_header_toggle_margin_bottom = 2131034231;
+			// aapt resource value: 0x7F0300C0
+			public const int controlBackground = 2130903232;
 			
-			// aapt resource value: 0x7F050078
-			public const int mtrl_calendar_header_toggle_margin_top = 2131034232;
+			// aapt resource value: 0x7F0300C1
+			public const int coordinatorLayoutStyle = 2130903233;
 			
-			// aapt resource value: 0x7F050079
-			public const int mtrl_calendar_landscape_header_width = 2131034233;
+			// aapt resource value: 0x7F0300C2
+			public const int cornerFamily = 2130903234;
 			
-			// aapt resource value: 0x7F05007A
-			public const int mtrl_calendar_maximum_default_fullscreen_minor_axis = 2131034234;
+			// aapt resource value: 0x7F0300C3
+			public const int cornerFamilyBottomLeft = 2130903235;
 			
-			// aapt resource value: 0x7F05007B
-			public const int mtrl_calendar_month_horizontal_padding = 2131034235;
+			// aapt resource value: 0x7F0300C4
+			public const int cornerFamilyBottomRight = 2130903236;
 			
-			// aapt resource value: 0x7F05007C
-			public const int mtrl_calendar_month_vertical_padding = 2131034236;
+			// aapt resource value: 0x7F0300C5
+			public const int cornerFamilyTopLeft = 2130903237;
 			
-			// aapt resource value: 0x7F05007D
-			public const int mtrl_calendar_navigation_bottom_padding = 2131034237;
+			// aapt resource value: 0x7F0300C6
+			public const int cornerFamilyTopRight = 2130903238;
 			
-			// aapt resource value: 0x7F05007E
-			public const int mtrl_calendar_navigation_height = 2131034238;
+			// aapt resource value: 0x7F0300C7
+			public const int cornerRadius = 2130903239;
 			
-			// aapt resource value: 0x7F05007F
-			public const int mtrl_calendar_navigation_top_padding = 2131034239;
+			// aapt resource value: 0x7F0300C8
+			public const int cornerSize = 2130903240;
 			
-			// aapt resource value: 0x7F050080
-			public const int mtrl_calendar_pre_l_text_clip_padding = 2131034240;
+			// aapt resource value: 0x7F0300C9
+			public const int cornerSizeBottomLeft = 2130903241;
 			
-			// aapt resource value: 0x7F050081
-			public const int mtrl_calendar_selection_baseline_to_top_fullscreen = 2131034241;
+			// aapt resource value: 0x7F0300CA
+			public const int cornerSizeBottomRight = 2130903242;
 			
-			// aapt resource value: 0x7F050082
-			public const int mtrl_calendar_selection_text_baseline_to_bottom = 2131034242;
+			// aapt resource value: 0x7F0300CB
+			public const int cornerSizeTopLeft = 2130903243;
 			
-			// aapt resource value: 0x7F050083
-			public const int mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = 2131034243;
+			// aapt resource value: 0x7F0300CC
+			public const int cornerSizeTopRight = 2130903244;
 			
-			// aapt resource value: 0x7F050084
-			public const int mtrl_calendar_selection_text_baseline_to_top = 2131034244;
+			// aapt resource value: 0x7F0300CD
+			public const int counterEnabled = 2130903245;
 			
-			// aapt resource value: 0x7F050085
-			public const int mtrl_calendar_text_input_padding_top = 2131034245;
+			// aapt resource value: 0x7F0300CE
+			public const int counterMaxLength = 2130903246;
 			
-			// aapt resource value: 0x7F050086
-			public const int mtrl_calendar_title_baseline_to_top = 2131034246;
+			// aapt resource value: 0x7F0300CF
+			public const int counterOverflowTextAppearance = 2130903247;
 			
-			// aapt resource value: 0x7F050087
-			public const int mtrl_calendar_title_baseline_to_top_fullscreen = 2131034247;
+			// aapt resource value: 0x7F0300D0
+			public const int counterOverflowTextColor = 2130903248;
 			
-			// aapt resource value: 0x7F050088
-			public const int mtrl_calendar_year_corner = 2131034248;
+			// aapt resource value: 0x7F0300D1
+			public const int counterTextAppearance = 2130903249;
 			
-			// aapt resource value: 0x7F050089
-			public const int mtrl_calendar_year_height = 2131034249;
+			// aapt resource value: 0x7F0300D2
+			public const int counterTextColor = 2130903250;
 			
-			// aapt resource value: 0x7F05008A
-			public const int mtrl_calendar_year_horizontal_padding = 2131034250;
+			// aapt resource value: 0x7F0300D3
+			public const int customNavigationLayout = 2130903251;
 			
-			// aapt resource value: 0x7F05008B
-			public const int mtrl_calendar_year_vertical_padding = 2131034251;
+			// aapt resource value: 0x7F0300D4
+			public const int dayInvalidStyle = 2130903252;
 			
-			// aapt resource value: 0x7F05008C
-			public const int mtrl_calendar_year_width = 2131034252;
+			// aapt resource value: 0x7F0300D5
+			public const int daySelectedStyle = 2130903253;
 			
-			// aapt resource value: 0x7F05008D
-			public const int mtrl_card_checked_icon_margin = 2131034253;
+			// aapt resource value: 0x7F0300D6
+			public const int dayStyle = 2130903254;
 			
-			// aapt resource value: 0x7F05008E
-			public const int mtrl_card_checked_icon_size = 2131034254;
+			// aapt resource value: 0x7F0300D7
+			public const int dayTodayStyle = 2130903255;
 			
-			// aapt resource value: 0x7F05008F
-			public const int mtrl_card_corner_radius = 2131034255;
+			// aapt resource value: 0x7F0300D8
+			public const int defaultQueryHint = 2130903256;
 			
-			// aapt resource value: 0x7F050090
-			public const int mtrl_card_dragged_z = 2131034256;
+			// aapt resource value: 0x7F0300D9
+			public const int dialogCornerRadius = 2130903257;
 			
-			// aapt resource value: 0x7F050091
-			public const int mtrl_card_elevation = 2131034257;
+			// aapt resource value: 0x7F0300DA
+			public const int dialogPreferredPadding = 2130903258;
 			
-			// aapt resource value: 0x7F050092
-			public const int mtrl_card_spacing = 2131034258;
+			// aapt resource value: 0x7F0300DB
+			public const int dialogTheme = 2130903259;
 			
-			// aapt resource value: 0x7F050093
-			public const int mtrl_chip_pressed_translation_z = 2131034259;
+			// aapt resource value: 0x7F0300DC
+			public const int displayOptions = 2130903260;
 			
-			// aapt resource value: 0x7F050094
-			public const int mtrl_chip_text_size = 2131034260;
+			// aapt resource value: 0x7F0300DD
+			public const int divider = 2130903261;
 			
-			// aapt resource value: 0x7F050095
-			public const int mtrl_edittext_rectangle_top_offset = 2131034261;
+			// aapt resource value: 0x7F0300DE
+			public const int dividerHorizontal = 2130903262;
 			
-			// aapt resource value: 0x7F050096
-			public const int mtrl_exposed_dropdown_menu_popup_elevation = 2131034262;
+			// aapt resource value: 0x7F0300DF
+			public const int dividerPadding = 2130903263;
 			
-			// aapt resource value: 0x7F050097
-			public const int mtrl_exposed_dropdown_menu_popup_vertical_offset = 2131034263;
+			// aapt resource value: 0x7F0300E0
+			public const int dividerVertical = 2130903264;
 			
-			// aapt resource value: 0x7F050098
-			public const int mtrl_exposed_dropdown_menu_popup_vertical_padding = 2131034264;
+			// aapt resource value: 0x7F0300E1
+			public const int drawableBottomCompat = 2130903265;
 			
-			// aapt resource value: 0x7F050099
-			public const int mtrl_extended_fab_bottom_padding = 2131034265;
+			// aapt resource value: 0x7F0300E2
+			public const int drawableEndCompat = 2130903266;
 			
-			// aapt resource value: 0x7F05009A
-			public const int mtrl_extended_fab_corner_radius = 2131034266;
+			// aapt resource value: 0x7F0300E3
+			public const int drawableLeftCompat = 2130903267;
 			
-			// aapt resource value: 0x7F05009B
-			public const int mtrl_extended_fab_disabled_elevation = 2131034267;
+			// aapt resource value: 0x7F0300E4
+			public const int drawableRightCompat = 2130903268;
 			
-			// aapt resource value: 0x7F05009C
-			public const int mtrl_extended_fab_disabled_translation_z = 2131034268;
+			// aapt resource value: 0x7F0300E5
+			public const int drawableSize = 2130903269;
 			
-			// aapt resource value: 0x7F05009D
-			public const int mtrl_extended_fab_elevation = 2131034269;
+			// aapt resource value: 0x7F0300E6
+			public const int drawableStartCompat = 2130903270;
 			
-			// aapt resource value: 0x7F05009E
-			public const int mtrl_extended_fab_end_padding = 2131034270;
+			// aapt resource value: 0x7F0300E7
+			public const int drawableTint = 2130903271;
 			
-			// aapt resource value: 0x7F05009F
-			public const int mtrl_extended_fab_end_padding_icon = 2131034271;
+			// aapt resource value: 0x7F0300E8
+			public const int drawableTintMode = 2130903272;
 			
-			// aapt resource value: 0x7F0500A0
-			public const int mtrl_extended_fab_icon_size = 2131034272;
+			// aapt resource value: 0x7F0300E9
+			public const int drawableTopCompat = 2130903273;
 			
-			// aapt resource value: 0x7F0500A1
-			public const int mtrl_extended_fab_icon_text_spacing = 2131034273;
+			// aapt resource value: 0x7F0300EA
+			public const int drawerArrowStyle = 2130903274;
 			
-			// aapt resource value: 0x7F0500A2
-			public const int mtrl_extended_fab_min_height = 2131034274;
+			// aapt resource value: 0x7F0300EB
+			public const int drawerLayoutStyle = 2130903275;
 			
-			// aapt resource value: 0x7F0500A3
-			public const int mtrl_extended_fab_min_width = 2131034275;
+			// aapt resource value: 0x7F0300ED
+			public const int dropdownListPreferredItemHeight = 2130903277;
 			
-			// aapt resource value: 0x7F0500A4
-			public const int mtrl_extended_fab_start_padding = 2131034276;
+			// aapt resource value: 0x7F0300EC
+			public const int dropDownListViewStyle = 2130903276;
 			
-			// aapt resource value: 0x7F0500A5
-			public const int mtrl_extended_fab_start_padding_icon = 2131034277;
+			// aapt resource value: 0x7F0300EE
+			public const int editTextBackground = 2130903278;
 			
-			// aapt resource value: 0x7F0500A6
-			public const int mtrl_extended_fab_top_padding = 2131034278;
+			// aapt resource value: 0x7F0300EF
+			public const int editTextColor = 2130903279;
 			
-			// aapt resource value: 0x7F0500A7
-			public const int mtrl_extended_fab_translation_z_base = 2131034279;
+			// aapt resource value: 0x7F0300F0
+			public const int editTextStyle = 2130903280;
 			
-			// aapt resource value: 0x7F0500A8
-			public const int mtrl_extended_fab_translation_z_hovered_focused = 2131034280;
+			// aapt resource value: 0x7F0300F1
+			public const int elevation = 2130903281;
 			
-			// aapt resource value: 0x7F0500A9
-			public const int mtrl_extended_fab_translation_z_pressed = 2131034281;
+			// aapt resource value: 0x7F0300F2
+			public const int elevationOverlayColor = 2130903282;
 			
-			// aapt resource value: 0x7F0500AA
-			public const int mtrl_fab_elevation = 2131034282;
+			// aapt resource value: 0x7F0300F3
+			public const int elevationOverlayEnabled = 2130903283;
 			
-			// aapt resource value: 0x7F0500AB
-			public const int mtrl_fab_min_touch_target = 2131034283;
+			// aapt resource value: 0x7F0300F4
+			public const int endIconCheckable = 2130903284;
 			
-			// aapt resource value: 0x7F0500AC
-			public const int mtrl_fab_translation_z_hovered_focused = 2131034284;
+			// aapt resource value: 0x7F0300F5
+			public const int endIconContentDescription = 2130903285;
 			
-			// aapt resource value: 0x7F0500AD
-			public const int mtrl_fab_translation_z_pressed = 2131034285;
+			// aapt resource value: 0x7F0300F6
+			public const int endIconDrawable = 2130903286;
 			
-			// aapt resource value: 0x7F0500AE
-			public const int mtrl_high_ripple_default_alpha = 2131034286;
+			// aapt resource value: 0x7F0300F7
+			public const int endIconMode = 2130903287;
 			
-			// aapt resource value: 0x7F0500AF
-			public const int mtrl_high_ripple_focused_alpha = 2131034287;
+			// aapt resource value: 0x7F0300F8
+			public const int endIconTint = 2130903288;
 			
-			// aapt resource value: 0x7F0500B0
-			public const int mtrl_high_ripple_hovered_alpha = 2131034288;
+			// aapt resource value: 0x7F0300F9
+			public const int endIconTintMode = 2130903289;
 			
-			// aapt resource value: 0x7F0500B1
-			public const int mtrl_high_ripple_pressed_alpha = 2131034289;
+			// aapt resource value: 0x7F0300FA
+			public const int enforceMaterialTheme = 2130903290;
 			
-			// aapt resource value: 0x7F0500B2
-			public const int mtrl_large_touch_target = 2131034290;
+			// aapt resource value: 0x7F0300FB
+			public const int enforceTextAppearance = 2130903291;
 			
-			// aapt resource value: 0x7F0500B3
-			public const int mtrl_low_ripple_default_alpha = 2131034291;
+			// aapt resource value: 0x7F0300FC
+			public const int ensureMinTouchTargetSize = 2130903292;
 			
-			// aapt resource value: 0x7F0500B4
-			public const int mtrl_low_ripple_focused_alpha = 2131034292;
+			// aapt resource value: 0x7F0300FD
+			public const int errorContentDescription = 2130903293;
 			
-			// aapt resource value: 0x7F0500B5
-			public const int mtrl_low_ripple_hovered_alpha = 2131034293;
+			// aapt resource value: 0x7F0300FE
+			public const int errorEnabled = 2130903294;
 			
-			// aapt resource value: 0x7F0500B6
-			public const int mtrl_low_ripple_pressed_alpha = 2131034294;
+			// aapt resource value: 0x7F0300FF
+			public const int errorIconDrawable = 2130903295;
 			
-			// aapt resource value: 0x7F0500B7
-			public const int mtrl_min_touch_target_size = 2131034295;
+			// aapt resource value: 0x7F030100
+			public const int errorIconTint = 2130903296;
 			
-			// aapt resource value: 0x7F0500B8
-			public const int mtrl_navigation_elevation = 2131034296;
+			// aapt resource value: 0x7F030101
+			public const int errorIconTintMode = 2130903297;
 			
-			// aapt resource value: 0x7F0500B9
-			public const int mtrl_navigation_item_horizontal_padding = 2131034297;
+			// aapt resource value: 0x7F030102
+			public const int errorTextAppearance = 2130903298;
 			
-			// aapt resource value: 0x7F0500BA
-			public const int mtrl_navigation_item_icon_padding = 2131034298;
+			// aapt resource value: 0x7F030103
+			public const int errorTextColor = 2130903299;
 			
-			// aapt resource value: 0x7F0500BB
-			public const int mtrl_navigation_item_icon_size = 2131034299;
+			// aapt resource value: 0x7F030104
+			public const int expandActivityOverflowButtonDrawable = 2130903300;
 			
-			// aapt resource value: 0x7F0500BC
-			public const int mtrl_navigation_item_shape_horizontal_margin = 2131034300;
+			// aapt resource value: 0x7F030105
+			public const int expanded = 2130903301;
 			
-			// aapt resource value: 0x7F0500BD
-			public const int mtrl_navigation_item_shape_vertical_margin = 2131034301;
+			// aapt resource value: 0x7F030106
+			public const int expandedTitleGravity = 2130903302;
 			
-			// aapt resource value: 0x7F0500BE
-			public const int mtrl_shape_corner_size_large_component = 2131034302;
+			// aapt resource value: 0x7F030107
+			public const int expandedTitleMargin = 2130903303;
 			
-			// aapt resource value: 0x7F0500BF
-			public const int mtrl_shape_corner_size_medium_component = 2131034303;
+			// aapt resource value: 0x7F030108
+			public const int expandedTitleMarginBottom = 2130903304;
 			
-			// aapt resource value: 0x7F0500C0
-			public const int mtrl_shape_corner_size_small_component = 2131034304;
+			// aapt resource value: 0x7F030109
+			public const int expandedTitleMarginEnd = 2130903305;
 			
-			// aapt resource value: 0x7F0500C1
-			public const int mtrl_slider_halo_radius = 2131034305;
+			// aapt resource value: 0x7F03010A
+			public const int expandedTitleMarginStart = 2130903306;
 			
-			// aapt resource value: 0x7F0500C2
-			public const int mtrl_slider_label_padding = 2131034306;
+			// aapt resource value: 0x7F03010B
+			public const int expandedTitleMarginTop = 2130903307;
 			
-			// aapt resource value: 0x7F0500C3
-			public const int mtrl_slider_label_radius = 2131034307;
+			// aapt resource value: 0x7F03010C
+			public const int expandedTitleTextAppearance = 2130903308;
 			
-			// aapt resource value: 0x7F0500C4
-			public const int mtrl_slider_label_square_side = 2131034308;
+			// aapt resource value: 0x7F03010E
+			public const int extendedFloatingActionButtonStyle = 2130903310;
 			
-			// aapt resource value: 0x7F0500C5
-			public const int mtrl_slider_thumb_elevation = 2131034309;
+			// aapt resource value: 0x7F03010D
+			public const int extendMotionSpec = 2130903309;
 			
-			// aapt resource value: 0x7F0500C6
-			public const int mtrl_slider_thumb_radius = 2131034310;
+			// aapt resource value: 0x7F03010F
+			public const int fabAlignmentMode = 2130903311;
 			
-			// aapt resource value: 0x7F0500C7
-			public const int mtrl_slider_track_height = 2131034311;
+			// aapt resource value: 0x7F030110
+			public const int fabAnimationMode = 2130903312;
 			
-			// aapt resource value: 0x7F0500C8
-			public const int mtrl_slider_track_side_padding = 2131034312;
+			// aapt resource value: 0x7F030111
+			public const int fabCradleMargin = 2130903313;
 			
-			// aapt resource value: 0x7F0500C9
-			public const int mtrl_slider_track_top = 2131034313;
+			// aapt resource value: 0x7F030112
+			public const int fabCradleRoundedCornerRadius = 2130903314;
 			
-			// aapt resource value: 0x7F0500CA
-			public const int mtrl_slider_widget_height = 2131034314;
+			// aapt resource value: 0x7F030113
+			public const int fabCradleVerticalOffset = 2130903315;
 			
-			// aapt resource value: 0x7F0500CB
-			public const int mtrl_snackbar_action_text_color_alpha = 2131034315;
+			// aapt resource value: 0x7F030114
+			public const int fabCustomSize = 2130903316;
 			
-			// aapt resource value: 0x7F0500CC
-			public const int mtrl_snackbar_background_corner_radius = 2131034316;
+			// aapt resource value: 0x7F030115
+			public const int fabSize = 2130903317;
 			
-			// aapt resource value: 0x7F0500CD
-			public const int mtrl_snackbar_background_overlay_color_alpha = 2131034317;
+			// aapt resource value: 0x7F030116
+			public const int fastScrollEnabled = 2130903318;
 			
-			// aapt resource value: 0x7F0500CE
-			public const int mtrl_snackbar_margin = 2131034318;
+			// aapt resource value: 0x7F030117
+			public const int fastScrollHorizontalThumbDrawable = 2130903319;
 			
-			// aapt resource value: 0x7F0500CF
-			public const int mtrl_switch_thumb_elevation = 2131034319;
+			// aapt resource value: 0x7F030118
+			public const int fastScrollHorizontalTrackDrawable = 2130903320;
 			
-			// aapt resource value: 0x7F0500D0
-			public const int mtrl_textinput_box_corner_radius_medium = 2131034320;
+			// aapt resource value: 0x7F030119
+			public const int fastScrollVerticalThumbDrawable = 2130903321;
 			
-			// aapt resource value: 0x7F0500D1
-			public const int mtrl_textinput_box_corner_radius_small = 2131034321;
+			// aapt resource value: 0x7F03011A
+			public const int fastScrollVerticalTrackDrawable = 2130903322;
 			
-			// aapt resource value: 0x7F0500D2
-			public const int mtrl_textinput_box_label_cutout_padding = 2131034322;
+			// aapt resource value: 0x7F03011B
+			public const int firstBaselineToTopHeight = 2130903323;
 			
-			// aapt resource value: 0x7F0500D3
-			public const int mtrl_textinput_box_stroke_width_default = 2131034323;
+			// aapt resource value: 0x7F03011C
+			public const int floatingActionButtonStyle = 2130903324;
 			
-<<<<<<< HEAD
+			// aapt resource value: 0x7F03011D
+			public const int font = 2130903325;
+			
+			// aapt resource value: 0x7F03011E
+			public const int fontFamily = 2130903326;
+			
+			// aapt resource value: 0x7F03011F
+			public const int fontProviderAuthority = 2130903327;
+			
+			// aapt resource value: 0x7F030120
+			public const int fontProviderCerts = 2130903328;
+			
+			// aapt resource value: 0x7F030121
+			public const int fontProviderFetchStrategy = 2130903329;
+			
+			// aapt resource value: 0x7F030122
+			public const int fontProviderFetchTimeout = 2130903330;
+			
+			// aapt resource value: 0x7F030123
+			public const int fontProviderPackage = 2130903331;
+			
+			// aapt resource value: 0x7F030124
+			public const int fontProviderQuery = 2130903332;
+			
+			// aapt resource value: 0x7F030125
+			public const int fontStyle = 2130903333;
+			
+			// aapt resource value: 0x7F030126
+			public const int fontVariationSettings = 2130903334;
+			
+			// aapt resource value: 0x7F030127
+			public const int fontWeight = 2130903335;
+			
+			// aapt resource value: 0x7F030128
+			public const int foregroundInsidePadding = 2130903336;
+			
+			// aapt resource value: 0x7F030129
+			public const int gapBetweenBars = 2130903337;
+			
+			// aapt resource value: 0x7F03012A
+			public const int gestureInsetBottomIgnored = 2130903338;
+			
+			// aapt resource value: 0x7F03012B
+			public const int goIcon = 2130903339;
+			
+			// aapt resource value: 0x7F03012C
+			public const int haloColor = 2130903340;
+			
+			// aapt resource value: 0x7F03012D
+			public const int haloRadius = 2130903341;
+			
+			// aapt resource value: 0x7F03012E
+			public const int headerLayout = 2130903342;
+			
+			// aapt resource value: 0x7F03012F
+			public const int height = 2130903343;
+			
+			// aapt resource value: 0x7F030130
+			public const int helperText = 2130903344;
+			
+			// aapt resource value: 0x7F030131
+			public const int helperTextEnabled = 2130903345;
+			
+			// aapt resource value: 0x7F030132
+			public const int helperTextTextAppearance = 2130903346;
+			
+			// aapt resource value: 0x7F030133
+			public const int helperTextTextColor = 2130903347;
+			
+			// aapt resource value: 0x7F030134
+			public const int hideMotionSpec = 2130903348;
+			
+			// aapt resource value: 0x7F030135
+			public const int hideOnContentScroll = 2130903349;
+			
+			// aapt resource value: 0x7F030136
+			public const int hideOnScroll = 2130903350;
+			
+			// aapt resource value: 0x7F030137
+			public const int hintAnimationEnabled = 2130903351;
+			
+			// aapt resource value: 0x7F030138
+			public const int hintEnabled = 2130903352;
+			
+			// aapt resource value: 0x7F030139
+			public const int hintTextAppearance = 2130903353;
+			
+			// aapt resource value: 0x7F03013A
+			public const int hintTextColor = 2130903354;
+			
+			// aapt resource value: 0x7F03013B
+			public const int homeAsUpIndicator = 2130903355;
+			
+			// aapt resource value: 0x7F03013C
+			public const int homeLayout = 2130903356;
+			
+			// aapt resource value: 0x7F03013D
+			public const int horizontalOffset = 2130903357;
+			
+			// aapt resource value: 0x7F03013E
+			public const int hoveredFocusedTranslationZ = 2130903358;
+			
+			// aapt resource value: 0x7F03013F
+			public const int icon = 2130903359;
+			
+			// aapt resource value: 0x7F030140
+			public const int iconEndPadding = 2130903360;
+			
+			// aapt resource value: 0x7F030141
+			public const int iconGravity = 2130903361;
+			
+			// aapt resource value: 0x7F030147
+			public const int iconifiedByDefault = 2130903367;
+			
+			// aapt resource value: 0x7F030142
+			public const int iconPadding = 2130903362;
+			
+			// aapt resource value: 0x7F030143
+			public const int iconSize = 2130903363;
+			
+			// aapt resource value: 0x7F030144
+			public const int iconStartPadding = 2130903364;
+			
+			// aapt resource value: 0x7F030145
+			public const int iconTint = 2130903365;
+			
+			// aapt resource value: 0x7F030146
+			public const int iconTintMode = 2130903366;
+			
+			// aapt resource value: 0x7F030148
+			public const int imageButtonStyle = 2130903368;
+			
+			// aapt resource value: 0x7F030149
+			public const int indeterminateProgressStyle = 2130903369;
+			
+			// aapt resource value: 0x7F03014A
+			public const int initialActivityCount = 2130903370;
+			
+			// aapt resource value: 0x7F03014B
+			public const int insetForeground = 2130903371;
+			
+			// aapt resource value: 0x7F03014C
+			public const int isLightTheme = 2130903372;
+			
+			// aapt resource value: 0x7F03014D
+			public const int isMaterialTheme = 2130903373;
+			
+			// aapt resource value: 0x7F03014E
+			public const int itemBackground = 2130903374;
+			
+			// aapt resource value: 0x7F03014F
+			public const int itemFillColor = 2130903375;
+			
+			// aapt resource value: 0x7F030150
+			public const int itemHorizontalPadding = 2130903376;
+			
+			// aapt resource value: 0x7F030151
+			public const int itemHorizontalTranslationEnabled = 2130903377;
+			
+			// aapt resource value: 0x7F030152
+			public const int itemIconPadding = 2130903378;
+			
+			// aapt resource value: 0x7F030153
+			public const int itemIconSize = 2130903379;
+			
+			// aapt resource value: 0x7F030154
+			public const int itemIconTint = 2130903380;
+			
+			// aapt resource value: 0x7F030155
+			public const int itemMaxLines = 2130903381;
+			
+			// aapt resource value: 0x7F030156
+			public const int itemPadding = 2130903382;
+			
+			// aapt resource value: 0x7F030157
+			public const int itemRippleColor = 2130903383;
+			
+			// aapt resource value: 0x7F030158
+			public const int itemShapeAppearance = 2130903384;
+			
+			// aapt resource value: 0x7F030159
+			public const int itemShapeAppearanceOverlay = 2130903385;
+			
+			// aapt resource value: 0x7F03015A
+			public const int itemShapeFillColor = 2130903386;
+			
+			// aapt resource value: 0x7F03015B
+			public const int itemShapeInsetBottom = 2130903387;
+			
+			// aapt resource value: 0x7F03015C
+			public const int itemShapeInsetEnd = 2130903388;
+			
+			// aapt resource value: 0x7F03015D
+			public const int itemShapeInsetStart = 2130903389;
+			
+			// aapt resource value: 0x7F03015E
+			public const int itemShapeInsetTop = 2130903390;
+			
+			// aapt resource value: 0x7F03015F
+			public const int itemSpacing = 2130903391;
+			
+			// aapt resource value: 0x7F030160
+			public const int itemStrokeColor = 2130903392;
+			
+			// aapt resource value: 0x7F030161
+			public const int itemStrokeWidth = 2130903393;
+			
+			// aapt resource value: 0x7F030162
+			public const int itemTextAppearance = 2130903394;
+			
+			// aapt resource value: 0x7F030163
+			public const int itemTextAppearanceActive = 2130903395;
+			
+			// aapt resource value: 0x7F030164
+			public const int itemTextAppearanceInactive = 2130903396;
+			
+			// aapt resource value: 0x7F030165
+			public const int itemTextColor = 2130903397;
+			
+			// aapt resource value: 0x7F030166
+			public const int keylines = 2130903398;
+			
+			// aapt resource value: 0x7F030167
+			public const int labelBehavior = 2130903399;
+			
+			// aapt resource value: 0x7F030168
+			public const int labelStyle = 2130903400;
+			
+			// aapt resource value: 0x7F030169
+			public const int labelVisibilityMode = 2130903401;
+			
+			// aapt resource value: 0x7F03016A
+			public const int lastBaselineToBottomHeight = 2130903402;
+			
+			// aapt resource value: 0x7F03016B
+			public const int layout = 2130903403;
+			
+			// aapt resource value: 0x7F03016C
+			public const int layoutManager = 2130903404;
+			
+			// aapt resource value: 0x7F03016D
+			public const int layout_anchor = 2130903405;
+			
+			// aapt resource value: 0x7F03016E
+			public const int layout_anchorGravity = 2130903406;
+			
+			// aapt resource value: 0x7F03016F
+			public const int layout_behavior = 2130903407;
+			
+			// aapt resource value: 0x7F030170
+			public const int layout_collapseMode = 2130903408;
+			
+			// aapt resource value: 0x7F030171
+			public const int layout_collapseParallaxMultiplier = 2130903409;
+			
+			// aapt resource value: 0x7F030172
+			public const int layout_dodgeInsetEdges = 2130903410;
+			
+			// aapt resource value: 0x7F030173
+			public const int layout_insetEdge = 2130903411;
+			
+			// aapt resource value: 0x7F030174
+			public const int layout_keyline = 2130903412;
+			
+			// aapt resource value: 0x7F030175
+			public const int layout_scrollFlags = 2130903413;
+			
+			// aapt resource value: 0x7F030176
+			public const int layout_scrollInterpolator = 2130903414;
+			
+			// aapt resource value: 0x7F030177
+			public const int liftOnScroll = 2130903415;
+			
+			// aapt resource value: 0x7F030178
+			public const int liftOnScrollTargetViewId = 2130903416;
+			
+			// aapt resource value: 0x7F030179
+			public const int lineHeight = 2130903417;
+			
+			// aapt resource value: 0x7F03017A
+			public const int lineSpacing = 2130903418;
+			
+			// aapt resource value: 0x7F03017B
+			public const int listChoiceBackgroundIndicator = 2130903419;
+			
+			// aapt resource value: 0x7F03017C
+			public const int listChoiceIndicatorMultipleAnimated = 2130903420;
+			
+			// aapt resource value: 0x7F03017D
+			public const int listChoiceIndicatorSingleAnimated = 2130903421;
+			
+			// aapt resource value: 0x7F03017E
+			public const int listDividerAlertDialog = 2130903422;
+			
+			// aapt resource value: 0x7F03017F
+			public const int listItemLayout = 2130903423;
+			
+			// aapt resource value: 0x7F030180
+			public const int listLayout = 2130903424;
+			
+			// aapt resource value: 0x7F030181
+			public const int listMenuViewStyle = 2130903425;
+			
+			// aapt resource value: 0x7F030182
+			public const int listPopupWindowStyle = 2130903426;
+			
+			// aapt resource value: 0x7F030183
+			public const int listPreferredItemHeight = 2130903427;
+			
+			// aapt resource value: 0x7F030184
+			public const int listPreferredItemHeightLarge = 2130903428;
+			
+			// aapt resource value: 0x7F030185
+			public const int listPreferredItemHeightSmall = 2130903429;
+			
+			// aapt resource value: 0x7F030186
+			public const int listPreferredItemPaddingEnd = 2130903430;
+			
+			// aapt resource value: 0x7F030187
+			public const int listPreferredItemPaddingLeft = 2130903431;
+			
+			// aapt resource value: 0x7F030188
+			public const int listPreferredItemPaddingRight = 2130903432;
+			
+			// aapt resource value: 0x7F030189
+			public const int listPreferredItemPaddingStart = 2130903433;
+			
+			// aapt resource value: 0x7F03018A
+			public const int logo = 2130903434;
+			
+			// aapt resource value: 0x7F03018B
+			public const int logoDescription = 2130903435;
+			
+			// aapt resource value: 0x7F03018C
+			public const int materialAlertDialogBodyTextStyle = 2130903436;
+			
+			// aapt resource value: 0x7F03018D
+			public const int materialAlertDialogTheme = 2130903437;
+			
+			// aapt resource value: 0x7F03018E
+			public const int materialAlertDialogTitleIconStyle = 2130903438;
+			
+			// aapt resource value: 0x7F03018F
+			public const int materialAlertDialogTitlePanelStyle = 2130903439;
+			
+			// aapt resource value: 0x7F030190
+			public const int materialAlertDialogTitleTextStyle = 2130903440;
+			
+			// aapt resource value: 0x7F030191
+			public const int materialButtonOutlinedStyle = 2130903441;
+			
+			// aapt resource value: 0x7F030192
+			public const int materialButtonStyle = 2130903442;
+			
+			// aapt resource value: 0x7F030193
+			public const int materialButtonToggleGroupStyle = 2130903443;
+			
+			// aapt resource value: 0x7F030194
+			public const int materialCalendarDay = 2130903444;
+			
+			// aapt resource value: 0x7F030195
+			public const int materialCalendarFullscreenTheme = 2130903445;
+			
+			// aapt resource value: 0x7F030196
+			public const int materialCalendarHeaderConfirmButton = 2130903446;
+			
+			// aapt resource value: 0x7F030197
+			public const int materialCalendarHeaderDivider = 2130903447;
+			
+			// aapt resource value: 0x7F030198
+			public const int materialCalendarHeaderLayout = 2130903448;
+			
+			// aapt resource value: 0x7F030199
+			public const int materialCalendarHeaderSelection = 2130903449;
+			
+			// aapt resource value: 0x7F03019A
+			public const int materialCalendarHeaderTitle = 2130903450;
+			
+			// aapt resource value: 0x7F03019B
+			public const int materialCalendarHeaderToggleButton = 2130903451;
+			
+			// aapt resource value: 0x7F03019C
+			public const int materialCalendarStyle = 2130903452;
+			
+			// aapt resource value: 0x7F03019D
+			public const int materialCalendarTheme = 2130903453;
+			
+			// aapt resource value: 0x7F03019E
+			public const int materialCardViewStyle = 2130903454;
+			
+			// aapt resource value: 0x7F03019F
+			public const int materialThemeOverlay = 2130903455;
+			
+			// aapt resource value: 0x7F0301A0
+			public const int maxActionInlineWidth = 2130903456;
+			
+			// aapt resource value: 0x7F0301A1
+			public const int maxButtonHeight = 2130903457;
+			
+			// aapt resource value: 0x7F0301A2
+			public const int maxCharacterCount = 2130903458;
+			
+			// aapt resource value: 0x7F0301A3
+			public const int maxImageSize = 2130903459;
+			
+			// aapt resource value: 0x7F0301A4
+			public const int maxLines = 2130903460;
+			
+			// aapt resource value: 0x7F0301A5
+			public const int measureWithLargestChild = 2130903461;
+			
+			// aapt resource value: 0x7F0301A6
+			public const int menu = 2130903462;
+			
+			// aapt resource value: 0x7F0301A7
+			public const int minTouchTargetSize = 2130903463;
+			
+			// aapt resource value: 0x7F0301A8
+			public const int multiChoiceItemLayout = 2130903464;
+			
+			// aapt resource value: 0x7F0301A9
+			public const int navigationContentDescription = 2130903465;
+			
+			// aapt resource value: 0x7F0301AA
+			public const int navigationIcon = 2130903466;
+			
+			// aapt resource value: 0x7F0301AB
+			public const int navigationMode = 2130903467;
+			
+			// aapt resource value: 0x7F0301AC
+			public const int navigationViewStyle = 2130903468;
+			
+			// aapt resource value: 0x7F0301AD
+			public const int number = 2130903469;
+			
+			// aapt resource value: 0x7F0301AE
+			public const int numericModifiers = 2130903470;
+			
+			// aapt resource value: 0x7F0301AF
+			public const int overlapAnchor = 2130903471;
+			
+			// aapt resource value: 0x7F0301B0
+			public const int paddingBottomNoButtons = 2130903472;
+			
+			// aapt resource value: 0x7F0301B1
+			public const int paddingBottomSystemWindowInsets = 2130903473;
+			
+			// aapt resource value: 0x7F0301B2
+			public const int paddingEnd = 2130903474;
+			
+			// aapt resource value: 0x7F0301B3
+			public const int paddingLeftSystemWindowInsets = 2130903475;
+			
+			// aapt resource value: 0x7F0301B4
+			public const int paddingRightSystemWindowInsets = 2130903476;
+			
+			// aapt resource value: 0x7F0301B5
+			public const int paddingStart = 2130903477;
+			
+			// aapt resource value: 0x7F0301B6
+			public const int paddingTopNoTitle = 2130903478;
+			
+			// aapt resource value: 0x7F0301B7
+			public const int panelBackground = 2130903479;
+			
+			// aapt resource value: 0x7F0301B8
+			public const int panelMenuListTheme = 2130903480;
+			
+			// aapt resource value: 0x7F0301B9
+			public const int panelMenuListWidth = 2130903481;
+			
+			// aapt resource value: 0x7F0301BA
+			public const int passwordToggleContentDescription = 2130903482;
+			
+			// aapt resource value: 0x7F0301BB
+			public const int passwordToggleDrawable = 2130903483;
+			
+			// aapt resource value: 0x7F0301BC
+			public const int passwordToggleEnabled = 2130903484;
+			
+			// aapt resource value: 0x7F0301BD
+			public const int passwordToggleTint = 2130903485;
+			
+			// aapt resource value: 0x7F0301BE
+			public const int passwordToggleTintMode = 2130903486;
+			
+			// aapt resource value: 0x7F0301BF
+			public const int placeholderText = 2130903487;
+			
+			// aapt resource value: 0x7F0301C0
+			public const int placeholderTextAppearance = 2130903488;
+			
+			// aapt resource value: 0x7F0301C1
+			public const int placeholderTextColor = 2130903489;
+			
+			// aapt resource value: 0x7F0301C2
+			public const int popupMenuBackground = 2130903490;
+			
+			// aapt resource value: 0x7F0301C3
+			public const int popupMenuStyle = 2130903491;
+			
+			// aapt resource value: 0x7F0301C4
+			public const int popupTheme = 2130903492;
+			
+			// aapt resource value: 0x7F0301C5
+			public const int popupWindowStyle = 2130903493;
+			
+			// aapt resource value: 0x7F0301C6
+			public const int prefixText = 2130903494;
+			
+			// aapt resource value: 0x7F0301C7
+			public const int prefixTextAppearance = 2130903495;
+			
+			// aapt resource value: 0x7F0301C8
+			public const int prefixTextColor = 2130903496;
+			
+			// aapt resource value: 0x7F0301C9
+			public const int preserveIconSpacing = 2130903497;
+			
+			// aapt resource value: 0x7F0301CA
+			public const int pressedTranslationZ = 2130903498;
+			
+			// aapt resource value: 0x7F0301CB
+			public const int progressBarPadding = 2130903499;
+			
+			// aapt resource value: 0x7F0301CC
+			public const int progressBarStyle = 2130903500;
+			
+			// aapt resource value: 0x7F0301CD
+			public const int queryBackground = 2130903501;
+			
+			// aapt resource value: 0x7F0301CE
+			public const int queryHint = 2130903502;
+			
+			// aapt resource value: 0x7F0301CF
+			public const int radioButtonStyle = 2130903503;
+			
+			// aapt resource value: 0x7F0301D0
+			public const int rangeFillColor = 2130903504;
+			
+			// aapt resource value: 0x7F0301D1
+			public const int ratingBarStyle = 2130903505;
+			
+			// aapt resource value: 0x7F0301D2
+			public const int ratingBarStyleIndicator = 2130903506;
+			
+			// aapt resource value: 0x7F0301D3
+			public const int ratingBarStyleSmall = 2130903507;
+			
+			// aapt resource value: 0x7F0301D4
+			public const int recyclerViewStyle = 2130903508;
+			
+			// aapt resource value: 0x7F0301D5
+			public const int reverseLayout = 2130903509;
+			
+			// aapt resource value: 0x7F0301D6
+			public const int rippleColor = 2130903510;
+			
+			// aapt resource value: 0x7F0301D7
+			public const int scrimAnimationDuration = 2130903511;
+			
+			// aapt resource value: 0x7F0301D8
+			public const int scrimBackground = 2130903512;
+			
+			// aapt resource value: 0x7F0301D9
+			public const int scrimVisibleHeightTrigger = 2130903513;
+			
+			// aapt resource value: 0x7F0301DA
+			public const int searchHintIcon = 2130903514;
+			
+			// aapt resource value: 0x7F0301DB
+			public const int searchIcon = 2130903515;
+			
+			// aapt resource value: 0x7F0301DC
+			public const int searchViewStyle = 2130903516;
+			
+			// aapt resource value: 0x7F0301DD
+			public const int seekBarStyle = 2130903517;
+			
+			// aapt resource value: 0x7F0301DE
+			public const int selectableItemBackground = 2130903518;
+			
+			// aapt resource value: 0x7F0301DF
+			public const int selectableItemBackgroundBorderless = 2130903519;
+			
+			// aapt resource value: 0x7F0301E0
+			public const int selectionRequired = 2130903520;
+			
+			// aapt resource value: 0x7F0301E1
+			public const int shapeAppearance = 2130903521;
+			
+			// aapt resource value: 0x7F0301E2
+			public const int shapeAppearanceLargeComponent = 2130903522;
+			
+			// aapt resource value: 0x7F0301E3
+			public const int shapeAppearanceMediumComponent = 2130903523;
+			
+			// aapt resource value: 0x7F0301E4
+			public const int shapeAppearanceOverlay = 2130903524;
+			
+			// aapt resource value: 0x7F0301E5
+			public const int shapeAppearanceSmallComponent = 2130903525;
+			
+			// aapt resource value: 0x7F0301E6
+			public const int showAsAction = 2130903526;
+			
+			// aapt resource value: 0x7F0301E7
+			public const int showDividers = 2130903527;
+			
+			// aapt resource value: 0x7F0301E8
+			public const int showMotionSpec = 2130903528;
+			
+			// aapt resource value: 0x7F0301E9
+			public const int showText = 2130903529;
+			
+			// aapt resource value: 0x7F0301EA
+			public const int showTitle = 2130903530;
+			
+			// aapt resource value: 0x7F0301EB
+			public const int shrinkMotionSpec = 2130903531;
+			
+			// aapt resource value: 0x7F0301EC
+			public const int singleChoiceItemLayout = 2130903532;
+			
+			// aapt resource value: 0x7F0301ED
+			public const int singleLine = 2130903533;
+			
+			// aapt resource value: 0x7F0301EE
+			public const int singleSelection = 2130903534;
+			
+			// aapt resource value: 0x7F0301EF
+			public const int sliderStyle = 2130903535;
+			
+			// aapt resource value: 0x7F0301F0
+			public const int snackbarButtonStyle = 2130903536;
+			
+			// aapt resource value: 0x7F0301F1
+			public const int snackbarStyle = 2130903537;
+			
+			// aapt resource value: 0x7F0301F2
+			public const int snackbarTextViewStyle = 2130903538;
+			
+			// aapt resource value: 0x7F0301F3
+			public const int spanCount = 2130903539;
+			
+			// aapt resource value: 0x7F0301F4
+			public const int spinBars = 2130903540;
+			
+			// aapt resource value: 0x7F0301F5
+			public const int spinnerDropDownItemStyle = 2130903541;
+			
+			// aapt resource value: 0x7F0301F6
+			public const int spinnerStyle = 2130903542;
+			
+			// aapt resource value: 0x7F0301F7
+			public const int splitTrack = 2130903543;
+			
+			// aapt resource value: 0x7F0301F8
+			public const int srcCompat = 2130903544;
+			
+			// aapt resource value: 0x7F0301F9
+			public const int stackFromEnd = 2130903545;
+			
+			// aapt resource value: 0x7F0301FA
+			public const int startIconCheckable = 2130903546;
+			
+			// aapt resource value: 0x7F0301FB
+			public const int startIconContentDescription = 2130903547;
+			
+			// aapt resource value: 0x7F0301FC
+			public const int startIconDrawable = 2130903548;
+			
+			// aapt resource value: 0x7F0301FD
+			public const int startIconTint = 2130903549;
+			
+			// aapt resource value: 0x7F0301FE
+			public const int startIconTintMode = 2130903550;
+			
+			// aapt resource value: 0x7F0301FF
+			public const int state_above_anchor = 2130903551;
+			
+			// aapt resource value: 0x7F030200
+			public const int state_collapsed = 2130903552;
+			
+			// aapt resource value: 0x7F030201
+			public const int state_collapsible = 2130903553;
+			
+			// aapt resource value: 0x7F030202
+			public const int state_dragged = 2130903554;
+			
+			// aapt resource value: 0x7F030203
+			public const int state_liftable = 2130903555;
+			
+			// aapt resource value: 0x7F030204
+			public const int state_lifted = 2130903556;
+			
+			// aapt resource value: 0x7F030205
+			public const int statusBarBackground = 2130903557;
+			
+			// aapt resource value: 0x7F030206
+			public const int statusBarForeground = 2130903558;
+			
+			// aapt resource value: 0x7F030207
+			public const int statusBarScrim = 2130903559;
+			
+			// aapt resource value: 0x7F030208
+			public const int strokeColor = 2130903560;
+			
+			// aapt resource value: 0x7F030209
+			public const int strokeWidth = 2130903561;
+			
+			// aapt resource value: 0x7F03020A
+			public const int subMenuArrow = 2130903562;
+			
+			// aapt resource value: 0x7F03020B
+			public const int submitBackground = 2130903563;
+			
+			// aapt resource value: 0x7F03020C
+			public const int subtitle = 2130903564;
+			
+			// aapt resource value: 0x7F03020D
+			public const int subtitleTextAppearance = 2130903565;
+			
+			// aapt resource value: 0x7F03020E
+			public const int subtitleTextColor = 2130903566;
+			
+			// aapt resource value: 0x7F03020F
+			public const int subtitleTextStyle = 2130903567;
+			
+			// aapt resource value: 0x7F030210
+			public const int suffixText = 2130903568;
+			
+			// aapt resource value: 0x7F030211
+			public const int suffixTextAppearance = 2130903569;
+			
+			// aapt resource value: 0x7F030212
+			public const int suffixTextColor = 2130903570;
+			
+			// aapt resource value: 0x7F030213
+			public const int suggestionRowLayout = 2130903571;
+			
+			// aapt resource value: 0x7F030214
+			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903572;
+			
+			// aapt resource value: 0x7F030215
+			public const int switchMinWidth = 2130903573;
+			
+			// aapt resource value: 0x7F030216
+			public const int switchPadding = 2130903574;
+			
+			// aapt resource value: 0x7F030217
+			public const int switchStyle = 2130903575;
+			
+			// aapt resource value: 0x7F030218
+			public const int switchTextAppearance = 2130903576;
+			
+			// aapt resource value: 0x7F030219
+			public const int tabBackground = 2130903577;
+			
+			// aapt resource value: 0x7F03021A
+			public const int tabContentStart = 2130903578;
+			
+			// aapt resource value: 0x7F03021B
+			public const int tabGravity = 2130903579;
+			
+			// aapt resource value: 0x7F03021C
+			public const int tabIconTint = 2130903580;
+			
+			// aapt resource value: 0x7F03021D
+			public const int tabIconTintMode = 2130903581;
+			
+			// aapt resource value: 0x7F03021E
+			public const int tabIndicator = 2130903582;
+			
+			// aapt resource value: 0x7F03021F
+			public const int tabIndicatorAnimationDuration = 2130903583;
+			
+			// aapt resource value: 0x7F030220
+			public const int tabIndicatorColor = 2130903584;
+			
+			// aapt resource value: 0x7F030221
+			public const int tabIndicatorFullWidth = 2130903585;
+			
+			// aapt resource value: 0x7F030222
+			public const int tabIndicatorGravity = 2130903586;
+			
+			// aapt resource value: 0x7F030223
+			public const int tabIndicatorHeight = 2130903587;
+			
+			// aapt resource value: 0x7F030224
+			public const int tabInlineLabel = 2130903588;
+			
+			// aapt resource value: 0x7F030225
+			public const int tabMaxWidth = 2130903589;
+			
+			// aapt resource value: 0x7F030226
+			public const int tabMinWidth = 2130903590;
+			
+			// aapt resource value: 0x7F030227
+			public const int tabMode = 2130903591;
+			
+			// aapt resource value: 0x7F030228
+			public const int tabPadding = 2130903592;
+			
+			// aapt resource value: 0x7F030229
+			public const int tabPaddingBottom = 2130903593;
+			
+			// aapt resource value: 0x7F03022A
+			public const int tabPaddingEnd = 2130903594;
+			
+			// aapt resource value: 0x7F03022B
+			public const int tabPaddingStart = 2130903595;
+			
+			// aapt resource value: 0x7F03022C
+			public const int tabPaddingTop = 2130903596;
+			
+			// aapt resource value: 0x7F03022D
+			public const int tabRippleColor = 2130903597;
+			
+			// aapt resource value: 0x7F03022E
+			public const int tabSelectedTextColor = 2130903598;
+			
+			// aapt resource value: 0x7F03022F
+			public const int tabStyle = 2130903599;
+			
+			// aapt resource value: 0x7F030230
+			public const int tabTextAppearance = 2130903600;
+			
+			// aapt resource value: 0x7F030231
+			public const int tabTextColor = 2130903601;
+			
+			// aapt resource value: 0x7F030232
+			public const int tabUnboundedRipple = 2130903602;
+			
+			// aapt resource value: 0x7F030233
+			public const int textAllCaps = 2130903603;
+			
+			// aapt resource value: 0x7F030234
+			public const int textAppearanceBody1 = 2130903604;
+			
+			// aapt resource value: 0x7F030235
+			public const int textAppearanceBody2 = 2130903605;
+			
+			// aapt resource value: 0x7F030236
+			public const int textAppearanceButton = 2130903606;
+			
+			// aapt resource value: 0x7F030237
+			public const int textAppearanceCaption = 2130903607;
+			
+			// aapt resource value: 0x7F030238
+			public const int textAppearanceHeadline1 = 2130903608;
+			
+			// aapt resource value: 0x7F030239
+			public const int textAppearanceHeadline2 = 2130903609;
+			
+			// aapt resource value: 0x7F03023A
+			public const int textAppearanceHeadline3 = 2130903610;
+			
+			// aapt resource value: 0x7F03023B
+			public const int textAppearanceHeadline4 = 2130903611;
+			
+			// aapt resource value: 0x7F03023C
+			public const int textAppearanceHeadline5 = 2130903612;
+			
+			// aapt resource value: 0x7F03023D
+			public const int textAppearanceHeadline6 = 2130903613;
+			
+			// aapt resource value: 0x7F03023E
+			public const int textAppearanceLargePopupMenu = 2130903614;
+			
+			// aapt resource value: 0x7F03023F
+			public const int textAppearanceLineHeightEnabled = 2130903615;
+			
+			// aapt resource value: 0x7F030240
+			public const int textAppearanceListItem = 2130903616;
+			
+			// aapt resource value: 0x7F030241
+			public const int textAppearanceListItemSecondary = 2130903617;
+			
+			// aapt resource value: 0x7F030242
+			public const int textAppearanceListItemSmall = 2130903618;
+			
+			// aapt resource value: 0x7F030243
+			public const int textAppearanceOverline = 2130903619;
+			
+			// aapt resource value: 0x7F030244
+			public const int textAppearancePopupMenuHeader = 2130903620;
+			
+			// aapt resource value: 0x7F030245
+			public const int textAppearanceSearchResultSubtitle = 2130903621;
+			
+			// aapt resource value: 0x7F030246
+			public const int textAppearanceSearchResultTitle = 2130903622;
+			
+			// aapt resource value: 0x7F030247
+			public const int textAppearanceSmallPopupMenu = 2130903623;
+			
+			// aapt resource value: 0x7F030248
+			public const int textAppearanceSubtitle1 = 2130903624;
+			
+			// aapt resource value: 0x7F030249
+			public const int textAppearanceSubtitle2 = 2130903625;
+			
+			// aapt resource value: 0x7F03024A
+			public const int textColorAlertDialogListItem = 2130903626;
+			
+			// aapt resource value: 0x7F03024B
+			public const int textColorSearchUrl = 2130903627;
+			
+			// aapt resource value: 0x7F03024C
+			public const int textEndPadding = 2130903628;
+			
+			// aapt resource value: 0x7F03024D
+			public const int textInputLayoutFocusedRectEnabled = 2130903629;
+			
+			// aapt resource value: 0x7F03024E
+			public const int textInputStyle = 2130903630;
+			
+			// aapt resource value: 0x7F03024F
+			public const int textLocale = 2130903631;
+			
+			// aapt resource value: 0x7F030250
+			public const int textStartPadding = 2130903632;
+			
+			// aapt resource value: 0x7F030251
+			public const int theme = 2130903633;
+			
+			// aapt resource value: 0x7F030252
+			public const int themeLineHeight = 2130903634;
+			
+			// aapt resource value: 0x7F030253
+			public const int thickness = 2130903635;
+			
+			// aapt resource value: 0x7F030254
+			public const int thumbColor = 2130903636;
+			
+			// aapt resource value: 0x7F030255
+			public const int thumbElevation = 2130903637;
+			
+			// aapt resource value: 0x7F030256
+			public const int thumbRadius = 2130903638;
+			
+			// aapt resource value: 0x7F030257
+			public const int thumbTextPadding = 2130903639;
+			
+			// aapt resource value: 0x7F030258
+			public const int thumbTint = 2130903640;
+			
+			// aapt resource value: 0x7F030259
+			public const int thumbTintMode = 2130903641;
+			
+			// aapt resource value: 0x7F03025A
+			public const int tickColor = 2130903642;
+			
+			// aapt resource value: 0x7F03025B
+			public const int tickColorActive = 2130903643;
+			
+			// aapt resource value: 0x7F03025C
+			public const int tickColorInactive = 2130903644;
+			
+			// aapt resource value: 0x7F03025D
+			public const int tickMark = 2130903645;
+			
+			// aapt resource value: 0x7F03025E
+			public const int tickMarkTint = 2130903646;
+			
+			// aapt resource value: 0x7F03025F
+			public const int tickMarkTintMode = 2130903647;
+			
+			// aapt resource value: 0x7F030260
+			public const int tint = 2130903648;
+			
+			// aapt resource value: 0x7F030261
+			public const int tintMode = 2130903649;
+			
+			// aapt resource value: 0x7F030262
+			public const int title = 2130903650;
+			
+			// aapt resource value: 0x7F030263
+			public const int titleEnabled = 2130903651;
+			
+			// aapt resource value: 0x7F030264
+			public const int titleMargin = 2130903652;
+			
+			// aapt resource value: 0x7F030265
+			public const int titleMarginBottom = 2130903653;
+			
+			// aapt resource value: 0x7F030266
+			public const int titleMarginEnd = 2130903654;
+			
+			// aapt resource value: 0x7F030269
+			public const int titleMargins = 2130903657;
+			
+			// aapt resource value: 0x7F030267
+			public const int titleMarginStart = 2130903655;
+			
+			// aapt resource value: 0x7F030268
+			public const int titleMarginTop = 2130903656;
+			
+			// aapt resource value: 0x7F03026A
+			public const int titleTextAppearance = 2130903658;
+			
+			// aapt resource value: 0x7F03026B
+			public const int titleTextColor = 2130903659;
+			
+			// aapt resource value: 0x7F03026C
+			public const int titleTextStyle = 2130903660;
+			
+			// aapt resource value: 0x7F03026D
+			public const int toolbarId = 2130903661;
+			
+			// aapt resource value: 0x7F03026E
+			public const int toolbarNavigationButtonStyle = 2130903662;
+			
+			// aapt resource value: 0x7F03026F
+			public const int toolbarStyle = 2130903663;
+			
+			// aapt resource value: 0x7F030270
+			public const int tooltipForegroundColor = 2130903664;
+			
+			// aapt resource value: 0x7F030271
+			public const int tooltipFrameBackground = 2130903665;
+			
+			// aapt resource value: 0x7F030272
+			public const int tooltipStyle = 2130903666;
+			
+			// aapt resource value: 0x7F030273
+			public const int tooltipText = 2130903667;
+			
+			// aapt resource value: 0x7F030274
+			public const int track = 2130903668;
+			
+			// aapt resource value: 0x7F030275
+			public const int trackColor = 2130903669;
+			
+			// aapt resource value: 0x7F030276
+			public const int trackColorActive = 2130903670;
+			
+			// aapt resource value: 0x7F030277
+			public const int trackColorInactive = 2130903671;
+			
+			// aapt resource value: 0x7F030278
+			public const int trackHeight = 2130903672;
+			
+			// aapt resource value: 0x7F030279
+			public const int trackTint = 2130903673;
+			
+			// aapt resource value: 0x7F03027A
+			public const int trackTintMode = 2130903674;
+			
+			// aapt resource value: 0x7F03027B
+			public const int transitionShapeAppearance = 2130903675;
+			
+			// aapt resource value: 0x7F03027C
+			public const int ttcIndex = 2130903676;
+			
+			// aapt resource value: 0x7F03027D
+			public const int useCompatPadding = 2130903677;
+			
+			// aapt resource value: 0x7F03027E
+			public const int useMaterialThemeColors = 2130903678;
+			
+			// aapt resource value: 0x7F03027F
+			public const int values = 2130903679;
+			
+			// aapt resource value: 0x7F030280
+			public const int verticalOffset = 2130903680;
+			
+			// aapt resource value: 0x7F030281
+			public const int viewInflaterClass = 2130903681;
+			
+			// aapt resource value: 0x7F030282
+			public const int voiceIcon = 2130903682;
+			
 			// aapt resource value: 0x7F030283
 			public const int vpiCentered = 2130903683;
 			
@@ -11685,70 +10724,29 @@ namespace OpravaMesta.Droid
 			
 			// aapt resource value: 0x7F030298
 			public const int yearTodayStyle = 2130903704;
-=======
-			// aapt resource value: 0x7F0500D4
-			public const int mtrl_textinput_box_stroke_width_focused = 2131034324;
 			
-			// aapt resource value: 0x7F0500D5
-			public const int mtrl_textinput_counter_margin_start = 2131034325;
-			
-			// aapt resource value: 0x7F0500D6
-			public const int mtrl_textinput_end_icon_margin_start = 2131034326;
-			
-			// aapt resource value: 0x7F0500D7
-			public const int mtrl_textinput_outline_box_expanded_padding = 2131034327;
-			
-			// aapt resource value: 0x7F0500D8
-			public const int mtrl_textinput_start_icon_margin_end = 2131034328;
-			
-			// aapt resource value: 0x7F0500D9
-			public const int mtrl_toolbar_default_height = 2131034329;
-			
-			// aapt resource value: 0x7F0500DA
-			public const int mtrl_tooltip_arrowSize = 2131034330;
-			
-			// aapt resource value: 0x7F0500DB
-			public const int mtrl_tooltip_cornerSize = 2131034331;
-			
-			// aapt resource value: 0x7F0500DC
-			public const int mtrl_tooltip_minHeight = 2131034332;
-			
-			// aapt resource value: 0x7F0500DD
-			public const int mtrl_tooltip_minWidth = 2131034333;
-			
-			// aapt resource value: 0x7F0500DE
-			public const int mtrl_tooltip_padding = 2131034334;
-			
-			// aapt resource value: 0x7F0500DF
-			public const int mtrl_transition_shared_axis_slide_distance = 2131034335;
-			
-			// aapt resource value: 0x7F0500E0
-			public const int test_mtrl_calendar_day_cornerSize = 2131034336;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
-			
-			static Dimension()
+			static Attribute()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
-			private Dimension()
+			private Attribute()
 			{
 			}
 		}
 		
-		public partial class Drawable
+		public partial class Boolean
 		{
 			
-			// aapt resource value: 0x7F060000
-			public const int Down = 2131099648;
+			// aapt resource value: 0x7F040000
+			public const int abc_action_bar_embed_tabs = 2130968576;
 			
-			// aapt resource value: 0x7F060001
-			public const int Next = 2131099649;
+			// aapt resource value: 0x7F040001
+			public const int abc_allow_stacked_button_bar = 2130968577;
 			
-			// aapt resource value: 0x7F060002
-			public const int Prev = 2131099650;
+			// aapt resource value: 0x7F040002
+			public const int abc_config_actionMenuItemAllCaps = 2130968578;
 			
-<<<<<<< HEAD
 			// aapt resource value: 0x7F040003
 			public const int default_circle_indicator_centered = 2130968579;
 			
@@ -11757,28 +10755,20 @@ namespace OpravaMesta.Droid
 			
 			// aapt resource value: 0x7F040005
 			public const int mtrl_btn_textappearance_all_caps = 2130968581;
-=======
-			// aapt resource value: 0x7F060003
-			public const int Up = 2131099651;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			
-			// aapt resource value: 0x7F060004
-			public const int watermark = 2131099652;
-			
-			static Drawable()
+			static Boolean()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
-			private Drawable()
+			private Boolean()
 			{
 			}
 		}
 		
-		public partial class Id
+		public partial class Color
 		{
 			
-<<<<<<< HEAD
 			// aapt resource value: 0x7F050000
 			public const int abc_background_cache_hint_selector_material_dark = 2131034112;
 			
@@ -17905,1464 +16895,504 @@ namespace OpravaMesta.Droid
 			
 			// aapt resource value: 0x7F0F02BE
 			public const int Widget_Support_CoordinatorLayout = 2131690174;
-=======
-			// aapt resource value: 0x7F070004
-			public const int add = 2131165188;
 			
-			// aapt resource value: 0x7F070005
-			public const int all = 2131165189;
-			
-			// aapt resource value: 0x7F070006
-			public const int auto = 2131165190;
-			
-			// aapt resource value: 0x7F070007
-			public const int bottom = 2131165191;
-			
-			// aapt resource value: 0x7F070008
-			public const int bottomtab_navarea = 2131165192;
-			
-			// aapt resource value: 0x7F070009
-			public const int bottomtab_tabbar = 2131165193;
-			
-			// aapt resource value: 0x7F070000
-			public const int BOTTOM_END = 2131165184;
-			
-			// aapt resource value: 0x7F070001
-			public const int BOTTOM_START = 2131165185;
-			
-			// aapt resource value: 0x7F07000A
-			public const int browser_actions_header_text = 2131165194;
-			
-			// aapt resource value: 0x7F07000D
-			public const int browser_actions_menu_items = 2131165197;
-			
-			// aapt resource value: 0x7F07000B
-			public const int browser_actions_menu_item_icon = 2131165195;
-			
-			// aapt resource value: 0x7F07000C
-			public const int browser_actions_menu_item_text = 2131165196;
-			
-			// aapt resource value: 0x7F07000E
-			public const int browser_actions_menu_view = 2131165198;
-			
-			// aapt resource value: 0x7F07000F
-			public const int center = 2131165199;
-			
-			// aapt resource value: 0x7F070010
-			public const int center_horizontal = 2131165200;
-			
-			// aapt resource value: 0x7F070011
-			public const int center_vertical = 2131165201;
-			
-			// aapt resource value: 0x7F070012
-			public const int clear_text = 2131165202;
-			
-			// aapt resource value: 0x7F070013
-			public const int clip_horizontal = 2131165203;
-			
-			// aapt resource value: 0x7F070014
-			public const int clip_vertical = 2131165204;
-			
-			// aapt resource value: 0x7F070015
-			public const int collectionViewStyle = 2131165205;
-			
-			// aapt resource value: 0x7F070016
-			public const int count = 2131165206;
-			
-			// aapt resource value: 0x7F070017
-			public const int custom = 2131165207;
-			
-			// aapt resource value: 0x7F070018
-			public const int cut = 2131165208;
-			
-			// aapt resource value: 0x7F070019
-			public const int dropdown_menu = 2131165209;
-			
-			// aapt resource value: 0x7F07001A
-			public const int end = 2131165210;
-			
-			// aapt resource value: 0x7F07001B
-			public const int enterAlways = 2131165211;
-			
-			// aapt resource value: 0x7F07001C
-			public const int enterAlwaysCollapsed = 2131165212;
-			
-			// aapt resource value: 0x7F07001D
-			public const int exitUntilCollapsed = 2131165213;
-			
-			// aapt resource value: 0x7F07001E
-			public const int fade = 2131165214;
-			
-			// aapt resource value: 0x7F07001F
-			public const int fill = 2131165215;
-			
-			// aapt resource value: 0x7F070022
-			public const int filled = 2131165218;
-			
-			// aapt resource value: 0x7F070020
-			public const int fill_horizontal = 2131165216;
-			
-			// aapt resource value: 0x7F070021
-			public const int fill_vertical = 2131165217;
-			
-			// aapt resource value: 0x7F070023
-			public const int fitToContents = 2131165219;
-			
-			// aapt resource value: 0x7F070024
-			public const int @fixed = 2131165220;
-			
-			// aapt resource value: 0x7F070025
-			public const int floating = 2131165221;
-			
-			// aapt resource value: 0x7F070026
-			public const int flyoutcontent_appbar = 2131165222;
-			
-			// aapt resource value: 0x7F070027
-			public const int flyoutcontent_recycler = 2131165223;
-			
-			// aapt resource value: 0x7F070028
-			public const int fragment_container_view_tag = 2131165224;
-			
-			// aapt resource value: 0x7F070029
-			public const int ghost_view = 2131165225;
-			
-			// aapt resource value: 0x7F07002A
-			public const int ghost_view_holder = 2131165226;
-			
-			// aapt resource value: 0x7F07002B
-			public const int gone = 2131165227;
-			
-			// aapt resource value: 0x7F07002C
-			public const int hideable = 2131165228;
-			
-			// aapt resource value: 0x7F07002D
-			public const int horizontal = 2131165229;
-			
-			// aapt resource value: 0x7F07002E
-			public const int indicator = 2131165230;
-			
-			// aapt resource value: 0x7F07002F
-			public const int labeled = 2131165231;
-			
-			// aapt resource value: 0x7F070030
-			public const int left = 2131165232;
-			
-			// aapt resource value: 0x7F070031
-			public const int main_appbar = 2131165233;
-			
-			// aapt resource value: 0x7F070032
-			public const int main_tablayout = 2131165234;
-			
-			// aapt resource value: 0x7F070033
-			public const int main_toolbar = 2131165235;
-			
-			// aapt resource value: 0x7F070034
-			public const int main_viewpager = 2131165236;
-			
-			// aapt resource value: 0x7F070035
-			public const int maximum_number = 2131165237;
-			
-			// aapt resource value: 0x7F070036
-			public const int mini = 2131165238;
-			
-			// aapt resource value: 0x7F070037
-			public const int mtrl_card_checked_layer_id = 2131165239;
-			
-			// aapt resource value: 0x7F070038
-			public const int mtrl_child_content_container = 2131165240;
-			
-			// aapt resource value: 0x7F070039
-			public const int mtrl_internal_children_alpha_tag = 2131165241;
-			
-			// aapt resource value: 0x7F07003A
-			public const int mtrl_motion_snapshot_view = 2131165242;
-			
-			// aapt resource value: 0x7F07003B
-			public const int multiply = 2131165243;
-			
-			// aapt resource value: 0x7F07003C
-			public const int next = 2131165244;
-			
-			// aapt resource value: 0x7F07003D
-			public const int nextArrow = 2131165245;
-			
-			// aapt resource value: 0x7F07003F
-			public const int none = 2131165247;
-			
-			// aapt resource value: 0x7F070040
-			public const int normal = 2131165248;
-			
-			// aapt resource value: 0x7F07003E
-			public const int noScroll = 2131165246;
-			
-			// aapt resource value: 0x7F070041
-			public const int outline = 2131165249;
-			
-			// aapt resource value: 0x7F070042
-			public const int pager = 2131165250;
-			
-			// aapt resource value: 0x7F070043
-			public const int parallax = 2131165251;
-			
-			// aapt resource value: 0x7F070044
-			public const int parent_matrix = 2131165252;
-			
-			// aapt resource value: 0x7F070045
-			public const int password_toggle = 2131165253;
-			
-			// aapt resource value: 0x7F070046
-			public const int peekHeight = 2131165254;
-			
-			// aapt resource value: 0x7F070047
-			public const int pin = 2131165255;
-			
-			// aapt resource value: 0x7F070048
-			public const int prev = 2131165256;
-			
-			// aapt resource value: 0x7F070049
-			public const int prevArrow = 2131165257;
-			
-			// aapt resource value: 0x7F07004A
-			public const int right = 2131165258;
-			
-			// aapt resource value: 0x7F07004B
-			public const int rounded = 2131165259;
-			
-			// aapt resource value: 0x7F07004C
-			public const int row_index_key = 2131165260;
-			
-			// aapt resource value: 0x7F07004D
-			public const int save_non_transition_alpha = 2131165261;
-			
-			// aapt resource value: 0x7F07004E
-			public const int save_overlay_view = 2131165262;
-			
-			// aapt resource value: 0x7F07004F
-			public const int scale = 2131165263;
-			
-			// aapt resource value: 0x7F070050
-			public const int screen = 2131165264;
-			
-			// aapt resource value: 0x7F070051
-			public const int scroll = 2131165265;
-			
-			// aapt resource value: 0x7F070052
-			public const int scrollable = 2131165266;
-			
-			// aapt resource value: 0x7F070053
-			public const int selected = 2131165267;
-			
-			// aapt resource value: 0x7F070054
-			public const int shellcontent_appbar = 2131165268;
-			
-			// aapt resource value: 0x7F070055
-			public const int shellcontent_toolbar = 2131165269;
-			
-			// aapt resource value: 0x7F070056
-			public const int skipCollapsed = 2131165270;
-			
-			// aapt resource value: 0x7F070057
-			public const int slide = 2131165271;
-			
-			// aapt resource value: 0x7F070058
-			public const int sliding_tabs = 2131165272;
-			
-			// aapt resource value: 0x7F070059
-			public const int snackbar_action = 2131165273;
-			
-			// aapt resource value: 0x7F07005A
-			public const int snackbar_text = 2131165274;
-			
-			// aapt resource value: 0x7F07005B
-			public const int snap = 2131165275;
-			
-			// aapt resource value: 0x7F07005C
-			public const int snapMargins = 2131165276;
-			
-			// aapt resource value: 0x7F07005D
-			public const int src_atop = 2131165277;
-			
-			// aapt resource value: 0x7F07005E
-			public const int src_in = 2131165278;
-			
-			// aapt resource value: 0x7F07005F
-			public const int src_over = 2131165279;
-			
-			// aapt resource value: 0x7F070060
-			public const int start = 2131165280;
-			
-			// aapt resource value: 0x7F070061
-			public const int stretch = 2131165281;
-			
-			// aapt resource value: 0x7F070062
-			public const int suffix = 2131165282;
-			
-			// aapt resource value: 0x7F070063
-			public const int textEnd = 2131165283;
-			
-			// aapt resource value: 0x7F070065
-			public const int textinput_counter = 2131165285;
-			
-			// aapt resource value: 0x7F070066
-			public const int textinput_error = 2131165286;
-			
-			// aapt resource value: 0x7F070067
-			public const int textinput_helper_text = 2131165287;
-			
-			// aapt resource value: 0x7F070068
-			public const int textinput_placeholder = 2131165288;
-			
-			// aapt resource value: 0x7F070069
-			public const int textinput_prefix_text = 2131165289;
-			
-			// aapt resource value: 0x7F07006A
-			public const int textinput_suffix_text = 2131165290;
-			
-			// aapt resource value: 0x7F070064
-			public const int textStart = 2131165284;
-			
-			// aapt resource value: 0x7F07006B
-			public const int toolbar = 2131165291;
-			
-			// aapt resource value: 0x7F07006C
-			public const int top = 2131165292;
-			
-			// aapt resource value: 0x7F070002
-			public const int TOP_END = 2131165186;
-			
-			// aapt resource value: 0x7F070003
-			public const int TOP_START = 2131165187;
-			
-			// aapt resource value: 0x7F07006D
-			public const int transition_current_scene = 2131165293;
-			
-			// aapt resource value: 0x7F07006E
-			public const int transition_layout_save = 2131165294;
-			
-			// aapt resource value: 0x7F07006F
-			public const int transition_position = 2131165295;
-			
-			// aapt resource value: 0x7F070070
-			public const int transition_scene_layoutid_cache = 2131165296;
-			
-			// aapt resource value: 0x7F070071
-			public const int transition_transform = 2131165297;
-			
-			// aapt resource value: 0x7F070072
-			public const int unlabeled = 2131165298;
-			
-			// aapt resource value: 0x7F070073
-			public const int vertical = 2131165299;
-			
-			// aapt resource value: 0x7F070074
-			public const int view_offset_helper = 2131165300;
-			
-			// aapt resource value: 0x7F070075
-			public const int view_tree_saved_state_registry_owner = 2131165301;
-			
-			// aapt resource value: 0x7F070076
-			public const int visible_removing_fragment_view_tag = 2131165302;
-			
-			// aapt resource value: 0x7F070077
-			public const int withinBounds = 2131165303;
-			
-			static Id()
+			static Style()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
-			private Id()
+			private Style()
 			{
 			}
 		}
 		
-		public partial class Integer
+		public partial class Styleable
 		{
 			
-			// aapt resource value: 0x7F080000
-			public const int app_bar_elevation_anim_duration = 2131230720;
+			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F03003C,0x7F0300B4,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300D3,0x7F0300DC,0x7F0300DD,0x7F0300F1,0x7F03012F,0x7F030135,0x7F03013B,0x7F03013C,0x7F03013F,0x7F030149,0x7F030156,0x7F03018A,0x7F0301AB,0x7F0301C4,0x7F0301CB,0x7F0301CC,0x7F03020C,0x7F03020F,0x7F030262,0x7F03026C }
+			public static int[] ActionBar = new int[] {
+					2130903092,
+					2130903099,
+					2130903100,
+					2130903220,
+					2130903221,
+					2130903222,
+					2130903223,
+					2130903224,
+					2130903225,
+					2130903251,
+					2130903260,
+					2130903261,
+					2130903281,
+					2130903343,
+					2130903349,
+					2130903355,
+					2130903356,
+					2130903359,
+					2130903369,
+					2130903382,
+					2130903434,
+					2130903467,
+					2130903492,
+					2130903499,
+					2130903500,
+					2130903564,
+					2130903567,
+					2130903650,
+					2130903660};
 			
-			// aapt resource value: 0x7F080001
-			public const int bottom_sheet_slide_duration = 2131230721;
+			// aapt resource value: { 0x10100B3 }
+			public static int[] ActionBarLayout = new int[] {
+					16842931};
 			
-			// aapt resource value: 0x7F080002
-			public const int default_circle_indicator_orientation = 2131230722;
+			// aapt resource value: 0
+			public const int ActionBarLayout_android_layout_gravity = 0;
 			
-			// aapt resource value: 0x7F080003
-			public const int design_snackbar_text_max_lines = 2131230723;
+			// aapt resource value: 0
+			public const int ActionBar_background = 0;
+			
+			// aapt resource value: 1
+			public const int ActionBar_backgroundSplit = 1;
+			
+			// aapt resource value: 2
+			public const int ActionBar_backgroundStacked = 2;
+			
+			// aapt resource value: 3
+			public const int ActionBar_contentInsetEnd = 3;
+			
+			// aapt resource value: 4
+			public const int ActionBar_contentInsetEndWithActions = 4;
+			
+			// aapt resource value: 5
+			public const int ActionBar_contentInsetLeft = 5;
 			
-			// aapt resource value: 0x7F080004
-			public const int design_tab_indicator_anim_duration_ms = 2131230724;
+			// aapt resource value: 6
+			public const int ActionBar_contentInsetRight = 6;
 			
-			// aapt resource value: 0x7F080005
-			public const int hide_password_duration = 2131230725;
+			// aapt resource value: 7
+			public const int ActionBar_contentInsetStart = 7;
 			
-			// aapt resource value: 0x7F080006
-			public const int mtrl_badge_max_character_count = 2131230726;
+			// aapt resource value: 8
+			public const int ActionBar_contentInsetStartWithNavigation = 8;
 			
-			// aapt resource value: 0x7F080007
-			public const int mtrl_btn_anim_delay_ms = 2131230727;
+			// aapt resource value: 9
+			public const int ActionBar_customNavigationLayout = 9;
 			
-			// aapt resource value: 0x7F080008
-			public const int mtrl_btn_anim_duration_ms = 2131230728;
+			// aapt resource value: 10
+			public const int ActionBar_displayOptions = 10;
 			
-			// aapt resource value: 0x7F080009
-			public const int mtrl_calendar_header_orientation = 2131230729;
+			// aapt resource value: 11
+			public const int ActionBar_divider = 11;
 			
-			// aapt resource value: 0x7F08000A
-			public const int mtrl_calendar_selection_text_lines = 2131230730;
+			// aapt resource value: 12
+			public const int ActionBar_elevation = 12;
 			
-			// aapt resource value: 0x7F08000B
-			public const int mtrl_calendar_year_selector_span = 2131230731;
+			// aapt resource value: 13
+			public const int ActionBar_height = 13;
 			
-			// aapt resource value: 0x7F08000C
-			public const int mtrl_card_anim_delay_ms = 2131230732;
+			// aapt resource value: 14
+			public const int ActionBar_hideOnContentScroll = 14;
+			
+			// aapt resource value: 15
+			public const int ActionBar_homeAsUpIndicator = 15;
+			
+			// aapt resource value: 16
+			public const int ActionBar_homeLayout = 16;
+			
+			// aapt resource value: 17
+			public const int ActionBar_icon = 17;
 			
-			// aapt resource value: 0x7F08000D
-			public const int mtrl_card_anim_duration_ms = 2131230733;
+			// aapt resource value: 18
+			public const int ActionBar_indeterminateProgressStyle = 18;
 			
-			// aapt resource value: 0x7F08000E
-			public const int mtrl_chip_anim_duration = 2131230734;
+			// aapt resource value: 19
+			public const int ActionBar_itemPadding = 19;
 			
-			// aapt resource value: 0x7F08000F
-			public const int mtrl_tab_indicator_anim_duration_ms = 2131230735;
+			// aapt resource value: 20
+			public const int ActionBar_logo = 20;
 			
-			// aapt resource value: 0x7F080010
-			public const int show_password_duration = 2131230736;
+			// aapt resource value: 21
+			public const int ActionBar_navigationMode = 21;
 			
-			static Integer()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
+			// aapt resource value: 22
+			public const int ActionBar_popupTheme = 22;
 			
-			private Integer()
-			{
-			}
-		}
-		
-		public partial class Layout
-		{
+			// aapt resource value: 23
+			public const int ActionBar_progressBarPadding = 23;
 			
-			// aapt resource value: 0x7F090000
-			public const int BottomTabLayout = 2131296256;
+			// aapt resource value: 24
+			public const int ActionBar_progressBarStyle = 24;
 			
-			// aapt resource value: 0x7F090006
-			public const int browser_actions_context_menu_page = 2131296262;
+			// aapt resource value: 25
+			public const int ActionBar_subtitle = 25;
 			
-			// aapt resource value: 0x7F090007
-			public const int browser_actions_context_menu_row = 2131296263;
+			// aapt resource value: 26
+			public const int ActionBar_subtitleTextStyle = 26;
 			
-			// aapt resource value: 0x7F090001
-			public const int FlyoutContent = 2131296257;
+			// aapt resource value: 27
+			public const int ActionBar_title = 27;
 			
-			// aapt resource value: 0x7F090008
-			public const int horizontal_viewpager = 2131296264;
+			// aapt resource value: 28
+			public const int ActionBar_titleTextStyle = 28;
 			
-			// aapt resource value: 0x7F090002
-			public const int RootLayout = 2131296258;
+			// aapt resource value: { 0x101013F }
+			public static int[] ActionMenuItemView = new int[] {
+					16843071};
 			
-			// aapt resource value: 0x7F090003
-			public const int ShellContent = 2131296259;
+			// aapt resource value: 0
+			public const int ActionMenuItemView_android_minWidth = 0;
 			
-			// aapt resource value: 0x7F090004
-			public const int Tabbar = 2131296260;
+			// aapt resource value: {  }
+			public static int[] ActionMenuView = new int[0];
 			
-			// aapt resource value: 0x7F090005
-			public const int Toolbar = 2131296261;
+			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F030097,0x7F03012F,0x7F03020F,0x7F03026C }
+			public static int[] ActionMode = new int[] {
+					2130903092,
+					2130903099,
+					2130903191,
+					2130903343,
+					2130903567,
+					2130903660};
 			
-			// aapt resource value: 0x7F090009
-			public const int vertical_viewpager = 2131296265;
+			// aapt resource value: 0
+			public const int ActionMode_background = 0;
 			
-			static Layout()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
+			// aapt resource value: 1
+			public const int ActionMode_backgroundSplit = 1;
 			
-			private Layout()
-			{
-			}
-		}
-		
-		public partial class Mipmap
-		{
+			// aapt resource value: 2
+			public const int ActionMode_closeItemLayout = 2;
 			
-			// aapt resource value: 0x7F0A0000
-			public const int icon = 2131361792;
+			// aapt resource value: 3
+			public const int ActionMode_height = 3;
 			
-			// aapt resource value: 0x7F0A0001
-			public const int icon_round = 2131361793;
+			// aapt resource value: 4
+			public const int ActionMode_subtitleTextStyle = 4;
 			
-			// aapt resource value: 0x7F0A0002
-			public const int launcher_foreground = 2131361794;
+			// aapt resource value: 5
+			public const int ActionMode_titleTextStyle = 5;
 			
-			static Mipmap()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
+			// aapt resource value: { 0x7F030104,0x7F03014A }
+			public static int[] ActivityChooserView = new int[] {
+					2130903300,
+					2130903370};
 			
-			private Mipmap()
-			{
-			}
-		}
-		
-		public partial class Plurals
-		{
+			// aapt resource value: 0
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
 			
-			// aapt resource value: 0x7F0B0000
-			public const int mtrl_badge_content_description = 2131427328;
+			// aapt resource value: 1
+			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			static Plurals()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
+			// aapt resource value: { 0x10100F2,0x7F030066,0x7F030067,0x7F03017F,0x7F030180,0x7F0301A8,0x7F0301EA,0x7F0301EC }
+			public static int[] AlertDialog = new int[] {
+					16842994,
+					2130903142,
+					2130903143,
+					2130903423,
+					2130903424,
+					2130903464,
+					2130903530,
+					2130903532};
 			
-			private Plurals()
-			{
-			}
-		}
-		
-		public partial class String
-		{
+			// aapt resource value: 0
+			public const int AlertDialog_android_layout = 0;
 			
-			// aapt resource value: 0x7F0C0000
-			public const int appbar_scrolling_view_behavior = 2131492864;
+			// aapt resource value: 1
+			public const int AlertDialog_buttonIconDimen = 1;
 			
-			// aapt resource value: 0x7F0C0001
-			public const int bottom_sheet_behavior = 2131492865;
+			// aapt resource value: 2
+			public const int AlertDialog_buttonPanelSideLayout = 2;
 			
-			// aapt resource value: 0x7F0C0002
-			public const int character_counter_content_description = 2131492866;
+			// aapt resource value: 3
+			public const int AlertDialog_listItemLayout = 3;
 			
-			// aapt resource value: 0x7F0C0003
-			public const int character_counter_overflowed_content_description = 2131492867;
+			// aapt resource value: 4
+			public const int AlertDialog_listLayout = 4;
 			
-			// aapt resource value: 0x7F0C0004
-			public const int character_counter_pattern = 2131492868;
+			// aapt resource value: 5
+			public const int AlertDialog_multiChoiceItemLayout = 5;
 			
-			// aapt resource value: 0x7F0C0005
-			public const int chip_text = 2131492869;
+			// aapt resource value: 6
+			public const int AlertDialog_showTitle = 6;
 			
-			// aapt resource value: 0x7F0C0006
-			public const int clear_text_end_icon_content_description = 2131492870;
+			// aapt resource value: 7
+			public const int AlertDialog_singleChoiceItemLayout = 7;
 			
-			// aapt resource value: 0x7F0C0007
-			public const int copy_toast_msg = 2131492871;
+			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
+			public static int[] AnimatedStateListDrawableCompat = new int[] {
+					16843036,
+					16843156,
+					16843157,
+					16843158,
+					16843532,
+					16843533};
 			
-			// aapt resource value: 0x7F0C0008
-			public const int error_icon_content_description = 2131492872;
+			// aapt resource value: 3
+			public const int AnimatedStateListDrawableCompat_android_constantSize = 3;
 			
-			// aapt resource value: 0x7F0C0009
-			public const int exposed_dropdown_menu_content_description = 2131492873;
+			// aapt resource value: 0
+			public const int AnimatedStateListDrawableCompat_android_dither = 0;
 			
-			// aapt resource value: 0x7F0C000A
-			public const int fab_transformation_scrim_behavior = 2131492874;
+			// aapt resource value: 4
+			public const int AnimatedStateListDrawableCompat_android_enterFadeDuration = 4;
 			
-			// aapt resource value: 0x7F0C000B
-			public const int fab_transformation_sheet_behavior = 2131492875;
+			// aapt resource value: 5
+			public const int AnimatedStateListDrawableCompat_android_exitFadeDuration = 5;
 			
-			// aapt resource value: 0x7F0C000C
-			public const int fallback_menu_item_copy_link = 2131492876;
+			// aapt resource value: 2
+			public const int AnimatedStateListDrawableCompat_android_variablePadding = 2;
 			
-			// aapt resource value: 0x7F0C000D
-			public const int fallback_menu_item_open_in_browser = 2131492877;
+			// aapt resource value: 1
+			public const int AnimatedStateListDrawableCompat_android_visible = 1;
 			
-			// aapt resource value: 0x7F0C000E
-			public const int fallback_menu_item_share_link = 2131492878;
+			// aapt resource value: { 0x10100D0,0x1010199 }
+			public static int[] AnimatedStateListDrawableItem = new int[] {
+					16842960,
+					16843161};
 			
-			// aapt resource value: 0x7F0C000F
-			public const int hide_bottom_view_on_scroll_behavior = 2131492879;
+			// aapt resource value: 1
+			public const int AnimatedStateListDrawableItem_android_drawable = 1;
 			
-			// aapt resource value: 0x7F0C0010
-			public const int icon_content_description = 2131492880;
+			// aapt resource value: 0
+			public const int AnimatedStateListDrawableItem_android_id = 0;
 			
-			// aapt resource value: 0x7F0C0011
-			public const int item_view_role_description = 2131492881;
+			// aapt resource value: { 0x1010199,0x1010449,0x101044A,0x101044B }
+			public static int[] AnimatedStateListDrawableTransition = new int[] {
+					16843161,
+					16843849,
+					16843850,
+					16843851};
 			
-			// aapt resource value: 0x7F0C0012
-			public const int library_name = 2131492882;
+			// aapt resource value: 0
+			public const int AnimatedStateListDrawableTransition_android_drawable = 0;
 			
-			// aapt resource value: 0x7F0C0013
-			public const int material_slider_range_end = 2131492883;
+			// aapt resource value: 2
+			public const int AnimatedStateListDrawableTransition_android_fromId = 2;
 			
-			// aapt resource value: 0x7F0C0014
-			public const int material_slider_range_start = 2131492884;
+			// aapt resource value: 3
+			public const int AnimatedStateListDrawableTransition_android_reversible = 3;
 			
-			// aapt resource value: 0x7F0C0015
-			public const int mtrl_badge_numberless_content_description = 2131492885;
+			// aapt resource value: 1
+			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: 0x7F0C0016
-			public const int mtrl_chip_close_icon_content_description = 2131492886;
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300F1,0x7F030105,0x7F030177,0x7F030178,0x7F030206 }
+			public static int[] AppBarLayout = new int[] {
+					16842964,
+					16843919,
+					16844096,
+					2130903281,
+					2130903301,
+					2130903415,
+					2130903416,
+					2130903558};
 			
-			// aapt resource value: 0x7F0C0017
-			public const int mtrl_exceed_max_badge_number_content_description = 2131492887;
+			// aapt resource value: { 0x7F030200,0x7F030201,0x7F030203,0x7F030204 }
+			public static int[] AppBarLayoutStates = new int[] {
+					2130903552,
+					2130903553,
+					2130903555,
+					2130903556};
 			
-			// aapt resource value: 0x7F0C0018
-			public const int mtrl_exceed_max_badge_number_suffix = 2131492888;
+			// aapt resource value: 0
+			public const int AppBarLayoutStates_state_collapsed = 0;
 			
-			// aapt resource value: 0x7F0C0019
-			public const int mtrl_picker_a11y_next_month = 2131492889;
+			// aapt resource value: 1
+			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F0C001A
-			public const int mtrl_picker_a11y_prev_month = 2131492890;
+			// aapt resource value: 2
+			public const int AppBarLayoutStates_state_liftable = 2;
 			
-			// aapt resource value: 0x7F0C001B
-			public const int mtrl_picker_announce_current_selection = 2131492891;
+			// aapt resource value: 3
+			public const int AppBarLayoutStates_state_lifted = 3;
 			
-			// aapt resource value: 0x7F0C001C
-			public const int mtrl_picker_cancel = 2131492892;
+			// aapt resource value: 0
+			public const int AppBarLayout_android_background = 0;
 			
-			// aapt resource value: 0x7F0C001D
-			public const int mtrl_picker_confirm = 2131492893;
+			// aapt resource value: 2
+			public const int AppBarLayout_android_keyboardNavigationCluster = 2;
 			
-			// aapt resource value: 0x7F0C001E
-			public const int mtrl_picker_date_header_selected = 2131492894;
+			// aapt resource value: 1
+			public const int AppBarLayout_android_touchscreenBlocksFocus = 1;
 			
-			// aapt resource value: 0x7F0C001F
-			public const int mtrl_picker_date_header_title = 2131492895;
+			// aapt resource value: 3
+			public const int AppBarLayout_elevation = 3;
 			
-			// aapt resource value: 0x7F0C0020
-			public const int mtrl_picker_date_header_unselected = 2131492896;
+			// aapt resource value: 4
+			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: 0x7F0C0021
-			public const int mtrl_picker_day_of_week_column_header = 2131492897;
+			// aapt resource value: { 0x7F030175,0x7F030176 }
+			public static int[] AppBarLayout_Layout = new int[] {
+					2130903413,
+					2130903414};
 			
-			// aapt resource value: 0x7F0C0022
-			public const int mtrl_picker_invalid_format = 2131492898;
+			// aapt resource value: 0
+			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
 			
-			// aapt resource value: 0x7F0C0023
-			public const int mtrl_picker_invalid_format_example = 2131492899;
+			// aapt resource value: 1
+			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
 			
-			// aapt resource value: 0x7F0C0024
-			public const int mtrl_picker_invalid_format_use = 2131492900;
+			// aapt resource value: 5
+			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: 0x7F0C0025
-			public const int mtrl_picker_invalid_range = 2131492901;
+			// aapt resource value: 6
+			public const int AppBarLayout_liftOnScrollTargetViewId = 6;
 			
-			// aapt resource value: 0x7F0C0026
-			public const int mtrl_picker_navigate_to_year_description = 2131492902;
+			// aapt resource value: 7
+			public const int AppBarLayout_statusBarForeground = 7;
 			
-			// aapt resource value: 0x7F0C0027
-			public const int mtrl_picker_out_of_range = 2131492903;
+			// aapt resource value: { 0x1010119,0x7F0301F8,0x7F030260,0x7F030261 }
+			public static int[] AppCompatImageView = new int[] {
+					16843033,
+					2130903544,
+					2130903648,
+					2130903649};
 			
-			// aapt resource value: 0x7F0C0028
-			public const int mtrl_picker_range_header_only_end_selected = 2131492904;
+			// aapt resource value: 0
+			public const int AppCompatImageView_android_src = 0;
 			
-			// aapt resource value: 0x7F0C0029
-			public const int mtrl_picker_range_header_only_start_selected = 2131492905;
+			// aapt resource value: 1
+			public const int AppCompatImageView_srcCompat = 1;
 			
-			// aapt resource value: 0x7F0C002A
-			public const int mtrl_picker_range_header_selected = 2131492906;
+			// aapt resource value: 2
+			public const int AppCompatImageView_tint = 2;
 			
-			// aapt resource value: 0x7F0C002B
-			public const int mtrl_picker_range_header_title = 2131492907;
+			// aapt resource value: 3
+			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: 0x7F0C002C
-			public const int mtrl_picker_range_header_unselected = 2131492908;
+			// aapt resource value: { 0x1010142,0x7F03025D,0x7F03025E,0x7F03025F }
+			public static int[] AppCompatSeekBar = new int[] {
+					16843074,
+					2130903645,
+					2130903646,
+					2130903647};
 			
-			// aapt resource value: 0x7F0C002D
-			public const int mtrl_picker_save = 2131492909;
+			// aapt resource value: 0
+			public const int AppCompatSeekBar_android_thumb = 0;
 			
-			// aapt resource value: 0x7F0C002E
-			public const int mtrl_picker_text_input_date_hint = 2131492910;
+			// aapt resource value: 1
+			public const int AppCompatSeekBar_tickMark = 1;
 			
-			// aapt resource value: 0x7F0C002F
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131492911;
+			// aapt resource value: 2
+			public const int AppCompatSeekBar_tickMarkTint = 2;
 			
-			// aapt resource value: 0x7F0C0030
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131492912;
+			// aapt resource value: 3
+			public const int AppCompatSeekBar_tickMarkTintMode = 3;
 			
-			// aapt resource value: 0x7F0C0031
-			public const int mtrl_picker_text_input_day_abbr = 2131492913;
+			// aapt resource value: { 0x1010034,0x101016D,0x101016E,0x101016F,0x1010170,0x1010392,0x1010393 }
+			public static int[] AppCompatTextHelper = new int[] {
+					16842804,
+					16843117,
+					16843118,
+					16843119,
+					16843120,
+					16843666,
+					16843667};
 			
-			// aapt resource value: 0x7F0C0032
-			public const int mtrl_picker_text_input_month_abbr = 2131492914;
+			// aapt resource value: 2
+			public const int AppCompatTextHelper_android_drawableBottom = 2;
 			
-			// aapt resource value: 0x7F0C0033
-			public const int mtrl_picker_text_input_year_abbr = 2131492915;
+			// aapt resource value: 6
+			public const int AppCompatTextHelper_android_drawableEnd = 6;
 			
-			// aapt resource value: 0x7F0C0034
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131492916;
+			// aapt resource value: 3
+			public const int AppCompatTextHelper_android_drawableLeft = 3;
 			
-			// aapt resource value: 0x7F0C0035
-			public const int mtrl_picker_toggle_to_day_selection = 2131492917;
+			// aapt resource value: 4
+			public const int AppCompatTextHelper_android_drawableRight = 4;
 			
-			// aapt resource value: 0x7F0C0036
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131492918;
+			// aapt resource value: 5
+			public const int AppCompatTextHelper_android_drawableStart = 5;
 			
-			// aapt resource value: 0x7F0C0037
-			public const int mtrl_picker_toggle_to_year_selection = 2131492919;
+			// aapt resource value: 1
+			public const int AppCompatTextHelper_android_drawableTop = 1;
 			
-			// aapt resource value: 0x7F0C0038
-			public const int password_toggle_content_description = 2131492920;
+			// aapt resource value: 0
+			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: 0x7F0C0039
-			public const int path_password_eye = 2131492921;
+			// aapt resource value: { 0x1010034,0x7F03002F,0x7F030030,0x7F030031,0x7F030032,0x7F030033,0x7F0300E1,0x7F0300E2,0x7F0300E3,0x7F0300E4,0x7F0300E6,0x7F0300E7,0x7F0300E8,0x7F0300E9,0x7F03011B,0x7F03011E,0x7F030126,0x7F03016A,0x7F030179,0x7F030233,0x7F03024F }
+			public static int[] AppCompatTextView = new int[] {
+					16842804,
+					2130903087,
+					2130903088,
+					2130903089,
+					2130903090,
+					2130903091,
+					2130903265,
+					2130903266,
+					2130903267,
+					2130903268,
+					2130903270,
+					2130903271,
+					2130903272,
+					2130903273,
+					2130903323,
+					2130903326,
+					2130903334,
+					2130903402,
+					2130903417,
+					2130903603,
+					2130903631};
 			
-			// aapt resource value: 0x7F0C003A
-			public const int path_password_eye_mask_strike_through = 2131492922;
+			// aapt resource value: 0
+			public const int AppCompatTextView_android_textAppearance = 0;
 			
-			// aapt resource value: 0x7F0C003B
-			public const int path_password_eye_mask_visible = 2131492923;
+			// aapt resource value: 1
+			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
 			
-			// aapt resource value: 0x7F0C003C
-			public const int path_password_strike_through = 2131492924;
+			// aapt resource value: 2
+			public const int AppCompatTextView_autoSizeMinTextSize = 2;
 			
-			static String()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
+			// aapt resource value: 3
+			public const int AppCompatTextView_autoSizePresetSizes = 3;
 			
-			private String()
-			{
-			}
-		}
-		
-		public partial class Style
-		{
+			// aapt resource value: 4
+			public const int AppCompatTextView_autoSizeStepGranularity = 4;
 			
-			// aapt resource value: 0x7F0D0000
-			public const int AndroidThemeColorAccentYellow = 2131558400;
+			// aapt resource value: 5
+			public const int AppCompatTextView_autoSizeTextType = 5;
 			
-			// aapt resource value: 0x7F0D0001
-			public const int Animation_Design_BottomSheetDialog = 2131558401;
+			// aapt resource value: 6
+			public const int AppCompatTextView_drawableBottomCompat = 6;
 			
-			// aapt resource value: 0x7F0D0002
-			public const int Animation_MaterialComponents_BottomSheetDialog = 2131558402;
+			// aapt resource value: 7
+			public const int AppCompatTextView_drawableEndCompat = 7;
 			
-			// aapt resource value: 0x7F0D0003
-			public const int AppCompatDialogStyle = 2131558403;
+			// aapt resource value: 8
+			public const int AppCompatTextView_drawableLeftCompat = 8;
 			
-			// aapt resource value: 0x7F0D0004
-			public const int Base_CardView = 2131558404;
+			// aapt resource value: 9
+			public const int AppCompatTextView_drawableRightCompat = 9;
 			
-			// aapt resource value: 0x7F0D0005
-			public const int Base_MaterialAlertDialog_MaterialComponents_Title_Icon = 2131558405;
+			// aapt resource value: 10
+			public const int AppCompatTextView_drawableStartCompat = 10;
 			
-			// aapt resource value: 0x7F0D0006
-			public const int Base_MaterialAlertDialog_MaterialComponents_Title_Panel = 2131558406;
+			// aapt resource value: 11
+			public const int AppCompatTextView_drawableTint = 11;
 			
-			// aapt resource value: 0x7F0D0007
-			public const int Base_MaterialAlertDialog_MaterialComponents_Title_Text = 2131558407;
+			// aapt resource value: 12
+			public const int AppCompatTextView_drawableTintMode = 12;
 			
-			// aapt resource value: 0x7F0D0008
-			public const int Base_TextAppearance_MaterialComponents_Badge = 2131558408;
+			// aapt resource value: 13
+			public const int AppCompatTextView_drawableTopCompat = 13;
 			
-			// aapt resource value: 0x7F0D0009
-			public const int Base_TextAppearance_MaterialComponents_Button = 2131558409;
+			// aapt resource value: 14
+			public const int AppCompatTextView_firstBaselineToTopHeight = 14;
 			
-			// aapt resource value: 0x7F0D000A
-			public const int Base_TextAppearance_MaterialComponents_Headline6 = 2131558410;
+			// aapt resource value: 15
+			public const int AppCompatTextView_fontFamily = 15;
 			
-			// aapt resource value: 0x7F0D000B
-			public const int Base_TextAppearance_MaterialComponents_Subtitle2 = 2131558411;
+			// aapt resource value: 16
+			public const int AppCompatTextView_fontVariationSettings = 16;
 			
-			// aapt resource value: 0x7F0D000C
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131558412;
+			// aapt resource value: 17
+			public const int AppCompatTextView_lastBaselineToBottomHeight = 17;
 			
-			// aapt resource value: 0x7F0D000D
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131558413;
+			// aapt resource value: 18
+			public const int AppCompatTextView_lineHeight = 18;
 			
-			// aapt resource value: 0x7F0D000E
-			public const int Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = 2131558414;
+			// aapt resource value: 19
+			public const int AppCompatTextView_textAllCaps = 19;
 			
-			// aapt resource value: 0x7F0D000F
-			public const int Base_Theme_MaterialComponents = 2131558415;
-			
-			// aapt resource value: 0x7F0D0010
-			public const int Base_Theme_MaterialComponents_Bridge = 2131558416;
-			
-			// aapt resource value: 0x7F0D0011
-			public const int Base_Theme_MaterialComponents_CompactMenu = 2131558417;
-			
-			// aapt resource value: 0x7F0D0012
-			public const int Base_Theme_MaterialComponents_Dialog = 2131558418;
-			
-			// aapt resource value: 0x7F0D0013
-			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131558419;
-			
-			// aapt resource value: 0x7F0D0014
-			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131558420;
-			
-			// aapt resource value: 0x7F0D0015
-			public const int Base_Theme_MaterialComponents_Dialog_Bridge = 2131558421;
-			
-			// aapt resource value: 0x7F0D0016
-			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131558422;
-			
-			// aapt resource value: 0x7F0D0017
-			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131558423;
-			
-			// aapt resource value: 0x7F0D0018
-			public const int Base_Theme_MaterialComponents_Light = 2131558424;
-			
-			// aapt resource value: 0x7F0D0019
-			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131558425;
-			
-			// aapt resource value: 0x7F0D001A
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131558426;
-			
-			// aapt resource value: 0x7F0D001B
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131558427;
-			
-			// aapt resource value: 0x7F0D001C
-			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131558428;
-			
-			// aapt resource value: 0x7F0D001D
-			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131558429;
-			
-			// aapt resource value: 0x7F0D001E
-			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131558430;
-			
-			// aapt resource value: 0x7F0D001F
-			public const int Base_Theme_MaterialComponents_Light_Dialog_Bridge = 2131558431;
-			
-			// aapt resource value: 0x7F0D0020
-			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131558432;
-			
-			// aapt resource value: 0x7F0D0021
-			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131558433;
-			
-			// aapt resource value: 0x7F0D0022
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131558434;
-			
-			// aapt resource value: 0x7F0D0023
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131558435;
-			
-			// aapt resource value: 0x7F0D0024
-			public const int Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = 2131558436;
-			
-			// aapt resource value: 0x7F0D0025
-			public const int Base_V14_Theme_MaterialComponents = 2131558437;
-			
-			// aapt resource value: 0x7F0D0026
-			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131558438;
-			
-			// aapt resource value: 0x7F0D0027
-			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131558439;
-			
-			// aapt resource value: 0x7F0D0028
-			public const int Base_V14_Theme_MaterialComponents_Dialog_Bridge = 2131558440;
-			
-			// aapt resource value: 0x7F0D0029
-			public const int Base_V14_Theme_MaterialComponents_Light = 2131558441;
-			
-			// aapt resource value: 0x7F0D002A
-			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131558442;
-			
-			// aapt resource value: 0x7F0D002B
-			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131558443;
-			
-			// aapt resource value: 0x7F0D002C
-			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131558444;
-			
-			// aapt resource value: 0x7F0D002D
-			public const int Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = 2131558445;
-			
-			// aapt resource value: 0x7F0D002E
-			public const int Base_Widget_Design_TabLayout = 2131558446;
-			
-			// aapt resource value: 0x7F0D002F
-			public const int Base_Widget_MaterialComponents_AutoCompleteTextView = 2131558447;
-			
-			// aapt resource value: 0x7F0D0030
-			public const int Base_Widget_MaterialComponents_CheckedTextView = 2131558448;
-			
-			// aapt resource value: 0x7F0D0031
-			public const int Base_Widget_MaterialComponents_Chip = 2131558449;
-			
-			// aapt resource value: 0x7F0D0032
-			public const int Base_Widget_MaterialComponents_PopupMenu = 2131558450;
-			
-			// aapt resource value: 0x7F0D0033
-			public const int Base_Widget_MaterialComponents_PopupMenu_ContextMenu = 2131558451;
-			
-			// aapt resource value: 0x7F0D0034
-			public const int Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = 2131558452;
-			
-			// aapt resource value: 0x7F0D0035
-			public const int Base_Widget_MaterialComponents_PopupMenu_Overflow = 2131558453;
-			
-			// aapt resource value: 0x7F0D0036
-			public const int Base_Widget_MaterialComponents_Slider = 2131558454;
-			
-			// aapt resource value: 0x7F0D0037
-			public const int Base_Widget_MaterialComponents_TextInputEditText = 2131558455;
-			
-			// aapt resource value: 0x7F0D0038
-			public const int Base_Widget_MaterialComponents_TextInputLayout = 2131558456;
-			
-			// aapt resource value: 0x7F0D0039
-			public const int Base_Widget_MaterialComponents_TextView = 2131558457;
-			
-			// aapt resource value: 0x7F0D003A
-			public const int CardView = 2131558458;
-			
-			// aapt resource value: 0x7F0D003B
-			public const int CardView_Dark = 2131558459;
-			
-			// aapt resource value: 0x7F0D003C
-			public const int CardView_Light = 2131558460;
-			
-			// aapt resource value: 0x7F0D0152
-			public const int collectionViewStyle = 2131558738;
-			
-			// aapt resource value: 0x7F0D003D
-			public const int EmptyTheme = 2131558461;
-			
-			// aapt resource value: 0x7F0D003E
-			public const int MainTheme = 2131558462;
-			
-			// aapt resource value: 0x7F0D003F
-			public const int MainTheme_Base = 2131558463;
-			
-			// aapt resource value: 0x7F0D0040
-			public const int MaterialAlertDialog_MaterialComponents = 2131558464;
-			
-			// aapt resource value: 0x7F0D0041
-			public const int MaterialAlertDialog_MaterialComponents_Body_Text = 2131558465;
-			
-			// aapt resource value: 0x7F0D0042
-			public const int MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = 2131558466;
-			
-			// aapt resource value: 0x7F0D0043
-			public const int MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = 2131558467;
-			
-			// aapt resource value: 0x7F0D0044
-			public const int MaterialAlertDialog_MaterialComponents_Title_Icon = 2131558468;
-			
-			// aapt resource value: 0x7F0D0045
-			public const int MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = 2131558469;
-			
-			// aapt resource value: 0x7F0D0046
-			public const int MaterialAlertDialog_MaterialComponents_Title_Panel = 2131558470;
-			
-			// aapt resource value: 0x7F0D0047
-			public const int MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = 2131558471;
-			
-			// aapt resource value: 0x7F0D0048
-			public const int MaterialAlertDialog_MaterialComponents_Title_Text = 2131558472;
-			
-			// aapt resource value: 0x7F0D0049
-			public const int MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = 2131558473;
-			
-			// aapt resource value: 0x7F0D004A
-			public const int Platform_MaterialComponents = 2131558474;
-			
-			// aapt resource value: 0x7F0D004B
-			public const int Platform_MaterialComponents_Dialog = 2131558475;
-			
-			// aapt resource value: 0x7F0D004C
-			public const int Platform_MaterialComponents_Light = 2131558476;
-			
-			// aapt resource value: 0x7F0D004D
-			public const int Platform_MaterialComponents_Light_Dialog = 2131558477;
-			
-			// aapt resource value: 0x7F0D004E
-			public const int ShapeAppearanceOverlay = 2131558478;
-			
-			// aapt resource value: 0x7F0D004F
-			public const int ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = 2131558479;
-			
-			// aapt resource value: 0x7F0D0050
-			public const int ShapeAppearanceOverlay_BottomRightCut = 2131558480;
-			
-			// aapt resource value: 0x7F0D0051
-			public const int ShapeAppearanceOverlay_Cut = 2131558481;
-			
-			// aapt resource value: 0x7F0D0052
-			public const int ShapeAppearanceOverlay_DifferentCornerSize = 2131558482;
-			
-			// aapt resource value: 0x7F0D0053
-			public const int ShapeAppearanceOverlay_MaterialComponents_BottomSheet = 2131558483;
-			
-			// aapt resource value: 0x7F0D0054
-			public const int ShapeAppearanceOverlay_MaterialComponents_Chip = 2131558484;
-			
-			// aapt resource value: 0x7F0D0055
-			public const int ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = 2131558485;
-			
-			// aapt resource value: 0x7F0D0056
-			public const int ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = 2131558486;
-			
-			// aapt resource value: 0x7F0D0057
-			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131558487;
-			
-			// aapt resource value: 0x7F0D0058
-			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = 2131558488;
-			
-			// aapt resource value: 0x7F0D0059
-			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = 2131558489;
-			
-			// aapt resource value: 0x7F0D005A
-			public const int ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = 2131558490;
-			
-			// aapt resource value: 0x7F0D005B
-			public const int ShapeAppearanceOverlay_TopLeftCut = 2131558491;
-			
-			// aapt resource value: 0x7F0D005C
-			public const int ShapeAppearanceOverlay_TopRightDifferentCornerSize = 2131558492;
-			
-			// aapt resource value: 0x7F0D005D
-			public const int ShapeAppearance_MaterialComponents = 2131558493;
-			
-			// aapt resource value: 0x7F0D005E
-			public const int ShapeAppearance_MaterialComponents_LargeComponent = 2131558494;
-			
-			// aapt resource value: 0x7F0D005F
-			public const int ShapeAppearance_MaterialComponents_MediumComponent = 2131558495;
-			
-			// aapt resource value: 0x7F0D0060
-			public const int ShapeAppearance_MaterialComponents_SmallComponent = 2131558496;
-			
-			// aapt resource value: 0x7F0D0061
-			public const int ShapeAppearance_MaterialComponents_Test = 2131558497;
-			
-			// aapt resource value: 0x7F0D0062
-			public const int ShapeAppearance_MaterialComponents_Tooltip = 2131558498;
-			
-			// aapt resource value: 0x7F0D0063
-			public const int TestStyleWithLineHeight = 2131558499;
-			
-			// aapt resource value: 0x7F0D0064
-			public const int TestStyleWithLineHeightAppearance = 2131558500;
-			
-			// aapt resource value: 0x7F0D0066
-			public const int TestStyleWithoutLineHeight = 2131558502;
-			
-			// aapt resource value: 0x7F0D0065
-			public const int TestStyleWithThemeLineHeightAttribute = 2131558501;
-			
-			// aapt resource value: 0x7F0D0067
-			public const int TestThemeWithLineHeight = 2131558503;
-			
-			// aapt resource value: 0x7F0D0068
-			public const int TestThemeWithLineHeightDisabled = 2131558504;
-			
-			// aapt resource value: 0x7F0D0069
-			public const int Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131558505;
-			
-			// aapt resource value: 0x7F0D006A
-			public const int Test_Theme_MaterialComponents_MaterialCalendar = 2131558506;
-			
-			// aapt resource value: 0x7F0D006B
-			public const int Test_Widget_MaterialComponents_MaterialCalendar = 2131558507;
-			
-			// aapt resource value: 0x7F0D006C
-			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day = 2131558508;
-			
-			// aapt resource value: 0x7F0D006D
-			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131558509;
-			
-			// aapt resource value: 0x7F0D006E
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131558510;
-			
-			// aapt resource value: 0x7F0D006F
-			public const int TextAppearance_Design_Counter = 2131558511;
-			
-			// aapt resource value: 0x7F0D0070
-			public const int TextAppearance_Design_Counter_Overflow = 2131558512;
-			
-			// aapt resource value: 0x7F0D0071
-			public const int TextAppearance_Design_Error = 2131558513;
-			
-			// aapt resource value: 0x7F0D0072
-			public const int TextAppearance_Design_HelperText = 2131558514;
-			
-			// aapt resource value: 0x7F0D0073
-			public const int TextAppearance_Design_Hint = 2131558515;
-			
-			// aapt resource value: 0x7F0D0074
-			public const int TextAppearance_Design_Placeholder = 2131558516;
-			
-			// aapt resource value: 0x7F0D0075
-			public const int TextAppearance_Design_Prefix = 2131558517;
-			
-			// aapt resource value: 0x7F0D0076
-			public const int TextAppearance_Design_Snackbar_Message = 2131558518;
-			
-			// aapt resource value: 0x7F0D0077
-			public const int TextAppearance_Design_Suffix = 2131558519;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
-			
-			// aapt resource value: 0x7F0D0078
-			public const int TextAppearance_Design_Tab = 2131558520;
-			
-			// aapt resource value: 0x7F0D0079
-			public const int TextAppearance_MaterialComponents_Badge = 2131558521;
-			
-			// aapt resource value: 0x7F0D007A
-			public const int TextAppearance_MaterialComponents_Body1 = 2131558522;
-			
-			// aapt resource value: 0x7F0D007B
-			public const int TextAppearance_MaterialComponents_Body2 = 2131558523;
-			
-			// aapt resource value: 0x7F0D007C
-			public const int TextAppearance_MaterialComponents_Button = 2131558524;
-			
-			// aapt resource value: 0x7F0D007D
-			public const int TextAppearance_MaterialComponents_Caption = 2131558525;
-			
-			// aapt resource value: 0x7F0D007E
-			public const int TextAppearance_MaterialComponents_Chip = 2131558526;
-			
-			// aapt resource value: 0x7F0D007F
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131558527;
-			
-			// aapt resource value: 0x7F0D0080
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131558528;
-			
-			// aapt resource value: 0x7F0D0081
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131558529;
-			
-			// aapt resource value: 0x7F0D0082
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131558530;
-			
-			// aapt resource value: 0x7F0D0083
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131558531;
-			
-			// aapt resource value: 0x7F0D0084
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131558532;
-			
-			// aapt resource value: 0x7F0D0085
-			public const int TextAppearance_MaterialComponents_Overline = 2131558533;
-			
-			// aapt resource value: 0x7F0D0086
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131558534;
-			
-			// aapt resource value: 0x7F0D0087
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131558535;
-			
-			// aapt resource value: 0x7F0D0088
-			public const int TextAppearance_MaterialComponents_Tooltip = 2131558536;
-			
-			// aapt resource value: 0x7F0D0089
-			public const int ThemeOverlayColorAccentRed = 2131558537;
-			
-			// aapt resource value: 0x7F0D008A
-			public const int ThemeOverlay_Design_TextInputEditText = 2131558538;
-			
-			// aapt resource value: 0x7F0D008B
-			public const int ThemeOverlay_MaterialComponents = 2131558539;
-			
-			// aapt resource value: 0x7F0D008C
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131558540;
-			
-			// aapt resource value: 0x7F0D008D
-			public const int ThemeOverlay_MaterialComponents_ActionBar_Primary = 2131558541;
-			
-			// aapt resource value: 0x7F0D008E
-			public const int ThemeOverlay_MaterialComponents_ActionBar_Surface = 2131558542;
-			
-			// aapt resource value: 0x7F0D008F
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView = 2131558543;
-			
-			// aapt resource value: 0x7F0D0090
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = 2131558544;
-			
-			// aapt resource value: 0x7F0D0091
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131558545;
-			
-			// aapt resource value: 0x7F0D0092
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131558546;
-			
-			// aapt resource value: 0x7F0D0093
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131558547;
-			
-			// aapt resource value: 0x7F0D0094
-			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Primary = 2131558548;
-			
-			// aapt resource value: 0x7F0D0095
-			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Surface = 2131558549;
-			
-			// aapt resource value: 0x7F0D0096
-			public const int ThemeOverlay_MaterialComponents_BottomSheetDialog = 2131558550;
-			
-			// aapt resource value: 0x7F0D0097
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131558551;
-			
-			// aapt resource value: 0x7F0D0098
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131558552;
-			
-			// aapt resource value: 0x7F0D0099
-			public const int ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = 2131558553;
-			
-			// aapt resource value: 0x7F0D009A
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131558554;
-			
-			// aapt resource value: 0x7F0D009B
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131558555;
-			
-			// aapt resource value: 0x7F0D009C
-			public const int ThemeOverlay_MaterialComponents_Light = 2131558556;
-			
-			// aapt resource value: 0x7F0D009D
-			public const int ThemeOverlay_MaterialComponents_Light_BottomSheetDialog = 2131558557;
-			
-			// aapt resource value: 0x7F0D009E
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog = 2131558558;
-			
-			// aapt resource value: 0x7F0D009F
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = 2131558559;
-			
-			// aapt resource value: 0x7F0D00A0
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = 2131558560;
-			
-			// aapt resource value: 0x7F0D00A1
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = 2131558561;
-			
-			// aapt resource value: 0x7F0D00A2
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = 2131558562;
-			
-			// aapt resource value: 0x7F0D00A3
-			public const int ThemeOverlay_MaterialComponents_MaterialCalendar = 2131558563;
-			
-			// aapt resource value: 0x7F0D00A4
-			public const int ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = 2131558564;
-			
-			// aapt resource value: 0x7F0D00A5
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131558565;
-			
-			// aapt resource value: 0x7F0D00A6
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131558566;
-			
-			// aapt resource value: 0x7F0D00A7
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131558567;
-			
-			// aapt resource value: 0x7F0D00A8
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131558568;
-			
-			// aapt resource value: 0x7F0D00A9
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131558569;
-			
-			// aapt resource value: 0x7F0D00AA
-			public const int ThemeOverlay_MaterialComponents_Toolbar_Primary = 2131558570;
-			
-			// aapt resource value: 0x7F0D00AB
-			public const int ThemeOverlay_MaterialComponents_Toolbar_Surface = 2131558571;
-			
-			// aapt resource value: 0x7F0D00AC
-			public const int Theme_Design = 2131558572;
-			
-			// aapt resource value: 0x7F0D00AD
-			public const int Theme_Design_BottomSheetDialog = 2131558573;
-			
-			// aapt resource value: 0x7F0D00AE
-			public const int Theme_Design_Light = 2131558574;
-			
-			// aapt resource value: 0x7F0D00AF
-			public const int Theme_Design_Light_BottomSheetDialog = 2131558575;
-			
-			// aapt resource value: 0x7F0D00B0
-			public const int Theme_Design_Light_NoActionBar = 2131558576;
-			
-			// aapt resource value: 0x7F0D00B1
-			public const int Theme_Design_NoActionBar = 2131558577;
-			
-			// aapt resource value: 0x7F0D00B2
-			public const int Theme_MaterialComponents = 2131558578;
-			
-			// aapt resource value: 0x7F0D00B3
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131558579;
-			
-			// aapt resource value: 0x7F0D00B4
-			public const int Theme_MaterialComponents_Bridge = 2131558580;
-			
-			// aapt resource value: 0x7F0D00B5
-			public const int Theme_MaterialComponents_CompactMenu = 2131558581;
-			
-			// aapt resource value: 0x7F0D00B6
-			public const int Theme_MaterialComponents_DayNight = 2131558582;
-			
-			// aapt resource value: 0x7F0D00B7
-			public const int Theme_MaterialComponents_DayNight_BottomSheetDialog = 2131558583;
-			
-			// aapt resource value: 0x7F0D00B8
-			public const int Theme_MaterialComponents_DayNight_Bridge = 2131558584;
-			
-			// aapt resource value: 0x7F0D00B9
-			public const int Theme_MaterialComponents_DayNight_DarkActionBar = 2131558585;
-			
-			// aapt resource value: 0x7F0D00BA
-			public const int Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = 2131558586;
-			
-			// aapt resource value: 0x7F0D00BB
-			public const int Theme_MaterialComponents_DayNight_Dialog = 2131558587;
-			
-			// aapt resource value: 0x7F0D00BC
-			public const int Theme_MaterialComponents_DayNight_DialogWhenLarge = 2131558588;
-			
-			// aapt resource value: 0x7F0D00BD
-			public const int Theme_MaterialComponents_DayNight_Dialog_Alert = 2131558589;
-			
-			// aapt resource value: 0x7F0D00BE
-			public const int Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = 2131558590;
-			
-			// aapt resource value: 0x7F0D00BF
-			public const int Theme_MaterialComponents_DayNight_Dialog_Bridge = 2131558591;
-			
-			// aapt resource value: 0x7F0D00C0
-			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize = 2131558592;
-			
-			// aapt resource value: 0x7F0D00C1
-			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = 2131558593;
-			
-			// aapt resource value: 0x7F0D00C2
-			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth = 2131558594;
-			
-			// aapt resource value: 0x7F0D00C3
-			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = 2131558595;
-			
-			// aapt resource value: 0x7F0D00C4
-			public const int Theme_MaterialComponents_DayNight_NoActionBar = 2131558596;
-			
-			// aapt resource value: 0x7F0D00C5
-			public const int Theme_MaterialComponents_DayNight_NoActionBar_Bridge = 2131558597;
-			
-			// aapt resource value: 0x7F0D00C6
-			public const int Theme_MaterialComponents_Dialog = 2131558598;
-			
-			// aapt resource value: 0x7F0D00C7
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131558599;
-			
-			// aapt resource value: 0x7F0D00C8
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131558600;
-			
-			// aapt resource value: 0x7F0D00C9
-			public const int Theme_MaterialComponents_Dialog_Alert_Bridge = 2131558601;
-			
-			// aapt resource value: 0x7F0D00CA
-			public const int Theme_MaterialComponents_Dialog_Bridge = 2131558602;
-			
-			// aapt resource value: 0x7F0D00CB
-			public const int Theme_MaterialComponents_Dialog_FixedSize = 2131558603;
-			
-			// aapt resource value: 0x7F0D00CC
-			public const int Theme_MaterialComponents_Dialog_FixedSize_Bridge = 2131558604;
-			
-			// aapt resource value: 0x7F0D00CD
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131558605;
-			
-			// aapt resource value: 0x7F0D00CE
-			public const int Theme_MaterialComponents_Dialog_MinWidth_Bridge = 2131558606;
-			
-			// aapt resource value: 0x7F0D00CF
-			public const int Theme_MaterialComponents_Light = 2131558607;
-			
-			// aapt resource value: 0x7F0D00D0
-			public const int Theme_MaterialComponents_Light_BarSize = 2131558608;
-			
-			// aapt resource value: 0x7F0D00D1
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131558609;
-			
-			// aapt resource value: 0x7F0D00D2
-			public const int Theme_MaterialComponents_Light_Bridge = 2131558610;
-			
-			// aapt resource value: 0x7F0D00D3
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131558611;
-			
-			// aapt resource value: 0x7F0D00D4
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131558612;
-			
-			// aapt resource value: 0x7F0D00D5
-			public const int Theme_MaterialComponents_Light_Dialog = 2131558613;
-			
-			// aapt resource value: 0x7F0D00D6
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131558614;
-			
-			// aapt resource value: 0x7F0D00D7
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131558615;
-			
-			// aapt resource value: 0x7F0D00D8
-			public const int Theme_MaterialComponents_Light_Dialog_Alert_Bridge = 2131558616;
-			
-			// aapt resource value: 0x7F0D00D9
-			public const int Theme_MaterialComponents_Light_Dialog_Bridge = 2131558617;
-			
-			// aapt resource value: 0x7F0D00DA
-			public const int Theme_MaterialComponents_Light_Dialog_FixedSize = 2131558618;
-			
-			// aapt resource value: 0x7F0D00DB
-			public const int Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = 2131558619;
-			
-			// aapt resource value: 0x7F0D00DC
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131558620;
-			
-			// aapt resource value: 0x7F0D00DD
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = 2131558621;
-			
-			// aapt resource value: 0x7F0D00DE
-			public const int Theme_MaterialComponents_Light_LargeTouch = 2131558622;
-			
-			// aapt resource value: 0x7F0D00DF
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131558623;
-			
-			// aapt resource value: 0x7F0D00E0
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131558624;
-			
-			// aapt resource value: 0x7F0D00E1
-			public const int Theme_MaterialComponents_NoActionBar = 2131558625;
-			
-			// aapt resource value: 0x7F0D00E2
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131558626;
-			
-			// aapt resource value: 0x7F0D00E3
-			public const int Theme_PageIndicatorDefaults = 2131558627;
-			
-			// aapt resource value: 0x7F0D00E4
-			public const int Widget = 2131558628;
-			
-			// aapt resource value: 0x7F0D00E5
-			public const int Widget_CirclePageIndicator = 2131558629;
-			
-			// aapt resource value: 0x7F0D00E6
-			public const int Widget_Design_AppBarLayout = 2131558630;
-			
-			// aapt resource value: 0x7F0D00E7
-			public const int Widget_Design_BottomNavigationView = 2131558631;
-			
-			// aapt resource value: 0x7F0D00E8
-			public const int Widget_Design_BottomSheet_Modal = 2131558632;
-			
-			// aapt resource value: 0x7F0D00E9
-			public const int Widget_Design_CollapsingToolbar = 2131558633;
-			
-			// aapt resource value: 0x7F0D00EA
-			public const int Widget_Design_FloatingActionButton = 2131558634;
-			
-			// aapt resource value: 0x7F0D00EB
-			public const int Widget_Design_NavigationView = 2131558635;
-			
-			// aapt resource value: 0x7F0D00EC
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131558636;
-			
-			// aapt resource value: 0x7F0D00ED
-			public const int Widget_Design_Snackbar = 2131558637;
-			
-			// aapt resource value: 0x7F0D00EE
-			public const int Widget_Design_TabLayout = 2131558638;
-			
-			// aapt resource value: 0x7F0D00EF
-			public const int Widget_Design_TextInputEditText = 2131558639;
-			
-			// aapt resource value: 0x7F0D00F0
-			public const int Widget_Design_TextInputLayout = 2131558640;
-			
-			// aapt resource value: 0x7F0D00F1
-			public const int Widget_MaterialComponents_ActionBar_Primary = 2131558641;
-			
-			// aapt resource value: 0x7F0D00F2
-			public const int Widget_MaterialComponents_ActionBar_PrimarySurface = 2131558642;
-			
-			// aapt resource value: 0x7F0D00F3
-			public const int Widget_MaterialComponents_ActionBar_Solid = 2131558643;
-			
-			// aapt resource value: 0x7F0D00F4
-			public const int Widget_MaterialComponents_ActionBar_Surface = 2131558644;
-			
-			// aapt resource value: 0x7F0D00F5
-			public const int Widget_MaterialComponents_AppBarLayout_Primary = 2131558645;
-			
-<<<<<<< HEAD
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
@@ -19493,428 +17523,391 @@ namespace OpravaMesta.Droid
 					2130903699,
 					2130903700,
 					2130903701};
-=======
-			// aapt resource value: 0x7F0D00F6
-			public const int Widget_MaterialComponents_AppBarLayout_PrimarySurface = 2131558646;
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			
-			// aapt resource value: 0x7F0D00F7
-			public const int Widget_MaterialComponents_AppBarLayout_Surface = 2131558647;
-			
-			// aapt resource value: 0x7F0D00F8
-			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox = 2131558648;
-			
-			// aapt resource value: 0x7F0D00F9
-			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131558649;
-			
-			// aapt resource value: 0x7F0D00FA
-			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131558650;
-			
-			// aapt resource value: 0x7F0D00FB
-			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131558651;
-			
-			// aapt resource value: 0x7F0D00FC
-			public const int Widget_MaterialComponents_Badge = 2131558652;
-			
-			// aapt resource value: 0x7F0D00FD
-			public const int Widget_MaterialComponents_BottomAppBar = 2131558653;
-			
-			// aapt resource value: 0x7F0D00FE
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131558654;
-			
-			// aapt resource value: 0x7F0D00FF
-			public const int Widget_MaterialComponents_BottomAppBar_PrimarySurface = 2131558655;
-			
-			// aapt resource value: 0x7F0D0100
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131558656;
-			
-			// aapt resource value: 0x7F0D0101
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131558657;
-			
-			// aapt resource value: 0x7F0D0102
-			public const int Widget_MaterialComponents_BottomNavigationView_PrimarySurface = 2131558658;
-			
-			// aapt resource value: 0x7F0D0103
-			public const int Widget_MaterialComponents_BottomSheet = 2131558659;
-			
-			// aapt resource value: 0x7F0D0104
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131558660;
-			
-			// aapt resource value: 0x7F0D0105
-			public const int Widget_MaterialComponents_Button = 2131558661;
-			
-			// aapt resource value: 0x7F0D0106
-			public const int Widget_MaterialComponents_Button_Icon = 2131558662;
-			
-			// aapt resource value: 0x7F0D0107
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131558663;
-			
-			// aapt resource value: 0x7F0D0108
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131558664;
-			
-			// aapt resource value: 0x7F0D0109
-			public const int Widget_MaterialComponents_Button_TextButton = 2131558665;
-			
-			// aapt resource value: 0x7F0D010A
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131558666;
-			
-			// aapt resource value: 0x7F0D010B
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Flush = 2131558667;
-			
-			// aapt resource value: 0x7F0D010C
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131558668;
-			
-			// aapt resource value: 0x7F0D010D
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131558669;
-			
-			// aapt resource value: 0x7F0D010E
-			public const int Widget_MaterialComponents_Button_TextButton_Snackbar = 2131558670;
-			
-			// aapt resource value: 0x7F0D010F
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131558671;
-			
-			// aapt resource value: 0x7F0D0110
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131558672;
-			
-			// aapt resource value: 0x7F0D0111
-			public const int Widget_MaterialComponents_CardView = 2131558673;
-			
-			// aapt resource value: 0x7F0D0112
-			public const int Widget_MaterialComponents_CheckedTextView = 2131558674;
-			
-			// aapt resource value: 0x7F0D0113
-			public const int Widget_MaterialComponents_ChipGroup = 2131558675;
-			
-			// aapt resource value: 0x7F0D0114
-			public const int Widget_MaterialComponents_Chip_Action = 2131558676;
-			
-			// aapt resource value: 0x7F0D0115
-			public const int Widget_MaterialComponents_Chip_Choice = 2131558677;
-			
-			// aapt resource value: 0x7F0D0116
-			public const int Widget_MaterialComponents_Chip_Entry = 2131558678;
-			
-			// aapt resource value: 0x7F0D0117
-			public const int Widget_MaterialComponents_Chip_Filter = 2131558679;
-			
-			// aapt resource value: 0x7F0D0118
-			public const int Widget_MaterialComponents_CompoundButton_CheckBox = 2131558680;
-			
-			// aapt resource value: 0x7F0D0119
-			public const int Widget_MaterialComponents_CompoundButton_RadioButton = 2131558681;
-			
-			// aapt resource value: 0x7F0D011A
-			public const int Widget_MaterialComponents_CompoundButton_Switch = 2131558682;
-			
-			// aapt resource value: 0x7F0D011B
-			public const int Widget_MaterialComponents_ExtendedFloatingActionButton = 2131558683;
-			
-			// aapt resource value: 0x7F0D011C
-			public const int Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = 2131558684;
-			
-			// aapt resource value: 0x7F0D011D
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131558685;
-			
-			// aapt resource value: 0x7F0D011E
-			public const int Widget_MaterialComponents_Light_ActionBar_Solid = 2131558686;
-			
-			// aapt resource value: 0x7F0D011F
-			public const int Widget_MaterialComponents_MaterialButtonToggleGroup = 2131558687;
-			
-			// aapt resource value: 0x7F0D0120
-			public const int Widget_MaterialComponents_MaterialCalendar = 2131558688;
-			
-			// aapt resource value: 0x7F0D0121
-			public const int Widget_MaterialComponents_MaterialCalendar_Day = 2131558689;
-			
-			// aapt resource value: 0x7F0D0122
-			public const int Widget_MaterialComponents_MaterialCalendar_DayTextView = 2131558690;
-			
-			// aapt resource value: 0x7F0D0123
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Invalid = 2131558691;
-			
-			// aapt resource value: 0x7F0D0124
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131558692;
-			
-			// aapt resource value: 0x7F0D0125
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Today = 2131558693;
-			
-			// aapt resource value: 0x7F0D0126
-			public const int Widget_MaterialComponents_MaterialCalendar_Fullscreen = 2131558694;
-			
-			// aapt resource value: 0x7F0D0127
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = 2131558695;
-			
-			// aapt resource value: 0x7F0D0128
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderDivider = 2131558696;
-			
-			// aapt resource value: 0x7F0D0129
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderLayout = 2131558697;
-			
-			// aapt resource value: 0x7F0D012A
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection = 2131558698;
-			
-			// aapt resource value: 0x7F0D012B
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = 2131558699;
-			
-			// aapt resource value: 0x7F0D012C
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderTitle = 2131558700;
-			
-			// aapt resource value: 0x7F0D012D
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = 2131558701;
-			
-			// aapt resource value: 0x7F0D012E
-			public const int Widget_MaterialComponents_MaterialCalendar_Item = 2131558702;
-			
-			// aapt resource value: 0x7F0D012F
-			public const int Widget_MaterialComponents_MaterialCalendar_Year = 2131558703;
-			
-			// aapt resource value: 0x7F0D0130
-			public const int Widget_MaterialComponents_MaterialCalendar_Year_Selected = 2131558704;
-			
-			// aapt resource value: 0x7F0D0131
-			public const int Widget_MaterialComponents_MaterialCalendar_Year_Today = 2131558705;
-			
-			// aapt resource value: 0x7F0D0132
-			public const int Widget_MaterialComponents_NavigationView = 2131558706;
-			
-			// aapt resource value: 0x7F0D0133
-			public const int Widget_MaterialComponents_PopupMenu = 2131558707;
-			
-			// aapt resource value: 0x7F0D0134
-			public const int Widget_MaterialComponents_PopupMenu_ContextMenu = 2131558708;
-			
-			// aapt resource value: 0x7F0D0135
-			public const int Widget_MaterialComponents_PopupMenu_ListPopupWindow = 2131558709;
-			
-			// aapt resource value: 0x7F0D0136
-			public const int Widget_MaterialComponents_PopupMenu_Overflow = 2131558710;
-			
-			// aapt resource value: 0x7F0D0137
-			public const int Widget_MaterialComponents_ShapeableImageView = 2131558711;
-			
-			// aapt resource value: 0x7F0D0138
-			public const int Widget_MaterialComponents_Slider = 2131558712;
-			
-			// aapt resource value: 0x7F0D0139
-			public const int Widget_MaterialComponents_Snackbar = 2131558713;
-			
-			// aapt resource value: 0x7F0D013A
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131558714;
-			
-			// aapt resource value: 0x7F0D013B
-			public const int Widget_MaterialComponents_Snackbar_TextView = 2131558715;
-			
-			// aapt resource value: 0x7F0D013C
-			public const int Widget_MaterialComponents_TabLayout = 2131558716;
-			
-			// aapt resource value: 0x7F0D013D
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131558717;
-			
-			// aapt resource value: 0x7F0D013E
-			public const int Widget_MaterialComponents_TabLayout_PrimarySurface = 2131558718;
-			
-			// aapt resource value: 0x7F0D013F
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131558719;
-			
-			// aapt resource value: 0x7F0D0140
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131558720;
-			
-			// aapt resource value: 0x7F0D0141
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131558721;
-			
-			// aapt resource value: 0x7F0D0142
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131558722;
-			
-			// aapt resource value: 0x7F0D0143
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131558723;
-			
-			// aapt resource value: 0x7F0D0144
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131558724;
-			
-			// aapt resource value: 0x7F0D0145
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = 2131558725;
-			
-			// aapt resource value: 0x7F0D0146
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = 2131558726;
-			
-			// aapt resource value: 0x7F0D0147
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131558727;
-			
-			// aapt resource value: 0x7F0D0148
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131558728;
-			
-			// aapt resource value: 0x7F0D0149
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = 2131558729;
-			
-			// aapt resource value: 0x7F0D014A
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = 2131558730;
-			
-			// aapt resource value: 0x7F0D014B
-			public const int Widget_MaterialComponents_TextView = 2131558731;
-			
-			// aapt resource value: 0x7F0D014C
-			public const int Widget_MaterialComponents_Toolbar = 2131558732;
-			
-			// aapt resource value: 0x7F0D014D
-			public const int Widget_MaterialComponents_Toolbar_Primary = 2131558733;
-			
-			// aapt resource value: 0x7F0D014E
-			public const int Widget_MaterialComponents_Toolbar_PrimarySurface = 2131558734;
-			
-			// aapt resource value: 0x7F0D014F
-			public const int Widget_MaterialComponents_Toolbar_Surface = 2131558735;
-			
-			// aapt resource value: 0x7F0D0150
-			public const int Widget_MaterialComponents_Tooltip = 2131558736;
-			
-			// aapt resource value: 0x7F0D0151
-			public const int Widget_Support_CoordinatorLayout = 2131558737;
-			
-			static Style()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Style()
-			{
-			}
-		}
-		
-		public partial class Styleable
-		{
-			
-			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
-			public static int[] AnimatedStateListDrawableCompat = new int[] {
-					16843036,
-					16843156,
-					16843157,
-					16843158,
-					16843532,
-					16843533};
+			// aapt resource value: 2
+			public const int AppCompatTheme_actionBarDivider = 2;
 			
 			// aapt resource value: 3
-			public const int AnimatedStateListDrawableCompat_android_constantSize = 3;
-			
-			// aapt resource value: 0
-			public const int AnimatedStateListDrawableCompat_android_dither = 0;
+			public const int AppCompatTheme_actionBarItemBackground = 3;
 			
 			// aapt resource value: 4
-			public const int AnimatedStateListDrawableCompat_android_enterFadeDuration = 4;
+			public const int AppCompatTheme_actionBarPopupTheme = 4;
 			
 			// aapt resource value: 5
-			public const int AnimatedStateListDrawableCompat_android_exitFadeDuration = 5;
-			
-			// aapt resource value: 2
-			public const int AnimatedStateListDrawableCompat_android_variablePadding = 2;
-			
-			// aapt resource value: 1
-			public const int AnimatedStateListDrawableCompat_android_visible = 1;
-			
-			// aapt resource value: { 0x10100D0,0x1010199 }
-			public static int[] AnimatedStateListDrawableItem = new int[] {
-					16842960,
-					16843161};
-			
-			// aapt resource value: 1
-			public const int AnimatedStateListDrawableItem_android_drawable = 1;
-			
-			// aapt resource value: 0
-			public const int AnimatedStateListDrawableItem_android_id = 0;
-			
-			// aapt resource value: { 0x1010199,0x1010449,0x101044A,0x101044B }
-			public static int[] AnimatedStateListDrawableTransition = new int[] {
-					16843161,
-					16843849,
-					16843850,
-					16843851};
-			
-			// aapt resource value: 0
-			public const int AnimatedStateListDrawableTransition_android_drawable = 0;
-			
-			// aapt resource value: 2
-			public const int AnimatedStateListDrawableTransition_android_fromId = 2;
-			
-			// aapt resource value: 3
-			public const int AnimatedStateListDrawableTransition_android_reversible = 3;
-			
-			// aapt resource value: 1
-			public const int AnimatedStateListDrawableTransition_android_toId = 1;
-			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F02007C,0x7F02008F,0x7F0200E1,0x7F0200E2,0x7F02012F }
-			public static int[] AppBarLayout = new int[] {
-					16842964,
-					16843919,
-					16844096,
-					2130837628,
-					2130837647,
-					2130837729,
-					2130837730,
-					2130837807};
-			
-			// aapt resource value: { 0x7F020129,0x7F02012A,0x7F02012C,0x7F02012D }
-			public static int[] AppBarLayoutStates = new int[] {
-					2130837801,
-					2130837802,
-					2130837804,
-					2130837805};
-			
-			// aapt resource value: 0
-			public const int AppBarLayoutStates_state_collapsed = 0;
-			
-			// aapt resource value: 1
-			public const int AppBarLayoutStates_state_collapsible = 1;
-			
-			// aapt resource value: 2
-			public const int AppBarLayoutStates_state_liftable = 2;
-			
-			// aapt resource value: 3
-			public const int AppBarLayoutStates_state_lifted = 3;
-			
-			// aapt resource value: 0
-			public const int AppBarLayout_android_background = 0;
-			
-			// aapt resource value: 2
-			public const int AppBarLayout_android_keyboardNavigationCluster = 2;
-			
-			// aapt resource value: 1
-			public const int AppBarLayout_android_touchscreenBlocksFocus = 1;
-			
-			// aapt resource value: 3
-			public const int AppBarLayout_elevation = 3;
-			
-			// aapt resource value: 4
-			public const int AppBarLayout_expanded = 4;
-			
-			// aapt resource value: { 0x7F0200DF,0x7F0200E0 }
-			public static int[] AppBarLayout_Layout = new int[] {
-					2130837727,
-					2130837728};
-			
-			// aapt resource value: 0
-			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
-			
-			// aapt resource value: 1
-			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
-			
-			// aapt resource value: 5
-			public const int AppBarLayout_liftOnScroll = 5;
+			public const int AppCompatTheme_actionBarSize = 5;
 			
 			// aapt resource value: 6
-			public const int AppBarLayout_liftOnScrollTargetViewId = 6;
+			public const int AppCompatTheme_actionBarSplitStyle = 6;
 			
 			// aapt resource value: 7
-			public const int AppBarLayout_statusBarForeground = 7;
+			public const int AppCompatTheme_actionBarStyle = 7;
 			
-			// aapt resource value: { 0x7F020003,0x7F02000B,0x7F02000D,0x7F0200B0,0x7F0200FA,0x7F020100,0x7F020175 }
+			// aapt resource value: 8
+			public const int AppCompatTheme_actionBarTabBarStyle = 8;
+			
+			// aapt resource value: 9
+			public const int AppCompatTheme_actionBarTabStyle = 9;
+			
+			// aapt resource value: 10
+			public const int AppCompatTheme_actionBarTabTextStyle = 10;
+			
+			// aapt resource value: 11
+			public const int AppCompatTheme_actionBarTheme = 11;
+			
+			// aapt resource value: 12
+			public const int AppCompatTheme_actionBarWidgetTheme = 12;
+			
+			// aapt resource value: 13
+			public const int AppCompatTheme_actionButtonStyle = 13;
+			
+			// aapt resource value: 14
+			public const int AppCompatTheme_actionDropDownStyle = 14;
+			
+			// aapt resource value: 15
+			public const int AppCompatTheme_actionMenuTextAppearance = 15;
+			
+			// aapt resource value: 16
+			public const int AppCompatTheme_actionMenuTextColor = 16;
+			
+			// aapt resource value: 17
+			public const int AppCompatTheme_actionModeBackground = 17;
+			
+			// aapt resource value: 18
+			public const int AppCompatTheme_actionModeCloseButtonStyle = 18;
+			
+			// aapt resource value: 19
+			public const int AppCompatTheme_actionModeCloseDrawable = 19;
+			
+			// aapt resource value: 20
+			public const int AppCompatTheme_actionModeCopyDrawable = 20;
+			
+			// aapt resource value: 21
+			public const int AppCompatTheme_actionModeCutDrawable = 21;
+			
+			// aapt resource value: 22
+			public const int AppCompatTheme_actionModeFindDrawable = 22;
+			
+			// aapt resource value: 23
+			public const int AppCompatTheme_actionModePasteDrawable = 23;
+			
+			// aapt resource value: 24
+			public const int AppCompatTheme_actionModePopupWindowStyle = 24;
+			
+			// aapt resource value: 25
+			public const int AppCompatTheme_actionModeSelectAllDrawable = 25;
+			
+			// aapt resource value: 26
+			public const int AppCompatTheme_actionModeShareDrawable = 26;
+			
+			// aapt resource value: 27
+			public const int AppCompatTheme_actionModeSplitBackground = 27;
+			
+			// aapt resource value: 28
+			public const int AppCompatTheme_actionModeStyle = 28;
+			
+			// aapt resource value: 29
+			public const int AppCompatTheme_actionModeWebSearchDrawable = 29;
+			
+			// aapt resource value: 30
+			public const int AppCompatTheme_actionOverflowButtonStyle = 30;
+			
+			// aapt resource value: 31
+			public const int AppCompatTheme_actionOverflowMenuStyle = 31;
+			
+			// aapt resource value: 32
+			public const int AppCompatTheme_activityChooserViewStyle = 32;
+			
+			// aapt resource value: 33
+			public const int AppCompatTheme_alertDialogButtonGroupStyle = 33;
+			
+			// aapt resource value: 34
+			public const int AppCompatTheme_alertDialogCenterButtons = 34;
+			
+			// aapt resource value: 35
+			public const int AppCompatTheme_alertDialogStyle = 35;
+			
+			// aapt resource value: 36
+			public const int AppCompatTheme_alertDialogTheme = 36;
+			
+			// aapt resource value: 1
+			public const int AppCompatTheme_android_windowAnimationStyle = 1;
+			
+			// aapt resource value: 0
+			public const int AppCompatTheme_android_windowIsFloating = 0;
+			
+			// aapt resource value: 37
+			public const int AppCompatTheme_autoCompleteTextViewStyle = 37;
+			
+			// aapt resource value: 38
+			public const int AppCompatTheme_borderlessButtonStyle = 38;
+			
+			// aapt resource value: 39
+			public const int AppCompatTheme_buttonBarButtonStyle = 39;
+			
+			// aapt resource value: 40
+			public const int AppCompatTheme_buttonBarNegativeButtonStyle = 40;
+			
+			// aapt resource value: 41
+			public const int AppCompatTheme_buttonBarNeutralButtonStyle = 41;
+			
+			// aapt resource value: 42
+			public const int AppCompatTheme_buttonBarPositiveButtonStyle = 42;
+			
+			// aapt resource value: 43
+			public const int AppCompatTheme_buttonBarStyle = 43;
+			
+			// aapt resource value: 44
+			public const int AppCompatTheme_buttonStyle = 44;
+			
+			// aapt resource value: 45
+			public const int AppCompatTheme_buttonStyleSmall = 45;
+			
+			// aapt resource value: 46
+			public const int AppCompatTheme_checkboxStyle = 46;
+			
+			// aapt resource value: 47
+			public const int AppCompatTheme_checkedTextViewStyle = 47;
+			
+			// aapt resource value: 48
+			public const int AppCompatTheme_colorAccent = 48;
+			
+			// aapt resource value: 49
+			public const int AppCompatTheme_colorBackgroundFloating = 49;
+			
+			// aapt resource value: 50
+			public const int AppCompatTheme_colorButtonNormal = 50;
+			
+			// aapt resource value: 51
+			public const int AppCompatTheme_colorControlActivated = 51;
+			
+			// aapt resource value: 52
+			public const int AppCompatTheme_colorControlHighlight = 52;
+			
+			// aapt resource value: 53
+			public const int AppCompatTheme_colorControlNormal = 53;
+			
+			// aapt resource value: 54
+			public const int AppCompatTheme_colorError = 54;
+			
+			// aapt resource value: 55
+			public const int AppCompatTheme_colorPrimary = 55;
+			
+			// aapt resource value: 56
+			public const int AppCompatTheme_colorPrimaryDark = 56;
+			
+			// aapt resource value: 57
+			public const int AppCompatTheme_colorSwitchThumbNormal = 57;
+			
+			// aapt resource value: 58
+			public const int AppCompatTheme_controlBackground = 58;
+			
+			// aapt resource value: 59
+			public const int AppCompatTheme_dialogCornerRadius = 59;
+			
+			// aapt resource value: 60
+			public const int AppCompatTheme_dialogPreferredPadding = 60;
+			
+			// aapt resource value: 61
+			public const int AppCompatTheme_dialogTheme = 61;
+			
+			// aapt resource value: 62
+			public const int AppCompatTheme_dividerHorizontal = 62;
+			
+			// aapt resource value: 63
+			public const int AppCompatTheme_dividerVertical = 63;
+			
+			// aapt resource value: 65
+			public const int AppCompatTheme_dropdownListPreferredItemHeight = 65;
+			
+			// aapt resource value: 64
+			public const int AppCompatTheme_dropDownListViewStyle = 64;
+			
+			// aapt resource value: 66
+			public const int AppCompatTheme_editTextBackground = 66;
+			
+			// aapt resource value: 67
+			public const int AppCompatTheme_editTextColor = 67;
+			
+			// aapt resource value: 68
+			public const int AppCompatTheme_editTextStyle = 68;
+			
+			// aapt resource value: 69
+			public const int AppCompatTheme_homeAsUpIndicator = 69;
+			
+			// aapt resource value: 70
+			public const int AppCompatTheme_imageButtonStyle = 70;
+			
+			// aapt resource value: 71
+			public const int AppCompatTheme_listChoiceBackgroundIndicator = 71;
+			
+			// aapt resource value: 72
+			public const int AppCompatTheme_listChoiceIndicatorMultipleAnimated = 72;
+			
+			// aapt resource value: 73
+			public const int AppCompatTheme_listChoiceIndicatorSingleAnimated = 73;
+			
+			// aapt resource value: 74
+			public const int AppCompatTheme_listDividerAlertDialog = 74;
+			
+			// aapt resource value: 75
+			public const int AppCompatTheme_listMenuViewStyle = 75;
+			
+			// aapt resource value: 76
+			public const int AppCompatTheme_listPopupWindowStyle = 76;
+			
+			// aapt resource value: 77
+			public const int AppCompatTheme_listPreferredItemHeight = 77;
+			
+			// aapt resource value: 78
+			public const int AppCompatTheme_listPreferredItemHeightLarge = 78;
+			
+			// aapt resource value: 79
+			public const int AppCompatTheme_listPreferredItemHeightSmall = 79;
+			
+			// aapt resource value: 80
+			public const int AppCompatTheme_listPreferredItemPaddingEnd = 80;
+			
+			// aapt resource value: 81
+			public const int AppCompatTheme_listPreferredItemPaddingLeft = 81;
+			
+			// aapt resource value: 82
+			public const int AppCompatTheme_listPreferredItemPaddingRight = 82;
+			
+			// aapt resource value: 83
+			public const int AppCompatTheme_listPreferredItemPaddingStart = 83;
+			
+			// aapt resource value: 84
+			public const int AppCompatTheme_panelBackground = 84;
+			
+			// aapt resource value: 85
+			public const int AppCompatTheme_panelMenuListTheme = 85;
+			
+			// aapt resource value: 86
+			public const int AppCompatTheme_panelMenuListWidth = 86;
+			
+			// aapt resource value: 87
+			public const int AppCompatTheme_popupMenuStyle = 87;
+			
+			// aapt resource value: 88
+			public const int AppCompatTheme_popupWindowStyle = 88;
+			
+			// aapt resource value: 89
+			public const int AppCompatTheme_radioButtonStyle = 89;
+			
+			// aapt resource value: 90
+			public const int AppCompatTheme_ratingBarStyle = 90;
+			
+			// aapt resource value: 91
+			public const int AppCompatTheme_ratingBarStyleIndicator = 91;
+			
+			// aapt resource value: 92
+			public const int AppCompatTheme_ratingBarStyleSmall = 92;
+			
+			// aapt resource value: 93
+			public const int AppCompatTheme_searchViewStyle = 93;
+			
+			// aapt resource value: 94
+			public const int AppCompatTheme_seekBarStyle = 94;
+			
+			// aapt resource value: 95
+			public const int AppCompatTheme_selectableItemBackground = 95;
+			
+			// aapt resource value: 96
+			public const int AppCompatTheme_selectableItemBackgroundBorderless = 96;
+			
+			// aapt resource value: 97
+			public const int AppCompatTheme_spinnerDropDownItemStyle = 97;
+			
+			// aapt resource value: 98
+			public const int AppCompatTheme_spinnerStyle = 98;
+			
+			// aapt resource value: 99
+			public const int AppCompatTheme_switchStyle = 99;
+			
+			// aapt resource value: 100
+			public const int AppCompatTheme_textAppearanceLargePopupMenu = 100;
+			
+			// aapt resource value: 101
+			public const int AppCompatTheme_textAppearanceListItem = 101;
+			
+			// aapt resource value: 102
+			public const int AppCompatTheme_textAppearanceListItemSecondary = 102;
+			
+			// aapt resource value: 103
+			public const int AppCompatTheme_textAppearanceListItemSmall = 103;
+			
+			// aapt resource value: 104
+			public const int AppCompatTheme_textAppearancePopupMenuHeader = 104;
+			
+			// aapt resource value: 105
+			public const int AppCompatTheme_textAppearanceSearchResultSubtitle = 105;
+			
+			// aapt resource value: 106
+			public const int AppCompatTheme_textAppearanceSearchResultTitle = 106;
+			
+			// aapt resource value: 107
+			public const int AppCompatTheme_textAppearanceSmallPopupMenu = 107;
+			
+			// aapt resource value: 108
+			public const int AppCompatTheme_textColorAlertDialogListItem = 108;
+			
+			// aapt resource value: 109
+			public const int AppCompatTheme_textColorSearchUrl = 109;
+			
+			// aapt resource value: 110
+			public const int AppCompatTheme_toolbarNavigationButtonStyle = 110;
+			
+			// aapt resource value: 111
+			public const int AppCompatTheme_toolbarStyle = 111;
+			
+			// aapt resource value: 112
+			public const int AppCompatTheme_tooltipForegroundColor = 112;
+			
+			// aapt resource value: 113
+			public const int AppCompatTheme_tooltipFrameBackground = 113;
+			
+			// aapt resource value: 114
+			public const int AppCompatTheme_viewInflaterClass = 114;
+			
+			// aapt resource value: 115
+			public const int AppCompatTheme_windowActionBar = 115;
+			
+			// aapt resource value: 116
+			public const int AppCompatTheme_windowActionBarOverlay = 116;
+			
+			// aapt resource value: 117
+			public const int AppCompatTheme_windowActionModeOverlay = 117;
+			
+			// aapt resource value: 118
+			public const int AppCompatTheme_windowFixedHeightMajor = 118;
+			
+			// aapt resource value: 119
+			public const int AppCompatTheme_windowFixedHeightMinor = 119;
+			
+			// aapt resource value: 120
+			public const int AppCompatTheme_windowFixedWidthMajor = 120;
+			
+			// aapt resource value: 121
+			public const int AppCompatTheme_windowFixedWidthMinor = 121;
+			
+			// aapt resource value: 122
+			public const int AppCompatTheme_windowMinWidthMajor = 122;
+			
+			// aapt resource value: 123
+			public const int AppCompatTheme_windowMinWidthMinor = 123;
+			
+			// aapt resource value: 124
+			public const int AppCompatTheme_windowNoTitle = 124;
+			
+			// aapt resource value: { 0x7F030035,0x7F03003F,0x7F030041,0x7F03013D,0x7F0301A2,0x7F0301AD,0x7F030280 }
 			public static int[] Badge = new int[] {
-					2130837507,
-					2130837515,
-					2130837517,
-					2130837680,
-					2130837754,
-					2130837760,
-					2130837877};
+					2130903093,
+					2130903103,
+					2130903105,
+					2130903357,
+					2130903458,
+					2130903469,
+					2130903680};
 			
 			// aapt resource value: 0
 			public const int Badge_backgroundColor = 0;
@@ -19937,19 +17930,19 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 6
 			public const int Badge_verticalOffset = 6;
 			
-			// aapt resource value: { 0x7F020009,0x7F02007C,0x7F020099,0x7F02009A,0x7F02009B,0x7F02009C,0x7F02009D,0x7F0200AB,0x7F020101,0x7F020102,0x7F020103 }
+			// aapt resource value: { 0x7F03003D,0x7F0300F1,0x7F03010F,0x7F030110,0x7F030111,0x7F030112,0x7F030113,0x7F030136,0x7F0301B1,0x7F0301B3,0x7F0301B4 }
 			public static int[] BottomAppBar = new int[] {
-					2130837513,
-					2130837628,
-					2130837657,
-					2130837658,
-					2130837659,
-					2130837660,
-					2130837661,
-					2130837675,
-					2130837761,
-					2130837762,
-					2130837763};
+					2130903101,
+					2130903281,
+					2130903311,
+					2130903312,
+					2130903313,
+					2130903314,
+					2130903315,
+					2130903350,
+					2130903473,
+					2130903475,
+					2130903476};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -19984,20 +17977,20 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 10
 			public const int BottomAppBar_paddingRightSystemWindowInsets = 10;
 			
-			// aapt resource value: { 0x7F020009,0x7F02007C,0x7F0200BC,0x7F0200BF,0x7F0200C1,0x7F0200C2,0x7F0200C4,0x7F0200D0,0x7F0200D1,0x7F0200D2,0x7F0200D6,0x7F0200FD }
+			// aapt resource value: { 0x7F03003D,0x7F0300F1,0x7F03014E,0x7F030151,0x7F030153,0x7F030154,0x7F030157,0x7F030163,0x7F030164,0x7F030165,0x7F030169,0x7F0301A6 }
 			public static int[] BottomNavigationView = new int[] {
-					2130837513,
-					2130837628,
-					2130837692,
-					2130837695,
-					2130837697,
-					2130837698,
-					2130837700,
-					2130837712,
-					2130837713,
-					2130837714,
-					2130837718,
-					2130837757};
+					2130903101,
+					2130903281,
+					2130903374,
+					2130903377,
+					2130903379,
+					2130903380,
+					2130903383,
+					2130903395,
+					2130903396,
+					2130903397,
+					2130903401,
+					2130903462};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_backgroundTint = 0;
@@ -20035,21 +18028,21 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 11
 			public const int BottomNavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010440,0x7F020009,0x7F020010,0x7F020011,0x7F020012,0x7F020013,0x7F020014,0x7F020016,0x7F020017,0x7F020018,0x7F0200A2,0x7F020117,0x7F02011A }
+			// aapt resource value: { 0x1010440,0x7F03003D,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004B,0x7F03004C,0x7F03004D,0x7F03012A,0x7F0301E1,0x7F0301E4 }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
 					16843840,
-					2130837513,
-					2130837520,
-					2130837521,
-					2130837522,
-					2130837523,
-					2130837524,
-					2130837526,
-					2130837527,
-					2130837528,
-					2130837666,
-					2130837783,
-					2130837786};
+					2130903101,
+					2130903109,
+					2130903110,
+					2130903111,
+					2130903112,
+					2130903113,
+					2130903115,
+					2130903116,
+					2130903117,
+					2130903338,
+					2130903521,
+					2130903524};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_android_elevation = 0;
@@ -20090,21 +18083,28 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 12
 			public const int BottomSheetBehavior_Layout_shapeAppearanceOverlay = 12;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F02002A,0x7F02002B,0x7F02002C,0x7F02002E,0x7F02002F,0x7F020030,0x7F020060,0x7F020061,0x7F020062,0x7F020063,0x7F020064 }
+			// aapt resource value: { 0x7F030027 }
+			public static int[] ButtonBarLayout = new int[] {
+					2130903079};
+			
+			// aapt resource value: 0
+			public const int ButtonBarLayout_allowStacking = 0;
+			
+			// aapt resource value: { 0x101013F,0x1010140,0x7F03006C,0x7F03006D,0x7F03006E,0x7F030070,0x7F030071,0x7F030072,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
-					2130837546,
-					2130837547,
-					2130837548,
-					2130837550,
-					2130837551,
-					2130837552,
-					2130837600,
-					2130837601,
-					2130837602,
-					2130837603,
-					2130837604};
+					2130903148,
+					2130903149,
+					2130903150,
+					2130903152,
+					2130903153,
+					2130903154,
+					2130903226,
+					2130903227,
+					2130903228,
+					2130903229,
+					2130903230};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -20145,7 +18145,7 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F020034,0x7F020035,0x7F020036,0x7F020037,0x7F020038,0x7F020039,0x7F02003A,0x7F02003C,0x7F02003D,0x7F02003E,0x7F02003F,0x7F020040,0x7F020041,0x7F020042,0x7F020047,0x7F020048,0x7F020049,0x7F02004B,0x7F02004C,0x7F02004D,0x7F02004E,0x7F02004F,0x7F020050,0x7F020051,0x7F020052,0x7F020087,0x7F0200AA,0x7F0200B3,0x7F0200B7,0x7F020112,0x7F020117,0x7F02011A,0x7F02011C,0x7F02015E,0x7F020161 }
+			// aapt resource value: { 0x1010034,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007C,0x7F03007D,0x7F03007E,0x7F030080,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F0300FC,0x7F030134,0x7F030140,0x7F030144,0x7F0301D6,0x7F0301E1,0x7F0301E4,0x7F0301E8,0x7F03024C,0x7F030250 }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842904,
@@ -20153,51 +18153,51 @@ namespace OpravaMesta.Droid
 					16843039,
 					16843087,
 					16843237,
-					2130837556,
-					2130837557,
-					2130837558,
-					2130837559,
-					2130837560,
-					2130837561,
-					2130837562,
-					2130837564,
-					2130837565,
-					2130837566,
-					2130837567,
-					2130837568,
-					2130837569,
-					2130837570,
-					2130837575,
-					2130837576,
-					2130837577,
-					2130837579,
-					2130837580,
-					2130837581,
-					2130837582,
-					2130837583,
-					2130837584,
-					2130837585,
-					2130837586,
-					2130837639,
-					2130837674,
-					2130837683,
-					2130837687,
-					2130837778,
-					2130837783,
-					2130837786,
-					2130837788,
-					2130837854,
-					2130837857};
+					2130903159,
+					2130903160,
+					2130903161,
+					2130903162,
+					2130903164,
+					2130903165,
+					2130903166,
+					2130903168,
+					2130903169,
+					2130903170,
+					2130903171,
+					2130903172,
+					2130903173,
+					2130903174,
+					2130903179,
+					2130903180,
+					2130903181,
+					2130903183,
+					2130903184,
+					2130903185,
+					2130903186,
+					2130903187,
+					2130903188,
+					2130903189,
+					2130903190,
+					2130903292,
+					2130903348,
+					2130903360,
+					2130903364,
+					2130903510,
+					2130903521,
+					2130903524,
+					2130903528,
+					2130903628,
+					2130903632};
 			
-			// aapt resource value: { 0x7F020033,0x7F020043,0x7F020044,0x7F020045,0x7F020116,0x7F02011E,0x7F02011F }
+			// aapt resource value: { 0x7F030076,0x7F030087,0x7F030088,0x7F030089,0x7F0301E0,0x7F0301ED,0x7F0301EE }
 			public static int[] ChipGroup = new int[] {
-					2130837555,
-					2130837571,
-					2130837572,
-					2130837573,
-					2130837782,
-					2130837790,
-					2130837791};
+					2130903158,
+					2130903175,
+					2130903176,
+					2130903177,
+					2130903520,
+					2130903533,
+					2130903534};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -20343,7 +18343,6 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 40
 			public const int Chip_textStartPadding = 40;
 			
-<<<<<<< HEAD
 			// aapt resource value: { 0x7F030283,0x7F030285,0x7F030286,0x7F030287,0x7F030288,0x7F030289,0x7F03028A,0x7F03028B }
 			public static int[] CirclePageIndicator = new int[] {
 					2130903683,
@@ -20354,18 +18353,6 @@ namespace OpravaMesta.Droid
 					2130903689,
 					2130903690,
 					2130903691};
-=======
-			// aapt resource value: { 0x7F020176,0x7F020178,0x7F020179,0x7F02017A,0x7F02017B,0x7F02017C,0x7F02017D,0x7F02017E }
-			public static int[] CirclePageIndicator = new int[] {
-					2130837878,
-					2130837880,
-					2130837881,
-					2130837882,
-					2130837883,
-					2130837884,
-					2130837885,
-					2130837886};
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			
 			// aapt resource value: 0
 			public const int CirclePageIndicator_vpiCentered = 0;
@@ -20391,29 +18378,25 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 7
 			public const int CirclePageIndicator_vpiStrokeWidth = 7;
 			
-<<<<<<< HEAD
 			// aapt resource value: { 0x7F03009A,0x7F03009B,0x7F0300BF,0x7F030106,0x7F030107,0x7F030108,0x7F030109,0x7F03010A,0x7F03010B,0x7F03010C,0x7F0301A4,0x7F0301D7,0x7F0301D9,0x7F030207,0x7F030262,0x7F030263,0x7F03026D }
-=======
-			// aapt resource value: { 0x7F020053,0x7F020054,0x7F020065,0x7F020090,0x7F020091,0x7F020092,0x7F020093,0x7F020094,0x7F020095,0x7F020096,0x7F0200FC,0x7F020113,0x7F020115,0x7F020130,0x7F020169,0x7F02016A,0x7F02016B }
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130837587,
-					2130837588,
-					2130837605,
-					2130837648,
-					2130837649,
-					2130837650,
-					2130837651,
-					2130837652,
-					2130837653,
-					2130837654,
-					2130837756,
-					2130837779,
-					2130837781,
-					2130837808,
-					2130837865,
-					2130837866,
-					2130837867};
+					2130903194,
+					2130903195,
+					2130903231,
+					2130903302,
+					2130903303,
+					2130903304,
+					2130903305,
+					2130903306,
+					2130903307,
+					2130903308,
+					2130903460,
+					2130903511,
+					2130903513,
+					2130903559,
+					2130903650,
+					2130903651,
+					2130903661};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -20445,10 +18428,10 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F0200DA,0x7F0200DB }
+			// aapt resource value: { 0x7F030170,0x7F030171 }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130837722,
-					2130837723};
+					2130903408,
+					2130903409};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -20477,23 +18460,57 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 16
 			public const int CollapsingToolbarLayout_toolbarId = 16;
 			
-			// aapt resource value: { 0x7F0200D3,0x7F02012E }
+			// aapt resource value: { 0x10101A5,0x101031F,0x7F030028 }
+			public static int[] ColorStateListItem = new int[] {
+					16843173,
+					16843551,
+					2130903080};
+			
+			// aapt resource value: 2
+			public const int ColorStateListItem_alpha = 2;
+			
+			// aapt resource value: 1
+			public const int ColorStateListItem_android_alpha = 1;
+			
+			// aapt resource value: 0
+			public const int ColorStateListItem_android_color = 0;
+			
+			// aapt resource value: { 0x1010107,0x7F030064,0x7F03006A,0x7F03006B }
+			public static int[] CompoundButton = new int[] {
+					16843015,
+					2130903140,
+					2130903146,
+					2130903147};
+			
+			// aapt resource value: 0
+			public const int CompoundButton_android_button = 0;
+			
+			// aapt resource value: 1
+			public const int CompoundButton_buttonCompat = 1;
+			
+			// aapt resource value: 2
+			public const int CompoundButton_buttonTint = 2;
+			
+			// aapt resource value: 3
+			public const int CompoundButton_buttonTintMode = 3;
+			
+			// aapt resource value: { 0x7F030166,0x7F030205 }
 			public static int[] CoordinatorLayout = new int[] {
-					2130837715,
-					2130837806};
+					2130903398,
+					2130903557};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F0200D7,0x7F0200D8,0x7F0200D9,0x7F0200DC,0x7F0200DD,0x7F0200DE }
+			// aapt resource value: { 0x10100B3,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030172,0x7F030173,0x7F030174 }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130837719,
-					2130837720,
-					2130837721,
-					2130837724,
-					2130837725,
-					2130837726};
+					2130903405,
+					2130903406,
+					2130903407,
+					2130903410,
+					2130903411,
+					2130903412};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -20519,18 +18536,60 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F02007C,0x7F020097,0x7F0200AA,0x7F02011C,0x7F02011D }
-			public static int[] ExtendedFloatingActionButton = new int[] {
-					2130837628,
-					2130837655,
-					2130837674,
-					2130837788,
-					2130837789};
+			// aapt resource value: { 0x7F03002C,0x7F03002D,0x7F030042,0x7F03009C,0x7F0300E5,0x7F030129,0x7F0301F4,0x7F030253 }
+			public static int[] DrawerArrowToggle = new int[] {
+					2130903084,
+					2130903085,
+					2130903106,
+					2130903196,
+					2130903269,
+					2130903337,
+					2130903540,
+					2130903635};
 			
-			// aapt resource value: { 0x7F02000E,0x7F02000F }
+			// aapt resource value: 0
+			public const int DrawerArrowToggle_arrowHeadLength = 0;
+			
+			// aapt resource value: 1
+			public const int DrawerArrowToggle_arrowShaftLength = 1;
+			
+			// aapt resource value: 2
+			public const int DrawerArrowToggle_barLength = 2;
+			
+			// aapt resource value: 3
+			public const int DrawerArrowToggle_color = 3;
+			
+			// aapt resource value: 4
+			public const int DrawerArrowToggle_drawableSize = 4;
+			
+			// aapt resource value: 5
+			public const int DrawerArrowToggle_gapBetweenBars = 5;
+			
+			// aapt resource value: 6
+			public const int DrawerArrowToggle_spinBars = 6;
+			
+			// aapt resource value: 7
+			public const int DrawerArrowToggle_thickness = 7;
+			
+			// aapt resource value: { 0x7F0300F1 }
+			public static int[] DrawerLayout = new int[] {
+					2130903281};
+			
+			// aapt resource value: 0
+			public const int DrawerLayout_elevation = 0;
+			
+			// aapt resource value: { 0x7F0300F1,0x7F03010D,0x7F030134,0x7F0301E8,0x7F0301EB }
+			public static int[] ExtendedFloatingActionButton = new int[] {
+					2130903281,
+					2130903309,
+					2130903348,
+					2130903528,
+					2130903531};
+			
+			// aapt resource value: { 0x7F030043,0x7F030044 }
 			public static int[] ExtendedFloatingActionButton_Behavior_Layout = new int[] {
-					2130837518,
-					2130837519};
+					2130903107,
+					2130903108};
 			
 			// aapt resource value: 0
 			public const int ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -20553,25 +18612,25 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 4
 			public const int ExtendedFloatingActionButton_shrinkMotionSpec = 4;
 			
-			// aapt resource value: { 0x101000E,0x7F020009,0x7F02000A,0x7F020019,0x7F02007C,0x7F020087,0x7F02009E,0x7F02009F,0x7F0200AA,0x7F0200B1,0x7F0200FB,0x7F020110,0x7F020112,0x7F020117,0x7F02011A,0x7F02011C,0x7F020172 }
+			// aapt resource value: { 0x101000E,0x7F03003D,0x7F03003E,0x7F03004E,0x7F0300F1,0x7F0300FC,0x7F030114,0x7F030115,0x7F030134,0x7F03013E,0x7F0301A3,0x7F0301CA,0x7F0301D6,0x7F0301E1,0x7F0301E4,0x7F0301E8,0x7F03027D }
 			public static int[] FloatingActionButton = new int[] {
 					16842766,
-					2130837513,
-					2130837514,
-					2130837529,
-					2130837628,
-					2130837639,
-					2130837662,
-					2130837663,
-					2130837674,
-					2130837681,
-					2130837755,
-					2130837776,
-					2130837778,
-					2130837783,
-					2130837786,
-					2130837788,
-					2130837874};
+					2130903101,
+					2130903102,
+					2130903118,
+					2130903281,
+					2130903292,
+					2130903316,
+					2130903317,
+					2130903348,
+					2130903358,
+					2130903459,
+					2130903498,
+					2130903510,
+					2130903521,
+					2130903524,
+					2130903528,
+					2130903677};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_android_enabled = 0;
@@ -20582,9 +18641,9 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 2
 			public const int FloatingActionButton_backgroundTintMode = 2;
 			
-			// aapt resource value: { 0x7F02000E }
+			// aapt resource value: { 0x7F030043 }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
-					2130837518};
+					2130903107};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -20631,10 +18690,10 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 16
 			public const int FloatingActionButton_useCompatPadding = 16;
 			
-			// aapt resource value: { 0x7F0200CC,0x7F0200E4 }
+			// aapt resource value: { 0x7F03015F,0x7F03017A }
 			public static int[] FlowLayout = new int[] {
-					2130837708,
-					2130837732};
+					2130903391,
+					2130903418};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -20642,11 +18701,81 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0200A1 }
+			// aapt resource value: { 0x7F03011F,0x7F030120,0x7F030121,0x7F030122,0x7F030123,0x7F030124 }
+			public static int[] FontFamily = new int[] {
+					2130903327,
+					2130903328,
+					2130903329,
+					2130903330,
+					2130903331,
+					2130903332};
+			
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03011D,0x7F030125,0x7F030126,0x7F030127,0x7F03027C }
+			public static int[] FontFamilyFont = new int[] {
+					16844082,
+					16844083,
+					16844095,
+					16844143,
+					16844144,
+					2130903325,
+					2130903333,
+					2130903334,
+					2130903335,
+					2130903676};
+			
+			// aapt resource value: 0
+			public const int FontFamilyFont_android_font = 0;
+			
+			// aapt resource value: 2
+			public const int FontFamilyFont_android_fontStyle = 2;
+			
+			// aapt resource value: 4
+			public const int FontFamilyFont_android_fontVariationSettings = 4;
+			
+			// aapt resource value: 1
+			public const int FontFamilyFont_android_fontWeight = 1;
+			
+			// aapt resource value: 3
+			public const int FontFamilyFont_android_ttcIndex = 3;
+			
+			// aapt resource value: 5
+			public const int FontFamilyFont_font = 5;
+			
+			// aapt resource value: 6
+			public const int FontFamilyFont_fontStyle = 6;
+			
+			// aapt resource value: 7
+			public const int FontFamilyFont_fontVariationSettings = 7;
+			
+			// aapt resource value: 8
+			public const int FontFamilyFont_fontWeight = 8;
+			
+			// aapt resource value: 9
+			public const int FontFamilyFont_ttcIndex = 9;
+			
+			// aapt resource value: 0
+			public const int FontFamily_fontProviderAuthority = 0;
+			
+			// aapt resource value: 1
+			public const int FontFamily_fontProviderCerts = 1;
+			
+			// aapt resource value: 2
+			public const int FontFamily_fontProviderFetchStrategy = 2;
+			
+			// aapt resource value: 3
+			public const int FontFamily_fontProviderFetchTimeout = 3;
+			
+			// aapt resource value: 4
+			public const int FontFamily_fontProviderPackage = 4;
+			
+			// aapt resource value: 5
+			public const int FontFamily_fontProviderQuery = 5;
+			
+			// aapt resource value: { 0x1010109,0x1010200,0x7F030128 }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130837665};
+					2130903336};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -20683,11 +18812,73 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 2
 			public const int Fragment_android_tag = 2;
 			
-			// aapt resource value: { 0x7F020101,0x7F020102,0x7F020103 }
+			// aapt resource value: { 0x101019D,0x101019E,0x10101A1,0x10101A2,0x10101A3,0x10101A4,0x1010201,0x101020B,0x1010510,0x1010511,0x1010512,0x1010513 }
+			public static int[] GradientColor = new int[] {
+					16843165,
+					16843166,
+					16843169,
+					16843170,
+					16843171,
+					16843172,
+					16843265,
+					16843275,
+					16844048,
+					16844049,
+					16844050,
+					16844051};
+			
+			// aapt resource value: { 0x10101A5,0x1010514 }
+			public static int[] GradientColorItem = new int[] {
+					16843173,
+					16844052};
+			
+			// aapt resource value: 0
+			public const int GradientColorItem_android_color = 0;
+			
+			// aapt resource value: 1
+			public const int GradientColorItem_android_offset = 1;
+			
+			// aapt resource value: 7
+			public const int GradientColor_android_centerColor = 7;
+			
+			// aapt resource value: 3
+			public const int GradientColor_android_centerX = 3;
+			
+			// aapt resource value: 4
+			public const int GradientColor_android_centerY = 4;
+			
+			// aapt resource value: 1
+			public const int GradientColor_android_endColor = 1;
+			
+			// aapt resource value: 10
+			public const int GradientColor_android_endX = 10;
+			
+			// aapt resource value: 11
+			public const int GradientColor_android_endY = 11;
+			
+			// aapt resource value: 5
+			public const int GradientColor_android_gradientRadius = 5;
+			
+			// aapt resource value: 0
+			public const int GradientColor_android_startColor = 0;
+			
+			// aapt resource value: 8
+			public const int GradientColor_android_startX = 8;
+			
+			// aapt resource value: 9
+			public const int GradientColor_android_startY = 9;
+			
+			// aapt resource value: 6
+			public const int GradientColor_android_tileMode = 6;
+			
+			// aapt resource value: 2
+			public const int GradientColor_android_type = 2;
+			
+			// aapt resource value: { 0x7F0301B1,0x7F0301B3,0x7F0301B4 }
 			public static int[] Insets = new int[] {
-					2130837761,
-					2130837762,
-					2130837763};
+					2130903473,
+					2130903475,
+					2130903476};
 			
 			// aapt resource value: 0
 			public const int Insets_paddingBottomSystemWindowInsets = 0;
@@ -20698,20 +18889,89 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 2
 			public const int Insets_paddingRightSystemWindowInsets = 2;
 			
-			// aapt resource value: { 0x7F020004,0x7F020005,0x7F020006,0x7F020007 }
-			public static int[] MaterialAlertDialog = new int[] {
-					2130837508,
-					2130837509,
-					2130837510,
-					2130837511};
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300DD,0x7F0300DF,0x7F0301A5,0x7F0301E7 }
+			public static int[] LinearLayoutCompat = new int[] {
+					16842927,
+					16842948,
+					16843046,
+					16843047,
+					16843048,
+					2130903261,
+					2130903263,
+					2130903461,
+					2130903527};
 			
-			// aapt resource value: { 0x7F0200E5,0x7F0200E6,0x7F0200E7,0x7F0200E8,0x7F0200E9 }
+			// aapt resource value: 2
+			public const int LinearLayoutCompat_android_baselineAligned = 2;
+			
+			// aapt resource value: 3
+			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 3;
+			
+			// aapt resource value: 0
+			public const int LinearLayoutCompat_android_gravity = 0;
+			
+			// aapt resource value: 1
+			public const int LinearLayoutCompat_android_orientation = 1;
+			
+			// aapt resource value: 4
+			public const int LinearLayoutCompat_android_weightSum = 4;
+			
+			// aapt resource value: 5
+			public const int LinearLayoutCompat_divider = 5;
+			
+			// aapt resource value: 6
+			public const int LinearLayoutCompat_dividerPadding = 6;
+			
+			// aapt resource value: { 0x10100B3,0x10100F4,0x10100F5,0x1010181 }
+			public static int[] LinearLayoutCompat_Layout = new int[] {
+					16842931,
+					16842996,
+					16842997,
+					16843137};
+			
+			// aapt resource value: 0
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 0;
+			
+			// aapt resource value: 2
+			public const int LinearLayoutCompat_Layout_android_layout_height = 2;
+			
+			// aapt resource value: 3
+			public const int LinearLayoutCompat_Layout_android_layout_weight = 3;
+			
+			// aapt resource value: 1
+			public const int LinearLayoutCompat_Layout_android_layout_width = 1;
+			
+			// aapt resource value: 7
+			public const int LinearLayoutCompat_measureWithLargestChild = 7;
+			
+			// aapt resource value: 8
+			public const int LinearLayoutCompat_showDividers = 8;
+			
+			// aapt resource value: { 0x10102AC,0x10102AD }
+			public static int[] ListPopupWindow = new int[] {
+					16843436,
+					16843437};
+			
+			// aapt resource value: 0
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 0;
+			
+			// aapt resource value: 1
+			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
+			
+			// aapt resource value: { 0x7F030036,0x7F030037,0x7F030038,0x7F030039 }
+			public static int[] MaterialAlertDialog = new int[] {
+					2130903094,
+					2130903095,
+					2130903096,
+					2130903097};
+			
+			// aapt resource value: { 0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190 }
 			public static int[] MaterialAlertDialogTheme = new int[] {
-					2130837733,
-					2130837734,
-					2130837735,
-					2130837736,
-					2130837737};
+					2130903436,
+					2130903437,
+					2130903438,
+					2130903439,
+					2130903440};
 			
 			// aapt resource value: 0
 			public const int MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = 0;
@@ -20747,7 +19007,7 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 0
 			public const int MaterialAutoCompleteTextView_android_inputType = 0;
 			
-			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F020009,0x7F02000A,0x7F02006C,0x7F02007C,0x7F0200B2,0x7F0200B4,0x7F0200B5,0x7F0200B6,0x7F0200B8,0x7F0200B9,0x7F020112,0x7F020117,0x7F02011A,0x7F020131,0x7F020132 }
+			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F03003D,0x7F03003E,0x7F0300C7,0x7F0300F1,0x7F03013F,0x7F030141,0x7F030142,0x7F030143,0x7F030145,0x7F030146,0x7F0301D6,0x7F0301E1,0x7F0301E4,0x7F030208,0x7F030209 }
 			public static int[] MaterialButton = new int[] {
 					16842964,
 					16843191,
@@ -20755,27 +19015,27 @@ namespace OpravaMesta.Droid
 					16843193,
 					16843194,
 					16843237,
-					2130837513,
-					2130837514,
-					2130837612,
-					2130837628,
-					2130837682,
-					2130837684,
-					2130837685,
-					2130837686,
-					2130837688,
-					2130837689,
-					2130837778,
-					2130837783,
-					2130837786,
-					2130837809,
-					2130837810};
+					2130903101,
+					2130903102,
+					2130903239,
+					2130903281,
+					2130903359,
+					2130903361,
+					2130903362,
+					2130903363,
+					2130903365,
+					2130903366,
+					2130903510,
+					2130903521,
+					2130903524,
+					2130903560,
+					2130903561};
 			
-			// aapt resource value: { 0x7F020032,0x7F020116,0x7F02011F }
+			// aapt resource value: { 0x7F030075,0x7F0301E0,0x7F0301EE }
 			public static int[] MaterialButtonToggleGroup = new int[] {
-					2130837554,
-					2130837782,
-					2130837791};
+					2130903157,
+					2130903520,
+					2130903534};
 			
 			// aapt resource value: 0
 			public const int MaterialButtonToggleGroup_checkedButton = 0;
@@ -20849,7 +19109,6 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 20
 			public const int MaterialButton_strokeWidth = 20;
 			
-<<<<<<< HEAD
 			// aapt resource value: { 0x101020D,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0301D0,0x7F030296,0x7F030297,0x7F030298 }
 			public static int[] MaterialCalendar = new int[] {
 					16843277,
@@ -20863,32 +19122,17 @@ namespace OpravaMesta.Droid
 					2130903704};
 			
 			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F03014F,0x7F030158,0x7F030159,0x7F030160,0x7F030161,0x7F030165 }
-=======
-			// aapt resource value: { 0x101020D,0x7F020078,0x7F020079,0x7F02007A,0x7F02007B,0x7F020111,0x7F02017F,0x7F020180,0x7F020181 }
-			public static int[] MaterialCalendar = new int[] {
-					16843277,
-					2130837624,
-					2130837625,
-					2130837626,
-					2130837627,
-					2130837777,
-					2130837887,
-					2130837888,
-					2130837889};
-			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F0200BD,0x7F0200C5,0x7F0200C6,0x7F0200CD,0x7F0200CE,0x7F0200D2 }
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			public static int[] MaterialCalendarItem = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130837693,
-					2130837701,
-					2130837702,
-					2130837709,
-					2130837710,
-					2130837714};
+					2130903375,
+					2130903384,
+					2130903385,
+					2130903392,
+					2130903393,
+					2130903397};
 			
 			// aapt resource value: 3
 			public const int MaterialCalendarItem_android_insetBottom = 3;
@@ -20947,18 +19191,18 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 8
 			public const int MaterialCalendar_yearTodayStyle = 8;
 			
-			// aapt resource value: { 0x10101E5,0x7F02002D,0x7F020034,0x7F020036,0x7F020112,0x7F020117,0x7F02011A,0x7F02012B,0x7F020131,0x7F020132 }
+			// aapt resource value: { 0x10101E5,0x7F03006F,0x7F030077,0x7F030079,0x7F0301D6,0x7F0301E1,0x7F0301E4,0x7F030202,0x7F030208,0x7F030209 }
 			public static int[] MaterialCardView = new int[] {
 					16843237,
-					2130837549,
-					2130837556,
-					2130837558,
-					2130837778,
-					2130837783,
-					2130837786,
-					2130837803,
-					2130837809,
-					2130837810};
+					2130903151,
+					2130903159,
+					2130903161,
+					2130903510,
+					2130903521,
+					2130903524,
+					2130903554,
+					2130903560,
+					2130903561};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_android_checkable = 0;
@@ -20990,10 +19234,10 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 9
 			public const int MaterialCardView_strokeWidth = 9;
 			
-			// aapt resource value: { 0x7F020029,0x7F020173 }
+			// aapt resource value: { 0x7F03006A,0x7F03027E }
 			public static int[] MaterialCheckBox = new int[] {
-					2130837545,
-					2130837875};
+					2130903146,
+					2130903678};
 			
 			// aapt resource value: 0
 			public const int MaterialCheckBox_buttonTint = 0;
@@ -21001,10 +19245,10 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 1
 			public const int MaterialCheckBox_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F020029,0x7F020173 }
+			// aapt resource value: { 0x7F03006A,0x7F03027E }
 			public static int[] MaterialRadioButton = new int[] {
-					2130837545,
-					2130837875};
+					2130903146,
+					2130903678};
 			
 			// aapt resource value: 0
 			public const int MaterialRadioButton_buttonTint = 0;
@@ -21012,10 +19256,10 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 1
 			public const int MaterialRadioButton_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F020117,0x7F02011A }
+			// aapt resource value: { 0x7F0301E1,0x7F0301E4 }
 			public static int[] MaterialShape = new int[] {
-					2130837783,
-					2130837786};
+					2130903521,
+					2130903524};
 			
 			// aapt resource value: 0
 			public const int MaterialShape_shapeAppearance = 0;
@@ -21023,10 +19267,10 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 1
 			public const int MaterialShape_shapeAppearanceOverlay = 1;
 			
-			// aapt resource value: { 0x101057F,0x7F0200E3 }
+			// aapt resource value: { 0x101057F,0x7F030179 }
 			public static int[] MaterialTextAppearance = new int[] {
 					16844159,
-					2130837731};
+					2130903417};
 			
 			// aapt resource value: 0
 			public const int MaterialTextAppearance_android_lineHeight = 0;
@@ -21034,11 +19278,11 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 1
 			public const int MaterialTextAppearance_lineHeight = 1;
 			
-			// aapt resource value: { 0x1010034,0x101057F,0x7F0200E3 }
+			// aapt resource value: { 0x1010034,0x101057F,0x7F030179 }
 			public static int[] MaterialTextView = new int[] {
 					16842804,
 					16844159,
-					2130837731};
+					2130903417};
 			
 			// aapt resource value: 1
 			public const int MaterialTextView_android_lineHeight = 1;
@@ -21049,29 +19293,190 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 2
 			public const int MaterialTextView_lineHeight = 2;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F02007C,0x7F0200A5,0x7F0200BC,0x7F0200BE,0x7F0200C0,0x7F0200C1,0x7F0200C2,0x7F0200C3,0x7F0200C5,0x7F0200C6,0x7F0200C7,0x7F0200C8,0x7F0200C9,0x7F0200CA,0x7F0200CB,0x7F0200CF,0x7F0200D2,0x7F0200FD }
+			// aapt resource value: { 0x101000E,0x10100D0,0x1010194,0x10101DE,0x10101DF,0x10101E0 }
+			public static int[] MenuGroup = new int[] {
+					16842766,
+					16842960,
+					16843156,
+					16843230,
+					16843231,
+					16843232};
+			
+			// aapt resource value: 5
+			public const int MenuGroup_android_checkableBehavior = 5;
+			
+			// aapt resource value: 0
+			public const int MenuGroup_android_enabled = 0;
+			
+			// aapt resource value: 1
+			public const int MenuGroup_android_id = 1;
+			
+			// aapt resource value: 3
+			public const int MenuGroup_android_menuCategory = 3;
+			
+			// aapt resource value: 4
+			public const int MenuGroup_android_orderInCategory = 4;
+			
+			// aapt resource value: 2
+			public const int MenuGroup_android_visible = 2;
+			
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030021,0x7F030029,0x7F0300B3,0x7F030145,0x7F030146,0x7F0301AE,0x7F0301E6,0x7F030273 }
+			public static int[] MenuItem = new int[] {
+					16842754,
+					16842766,
+					16842960,
+					16843014,
+					16843156,
+					16843230,
+					16843231,
+					16843233,
+					16843234,
+					16843235,
+					16843236,
+					16843237,
+					16843375,
+					2130903053,
+					2130903071,
+					2130903073,
+					2130903081,
+					2130903219,
+					2130903365,
+					2130903366,
+					2130903470,
+					2130903526,
+					2130903667};
+			
+			// aapt resource value: 13
+			public const int MenuItem_actionLayout = 13;
+			
+			// aapt resource value: 14
+			public const int MenuItem_actionProviderClass = 14;
+			
+			// aapt resource value: 15
+			public const int MenuItem_actionViewClass = 15;
+			
+			// aapt resource value: 16
+			public const int MenuItem_alphabeticModifiers = 16;
+			
+			// aapt resource value: 9
+			public const int MenuItem_android_alphabeticShortcut = 9;
+			
+			// aapt resource value: 11
+			public const int MenuItem_android_checkable = 11;
+			
+			// aapt resource value: 3
+			public const int MenuItem_android_checked = 3;
+			
+			// aapt resource value: 1
+			public const int MenuItem_android_enabled = 1;
+			
+			// aapt resource value: 0
+			public const int MenuItem_android_icon = 0;
+			
+			// aapt resource value: 2
+			public const int MenuItem_android_id = 2;
+			
+			// aapt resource value: 5
+			public const int MenuItem_android_menuCategory = 5;
+			
+			// aapt resource value: 10
+			public const int MenuItem_android_numericShortcut = 10;
+			
+			// aapt resource value: 12
+			public const int MenuItem_android_onClick = 12;
+			
+			// aapt resource value: 6
+			public const int MenuItem_android_orderInCategory = 6;
+			
+			// aapt resource value: 7
+			public const int MenuItem_android_title = 7;
+			
+			// aapt resource value: 8
+			public const int MenuItem_android_titleCondensed = 8;
+			
+			// aapt resource value: 4
+			public const int MenuItem_android_visible = 4;
+			
+			// aapt resource value: 17
+			public const int MenuItem_contentDescription = 17;
+			
+			// aapt resource value: 18
+			public const int MenuItem_iconTint = 18;
+			
+			// aapt resource value: 19
+			public const int MenuItem_iconTintMode = 19;
+			
+			// aapt resource value: 20
+			public const int MenuItem_numericModifiers = 20;
+			
+			// aapt resource value: 21
+			public const int MenuItem_showAsAction = 21;
+			
+			// aapt resource value: 22
+			public const int MenuItem_tooltipText = 22;
+			
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F0301C9,0x7F03020A }
+			public static int[] MenuView = new int[] {
+					16842926,
+					16843052,
+					16843053,
+					16843054,
+					16843055,
+					16843056,
+					16843057,
+					2130903497,
+					2130903562};
+			
+			// aapt resource value: 4
+			public const int MenuView_android_headerBackground = 4;
+			
+			// aapt resource value: 2
+			public const int MenuView_android_horizontalDivider = 2;
+			
+			// aapt resource value: 5
+			public const int MenuView_android_itemBackground = 5;
+			
+			// aapt resource value: 6
+			public const int MenuView_android_itemIconDisabledAlpha = 6;
+			
+			// aapt resource value: 1
+			public const int MenuView_android_itemTextAppearance = 1;
+			
+			// aapt resource value: 3
+			public const int MenuView_android_verticalDivider = 3;
+			
+			// aapt resource value: 0
+			public const int MenuView_android_windowAnimationStyle = 0;
+			
+			// aapt resource value: 7
+			public const int MenuView_preserveIconSpacing = 7;
+			
+			// aapt resource value: 8
+			public const int MenuView_subMenuArrow = 8;
+			
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300F1,0x7F03012E,0x7F03014E,0x7F030150,0x7F030152,0x7F030153,0x7F030154,0x7F030155,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F030162,0x7F030165,0x7F0301A6 }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130837628,
-					2130837669,
-					2130837692,
-					2130837694,
-					2130837696,
-					2130837697,
-					2130837698,
-					2130837699,
-					2130837701,
-					2130837702,
-					2130837703,
-					2130837704,
-					2130837705,
-					2130837706,
-					2130837707,
-					2130837711,
-					2130837714,
-					2130837757};
+					2130903281,
+					2130903342,
+					2130903374,
+					2130903376,
+					2130903378,
+					2130903379,
+					2130903380,
+					2130903381,
+					2130903384,
+					2130903385,
+					2130903386,
+					2130903387,
+					2130903388,
+					2130903389,
+					2130903390,
+					2130903394,
+					2130903397,
+					2130903462};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -21136,33 +19541,188 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 20
 			public const int NavigationView_menu = 20;
 			
-			// aapt resource value: { 0x7F020174 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F0301AF }
+			public static int[] PopupWindow = new int[] {
+					16843126,
+					16843465,
+					2130903471};
+			
+			// aapt resource value: { 0x7F0301FF }
+			public static int[] PopupWindowBackgroundState = new int[] {
+					2130903551};
+			
+			// aapt resource value: 0
+			public const int PopupWindowBackgroundState_state_above_anchor = 0;
+			
+			// aapt resource value: 1
+			public const int PopupWindow_android_popupAnimationStyle = 1;
+			
+			// aapt resource value: 0
+			public const int PopupWindow_android_popupBackground = 0;
+			
+			// aapt resource value: 2
+			public const int PopupWindow_overlapAnchor = 2;
+			
+			// aapt resource value: { 0x7F03027F }
 			public static int[] RangeSlider = new int[] {
-					2130837876};
+					2130903679};
 			
 			// aapt resource value: 0
 			public const int RangeSlider_values = 0;
 			
-			// aapt resource value: { 0x7F0200BA }
+			// aapt resource value: { 0x7F0301B0,0x7F0301B6 }
+			public static int[] RecycleListView = new int[] {
+					2130903472,
+					2130903478};
+			
+			// aapt resource value: 0
+			public const int RecycleListView_paddingBottomNoButtons = 0;
+			
+			// aapt resource value: 1
+			public const int RecycleListView_paddingTopNoTitle = 1;
+			
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030116,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F03016C,0x7F0301D5,0x7F0301F3,0x7F0301F9 }
+			public static int[] RecyclerView = new int[] {
+					16842948,
+					16842987,
+					16842993,
+					2130903318,
+					2130903319,
+					2130903320,
+					2130903321,
+					2130903322,
+					2130903404,
+					2130903509,
+					2130903539,
+					2130903545};
+			
+			// aapt resource value: 1
+			public const int RecyclerView_android_clipToPadding = 1;
+			
+			// aapt resource value: 2
+			public const int RecyclerView_android_descendantFocusability = 2;
+			
+			// aapt resource value: 0
+			public const int RecyclerView_android_orientation = 0;
+			
+			// aapt resource value: 3
+			public const int RecyclerView_fastScrollEnabled = 3;
+			
+			// aapt resource value: 4
+			public const int RecyclerView_fastScrollHorizontalThumbDrawable = 4;
+			
+			// aapt resource value: 5
+			public const int RecyclerView_fastScrollHorizontalTrackDrawable = 5;
+			
+			// aapt resource value: 6
+			public const int RecyclerView_fastScrollVerticalThumbDrawable = 6;
+			
+			// aapt resource value: 7
+			public const int RecyclerView_fastScrollVerticalTrackDrawable = 7;
+			
+			// aapt resource value: 8
+			public const int RecyclerView_layoutManager = 8;
+			
+			// aapt resource value: 9
+			public const int RecyclerView_reverseLayout = 9;
+			
+			// aapt resource value: 10
+			public const int RecyclerView_spanCount = 10;
+			
+			// aapt resource value: 11
+			public const int RecyclerView_stackFromEnd = 11;
+			
+			// aapt resource value: { 0x7F03014B }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130837690};
+					2130903371};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
-			// aapt resource value: { 0x7F020015 }
+			// aapt resource value: { 0x7F03004A }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
-					2130837525};
+					2130903114};
 			
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x7F020117,0x7F02011A,0x7F020131,0x7F020132 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030090,0x7F0300B2,0x7F0300D8,0x7F03012B,0x7F030147,0x7F03016B,0x7F0301CD,0x7F0301CE,0x7F0301DA,0x7F0301DB,0x7F03020B,0x7F030213,0x7F030282 }
+			public static int[] SearchView = new int[] {
+					16842970,
+					16843039,
+					16843296,
+					16843364,
+					2130903184,
+					2130903218,
+					2130903256,
+					2130903339,
+					2130903367,
+					2130903403,
+					2130903501,
+					2130903502,
+					2130903514,
+					2130903515,
+					2130903563,
+					2130903571,
+					2130903682};
+			
+			// aapt resource value: 0
+			public const int SearchView_android_focusable = 0;
+			
+			// aapt resource value: 3
+			public const int SearchView_android_imeOptions = 3;
+			
+			// aapt resource value: 2
+			public const int SearchView_android_inputType = 2;
+			
+			// aapt resource value: 1
+			public const int SearchView_android_maxWidth = 1;
+			
+			// aapt resource value: 4
+			public const int SearchView_closeIcon = 4;
+			
+			// aapt resource value: 5
+			public const int SearchView_commitIcon = 5;
+			
+			// aapt resource value: 6
+			public const int SearchView_defaultQueryHint = 6;
+			
+			// aapt resource value: 7
+			public const int SearchView_goIcon = 7;
+			
+			// aapt resource value: 8
+			public const int SearchView_iconifiedByDefault = 8;
+			
+			// aapt resource value: 9
+			public const int SearchView_layout = 9;
+			
+			// aapt resource value: 10
+			public const int SearchView_queryBackground = 10;
+			
+			// aapt resource value: 11
+			public const int SearchView_queryHint = 11;
+			
+			// aapt resource value: 12
+			public const int SearchView_searchHintIcon = 12;
+			
+			// aapt resource value: 13
+			public const int SearchView_searchIcon = 13;
+			
+			// aapt resource value: 14
+			public const int SearchView_submitBackground = 14;
+			
+			// aapt resource value: 15
+			public const int SearchView_suggestionRowLayout = 15;
+			
+			// aapt resource value: 16
+			public const int SearchView_voiceIcon = 16;
+			
+			// aapt resource value: { 0x7F0301E1,0x7F0301E4,0x7F030208,0x7F030209 }
 			public static int[] ShapeableImageView = new int[] {
-					2130837783,
-					2130837786,
-					2130837809,
-					2130837810};
+					2130903521,
+					2130903524,
+					2130903560,
+					2130903561};
 			
 			// aapt resource value: 0
 			public const int ShapeableImageView_shapeAppearance = 0;
@@ -21176,18 +19736,18 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 3
 			public const int ShapeableImageView_strokeWidth = 3;
 			
-			// aapt resource value: { 0x7F020067,0x7F020068,0x7F020069,0x7F02006A,0x7F02006B,0x7F02006D,0x7F02006E,0x7F02006F,0x7F020070,0x7F020071 }
+			// aapt resource value: { 0x7F0300C2,0x7F0300C3,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC }
 			public static int[] ShapeAppearance = new int[] {
-					2130837607,
-					2130837608,
-					2130837609,
-					2130837610,
-					2130837611,
-					2130837613,
-					2130837614,
-					2130837615,
-					2130837616,
-					2130837617};
+					2130903234,
+					2130903235,
+					2130903236,
+					2130903237,
+					2130903238,
+					2130903240,
+					2130903241,
+					2130903242,
+					2130903243,
+					2130903244};
 			
 			// aapt resource value: 0
 			public const int ShapeAppearance_cornerFamily = 0;
@@ -21219,27 +19779,27 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 9
 			public const int ShapeAppearance_cornerSizeTopRight = 9;
 			
-			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F0200A3,0x7F0200A4,0x7F0200D4,0x7F0200D5,0x7F020163,0x7F020164,0x7F020165,0x7F020166,0x7F020167,0x7F020168,0x7F02016D,0x7F02016E,0x7F02016F,0x7F020170 }
+			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F03012C,0x7F03012D,0x7F030167,0x7F030168,0x7F030254,0x7F030255,0x7F030256,0x7F03025A,0x7F03025B,0x7F03025C,0x7F030275,0x7F030276,0x7F030277,0x7F030278 }
 			public static int[] Slider = new int[] {
 					16842766,
 					16842788,
 					16843078,
 					16843486,
 					16843487,
-					2130837667,
-					2130837668,
-					2130837716,
-					2130837717,
-					2130837859,
-					2130837860,
-					2130837861,
-					2130837862,
-					2130837863,
-					2130837864,
-					2130837869,
-					2130837870,
-					2130837871,
-					2130837872};
+					2130903340,
+					2130903341,
+					2130903399,
+					2130903400,
+					2130903636,
+					2130903637,
+					2130903638,
+					2130903642,
+					2130903643,
+					2130903644,
+					2130903669,
+					2130903670,
+					2130903671,
+					2130903672};
 			
 			// aapt resource value: 0
 			public const int Slider_android_enabled = 0;
@@ -21298,22 +19858,22 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 18
 			public const int Slider_trackHeight = 18;
 			
-			// aapt resource value: { 0x7F020121,0x7F020122,0x7F020123 }
+			// aapt resource value: { 0x7F0301F0,0x7F0301F1,0x7F0301F2 }
 			public static int[] Snackbar = new int[] {
-					2130837793,
-					2130837794,
-					2130837795};
+					2130903536,
+					2130903537,
+					2130903538};
 			
-			// aapt resource value: { 0x101011F,0x7F020000,0x7F020001,0x7F020008,0x7F020009,0x7F02000A,0x7F02007C,0x7F0200F9 }
+			// aapt resource value: { 0x101011F,0x7F030020,0x7F03002A,0x7F03003A,0x7F03003D,0x7F03003E,0x7F0300F1,0x7F0301A0 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
-					2130837504,
-					2130837505,
-					2130837512,
-					2130837513,
-					2130837514,
-					2130837628,
-					2130837753};
+					2130903072,
+					2130903082,
+					2130903098,
+					2130903101,
+					2130903102,
+					2130903281,
+					2130903456};
 			
 			// aapt resource value: 1
 			public const int SnackbarLayout_actionTextColorAlpha = 1;
@@ -21347,6 +19907,29 @@ namespace OpravaMesta.Droid
 			
 			// aapt resource value: 2
 			public const int Snackbar_snackbarTextViewStyle = 2;
+			
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0301C4 }
+			public static int[] Spinner = new int[] {
+					16842930,
+					16843126,
+					16843131,
+					16843362,
+					2130903492};
+			
+			// aapt resource value: 3
+			public const int Spinner_android_dropDownWidth = 3;
+			
+			// aapt resource value: 0
+			public const int Spinner_android_entries = 0;
+			
+			// aapt resource value: 1
+			public const int Spinner_android_popupBackground = 1;
+			
+			// aapt resource value: 2
+			public const int Spinner_android_prompt = 2;
+			
+			// aapt resource value: 4
+			public const int Spinner_popupTheme = 4;
 			
 			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
 			public static int[] StateListDrawable = new int[] {
@@ -21382,9 +19965,75 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x7F020173 }
+			// aapt resource value: { 0x7F030214 }
+			public static int[] SwipeRefreshLayout = new int[] {
+					2130903572};
+			
+			// aapt resource value: 0
+			public const int SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = 0;
+			
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0301E9,0x7F0301F7,0x7F030215,0x7F030216,0x7F030218,0x7F030257,0x7F030258,0x7F030259,0x7F030274,0x7F030279,0x7F03027A }
+			public static int[] SwitchCompat = new int[] {
+					16843044,
+					16843045,
+					16843074,
+					2130903529,
+					2130903543,
+					2130903573,
+					2130903574,
+					2130903576,
+					2130903639,
+					2130903640,
+					2130903641,
+					2130903668,
+					2130903673,
+					2130903674};
+			
+			// aapt resource value: 1
+			public const int SwitchCompat_android_textOff = 1;
+			
+			// aapt resource value: 0
+			public const int SwitchCompat_android_textOn = 0;
+			
+			// aapt resource value: 2
+			public const int SwitchCompat_android_thumb = 2;
+			
+			// aapt resource value: 3
+			public const int SwitchCompat_showText = 3;
+			
+			// aapt resource value: 4
+			public const int SwitchCompat_splitTrack = 4;
+			
+			// aapt resource value: 5
+			public const int SwitchCompat_switchMinWidth = 5;
+			
+			// aapt resource value: 6
+			public const int SwitchCompat_switchPadding = 6;
+			
+			// aapt resource value: 7
+			public const int SwitchCompat_switchTextAppearance = 7;
+			
+			// aapt resource value: 8
+			public const int SwitchCompat_thumbTextPadding = 8;
+			
+			// aapt resource value: 9
+			public const int SwitchCompat_thumbTint = 9;
+			
+			// aapt resource value: 10
+			public const int SwitchCompat_thumbTintMode = 10;
+			
+			// aapt resource value: 11
+			public const int SwitchCompat_track = 11;
+			
+			// aapt resource value: 12
+			public const int SwitchCompat_trackTint = 12;
+			
+			// aapt resource value: 13
+			public const int SwitchCompat_trackTintMode = 13;
+			
+			// aapt resource value: { 0x7F03027E }
 			public static int[] SwitchMaterial = new int[] {
-					2130837875};
+					2130903678};
 			
 			// aapt resource value: 0
 			public const int SwitchMaterial_useMaterialThemeColors = 0;
@@ -21404,33 +20053,33 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F020136,0x7F020137,0x7F020138,0x7F020139,0x7F02013A,0x7F02013B,0x7F02013C,0x7F02013D,0x7F02013E,0x7F02013F,0x7F020140,0x7F020141,0x7F020142,0x7F020143,0x7F020144,0x7F020145,0x7F020146,0x7F020147,0x7F020148,0x7F020149,0x7F02014A,0x7F02014B,0x7F02014D,0x7F02014E,0x7F02014F }
+			// aapt resource value: { 0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F030230,0x7F030231,0x7F030232 }
 			public static int[] TabLayout = new int[] {
-					2130837814,
-					2130837815,
-					2130837816,
-					2130837817,
-					2130837818,
-					2130837819,
-					2130837820,
-					2130837821,
-					2130837822,
-					2130837823,
-					2130837824,
-					2130837825,
-					2130837826,
-					2130837827,
-					2130837828,
-					2130837829,
-					2130837830,
-					2130837831,
-					2130837832,
-					2130837833,
-					2130837834,
-					2130837835,
-					2130837837,
-					2130837838,
-					2130837839};
+					2130903577,
+					2130903578,
+					2130903579,
+					2130903580,
+					2130903581,
+					2130903582,
+					2130903583,
+					2130903584,
+					2130903585,
+					2130903586,
+					2130903587,
+					2130903588,
+					2130903589,
+					2130903590,
+					2130903591,
+					2130903592,
+					2130903593,
+					2130903594,
+					2130903595,
+					2130903596,
+					2130903597,
+					2130903598,
+					2130903600,
+					2130903601,
+					2130903602};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -21507,77 +20156,144 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x7F02015F }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F03011E,0x7F030126,0x7F030233,0x7F03024F }
+			public static int[] TextAppearance = new int[] {
+					16842901,
+					16842902,
+					16842903,
+					16842904,
+					16842906,
+					16842907,
+					16843105,
+					16843106,
+					16843107,
+					16843108,
+					16843692,
+					16844165,
+					2130903326,
+					2130903334,
+					2130903603,
+					2130903631};
+			
+			// aapt resource value: 10
+			public const int TextAppearance_android_fontFamily = 10;
+			
+			// aapt resource value: 6
+			public const int TextAppearance_android_shadowColor = 6;
+			
+			// aapt resource value: 7
+			public const int TextAppearance_android_shadowDx = 7;
+			
+			// aapt resource value: 8
+			public const int TextAppearance_android_shadowDy = 8;
+			
+			// aapt resource value: 9
+			public const int TextAppearance_android_shadowRadius = 9;
+			
+			// aapt resource value: 3
+			public const int TextAppearance_android_textColor = 3;
+			
+			// aapt resource value: 4
+			public const int TextAppearance_android_textColorHint = 4;
+			
+			// aapt resource value: 5
+			public const int TextAppearance_android_textColorLink = 5;
+			
+			// aapt resource value: 11
+			public const int TextAppearance_android_textFontWeight = 11;
+			
+			// aapt resource value: 0
+			public const int TextAppearance_android_textSize = 0;
+			
+			// aapt resource value: 2
+			public const int TextAppearance_android_textStyle = 2;
+			
+			// aapt resource value: 1
+			public const int TextAppearance_android_typeface = 1;
+			
+			// aapt resource value: 12
+			public const int TextAppearance_fontFamily = 12;
+			
+			// aapt resource value: 13
+			public const int TextAppearance_fontVariationSettings = 13;
+			
+			// aapt resource value: 14
+			public const int TextAppearance_textAllCaps = 14;
+			
+			// aapt resource value: 15
+			public const int TextAppearance_textLocale = 15;
+			
+			// aapt resource value: { 0x7F03024D }
 			public static int[] TextInputEditText = new int[] {
-					2130837855};
+					2130903629};
 			
 			// aapt resource value: 0
 			public const int TextInputEditText_textInputLayoutFocusedRectEnabled = 0;
 			
-			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F02001E,0x7F02001F,0x7F020020,0x7F020021,0x7F020022,0x7F020023,0x7F020024,0x7F020025,0x7F020026,0x7F020027,0x7F020028,0x7F020072,0x7F020073,0x7F020074,0x7F020075,0x7F020076,0x7F020077,0x7F02007F,0x7F020080,0x7F020081,0x7F020082,0x7F020083,0x7F020084,0x7F020088,0x7F020089,0x7F02008A,0x7F02008B,0x7F02008C,0x7F02008D,0x7F02008E,0x7F0200A6,0x7F0200A7,0x7F0200A8,0x7F0200A9,0x7F0200AC,0x7F0200AD,0x7F0200AE,0x7F0200AF,0x7F020104,0x7F020105,0x7F020106,0x7F020107,0x7F020108,0x7F020109,0x7F02010A,0x7F02010B,0x7F02010D,0x7F02010E,0x7F02010F,0x7F020117,0x7F02011A,0x7F020124,0x7F020125,0x7F020126,0x7F020127,0x7F020128,0x7F020133,0x7F020134,0x7F020135 }
+			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F030054,0x7F030055,0x7F030056,0x7F030057,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F0300CD,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F0300D2,0x7F0300F4,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030103,0x7F030130,0x7F030131,0x7F030132,0x7F030133,0x7F030137,0x7F030138,0x7F030139,0x7F03013A,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C6,0x7F0301C7,0x7F0301C8,0x7F0301E1,0x7F0301E4,0x7F0301FA,0x7F0301FB,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F030210,0x7F030211,0x7F030212 }
 			public static int[] TextInputLayout = new int[] {
 					16842766,
 					16842906,
 					16843088,
-					2130837534,
-					2130837535,
-					2130837536,
-					2130837537,
-					2130837538,
-					2130837539,
-					2130837540,
-					2130837541,
-					2130837542,
-					2130837543,
-					2130837544,
-					2130837618,
-					2130837619,
-					2130837620,
-					2130837621,
-					2130837622,
-					2130837623,
-					2130837631,
-					2130837632,
-					2130837633,
-					2130837634,
-					2130837635,
-					2130837636,
-					2130837640,
-					2130837641,
-					2130837642,
-					2130837643,
-					2130837644,
-					2130837645,
-					2130837646,
-					2130837670,
-					2130837671,
-					2130837672,
-					2130837673,
-					2130837676,
-					2130837677,
-					2130837678,
-					2130837679,
-					2130837764,
-					2130837765,
-					2130837766,
-					2130837767,
-					2130837768,
-					2130837769,
-					2130837770,
-					2130837771,
-					2130837773,
-					2130837774,
-					2130837775,
-					2130837783,
-					2130837786,
-					2130837796,
-					2130837797,
-					2130837798,
-					2130837799,
-					2130837800,
-					2130837811,
-					2130837812,
-					2130837813};
+					2130903124,
+					2130903125,
+					2130903126,
+					2130903127,
+					2130903128,
+					2130903129,
+					2130903130,
+					2130903131,
+					2130903132,
+					2130903133,
+					2130903134,
+					2130903245,
+					2130903246,
+					2130903247,
+					2130903248,
+					2130903249,
+					2130903250,
+					2130903284,
+					2130903285,
+					2130903286,
+					2130903287,
+					2130903288,
+					2130903289,
+					2130903293,
+					2130903294,
+					2130903295,
+					2130903296,
+					2130903297,
+					2130903298,
+					2130903299,
+					2130903344,
+					2130903345,
+					2130903346,
+					2130903347,
+					2130903351,
+					2130903352,
+					2130903353,
+					2130903354,
+					2130903482,
+					2130903483,
+					2130903484,
+					2130903485,
+					2130903486,
+					2130903487,
+					2130903488,
+					2130903489,
+					2130903494,
+					2130903495,
+					2130903496,
+					2130903521,
+					2130903524,
+					2130903546,
+					2130903547,
+					2130903548,
+					2130903549,
+					2130903550,
+					2130903568,
+					2130903569,
+					2130903570};
 			
 			// aapt resource value: 0
 			public const int TextInputLayout_android_enabled = 0;
@@ -21765,11 +20481,11 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 61
 			public const int TextInputLayout_suffixTextColor = 61;
 			
-			// aapt resource value: { 0x1010034,0x7F020085,0x7F020086 }
+			// aapt resource value: { 0x1010034,0x7F0300FA,0x7F0300FB }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130837637,
-					2130837638};
+					2130903290,
+					2130903291};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -21780,7 +20496,130 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x1010034,0x10100D5,0x10100F6,0x101013F,0x1010140,0x101014F,0x7F020009 }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F030065,0x7F030098,0x7F030099,0x7F0300B4,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F03018A,0x7F03018B,0x7F0301A1,0x7F0301A6,0x7F0301A9,0x7F0301AA,0x7F0301C4,0x7F03020C,0x7F03020D,0x7F03020E,0x7F030262,0x7F030264,0x7F030265,0x7F030266,0x7F030267,0x7F030268,0x7F030269,0x7F03026A,0x7F03026B }
+			public static int[] Toolbar = new int[] {
+					16842927,
+					16843072,
+					2130903141,
+					2130903192,
+					2130903193,
+					2130903220,
+					2130903221,
+					2130903222,
+					2130903223,
+					2130903224,
+					2130903225,
+					2130903434,
+					2130903435,
+					2130903457,
+					2130903462,
+					2130903465,
+					2130903466,
+					2130903492,
+					2130903564,
+					2130903565,
+					2130903566,
+					2130903650,
+					2130903652,
+					2130903653,
+					2130903654,
+					2130903655,
+					2130903656,
+					2130903657,
+					2130903658,
+					2130903659};
+			
+			// aapt resource value: 0
+			public const int Toolbar_android_gravity = 0;
+			
+			// aapt resource value: 1
+			public const int Toolbar_android_minHeight = 1;
+			
+			// aapt resource value: 2
+			public const int Toolbar_buttonGravity = 2;
+			
+			// aapt resource value: 3
+			public const int Toolbar_collapseContentDescription = 3;
+			
+			// aapt resource value: 4
+			public const int Toolbar_collapseIcon = 4;
+			
+			// aapt resource value: 5
+			public const int Toolbar_contentInsetEnd = 5;
+			
+			// aapt resource value: 6
+			public const int Toolbar_contentInsetEndWithActions = 6;
+			
+			// aapt resource value: 7
+			public const int Toolbar_contentInsetLeft = 7;
+			
+			// aapt resource value: 8
+			public const int Toolbar_contentInsetRight = 8;
+			
+			// aapt resource value: 9
+			public const int Toolbar_contentInsetStart = 9;
+			
+			// aapt resource value: 10
+			public const int Toolbar_contentInsetStartWithNavigation = 10;
+			
+			// aapt resource value: 11
+			public const int Toolbar_logo = 11;
+			
+			// aapt resource value: 12
+			public const int Toolbar_logoDescription = 12;
+			
+			// aapt resource value: 13
+			public const int Toolbar_maxButtonHeight = 13;
+			
+			// aapt resource value: 14
+			public const int Toolbar_menu = 14;
+			
+			// aapt resource value: 15
+			public const int Toolbar_navigationContentDescription = 15;
+			
+			// aapt resource value: 16
+			public const int Toolbar_navigationIcon = 16;
+			
+			// aapt resource value: 17
+			public const int Toolbar_popupTheme = 17;
+			
+			// aapt resource value: 18
+			public const int Toolbar_subtitle = 18;
+			
+			// aapt resource value: 19
+			public const int Toolbar_subtitleTextAppearance = 19;
+			
+			// aapt resource value: 20
+			public const int Toolbar_subtitleTextColor = 20;
+			
+			// aapt resource value: 21
+			public const int Toolbar_title = 21;
+			
+			// aapt resource value: 22
+			public const int Toolbar_titleMargin = 22;
+			
+			// aapt resource value: 23
+			public const int Toolbar_titleMarginBottom = 23;
+			
+			// aapt resource value: 24
+			public const int Toolbar_titleMarginEnd = 24;
+			
+			// aapt resource value: 27
+			public const int Toolbar_titleMargins = 27;
+			
+			// aapt resource value: 25
+			public const int Toolbar_titleMarginStart = 25;
+			
+			// aapt resource value: 26
+			public const int Toolbar_titleMarginTop = 26;
+			
+			// aapt resource value: 28
+			public const int Toolbar_titleTextAppearance = 28;
+			
+			// aapt resource value: 29
+			public const int Toolbar_titleTextColor = 29;
+			
+			// aapt resource value: { 0x1010034,0x10100D5,0x10100F6,0x101013F,0x1010140,0x101014F,0x7F03003D }
 			public static int[] Tooltip = new int[] {
 					16842804,
 					16842965,
@@ -21788,7 +20627,7 @@ namespace OpravaMesta.Droid
 					16843071,
 					16843072,
 					16843087,
-					2130837513};
+					2130903101};
 			
 			// aapt resource value: 2
 			public const int Tooltip_android_layout_margin = 2;
@@ -21811,7 +20650,6 @@ namespace OpravaMesta.Droid
 			// aapt resource value: 6
 			public const int Tooltip_backgroundTint = 6;
 			
-<<<<<<< HEAD
 			// aapt resource value: { 0x1010000,0x10100DA,0x7F0301B2,0x7F0301B5,0x7F030251 }
 			public static int[] View = new int[] {
 					16842752,
@@ -21866,14 +20704,18 @@ namespace OpravaMesta.Droid
 			
 			// aapt resource value: 1
 			public const int View_android_focusable = 1;
-=======
-			// aapt resource value: { 0x7F020177 }
-			public static int[] ViewPagerIndicator = new int[] {
-					2130837879};
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
 			
 			// aapt resource value: 0
-			public const int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 0;
+			public const int View_android_theme = 0;
+			
+			// aapt resource value: 2
+			public const int View_paddingEnd = 2;
+			
+			// aapt resource value: 3
+			public const int View_paddingStart = 3;
+			
+			// aapt resource value: 4
+			public const int View_theme = 4;
 			
 			static Styleable()
 			{
@@ -21888,11 +20730,26 @@ namespace OpravaMesta.Droid
 		public partial class Xml
 		{
 			
-			// aapt resource value: 0x7F0F0000
-			public const int file_paths = 2131689472;
+			// aapt resource value: 0x7F110000
+			public const int file_paths = 2131820544;
 			
-			// aapt resource value: 0x7F0F0001
-			public const int image_share_filepaths = 2131689473;
+			// aapt resource value: 0x7F110001
+			public const int image_share_filepaths = 2131820545;
+			
+			// aapt resource value: 0x7F110002
+			public const int standalone_badge = 2131820546;
+			
+			// aapt resource value: 0x7F110003
+			public const int standalone_badge_gravity_bottom_end = 2131820547;
+			
+			// aapt resource value: 0x7F110004
+			public const int standalone_badge_gravity_bottom_start = 2131820548;
+			
+			// aapt resource value: 0x7F110005
+			public const int standalone_badge_gravity_top_start = 2131820549;
+			
+			// aapt resource value: 0x7F110006
+			public const int standalone_badge_offset = 2131820550;
 			
 			// aapt resource value: 0x7F110007
 			public const int xamarin_essentials_fileprovider_file_paths = 2131820551;

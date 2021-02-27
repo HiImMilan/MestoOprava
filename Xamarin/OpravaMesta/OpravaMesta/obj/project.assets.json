@@ -754,23 +754,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jarko\\.nuget\\packages\\": {},
+    "C:\\Users\\milos\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
       "projectName": "OpravaMesta",
-      "projectPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
-      "packagesPath": "C:\\Users\\jarko\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta\\obj\\",
+      "projectPath": "C:\\xampp\\htdocs\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj",
+      "packagesPath": "C:\\Users\\milos\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\htdocs\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\jarko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\milos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -783,7 +783,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "projectReferences": {}
         }
       },
@@ -795,7 +794,6 @@
     },
     "frameworks": {
       "netstandard2.0": {
-        "targetAlias": "netstandard2.0",
         "dependencies": {
           "CarouselView.FormsPlugin": {
             "target": "Package",
@@ -834,7 +832,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -843,11 +841,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-<<<<<<< HEAD
       "message": "Problem reading the cache file C:\\xampp\\htdocs\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-=======
-      "message": "Problem reading the cache file D:\\Users\\Jarko\\Plocha\\School\\Competitions\\CityFix\\Xamarin\\OpravaMesta\\OpravaMesta\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
     }
   ]
 }

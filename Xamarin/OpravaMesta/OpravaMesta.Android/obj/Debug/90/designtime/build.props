@@ -15,7 +15,7 @@ androidsdkpath=c:\program files (x86)\android\android-sdk\
 androidndkpath=
 javasdkpath=c:\program files\android\jdk\microsoft_dist_openjdk_1.8.0.25\
 androidsequencepointsmode=none
-xamarinandroidversion=11.1.0-17
+xamarinandroidversion=11.0.2-0
 monosymbolarchive=false
 androiduselatestplatformsdk=false
 targetframeworkversion=v9.0
@@ -24,11 +24,7 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-<<<<<<< HEAD
-_nugetassetstimestamp=637500365690233508
-=======
-_nugetassetstimestamp=637500360680000000
->>>>>>> 3d55eae0c72f875d0945f5c5647de44b5f86dc6d
+_nugetassetstimestamp=637500559124887498
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
