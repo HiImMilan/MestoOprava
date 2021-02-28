@@ -5,7 +5,10 @@
              x:Class="OpravaMesta.ProblemsPage"
              xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
              xmlns:opravaMesta="clr-namespace:OpravaMesta;assembly=OpravaMesta">
-    <ContentView x:Name="bg">
+    <RefreshView IsRefreshing="{Binding IsRefreshing}"
+             Command="{Binding RefreshCommand}">
+
+        <ContentView x:Name="bg">
         <StackLayout>
                 <ActivityIndicator x:Name="activityIndicator"
                                    IsRunning="{Binding IsActivityIndicatorRunning}"
@@ -24,4 +27,5 @@
                 </CarouselView>
             </StackLayout>
         </ContentView>
+    </RefreshView>
 </ContentPage>

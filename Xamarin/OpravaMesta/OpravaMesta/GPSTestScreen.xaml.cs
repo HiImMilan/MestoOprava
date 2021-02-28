@@ -50,8 +50,8 @@ namespace OpravaMesta
 
 
 
-        private async void Button_OnClicked(object sender, EventArgs e) =>
-            testImage.Source = await HelperMethods.CameraTakePhoto();
+        private async void Button_OnClicked(object sender, EventArgs e) { }
+            //testImage.Source = await HelperMethods.CameraTakePhoto();
 
 
     }
