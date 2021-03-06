@@ -53,3 +53,4 @@ C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMest
 C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta\obj\Debug\netstandard2.0\OpravaMesta.dll
 C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta\obj\Debug\netstandard2.0\ref\OpravaMesta.dll
 C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta\obj\Debug\netstandard2.0\OpravaMesta.pdb
+C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta\obj\Debug\netstandard2.0\DevTools.xaml.g.cs

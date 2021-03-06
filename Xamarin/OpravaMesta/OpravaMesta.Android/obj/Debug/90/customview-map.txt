@@ -29,6 +29,11 @@ com.google.android.material.tabs.TabLayout;C:\Users\milan\Source\Repos\HiImMilan
 com.google.android.material.tabs.TabLayout;obj\Debug\90\res\layout\tabbar.xml
 Com.ViewPagerIndicator.CirclePageIndicator;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\horizontal_viewpager.xml
 Com.ViewPagerIndicator.CirclePageIndicator;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\vertical_viewpager.xml
+crc646c47a7af3a53b8ab.CirclePageIndicator;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\horizontal_viewpager.xml
+crc646c47a7af3a53b8ab.CirclePageIndicator;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\vertical_viewpager.xml
+crc64720bb2db43a66fe9.FormsViewPager;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\49\jl\res\layout\rootlayout.xml
+crc64bd9b40afd0203ad3.HorizontalViewPager;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\horizontal_viewpager.xml
+crc64bd9b40afd0203ad3.VerticalViewPager;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\vertical_viewpager.xml
 declare-styleable;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\2\jl\res\values\vpi__attrs.xml
 dimen;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\2\jl\res\values\vpi__defaults.xml
 enum;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\2\jl\res\values\vpi__attrs.xml
@@ -43,6 +48,7 @@ ImageView;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\
 integer;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\2\jl\res\values\vpi__defaults.xml
 item;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\2\jl\res\values\vpi__styles.xml
 item;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\49\jl\res\values\styles.xml
+item;obj\Debug\90\res\values\styles.xml
 LinearLayout;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\horizontal_viewpager.xml
 LinearLayout;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\0\jl\res\layout\vertical_viewpager.xml
 LinearLayout;C:\Users\milan\Source\Repos\HiImMilan\MestoOprava\Xamarin\OpravaMesta\OpravaMesta.Android\obj\Debug\90\lp\49\jl\res\layout\bottomtablayout.xml

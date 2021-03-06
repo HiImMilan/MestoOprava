@@ -11,6 +11,8 @@ namespace OpravaMesta
 {
     public partial class MainPage : ContentPage
     {
+
+        int secret;
         class SendPostData
         {
             public string lat { get; set; }
@@ -30,6 +32,9 @@ namespace OpravaMesta
                 bNoLogin.BackgroundColor = Color.FromHex("000000");
                 bNoLogin.TextColor = Color.FromHex("31325C");
                 lAgree.TextColor = Color.FromHex("FFFFFF");
+                 devtools.BackgroundColor = Color.FromHex("000000");
+                 devtools.TextColor= Color.FromHex("000000");
+                //devtools.BackgroundColor = Color.FromHex("FFFFFF");
             }
             else
             {
@@ -40,6 +45,8 @@ namespace OpravaMesta
                 bNoLogin.BackgroundColor = Color.FromHex("FFFFFF");
                 bNoLogin.TextColor = Color.FromHex("4682D0");
                 lAgree.TextColor = Color.FromHex("6E7C7D");
+                devtools.BackgroundColor = Color.FromHex("FFFFFF");
+                devtools.TextColor = Color.FromHex("FFFFFF");
             }
 
             /*PacketSender<GetPostData, GetPostData> content =
@@ -63,6 +70,30 @@ namespace OpravaMesta
         {
 
         }
+        async void Secret(object sender, EventArgs e)
+        {
+            
+            secret++;
+            switch (secret) // Lebo C# 7.3 .....
+            {              
+                case 3:
+                    if (Application.Current.RequestedTheme == OSAppTheme.Dark) devtools.TextColor = Color.FromHex("FFFFFF"); else devtools.TextColor = Color.FromHex("000000");
+                    devtools.Text = "3";
+                    break;
+                case 4:
+                    devtools.Text = "2";
+                    break;
+                case 5:
+                    devtools.Text = "1";
+                    break;
+                case 6:
+                    await Navigation.PushModalAsync(new DevTools());
+                    break;
+                default:
+                    break;
+            }
+        }
+
 
     }
 }
