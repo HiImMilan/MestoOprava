@@ -4,5 +4,6 @@
     <SelectedDevice>Samsung SM-A515F</SelectedDevice>
     <DefaultDevice>pixel_2_pie_9_0_-_api_28</DefaultDevice>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
+    <ActiveDebugProfile>Samsung SM-A515F</ActiveDebugProfile>
   </PropertyGroup>
 </Project>
