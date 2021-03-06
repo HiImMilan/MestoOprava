@@ -3864,20 +3864,20 @@
   },
   "packageFolders": {
     "C:\\Users\\milan\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\milan\\Source\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
+      "projectUniqueName": "C:\\Users\\milan\\Source\\Repos\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
       "projectName": "OpravaMesta.Android",
-      "projectPath": "C:\\Users\\milan\\Source\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
+      "projectPath": "C:\\Users\\milan\\Source\\Repos\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\OpravaMesta.Android.csproj",
       "packagesPath": "C:\\Users\\milan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\milan\\Source\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\obj\\",
+      "outputPath": "C:\\Users\\milan\\Source\\Repos\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\milan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3894,8 +3894,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\milan\\Source\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {
-              "projectPath": "C:\\Users\\milan\\Source\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj"
+            "C:\\Users\\milan\\Source\\Repos\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj": {
+              "projectPath": "C:\\Users\\milan\\Source\\Repos\\HiImMilan\\MestoOprava\\Xamarin\\OpravaMesta\\OpravaMesta\\OpravaMesta.csproj"
             }
           }
         }
