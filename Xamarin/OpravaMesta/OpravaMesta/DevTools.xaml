@@ -5,23 +5,40 @@
              
              
              >
-  
-    
-    <ContentPage.Content>
-        <CollectionView ItemsSource="{Binding Datas}">
-            <CollectionView.ItemTemplate>
-                
+
+
+  <ContentPage.Content>
+        <RefreshView  x:Name="refresh">
+            <CollectionView x:Name="POMOC">
+                <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout>
-                    <Label
-                       Text="{Binding Creator}"
-                       FontAttributes="Bold"
-                       BackgroundColor="Wheat"                               
-                     />
-                    </StackLayout>
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.RowSpan="2" 
+                               Source="{Binding URL}" 
+                               Aspect="AspectFill"
+                               HeightRequest="60" 
+                               WidthRequest="60" />
+                        <Label Grid.Column="1" 
+                               Text="{Binding Creator}" 
+                               FontAttributes="Bold" />
+                        <Label Grid.Row="1"
+                               Grid.Column="1" 
+                               Text="{Binding Description}"
+                               FontAttributes="Italic" 
+                               VerticalOptions="End" />
+                        
+                        </Grid>
                 </DataTemplate>
-                
             </CollectionView.ItemTemplate>
         </CollectionView>
+      </RefreshView>
     </ContentPage.Content>
 </ContentPage>

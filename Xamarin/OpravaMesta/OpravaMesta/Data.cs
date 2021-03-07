@@ -1,10 +1,13 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
 namespace OpravaMesta
 {
     public class Data : INotifyPropertyChanged
     {
+        
+
         private string creator;
         private string name;
         private string description;
@@ -43,7 +46,7 @@ namespace OpravaMesta
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
-
+        
         void OnPropertyChanged(string name)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
@@ -61,9 +64,8 @@ namespace OpravaMesta
             return false;
         }
 
-        private System.Collections.IEnumerable datas;
+        public ObservableCollection<Data> Datas { get; set; }
 
-        public System.Collections.IEnumerable Datas { get => datas; set => SetProperty(ref datas, value); }
 
     }
   }
