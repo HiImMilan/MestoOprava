@@ -17,7 +17,7 @@ namespace OpravaMesta
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DevTools : ContentPage
     {
-        long GPSTimeout = 0;
+        DateTime GPSTimeout = DateTime.Now;
         DataViewModel model = new DataViewModel();
         GPSData GPS = new GPSData("null", "null");
         public DevTools()
@@ -39,12 +39,12 @@ namespace OpravaMesta
         async void Start()
         {
             refresh.IsRefreshing = true;
-            long timeStamp = long.Parse(GetTimestamp(new DateTime()));
-            Console.WriteLine((timeStamp - GPSTimeout).ToString());
-            if (GPS.Latitude == "null" || GPS.Longitude == "null" || (GPSTimeout - timeStamp) > 10) // Opraviť
+            TimeSpan timespan = DateTime.Now - GPSTimeout;
+            
+            if (GPS.Latitude == "null" || GPS.Longitude == "null" || timespan.TotalSeconds > 10) // Opraviť
             {
                 await GetGPS();
-                GPSTimeout = long.Parse(GetTimestamp(new DateTime()));
+                GPSTimeout = DateTime.Now;
             }
 
             // Optimalizacia
