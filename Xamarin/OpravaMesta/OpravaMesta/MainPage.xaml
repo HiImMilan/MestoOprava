@@ -12,6 +12,7 @@
         
         <Label x:Name="lProfil"
                Text="Máte už profil?"
+               FontFamily="Mulish"
                HorizontalOptions="Center"
                FontSize="36"
                FontAttributes="Bold"

@@ -10,7 +10,7 @@
                 
             </BoxView>
 
-                    <RefreshView  x:Name="refresh">
+           <RefreshView  x:Name="refresh">
             <CollectionView x:Name="POMOC">
               <CollectionView.ItemTemplate>
                 <DataTemplate>
