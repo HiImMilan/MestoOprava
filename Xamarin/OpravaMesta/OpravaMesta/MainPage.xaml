@@ -11,15 +11,17 @@
                      />
         
         <Label x:Name="lProfil"
-               Text="Máte už profil?"
+               FontFamily="Mulish"
                HorizontalOptions="Center"
-               FontSize="36"
+               VerticalOptions="Center"
+               FontSize="48"
                FontAttributes="Bold"
                AbsoluteLayout.LayoutFlags="PositionProportional" 
-               AbsoluteLayout.LayoutBounds="0.5,0.1,250,50"
+               AbsoluteLayout.LayoutBounds="0.5,0.1,250,90"
                />
         <Button x:Name="devtools" Clicked="Secret" Text="" AnchorX="0" AnchorY="0" BackgroundColor="Black" />
         <Button x:Name="bLogin"
+                FontFamily="Mulish"
                 Text="Prihlásiť sa"
                 FontSize="20"
                 AbsoluteLayout.LayoutFlags="PositionProportional" 
@@ -27,6 +29,7 @@
                 Clicked="LoginClicked"
                 />
         <Button x:Name="bNoLogin"
+                FontFamily="Mulish"
                 Text="Pokračovať bez prihlásenia"
                 FontSize="10"
                 AbsoluteLayout.LayoutFlags="PositionProportional" 
@@ -34,6 +37,7 @@
                 Clicked="NoLoginClicked"
                 />
         <Label x:Name="lAgree"
+               FontFamily="Mulish"
                Text="Pokračovaním súhlasíte s našimi podmienkami používania."
                HorizontalOptions="Center"
                FontSize="16"

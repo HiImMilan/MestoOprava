@@ -10,38 +10,39 @@
                 
             </BoxView>
 
-                    <RefreshView  x:Name="refresh">
-            <CollectionView x:Name="POMOC">
+           <RefreshView  x:Name="refresh">
+            <CollectionView x:Name="Collection">
               <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Grid Padding="10">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto" />
-                            <RowDefinition Height="Auto" />
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto" />
-                            <ColumnDefinition Width="Auto" />
-                        </Grid.ColumnDefinitions>
-                        <Image Grid.RowSpan="2" 
-                               Source="{Binding URL}" 
-                               Aspect="AspectFill"
-                               HeightRequest="60" 
-                               WidthRequest="60" />
-                        <Label Grid.Column="1" 
-                               Text="{Binding Creator}" 
-                               FontAttributes="Bold" />
-                        <Label Grid.Row="1"
-                               Grid.Column="1" 
-                               Text="{Binding Description}"
-                               FontAttributes="Italic" 
-                               VerticalOptions="End" />
-                        
-                        </Grid>
-                </DataTemplate>
-           </CollectionView.ItemTemplate>
-        </CollectionView>
-      </RefreshView>
-     </StackLayout>
+
+
+                            <StackLayout BackgroundColor="White">
+
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="1" Grid.Row="1"
+                                      FontSize="Medium"
+                                      Text="{Binding Creator}" 
+                                      TextColor="Black"
+                                      FontAttributes="Bold"
+                                      FontFamily="Mulish" />
+                                    
+                                </Grid>
+                                <Image Grid.RowSpan="2" 
+                                Source="{Binding URL}" 
+                                Aspect="AspectFill" />
+                            </StackLayout>
+                     </DataTemplate>
+               </CollectionView.ItemTemplate>
+            </CollectionView>
+           </RefreshView>
+         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

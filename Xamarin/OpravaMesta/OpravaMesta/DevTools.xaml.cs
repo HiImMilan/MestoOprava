@@ -26,8 +26,8 @@ namespace OpravaMesta
             Start();
             Data data = new Data();
             data.Creator = "gay";
-            
-            POMOC.ItemsSource = model.Datas;
+
+            Collection.ItemsSource = model.Datas;
             ICommand refreshCommand = new Command(() =>
             {
                 Start();
