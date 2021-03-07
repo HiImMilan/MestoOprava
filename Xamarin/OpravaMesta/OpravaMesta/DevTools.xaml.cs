@@ -49,8 +49,13 @@ namespace OpravaMesta
 
             // Optimalizacia
             string dataString = null;
-            try { 
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://192.168.50.34/Server/GetData.php?&lat=" + GPS.Latitude.Replace(",",".") + "&longy=" + GPS.Longitude.Replace(",", "."));
+            try
+            {
+                string latitude = "&lat="+GPS.Latitude.Replace(",", ".");
+                string longidute = "&longy=" + GPS.Longitude.Replace(",", ".");
+                string arguments = latitude + longidute;
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create($"http://{InternetConnectivityCheck.ServerIP}/MestoOprava/Server/GetData.php?{arguments}");
+                request.Timeout = 5000;
                 request.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
                 using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
                 using (Stream stream = response.GetResponseStream())
@@ -61,12 +66,14 @@ namespace OpravaMesta
             } catch (Exception ex)
             {
                  await DisplayAlert("An error has occured", "Please screenshot this and sent this to Github Issues (Please note that this is usually by your internet connection): " + ex.Message + "\n STACKTRACE: " + ex.StackTrace + "\n" + ex.Source, "Cancel");
+                 
+                 return;
             }
            
             List<Data> var1 = JsonConvert.DeserializeObject<List<Data>>(dataString);
             Console.WriteLine("Done");
             refresh.IsRefreshing = false;
-            ObservableCollection<Data> temp = new ObservableCollection<Data>(var1 as List<Data>);
+            ObservableCollection<Data> temp = new ObservableCollection<Data>(var1);
             model.Datas.Clear();
              foreach (Data data1 in var1) 
              {
