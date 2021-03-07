@@ -4,45 +4,46 @@
              x:Class="OpravaMesta.DevTools">
     
     <ContentPage.Content>
-        <StackLayout>
-
-            <BoxView AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0.0,0.0,1,0.5" BackgroundColor="White" >
-                
-            </BoxView>
-
-           <RefreshView  x:Name="refresh">
+        <AbsoluteLayout>
+            <RefreshView  x:Name="refresh" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0,0">
             <CollectionView x:Name="Collection">
               <CollectionView.ItemTemplate>
-                <DataTemplate>
+                  <DataTemplate>
+                      <Grid>
+                              <Grid.ColumnDefinitions>
+                                  <ColumnDefinition Width="*" />
+                                  <ColumnDefinition Width="3*" />
+                                  <ColumnDefinition Width="*" />
+                              </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                    <RowDefinition Height="5*"></RowDefinition>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                    <Image Source="" Grid.Column="0"></Image>
+                                <StackLayout BackgroundColor="Blue" Grid.Column="1">
+                                  <Label Text="{Binding Name}"></Label>
+                                  <Label Text="Veterán"></Label>
+                                  <Label Text="Kysucké Nové Mesto"></Label>
+                              </StackLayout>
+                          <StackLayout BackgroundColor="Blue" Grid.Column="1" Grid.Row="2">
+                              <Label Text="Zilina"></Label>
+
+                          </StackLayout>
 
 
-                            <StackLayout BackgroundColor="White">
 
-                                <Grid>
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="Auto" />
-                                        <RowDefinition Height="Auto" />
-                                    </Grid.RowDefinitions>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="Auto" />
-                                        <ColumnDefinition Width="Auto" />
-                                    </Grid.ColumnDefinitions>
-                                    <Label Grid.Column="1" Grid.Row="1"
-                                      FontSize="Medium"
-                                      Text="{Binding Creator}" 
-                                      TextColor="Black"
-                                      FontAttributes="Bold"
-                                      FontFamily="Mulish" />
-                                    
-                                </Grid>
-                                <Image Grid.RowSpan="2" 
-                                Source="{Binding URL}" 
-                                Aspect="AspectFill" />
-                            </StackLayout>
-                     </DataTemplate>
+                                <Image Source="{Binding URL}" Grid.Row="1" Grid.ColumnSpan="3"></Image>
+
+                      </Grid>
+                          
+                  </DataTemplate>
                </CollectionView.ItemTemplate>
             </CollectionView>
            </RefreshView>
-         </StackLayout>
+            <BoxView AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,1,1,0.1" BackgroundColor="#1A1B26" >
+
+            </BoxView>
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>
