@@ -6,7 +6,7 @@ namespace OpravaMesta
 {
     class InternetConnectivityCheck
     {
-        public static string ServerIP = "192.168.0.105";
+        public static string ServerIP = "192.168.50.34";
         private Ping pingSender;
         public InternetConnectivityCheck(Action<PingCompletedEventArgs> action, int timeout = 12000)
         {

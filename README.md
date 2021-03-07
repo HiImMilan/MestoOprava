@@ -36,3 +36,12 @@
 |GET|`/GetUserPosts.php`|Gets all posts about one specific UUID|`UUID` - UUID of user requesting, `ReqUUID` - UUID of user that request data|HTTP 2.0 / JSON|
 |PUT|`/PushData.php`|Sends problem into database|`UUID` - UUID of user, `title` - String of title of problem, `description` - Description of problem - string, `lat` - Latitude of problem, `long` - Longitude of problem, `IMG` - Image in base64 string (may change), `auth` - OTP Auth Token |HTTP 2.0 / JSON|
 
+## Changelog
+```
+Lastest Commit : 7.3.2020 22:30
++ Developer Flags
++ New Secret Menu
++ UI Change
+- Cleanup of some files
+
+```

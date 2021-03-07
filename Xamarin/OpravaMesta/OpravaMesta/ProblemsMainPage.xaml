@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:OpravaMesta" x:DataType="local:Data"
+             x:Class="OpravaMesta.ProblemsMainPage">
+    
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="#18192B">
+            <RefreshView  x:Name="refresh" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0,0">
+            <CollectionView x:Name="Collection" >
+              <CollectionView.ItemTemplate>
+                  <DataTemplate>
+                            <Frame CornerRadius="15" Padding="10"  HeightRequest="300"  BackgroundColor="#18192B">
+                                <Frame CornerRadius="15" BackgroundColor="#262843">
+                                  <StackLayout> 
+                                    <StackLayout Orientation="Horizontal">
+                                        <Frame CornerRadius="100">
+                                            <Image Source="https://www.fkbga.com/wp-content/uploads/2018/07/person-icon-6-1024x660.png"
+                                                   WidthRequest="32"
+                                                   ></Image> <!-- Ikona -->
+                                        </Frame>
+                                        <StackLayout>
+                                            <Label FontSize="Medium" Text="{Binding Creator}"></Label>
+                                            <Label Text="ADAS"></Label>
+                                            <Label Text="ADAS"></Label>
+                                        </StackLayout>
+
+                                    </StackLayout>
+                                        <Frame CornerRadius="15">
+                                            <Image Source="{Binding URL}"
+                                           Aspect="AspectFill"
+                                           HeightRequest="200"
+                                           
+                                           ></Image>
+                                        </Frame>
+                                    </StackLayout>
+                                </Frame>
+                            </Frame>
+                  </DataTemplate>
+               </CollectionView.ItemTemplate>
+            </CollectionView>
+           </RefreshView>
+            <BoxView AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,1,1,0.1" BackgroundColor="#1A1B26" >
+
+            </BoxView>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

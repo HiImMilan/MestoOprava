@@ -1,43 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:OpravaMesta" x:DataType="local:Data"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OpravaMesta.DevTools">
-    
     <ContentPage.Content>
-        <AbsoluteLayout BackgroundColor="#18192B">
-            <RefreshView  x:Name="refresh" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0,0">
-            <CollectionView x:Name="Collection" >
-              <CollectionView.ItemTemplate>
-                  <DataTemplate>
-                            <Frame Padding="10" HeightRequest="300" BackgroundColor="Blue">
-                                <StackLayout BackgroundColor="Red">
-                                    <StackLayout Orientation="Horizontal">
-                                        <Frame CornerRadius="100">
-                                            <Image Source="https://www.fkbga.com/wp-content/uploads/2018/07/person-icon-6-1024x660.png"
-                                                   WidthRequest="32"
-                                                   ></Image>
-                                        </Frame>
-                                        <StackLayout>
-                                            <Label Text="ADAS"></Label>
-                                            <Label Text="ADAS"></Label>
-                                            <Label Text="ADAS"></Label>
-                                        </StackLayout>
-
-                                    </StackLayout>
-
-                                    <Image Source="{Binding URL}"
-                                           Aspect="AspectFill"
-                                           HeightRequest="200"
-                                           ></Image>
-                                </StackLayout>
-                            </Frame>
-                  </DataTemplate>
-               </CollectionView.ItemTemplate>
-            </CollectionView>
-           </RefreshView>
-            <BoxView AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,1,1,0.1" BackgroundColor="#1A1B26" >
-
-            </BoxView>
-        </AbsoluteLayout>
+        <StackLayout>
+            <Label Text="Developer Flags" FontSize="Large"/>
+            <Label Text="SERVER IP Overwrite:" />
+            <Entry x:Name="DataPlaceholder" Placeholder="" />
+            <Label Text="Db1Entery Overwrite:" />
+            <Entry x:Name="RollingCodeSecret" Placeholder="" />
+            <Button Clicked="StartApp" Text="Start app with flags"/>
+            <Button Clicked="Crash" Text="Crash"/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
