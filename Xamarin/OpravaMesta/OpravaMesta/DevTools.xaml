@@ -10,6 +10,8 @@
             <Label Text="Db1Entery Overwrite:" />
             <Entry x:Name="RollingCodeSecret" Placeholder="" />
             <Button Clicked="StartApp" Text="Start app with flags"/>
+            <Button Clicked="OTPChange" Text="Pernamently overwrite DB1Entery"/>
+            <Button Clicked="GetCodeButton" Text="Show TOTP Code array"/>
             <Button Clicked="Crash" Text="Crash"/>
         </StackLayout>
     </ContentPage.Content>

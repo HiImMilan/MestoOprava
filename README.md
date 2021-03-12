@@ -38,10 +38,9 @@
 
 ## Changelog
 ```
-Lastest Commit : 7.3.2020 22:30
+Lastest Commit : 12.3.2020 22:30
++ Data Store
 + Developer Flags
-+ New Secret Menu
-+ UI Change
-- Cleanup of some files
-
++ OAUTH Check
+- Cleanup
 ```

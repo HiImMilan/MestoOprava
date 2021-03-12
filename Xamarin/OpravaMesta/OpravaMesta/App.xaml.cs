@@ -9,8 +9,9 @@ namespace OpravaMesta
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            if ((string)Application.Current.Properties["OTPStore"] == "" || (string)Application.Current.Properties["OTPStore"] == null)
+             MainPage = new MainPage();
+            else  MainPage = new ProblemsMainPage();
         }
 
         protected override void OnStart()

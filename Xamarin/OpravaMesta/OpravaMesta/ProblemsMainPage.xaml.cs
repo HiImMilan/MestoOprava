@@ -25,7 +25,6 @@ namespace OpravaMesta
             InitializeComponent();
             Start();
             Data data = new Data();
-            data.Creator = "gay";
 
             Collection.ItemsSource = model.Datas;
             ICommand refreshCommand = new Command(() =>
