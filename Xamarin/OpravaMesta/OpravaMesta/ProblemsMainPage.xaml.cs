@@ -2,11 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using OpravaMesta.Utils;
@@ -129,16 +131,27 @@ namespace OpravaMesta
                 imageArray = memoryStream.ToArray();
             }
             //Convert.ToBase64String(imageArray)
-            HttpClient client = new HttpClient();
-            var values = new Dictionary<string, string>
+            var url = "http://192.168.0.105/MestoOprava/Server/test.php";
+            var httpWebRequest = (HttpWebRequest)WebRequest.Create(url);
+            httpWebRequest.ContentType = "application/json";
+            httpWebRequest.Method = "POST";
+
+            
+            string imageBase64 = Regex.Replace(Convert.ToBase64String(imageArray), "\n", "");
+            PostTemplate postTemplate = new PostTemplate("Milos",imageBase64,"Sample Text","Lorem ipsum",14.5,20.5);
+
+            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
             {
-                { "accountidentifier", "Data you want to send at account field" },
-                { "type", "Data you want to send at type field"},
-                { "seriesid", "The data you went to send at seriesid field"
-                }
-            };
-            var content = new FormUrlEncodedContent(values);
-            await client.PostAsync("http://192.168.0.105/MestoOprava/Server/test.php", content);
+                string json = JsonConvert.SerializeObject(postTemplate);
+                streamWriter.Write(json);
+            }
+
+            var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+            using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+            {
+                var result = streamReader.ReadToEnd();
+            }
+
         }
     }
 }

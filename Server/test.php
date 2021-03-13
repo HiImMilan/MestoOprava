@@ -1,5 +1,6 @@
 <?php
 $file = "file.txt";
-file_put_contents($file, print_r($_POST));
+$test = file_get_contents('php://input');
+file_put_contents($file, $test);
 
 ?>
