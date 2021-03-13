@@ -7,21 +7,23 @@ namespace OpravaMesta.Utils
 {
     class PostTemplate
     {
-        public string Name { get; set; }
+        public string UUID { get; set; }
         public string ImageBase64 { get; set; }
         public string PostTitle { get; set; }
         public string PostDescription { get; set; }
-        public double PostLongitude { get; set; }
-        public double PostLatitude { get; set; }
+        public string PostLongitude { get; set; }
+        public string PostLatitude { get; set; }
+        public string OTPToken{ get; set; }
 
-        public PostTemplate(string name, string imageBase64, string postTitle, string postDescription, double postLongitude, double postLatitude)
+        public PostTemplate(string uuid, string imageBase64, string postTitle, string postDescription, string postLatitude, string postLongitude, string otptoken)
         {
-            Name = name;
+            UUID = uuid;
             ImageBase64 = imageBase64;
             PostTitle = postTitle;
             PostDescription = postDescription;
             PostLongitude = postLongitude;
             PostLatitude = postLatitude;
+            OTPToken = otptoken;
         }
 
         
