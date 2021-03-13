@@ -43,5 +43,4 @@ Lastest Commit : 12.3.2020 22:30
 + Developer Flags
 + OAUTH Check
 - Cleanup
-- Miloš
 ```
