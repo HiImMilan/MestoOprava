@@ -9,7 +9,7 @@ namespace OpravaMesta
         public App()
         {
             InitializeComponent();
-            if ((string)Application.Current.Properties["OTPStore"] == "" || (string)Application.Current.Properties["OTPStore"] == null)
+            if (Application.Current.Properties.ContainsKey("OTPStore"))
              MainPage = new MainPage();
             else  MainPage = new ProblemsMainPage();
         }

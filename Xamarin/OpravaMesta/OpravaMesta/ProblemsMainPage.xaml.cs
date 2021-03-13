@@ -5,11 +5,14 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using OpravaMesta.Utils;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+using Xamarin.Forms.Markup;
 using Xamarin.Forms.Xaml;
 
 namespace OpravaMesta
@@ -53,7 +56,8 @@ namespace OpravaMesta
                 string latitude = "&lat="+GPS.Latitude.Replace(",", ".");
                 string longidute = "&longy=" + GPS.Longitude.Replace(",", ".");
                 string arguments = latitude + longidute;
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create($"http://{InternetConnectivityCheck.ServerIP}/Server/GetData.php?{arguments}");
+                Console.WriteLine($"http://{InternetConnectivityCheck.ServerIP}/MestoOprava/Server/GetData.php?{arguments}");
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create($"http://{InternetConnectivityCheck.ServerIP}/MestoOprava/Server/GetData.php?{arguments}");
                 request.Timeout = 5000;
                 request.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
                 using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
@@ -115,5 +119,26 @@ namespace OpravaMesta
             return value.ToString("yyyyMMddHHmmssffff");
         }
 
+        private async void Add_Post(object sender, EventArgs e)
+        {
+            var imageStream = await HelperMethods.CameraTakePhoto();
+            byte[] imageArray = new byte[0];
+            using (MemoryStream memoryStream = new MemoryStream())
+            {
+                imageStream.CopyTo(memoryStream);
+                imageArray = memoryStream.ToArray();
+            }
+            //Convert.ToBase64String(imageArray)
+            HttpClient client = new HttpClient();
+            var values = new Dictionary<string, string>
+            {
+                { "accountidentifier", "Data you want to send at account field" },
+                { "type", "Data you want to send at type field"},
+                { "seriesid", "The data you went to send at seriesid field"
+                }
+            };
+            var content = new FormUrlEncodedContent(values);
+            await client.PostAsync("http://192.168.0.105/MestoOprava/Server/test.php", content);
+        }
     }
 }
