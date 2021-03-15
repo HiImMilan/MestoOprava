@@ -20,8 +20,8 @@
                                         </Frame>
                                         <StackLayout>
                                             <Label FontSize="Medium" Text="{Binding Creator}"></Label>
-                                            <Label Text="ADAS"></Label>
-                                            <Label Text="ADAS"></Label>
+                                                <Label Text="{Binding Name}"></Label>
+                                                <Label Text="{Binding Description}"></Label>
                                         </StackLayout>
 
                                     </StackLayout>
