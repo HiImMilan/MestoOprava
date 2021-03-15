@@ -33,6 +33,15 @@ namespace OpravaMesta
             Start();
             Data data = new Data();
 
+            if (Application.Current.RequestedTheme == OSAppTheme.Dark)
+            {
+                bg.BackgroundColor = Color.FromHex("#18192B");
+            }
+            else
+            {
+
+            }
+
             Collection.ItemsSource = model.Datas;
             ICommand refreshCommand = new Command(() =>
             {
