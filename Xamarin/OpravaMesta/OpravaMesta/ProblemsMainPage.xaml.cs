@@ -46,13 +46,12 @@ namespace OpravaMesta
             refresh.IsRefreshing = true;
             TimeSpan timespan = DateTime.Now - GPSTimeout;
             
-            if (GPS.Latitude == "null" || GPS.Longitude == "null" || timespan.TotalSeconds > 10) // Opraviť
+            if (GPS.Latitude == "null" || GPS.Longitude == "null" || timespan.TotalSeconds > 10)
             {
                 await GetGPS();
                 GPSTimeout = DateTime.Now;
             }
 
-            // Optimalizacia
             string dataString = null;
             try
             {
@@ -71,9 +70,9 @@ namespace OpravaMesta
                 }
             } catch (Exception ex)
             {
-                 await DisplayAlert("An error has occured", "Please screenshot this and sent this to Github Issues (Please note that this is usually by your internet connection): " + ex.Message + "\n STACKTRACE: " + ex.StackTrace + "\n" + ex.Source, "Cancel");
-                 
-                 return;
+                 await DisplayAlert("Komunikácia so serverom","Ops, Pri spracovaní vašej požiadavky bola chyba, skúste to znova.", "Ok");
+                refresh.IsRefreshing = false;
+                return;
             }
            // await DisplayAlert("Response:",dataString,"OK"); 
             List<Data> var1 = JsonConvert.DeserializeObject<List<Data>>(dataString);
@@ -100,21 +99,9 @@ namespace OpravaMesta
                     GPS.Latitude = location.Latitude.ToString();
                 }
             }
-            catch (FeatureNotSupportedException fnsEx)
-            {
-               await DisplayAlert("An error has occured", "Please screenshot this and sent this to Github Issues: " + fnsEx.Message + "\n STACKTRACE: " + fnsEx.StackTrace + "\n" + fnsEx.Source, "Cancel");
-            }
-            catch (FeatureNotEnabledException fneEx)
-            {
-                await DisplayAlert("An error has occured", "Please screenshot this and sent this to Github Issues: " + fneEx.Message + "\n STACKTRACE: " + fneEx.StackTrace + "\n" + fneEx.Source, "Cancel");
-            }
-            catch (PermissionException pEx)
-            {
-                await DisplayAlert("An error has occured", "Please screenshot this and sent this to Github Issues: " + pEx.Message + "\n STACKTRACE: " + pEx.StackTrace + "\n" + pEx.Source, "Cancel");
-            }
             catch (Exception ex)
             {
-                await DisplayAlert("An error has occured", "Please screenshot this and sent this to Github Issues: " + ex.Message + "\n STACKTRACE: " + ex.StackTrace + "\n" + ex.Source, "Cancel");
+                await DisplayAlert("Získanie udájov z GPS", "Ops, Nepodarilo sa nam lokalizovať vaše zariadenie, skúste to znova.", "Ok");
             }
         }
         public static String GetTimestamp(DateTime value)
@@ -124,6 +111,9 @@ namespace OpravaMesta
 
         private async void Add_Post(object sender, EventArgs e)
         {
+
+            await Navigation.PushModalAsync(new ProblemDetails());
+            return;
             TimeSpan timespan = DateTime.Now - GPSTimeout;
             if (GPS.Latitude == "null" || GPS.Longitude == "null" || timespan.TotalSeconds > 10) // Opraviť
             {
@@ -138,8 +128,7 @@ namespace OpravaMesta
                 imageStream.CopyTo(memoryStream);
                 imageArray = memoryStream.ToArray();
             }
-            //Convert.ToBase64String(imageArray)
-            var url = "http://192.168.50.34/Server/PushData.php";
+            var url = "http://192.168.0./Server/PushData.php";
             var httpWebRequest = (HttpWebRequest)WebRequest.Create(url);
             httpWebRequest.ContentType = "application/json";
             httpWebRequest.Method = "POST";

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OpravaMesta.ProblemDetails">
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="#18192B">
+            <Image Source="https://picsum.photos/200/300" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,0.4" Aspect="AspectFill">
+            </Image>
+            <StackLayout  x:Name="refresh" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0,0.4">
+                <Entry Placeholder="Sample text"></Entry>
+            </StackLayout>
+            <StackLayout AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,1,1,0.1" BackgroundColor="#1A1B26" Orientation="Horizontal" >
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
