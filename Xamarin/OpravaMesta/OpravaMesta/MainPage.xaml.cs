@@ -22,7 +22,7 @@ namespace OpravaMesta
         public MainPage()
         {
             InitializeComponent();
-            lProfil.Text = "Máte už\nprofil?"; // lebo newline...
+            lProfil.Text = "Máte už profil?"; // lebo newline...
             if (Application.Current.RequestedTheme == OSAppTheme.Dark)
             {
                 bg.BackgroundColor = Color.FromHex("000000");

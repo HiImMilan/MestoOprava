@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ using Xamarin.Forms.Xaml;
 namespace OpravaMesta
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ProfilePage : ContentPage
+    public partial class ProfilePage : INotifyPropertyChanged
     {
         public ProfilePage()
         {
