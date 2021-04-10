@@ -35,82 +35,93 @@ namespace OpravaMesta
 
             if (Application.Current.RequestedTheme == OSAppTheme.Dark)
             {
-                bg.BackgroundColor = Color.FromHex("#18192B");
+                //bg.BackgroundColor = Color.FromHex("#18192B");
             }
-            else
-            {
 
-            }
 
             Collection.ItemsSource = model.Datas;
-            ICommand refreshCommand = new Command(() =>
-            {
-                Start();
-            });
-            refresh.Command = refreshCommand;
+            refresh.Command = new Command(Start);
         }
 
         async void Start()
         {
             refresh.IsRefreshing = true;
             TimeSpan timespan = DateTime.Now - GPSTimeout;
-            
-            if (GPS.Latitude == "null" || GPS.Longitude == "null" || timespan.TotalSeconds > 10)
-            {
-                await GetGPS();
-                GPSTimeout = DateTime.Now;
-            }
+
+            await TryGetGPS();
 
             string dataString = null;
             try
             {
-                string latitude = "&lat="+GPS.Latitude.Replace(",", ".");
-                string longidute = "&longy=" + GPS.Longitude.Replace(",", ".");
-                string arguments = latitude + longidute;
-                Console.WriteLine($"http://{InternetConnectivityCheck.ServerIP}/Server/GetData.php?{arguments}");
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create($"http://{InternetConnectivityCheck.ServerIP}/Server/GetData.php?{arguments}");
-                request.Timeout = 5000;
-                request.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
-                using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-                using (Stream stream = response.GetResponseStream())
-                using (StreamReader reader = new StreamReader(stream))
-                {
-                    dataString = reader.ReadToEnd();
-                }
+                dataString = GetPostString();
             } catch (Exception ex)
             {
-                 await DisplayAlert("Komunikácia so serverom","Ops, Pri spracovaní vašej požiadavky bola chyba, skúste to znova.", "Ok");
+                await DisplayAlert("Komunikácia so serverom","Ops, Pri spracovaní vašej požiadavky bola chyba, skúste to znova.", "Ok");
                 refresh.IsRefreshing = false;
                 return;
             }
-           // await DisplayAlert("Response:",dataString,"OK"); 
+            //Add data to collection
             List<Data> var1 = JsonConvert.DeserializeObject<List<Data>>(dataString);
-            Console.WriteLine("Done");
-            refresh.IsRefreshing = false;
             ObservableCollection<Data> temp = new ObservableCollection<Data>(var1);
             model.Datas.Clear();
              foreach (Data data1 in var1) 
              {
                 model.Datas.Add(data1);
              }
-           
+
+             refresh.IsRefreshing = false;
+
         }
-        async Task GetGPS()
+        private string GetPostString()
+        {
+            var locationArgs = GetFormatedGPS();
+            string url = $"http://{InternetConnectivityCheck.ServerIP}/Server/GetData.php?{locationArgs}";
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+            request.Timeout = 5000;
+            request.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
+            string dataString = "";
+            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            using (StreamReader reader = new StreamReader(response.GetResponseStream()))
+            {
+                dataString = reader.ReadToEnd();
+            }
+
+            return dataString;
+
+        }
+        private string GetFormatedGPS()
         {
 
+            string latitude = "&lat=" + GPS.Latitude.Replace(",", ".");
+            string longidute = "&longy=" + GPS.Longitude.Replace(",", ".");
+            return latitude + longidute;
+        }
+
+        async Task TryGetGPS()
+        {
             try
             {
-                var location = await Geolocation.GetLocationAsync();
-
-                if (location != null)
+                TimeSpan timespan = DateTime.Now - GPSTimeout;
+                if (GPS.Latitude == "null" || GPS.Longitude == "null" || timespan.TotalSeconds > 10)
                 {
-                    GPS.Longitude = location.Longitude.ToString();
-                    GPS.Latitude = location.Latitude.ToString();
+                    await TryGetGPS();
+                    GPSTimeout = DateTime.Now;
                 }
+                
             }
             catch (Exception ex)
             {
                 await DisplayAlert("Získanie udájov z GPS", "Ops, Nepodarilo sa nam lokalizovať vaše zariadenie, skúste to znova.", "Ok");
+            }
+        }
+        async Task GetGPS()
+        {
+
+            var location = await Geolocation.GetLocationAsync();
+            if (location != null)
+            {
+                GPS.Longitude = location.Longitude.ToString();
+                GPS.Latitude = location.Latitude.ToString();
             }
         }
         public static String GetTimestamp(DateTime value)
