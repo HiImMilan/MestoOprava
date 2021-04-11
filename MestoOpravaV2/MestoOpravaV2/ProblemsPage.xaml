@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MestoOpravaV2.ProblemsPage">
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="#18192B">
+            <RefreshView  x:Name="refresh" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,0.9">
+                <CollectionView x:Name="Collection" >
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame CornerRadius="15" Padding="10"  HeightRequest="400"  BackgroundColor="#18192B">
+                                <Frame CornerRadius="15" BackgroundColor="#262843">
+                                    <StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Frame CornerRadius="100">
+                                                <Image Source="https://www.fkbga.com/wp-content/uploads/2018/07/person-icon-6-1024x660.png"
+                                                   WidthRequest="32"
+                                            ></Image>
+                                                <!-- Ikona -->
+                                            </Frame>
+                                            <StackLayout>
+                                                <Label FontSize="Medium" Text="{Binding Creator}"></Label>
+                                                <Label Text="{Binding Name}"></Label>
+                                                <Label Text="{Binding Description}"></Label>
+                                            </StackLayout>
+
+                                        </StackLayout>
+                                        <Frame CornerRadius="15" Padding="0" HeightRequest="300">
+                                            <Image Source="{Binding URL}"
+                                                   Aspect="AspectFill"
+                                           
+                                            ></Image>
+                                        </Frame>
+                                    </StackLayout>
+                                </Frame>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </RefreshView>
+            <StackLayout AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,1,1,0.1" BackgroundColor="#1A1B26" Orientation="Horizontal" >
+                <Button Text="+"></Button>
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

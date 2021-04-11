@@ -10,7 +10,7 @@ namespace MestoOpravaV2
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new IntroPage();
         }
 
         protected override void OnStart()

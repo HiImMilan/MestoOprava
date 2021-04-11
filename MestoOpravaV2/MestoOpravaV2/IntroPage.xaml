@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MestoOpravaV2.IntroPage">
+
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#121212" Padding="20,20">
+            <Grid BackgroundColor="#121212" Padding="0,20">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+
+                </Grid.RowDefinitions>
+
+                <Image Grid.Row="0" Source="https://st2.depositphotos.com/1874273/7223/v/600/depositphotos_72237437-stock-illustration-sign-of-letters-c-and.jpg" WidthRequest="400"></Image>
+                <StackLayout Grid.Row="1">
+                    <Label Text="App Name" HorizontalOptions="Center" TextColor="#fff"></Label>
+                    <Label Text="Vitaj..." FontSize="Large" FontAttributes="Bold" TextColor="#fff" HorizontalOptions="Center"></Label>
+                    <Label Text="Lorem ipsum sadasdasda" HorizontalOptions="Center" TextColor="#fff"></Label>
+
+                </StackLayout>
+
+                <StackLayout Grid.Row="2" VerticalOptions="EndAndExpand" Margin="50,0,50,100" Padding="20,0" Spacing="20">
+                    <Button Text="Zaregistrovať sa" CornerRadius="100" BackgroundColor="#BB86FC" TextColor="#fff"></Button>
+                    <Button Text="Prihlásiť sa" CornerRadius="100" BackgroundColor="#BB86FC" TextColor="#fff" HorizontalOptions="Center" WidthRequest="200"></Button>
+                </StackLayout>
+                
+
+            </Grid>
+            <Label Grid.Row="2" Text="Zabudli ste heslo?" TextColor="#fff"></Label>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
+    
+    
+    
