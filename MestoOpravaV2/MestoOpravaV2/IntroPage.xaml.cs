@@ -16,5 +16,10 @@ namespace MestoOpravaV2
         {
             InitializeComponent();
         }
+
+        public async void Login(object o, EventArgs eventArgs)
+        {
+            await Navigation.PushModalAsync(new ProblemsPage(), true);
+        }
     }
 }

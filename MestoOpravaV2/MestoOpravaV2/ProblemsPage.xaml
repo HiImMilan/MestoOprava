@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MestoOpravaV2.ProblemsPage">
     <ContentPage.Content>
-        <AbsoluteLayout BackgroundColor="#18192B">
+        <AbsoluteLayout BackgroundColor="#121212">
+            <Label x:Name="score" Text="okey"></Label>
             <RefreshView  x:Name="refresh" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,0.9">
                 <CollectionView x:Name="Collection" >
                     <CollectionView.ItemTemplate>
@@ -38,8 +39,8 @@
                     </CollectionView.ItemTemplate>
                 </CollectionView>
             </RefreshView>
-            <StackLayout AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,1,1,0.1" BackgroundColor="#1A1B26" Orientation="Horizontal" >
-                <Button Text="+"></Button>
+            <StackLayout AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,1,1,0.1" BackgroundColor="#1f1f1f" Orientation="Horizontal" >
+                <Button Text="+" Clicked="AddPost"></Button>
             </StackLayout>
         </AbsoluteLayout>
     </ContentPage.Content>

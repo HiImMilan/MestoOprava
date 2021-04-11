@@ -38,6 +38,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Utils\" />
+    <Folder Include="JsonTempates\" />
   </ItemGroup>
 </Project>
