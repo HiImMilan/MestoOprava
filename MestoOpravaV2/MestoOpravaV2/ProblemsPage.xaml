@@ -5,10 +5,8 @@
              x:Class="MestoOpravaV2.ProblemsPage">
     <ContentPage.Content>
            <StackLayout>
-        <Label Text="Discover" TextColor="Black" FontSize="24" FontAttributes="Bold" Margin="15"/>
-
-
-
+        <Label Text="Problémy v blízkosti: Žilina" TextColor="Black" FontSize="20" FontAttributes="Bold" Margin="15"/>
+        
         <CarouselView ItemsSource="{Binding places}" HeightRequest="300" PeekAreaInsets="110">
             
             <CarouselView.ItemTemplate>
@@ -84,7 +82,9 @@
             </StackLayout>
         </StackLayout>
 
-
+        <StackLayout Orientation="Horizontal">
+            <Label Text="&#xf067;" FontFamily="{ StaticResource FontAwesomeSolid }"/>
+        </StackLayout>
     </StackLayout>
 
     </ContentPage.Content>
