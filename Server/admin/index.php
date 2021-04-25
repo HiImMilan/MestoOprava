@@ -1,3 +1,29 @@
+<?php
+
+
+$db = mysqli_connect("localhost", "root", "", "city"); // DB beží na localhoste len!!!!!
+$sql = "SELECT * FROM `problems`";
+$noInfo = $db->query($sql);
+$number = 0;
+while($row = mysqli_fetch_array($noInfo))
+{
+    $number = $number + 1;
+}
+
+
+$usersql = "SELECT * FROM `users`";
+$usInfo = $db->query($usersql);
+$usernumber = 0;
+while($row = mysqli_fetch_array($noInfo))
+{
+    $usernumber = $usernumber + 1;
+}
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +35,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>CityApka Admin</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -70,21 +96,7 @@
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                     </button>
-
-                    <!-- Topbar Search -->
-                    <form
-                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                        <div class="input-group">
-                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
-                                aria-label="Search" aria-describedby="basic-addon2">
-                            <div class="input-group-append">
-                                <button class="btn btn-primary" type="button">
-                                    <i class="fas fa-search fa-sm"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-
+                    
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
 
@@ -150,7 +162,7 @@
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                                 Počet údajov v tebulke</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">4</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo($number); ?></div>
                                         </div>
                                     </div>
                                 </div>
@@ -164,8 +176,8 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                Počet Registrovaných použivateľoc</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">2</div>
+                                                Počet Registrovaných použivateľov</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo($usernumber); ?></div>
                                         </div>
                                     </div>
                                 </div>
@@ -299,15 +311,32 @@
     <script src="js/demo/chart-area-demo.js"></script>
     <script src="js/demo/chart-pie-demo.js"></script>
     <script>
-       var map = L.map('mapid').setView([51.505, -0.09], 13);
+       var map = L.map('mapid').setView([49,22343, 18.739591], 13);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors and Admins of CityApka'
 }).addTo(map);
+<?php
 
-L.marker([51.5, -0.09]).addTo(map)
-    .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+
+$sql = "SELECT * FROM `problems`";
+$userInfo = $db->query($sql);
+
+while($row = mysqli_fetch_array($userInfo))
+{
+    $lat = $row['post_latitude'];
+    $long = $row['post_longitude'];
+    $title = $row['post_title'];
+  echo("
+    L.marker([$lat, $long]).addTo(map)
+    .bindPopup('$title')
     .openPopup();
+  ");
+
+}
+
+$db->close(); // Uzavre pripojenie
+?>
         </script>
 </body>
 
