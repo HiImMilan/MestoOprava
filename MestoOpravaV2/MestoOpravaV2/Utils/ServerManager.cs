@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Text;
-using MestoOpravaV2.JsonTempates;
 using Newtonsoft.Json;
 
 namespace MestoOpravaV2.Utils
@@ -16,7 +15,7 @@ namespace MestoOpravaV2.Utils
             this.Ip = ip;
         }
 
-        private HttpWebRequest SendResponse<T>(string url,T jsonTemplate)
+        private HttpWebRequest SendResponse(string url,Dictionary<string,string> data)
         {
             string targetUrl = $"{Ip}/{url}";
             var httpWebRequest = (HttpWebRequest)WebRequest.Create(targetUrl);
@@ -25,7 +24,7 @@ namespace MestoOpravaV2.Utils
 
             using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
             {
-                string json = JsonConvert.SerializeObject(jsonTemplate);
+                string json = JsonConvert.SerializeObject(data);
                 streamWriter.Write(json);
             }
 
@@ -49,9 +48,17 @@ namespace MestoOpravaV2.Utils
         }
         public string Add_Post()
         {
-            HttpWebRequest httpWebRequest = SendResponse("GetPostData.php/", new LocationArgsTemplate("50","60"));
+            Dictionary<string, string> data = new Dictionary<string, string>()
+            {
+                {"lat","50" },
+                {"longy","60" }
+            };
+            HttpWebRequest httpWebRequest = SendResponse("GetPostData.php/", data);
             string temp = "";
-            GetResponseTemplate<List<PostDataTemplate>>(httpWebRequest).ForEach(p=> temp += p.postTitle);
+            GetResponseTemplate<List<Dictionary<string,string>>>(httpWebRequest).ForEach(element =>
+            {
+
+            });
             
             return temp;
         }

@@ -6,7 +6,7 @@ namespace MestoOpravaV2
 {
     class InternetConnectivityCheck
     {
-        public static string ServerIP = "192.168.50.34/Server/";
+        public static string ServerIP = "158.255.29.10/Server/";
         private Ping pingSender;
         public InternetConnectivityCheck(Action<PingCompletedEventArgs> action, int timeout = 12000)
         {

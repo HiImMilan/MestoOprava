@@ -5,9 +5,15 @@
              x:Class="MestoOpravaV2.ProblemsPage">
     <ContentPage.Content>
            <StackLayout>
-        <Label Text="Problémy v blízkosti: Žilina" TextColor="Black" FontSize="20" FontAttributes="Bold" Margin="15"/>
-        
-        <CarouselView ItemsSource="{Binding places}" HeightRequest="300" PeekAreaInsets="110">
+
+            <StackLayout Orientation="Horizontal" Margin="20,10,20,0" HorizontalOptions="End">
+                <Frame CornerRadius="50" WidthRequest="50" Padding="0">
+                    <Image Source="https://www.thiswaifudoesnotexist.net/example-14945.jpg" />
+                </Frame>
+            </StackLayout>
+            <Label Text="Problémy v blízkosti: Žilina" TextColor="Black" FontSize="22" FontAttributes="Bold" Margin="10,0" />
+
+            <CarouselView ItemsSource="{Binding places}" HeightRequest="300" PeekAreaInsets="110">
             
             <CarouselView.ItemTemplate>
                 <DataTemplate>
@@ -82,9 +88,12 @@
             </StackLayout>
         </StackLayout>
 
-        <StackLayout Orientation="Horizontal">
-            <Label Text="&#xf067;" FontFamily="{ StaticResource FontAwesomeSolid }"/>
-        </StackLayout>
+        <StackLayout Orientation="Horizontal" Padding="0,10">
+                <Button Text="&#xf015;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
+                <Button Text="&#xf067;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
+                <Button Text="&#xf002;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
+                <Button Text="&#xf013;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
+            </StackLayout>
     </StackLayout>
 
     </ContentPage.Content>
