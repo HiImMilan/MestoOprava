@@ -1,11 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MestoOpravaV2.ProblemsPage">
-    
-    <StackLayout>
-          <Label Text="Discover" TextColor="Black" FontSize="24" FontAttributes="Bold" Margin="15"/>
-          <CarouselView ItemsSource="{Binding places}" HeightRequest="300" PeekAreaInsets="110">
+    <ContentPage.Content>
+           <StackLayout>
+        <Label Text="Discover" TextColor="Black" FontSize="24" FontAttributes="Bold" Margin="15"/>
+
+
+
+        <CarouselView ItemsSource="{Binding places}" HeightRequest="300" PeekAreaInsets="110">
             
             <CarouselView.ItemTemplate>
                 <DataTemplate>
@@ -79,5 +83,9 @@
 
             </StackLayout>
         </StackLayout>
+
+
     </StackLayout>
+
+    </ContentPage.Content>
 </ContentPage>
