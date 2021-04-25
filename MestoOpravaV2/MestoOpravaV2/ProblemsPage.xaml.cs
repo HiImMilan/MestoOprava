@@ -13,6 +13,7 @@ namespace MestoOpravaV2
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProblemsPage : ContentPage
     {
+        /*
         public GPSManager gpsManager = new GPSManager();
         private ServerManager serverManager;
         public ProblemsPage()
@@ -36,6 +37,6 @@ namespace MestoOpravaV2
             {
                 await DisplayAlert("Chyba", e.Message, "ok");
             }
-        }
+        }*/
     }
 }
