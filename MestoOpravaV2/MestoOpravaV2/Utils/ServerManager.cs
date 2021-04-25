@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Text;
+using MestoOpravaV2.JsonTempates;
 using Newtonsoft.Json;
 
 namespace MestoOpravaV2.Utils
@@ -42,15 +43,17 @@ namespace MestoOpravaV2.Utils
 
             return result;
         }
-        private T GetResponseTemplate<T>(HttpWebRequest httpWebRequest,T jsonTemplate)
+        private T GetResponseTemplate<T>(HttpWebRequest httpWebRequest)
         {
             return JsonConvert.DeserializeObject<T>(GetResponseString(httpWebRequest));
         }
         public string Add_Post()
         {
-            HttpWebRequest httpWebRequest = SendResponse("ping.php", new OTPManager());
-
-            return GetResponseString(httpWebRequest);
+            HttpWebRequest httpWebRequest = SendResponse("GetPostData.php/", new LocationArgsTemplate("50","60"));
+            string temp = "";
+            GetResponseTemplate<List<PostDataTemplate>>(httpWebRequest).ForEach(p=> temp += p.postTitle);
+            
+            return temp;
         }
 
     }

@@ -14,9 +14,11 @@ namespace MestoOpravaV2
     public partial class ProblemsPage : ContentPage
     {
         public GPSManager gpsManager = new GPSManager();
+        private ServerManager serverManager;
         public ProblemsPage()
         {
             InitializeComponent();
+            serverManager = new ServerManager("http://192.168.0.106/MestoOpravaV2/Server/");
         }
 
         protected override void OnAppearing()
@@ -25,7 +27,7 @@ namespace MestoOpravaV2
         }
         public async void AddPost(object o, EventArgs args)
         {
-            ServerManager serverManager = new ServerManager("http://192.168.0.106/MestoOpravaV2/Server/ping.php");
+            await CameraManager.CameraTakePhoto();
             try
             {
                 score.Text = serverManager.Add_Post();
