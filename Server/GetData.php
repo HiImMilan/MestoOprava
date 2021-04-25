@@ -1,6 +1,6 @@
 <?php 
-$lat = $_GET["lat"]; 
-$longitude = $_GET["longy"];
+$lat = $_POST["lat"];
+$longitude = $_POST["longy"];
 $db = mysqli_connect("localhost", "root", "", "city"); // DB beží na localhoste len!!!!!
 $sql = "SELECT * FROM problems ORDER BY ((post_latitude-$lat)*(post_latitude-$lat)) + ((post_longitude - $longitude)*(post_longitude - $longitude)) ASC LIMIT 10"; 
 
