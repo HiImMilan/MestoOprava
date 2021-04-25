@@ -10,7 +10,6 @@ while($row = mysqli_fetch_array($noInfo))
     $number = $number + 1;
 }
 
-
 $usersql = "SELECT * FROM `users`";
 $usInfo = $db->query($usersql);
 $usernumber = 0;
