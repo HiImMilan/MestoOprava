@@ -2,7 +2,12 @@
 
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MestoOpravaV2"
              x:Class="MestoOpravaV2.ProblemsPage">
+            
+    <ContentPage.BindingContext>
+        <local:MainDataMVM/>
+    </ContentPage.BindingContext>
     <ContentPage.Content>
            <StackLayout>
 
@@ -26,7 +31,7 @@
                            HorizontalOptions="CenterAndExpand">
                         <Grid>
                             <StackLayout  BackgroundColor="Black">
-                                <Image Source="{Binding imgSource}" 
+                                <Image Source="{Binding url}" 
                                     HeightRequest="350" Opacity="0.6"
                                     Aspect="AspectFill"/>
                             </StackLayout>
@@ -35,7 +40,7 @@
                                 <Image Source="https://images.vexels.com/media/users/3/147081/isolated/preview/8665e39f2880934120b3c37131210042-instagram-bookmark-icon-by-vexels.png" 
                                HeightRequest="50"
                                Aspect="AspectFit" HorizontalOptions="EndAndExpand" Margin="10,0"/>
-                                <Label Text="{Binding title}" TextColor="White" FontSize="18"
+                                <Label Text="{Binding postTitle}" TextColor="White" FontSize="18"
                            FontAttributes="None" Margin="15,0"
                            VerticalOptions="EndAndExpand"/>
 
@@ -43,7 +48,7 @@
                                     <Image Source="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" 
                                HeightRequest="20"  Margin="-5,0"
                                Aspect="AspectFit"/>
-                                    <Label Text="{Binding country}" TextColor="White" FontSize="14"
+                                    <Label Text="{Binding description}" TextColor="White" FontSize="14"
                            FontAttributes="None" 
                            VerticalOptions="EndAndExpand"/>
                                 </StackLayout>

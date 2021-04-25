@@ -7,8 +7,21 @@ using Newtonsoft.Json;
 
 namespace MestoOpravaV2.Utils
 {
-    class ServerManager
+    public class ServerManager
     {
+        private static ServerManager _serverManager;
+        public static ServerManager serverManager
+        {
+            get
+            {
+                if (_serverManager == null)
+                {
+                    _serverManager = new ServerManager("http://192.168.0.106/MestoOpravaV2/Server/GetData.php");
+                }
+                return _serverManager;
+            }
+        }
+
         private string Ip;
         public ServerManager(string ip)
         {
@@ -46,21 +59,17 @@ namespace MestoOpravaV2.Utils
         {
             return JsonConvert.DeserializeObject<T>(GetResponseString(httpWebRequest));
         }
-        public string Add_Post()
+
+        public List<Post> GetPostData()
         {
             Dictionary<string, string> data = new Dictionary<string, string>()
             {
                 {"lat","50" },
                 {"longy","60" }
             };
-            HttpWebRequest httpWebRequest = SendResponse("GetPostData.php/", data);
-            string temp = "";
-            GetResponseTemplate<List<Dictionary<string,string>>>(httpWebRequest).ForEach(element =>
-            {
-
-            });
+            HttpWebRequest httpWebRequest = SendResponse("GetData.php", data);
+            return GetResponseTemplate<List<Post>>(httpWebRequest);
             
-            return temp;
         }
 
     }
