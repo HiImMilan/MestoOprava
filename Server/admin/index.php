@@ -1,10 +1,9 @@
 <?php
-
-
 $db = mysqli_connect("localhost", "root", "", "city"); // DB beží na localhoste len!!!!!
 $sql = "SELECT * FROM `problems`";
 $noInfo = $db->query($sql);
 $number = 0;
+
 while($row = mysqli_fetch_array($noInfo))
 {
     $number = $number + 1;
