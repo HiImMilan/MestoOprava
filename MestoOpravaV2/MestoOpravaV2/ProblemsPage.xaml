@@ -35,12 +35,8 @@
                                     HeightRequest="350" Opacity="0.6"
                                     Aspect="AspectFill"/>
                             </StackLayout>
-                            <StackLayout Margin="0,0,0,10">
-
-                                <Image Source="https://images.vexels.com/media/users/3/147081/isolated/preview/8665e39f2880934120b3c37131210042-instagram-bookmark-icon-by-vexels.png" 
-                               HeightRequest="50"
-                               Aspect="AspectFit" HorizontalOptions="EndAndExpand" Margin="10,0"/>
-                                <Label Text="{Binding postTitle}" TextColor="White" FontSize="18"
+                                    <StackLayout Margin="0,0,0,10">
+                                        <Label Text="{Binding postTitle}" TextColor="White" FontSize="18"
                            FontAttributes="None" Margin="15,0"
                            VerticalOptions="EndAndExpand"/>
 

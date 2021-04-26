@@ -16,7 +16,8 @@ namespace MestoOpravaV2.Utils
             {
                 if (_serverManager == null)
                 {
-                    _serverManager = new ServerManager("http://192.168.0.106/MestoOpravaV2/Server/GetData.php");
+                    //http://158.255.29.10/Server
+                    _serverManager = new ServerManager("http://192.168.0.106/MestoOpravaV2/Server");
                 }
                 return _serverManager;
             }
@@ -35,6 +36,7 @@ namespace MestoOpravaV2.Utils
             httpWebRequest.ContentType = "application/json";
             httpWebRequest.Method = "POST";
 
+
             using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
             {
                 string json = JsonConvert.SerializeObject(data);
@@ -48,11 +50,12 @@ namespace MestoOpravaV2.Utils
         {
             var result = "";
             var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+            
             using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
             {
                 result = streamReader.ReadToEnd();
             }
-
+            Console.WriteLine(result); 
             return result;
         }
         private T GetResponseTemplate<T>(HttpWebRequest httpWebRequest)
@@ -69,7 +72,7 @@ namespace MestoOpravaV2.Utils
             };
             HttpWebRequest httpWebRequest = SendResponse("GetData.php", data);
             return GetResponseTemplate<List<Post>>(httpWebRequest);
-            
+
         }
 
     }
