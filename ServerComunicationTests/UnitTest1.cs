@@ -7,12 +7,6 @@ namespace ServerComunicationTests
 {
     public class UnitTest1
     {
-        [Fact]
-        public async void Should_Cache_GPS_Cordinates()
-        {
-            
-            
-
-        }
+        
     }
 }

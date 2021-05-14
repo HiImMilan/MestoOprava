@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8793f4eb-27d3-472a-986f-0e18b1634c9f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../MestoOpravaV2/MestoOpravaV2.Android/MainActivity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MestoOpravaV2/MestoOpravaV2.Android/MainActivity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MestoOpravaV2/MestoOpravaV2/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MestoOpravaV2/MestoOpravaV2/App.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MestoOpravaV2/MestoOpravaV2/MestoOpravaV2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../MestoOpravaV2/MestoOpravaV2/MestoOpravaV2.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MestoOpravaV2/MestoOpravaV2/Post.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MestoOpravaV2/MestoOpravaV2/Post.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MestoOpravaV2/MestoOpravaV2/ProblemsPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/../MestoOpravaV2/MestoOpravaV2/ProblemsPage.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GetData.php" beforeDir="false" afterPath="$PROJECT_DIR$/GetData.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerComunicationTests/ServerComunicationTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerComunicationTests/ServerComunicationTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerComunicationTests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerComunicationTests/UnitTest1.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -53,6 +59,8 @@
       <option name="presentableId" value="Default" />
       <updated>1619377204756</updated>
       <workItem from="1619377206756" duration="5914000" />
+      <workItem from="1620935179846" duration="117000" />
+      <workItem from="1620935298269" duration="812000" />
     </task>
     <servers />
   </component>

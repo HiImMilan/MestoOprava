@@ -16,9 +16,9 @@
                     <Image Source="https://www.thiswaifudoesnotexist.net/example-14945.jpg" />
                 </Frame>
             </StackLayout>
-            <Label Text="Problémy v blízkosti: Žilina" TextColor="Black" FontSize="22" FontAttributes="Bold" Margin="10,0" />
+            <Label Text="Problémy v blízkosti: Žiliny" TextColor="Black" FontSize="22" FontAttributes="Bold" Margin="10,0" />
 
-            <CarouselView ItemsSource="{Binding places}" HeightRequest="300" PeekAreaInsets="110">
+            <CarouselView ItemsSource="{Binding places}" HeightRequest="300" PeekAreaInsets="100">
             
             <CarouselView.ItemTemplate>
                 <DataTemplate>
@@ -31,12 +31,12 @@
                            HorizontalOptions="CenterAndExpand">
                         <Grid>
                             <StackLayout  BackgroundColor="Black">
-                                <Image Source="{Binding url}" 
+                                        <Image Source="{Binding URL}" WidthRequest="280" 
                                     HeightRequest="350" Opacity="0.6"
                                     Aspect="AspectFill"/>
                             </StackLayout>
                                     <StackLayout Margin="0,0,0,10">
-                                        <Label Text="{Binding postTitle}" TextColor="White" FontSize="18"
+                                        <Label Text="{Binding name}" TextColor="White" FontSize="18"
                            FontAttributes="None" Margin="15,0"
                            VerticalOptions="EndAndExpand"/>
 
@@ -44,7 +44,7 @@
                                     <Image Source="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" 
                                HeightRequest="20"  Margin="-5,0"
                                Aspect="AspectFit"/>
-                                    <Label Text="{Binding description}" TextColor="White" FontSize="14"
+                                            <Label Text="{Binding description}" TextColor="White" FontSize="14"
                            FontAttributes="None" 
                            VerticalOptions="EndAndExpand"/>
                                 </StackLayout>
@@ -62,31 +62,17 @@
 
 
         <StackLayout Orientation="Horizontal">
-            <Label Text="Feeling adventurous?" TextColor="Black" FontSize="24" FontAttributes="Bold" Margin="15"/>
+            <Label Text="Populárne problémy" TextColor="Black" FontSize="24" FontAttributes="Bold" Margin="15"/>
             <Label HorizontalOptions="EndAndExpand" Text="Show all" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="15"/>
         </StackLayout>
 
         <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
             <StackLayout Margin="5" WidthRequest="100">
-                <ImageButton  HorizontalOptions="Center"  Source="https://www.clipartmax.com/png/middle/194-1949066_canoe-free-icon-kayak-icon.png" HeightRequest="50" />
-                <Label HorizontalOptions="Center" Text="Kayak" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="10"/>
+                    <ImageButton  HorizontalOptions="Center"  Source="https://biponefix.s3.eu-central-1.amazonaws.com/uploads/ktjbrdwx9b/work+in+progress.png" HeightRequest="50" />
+                <Label HorizontalOptions="Center" Text="Vážne" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="10"/>
 
             </StackLayout>
-            <StackLayout  Margin="5" WidthRequest="100">
-                <ImageButton  HorizontalOptions="Center"  Source="https://www.clipartmax.com/png/middle/194-1949066_canoe-free-icon-kayak-icon.png" HeightRequest="50" />
-                <Label HorizontalOptions="Center" Text="Baloon" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="10"/>
 
-            </StackLayout>
-            <StackLayout  Margin="5" WidthRequest="100">
-                <ImageButton  HorizontalOptions="Center"  Source="https://www.clipartmax.com/png/middle/194-1949066_canoe-free-icon-kayak-icon.png" HeightRequest="50" />
-                <Label HorizontalOptions="Center" Text="Hiking" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="10"/>
-
-            </StackLayout>
-            <StackLayout  Margin="5" WidthRequest="100">
-                <ImageButton  HorizontalOptions="Center"  Source="https://www.clipartmax.com/png/middle/194-1949066_canoe-free-icon-kayak-icon.png" HeightRequest="50" />
-                <Label HorizontalOptions="Center" Text="Running" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="10"/>
-
-            </StackLayout>
         </StackLayout>
 
         <StackLayout Orientation="Horizontal" Padding="0,10">

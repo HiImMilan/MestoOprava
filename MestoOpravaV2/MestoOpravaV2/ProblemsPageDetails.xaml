@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MestoOpravaV2"
+             x:Class="MestoOpravaV2.ProblemsPageDetails">
+    <ContentPage.BindingContext>
+        <local:MainDataMVM/>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        
+        <Grid>
+            <StackLayout VerticalOptions="FillAndExpand">
+                <Grid>
+
+                    <Frame Padding="0" HeightRequest="450" BackgroundColor="Black">
+                        <Image Opacity="0.7" Source="https://upload.wikimedia.org/wikipedia/commons/2/2b/Budat%C3%ADn_hrad_-_by_Pudelek.jpg" Aspect="AspectFill"/>
+                    </Frame>
+                    <StackLayout VerticalOptions="EndAndExpand" Margin="15,15,15,85">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="3*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Text="Budatin" Grid.Column="0" TextColor="White" FontSize="28" FontAttributes="None"/>
+                            <StackLayout Grid.Column="1">
+                                <Label Text="5.0" HorizontalOptions="Center" Grid.Column="0" TextColor="White" FontSize="28" FontAttributes="None"/>
+                            </StackLayout>
+                        </Grid>
+
+                    </StackLayout>
+                </Grid>
+
+                <Grid  VerticalOptions="FillAndExpand" Margin="0,-30,0,0" Padding="0">
+                    <Frame CornerRadius="25">
+
+                        <Grid>
+                            <StackLayout BackgroundColor="White">
+                                <Grid BackgroundColor="White">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+
+
+
+                                    <StackLayout Grid.Column="1" HeightRequest="65" 
+                                                     VerticalOptions="Start" 
+                                                     >
+
+                                        <Grid BackgroundColor="White">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="*"/>
+                                            </Grid.RowDefinitions>
+
+                                            <StackLayout Grid.Column="0" Grid.RowSpan="2" HeightRequest="100" 
+                                                     VerticalOptions="Start" 
+                                                    >
+                                                <Label Text="Nadpis"/>
+                                            </StackLayout>
+
+                                            <StackLayout Grid.Column="1" HeightRequest="100" 
+                                                     VerticalOptions="Start" 
+                                                     >
+
+                                                <Label Text="Vzdialenosť" VerticalOptions="EndAndExpand" TextColor="DarkGray"
+                                                           FontAttributes="Bold"/>
+
+                                            </StackLayout>
+
+                                            <StackLayout Grid.Row="1" Grid.Column="1" HeightRequest="100" 
+                                                     VerticalOptions="Start" 
+                                                     >
+
+
+                                                <Label Text="3 km" VerticalOptions="EndAndExpand" FontSize="21" TextColor="Black"
+                                                           FontAttributes="Bold"/>
+
+                                            </StackLayout>
+
+                                        </Grid>
+
+
+                                    </StackLayout>
+
+
+                                </Grid>
+
+
+                                <StackLayout>
+                                    <Label Text="Sample data" 
+                                                   TextColor="Black" FontSize="16"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </Grid>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+            <StackLayout  HeightRequest="65" VerticalOptions="EndAndExpand">
+
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
