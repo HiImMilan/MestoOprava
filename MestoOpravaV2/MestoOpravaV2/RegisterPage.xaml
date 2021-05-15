@@ -100,8 +100,8 @@
                         
                         <Button Grid.Column="1"
                                 BackgroundColor="#186AFF" TextColor="#ffffff"
-                                Text="Prihlásiť sa"
-                                Clicked="LoginClicked"
+                                Text="Zaregistrovať sa"
+                                Clicked="RegisterClicked"
                                 CornerRadius="50"/>
                     </Grid>
                     
@@ -109,8 +109,8 @@
                     
                     <Button Grid.Row="5"
                             BackgroundColor="#ffffff" TextColor="#186AFF"
-                            Text="Ešte nemáte účet? Zaregistrujte sa!"
-                            Clicked="RegisterClicked"/>
+                            Text="Už máte účet? Prihláste sa!"
+                            Clicked="LoginClicked"/>
 
                 </Grid>
             </pancakeView:PancakeView>
