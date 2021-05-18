@@ -29,12 +29,7 @@
    * Notification settings.
 
 ## API
-|Type|URI|Description|Arguments|Returns|
-|--|--|--|--|--|
-|GET|`/GetData.php`|Gets data from 10km around|`lat` - Latitude, `longy` - longitude|HTTP 2.0 / JSON|
-|GET|`/GetUserData.php`|Gets data about one specific UUID|`UUID` - UUID of user requesting, `ReqUUID` - UUID of user that request data, `AUTH` - OTP Token|HTTP 2.0 / JSON |
-|GET|`/GetUserPosts.php`|Gets all posts about one specific UUID|`UUID` - UUID of user requesting, `ReqUUID` - UUID of user that request data|HTTP 2.0 / JSON|
-|PUT|`/PushData.php`|Sends problem into database|`UUID` - UUID of user, `title` - String of title of problem, `description` - Description of problem - string, `lat` - Latitude of problem, `long` - Longitude of problem, `IMG` - Image in base64 string (may change), `auth` - OTP Auth Token |HTTP 2.0 / JSON|
+Currently Reworking to comply with REST specification
 
 ## Changelog
 ```
