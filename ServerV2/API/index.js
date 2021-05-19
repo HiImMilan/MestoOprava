@@ -35,7 +35,7 @@ app.get('/testObject', (req,res) => {
 
 app.get('/api/v1/getNearest/:latitude/:longitude', (req,res) => {
         const {latitude, longitude} = req.params;
-
+        console.log(`[LOG][getNearest][${req.ip}] lat:${latitude} long:${longitude}`);
        connection.query(`SELECT * FROM problems ORDER BY ((latitude-${latitude})*(latitude-${latitude})) + ((longitude - ${longitude})*(longitude - ${longitude})) ASC LIMIT 10` , function (error, results, fields) {
         if (error){
             res.status(500).send(
