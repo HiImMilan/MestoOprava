@@ -55,23 +55,17 @@
                         <RowDefinition Height="3*"/>
                     </Grid.RowDefinitions>
                     
-                    <Frame Grid.Row="0"
-                           HasShadow="False"
-                           BackgroundColor="#C5DAFF"
-                           CornerRadius="25">
+                    
                         <Entry Placeholder="Email"
                                Keyboard="Email"
-                               x:Name="EntryEmail"/>
-                    </Frame>
+                               x:Name="EntryEmail" Grid.Row="0"/>
                     
-                    <Frame Grid.Row="1"
-                           HasShadow="False"
-                           BackgroundColor="#C5DAFF"
-                           CornerRadius="25">
+                    
+                    
                         <Entry Placeholder="Heslo"
                                IsPassword="True"
-                               x:Name="EntryPassword"/>
-                    </Frame>
+                               x:Name="EntryPassword" Grid.Row="1"/>
+                    
                     
                     <Grid Grid.Row="3">
                         <Grid.ColumnDefinitions>

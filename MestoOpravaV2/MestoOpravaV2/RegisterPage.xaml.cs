@@ -26,28 +26,14 @@ namespace MestoOpravaV2
         }
         async void LoginClicked(object sender, EventArgs e)
         {
-            if (previousPage == "LoginPage")
-                await Navigation.PopModalAsync();
             await Navigation.PushModalAsync(new LoginPage("RegisterPage"));
         }
         
         async void RegisterClicked(object sender, EventArgs e)
         {
-            if (SendData(EntryName.Text, EntryEmail.Text, EntryPassword.Text, EntryPasswordConfirmation.Text));
-                await Navigation.PushModalAsync(new ProblemsPage());
+             await Navigation.PushModalAsync(new ProblemsPage());
         }
 
-        bool SendData(string name, string email, string password, string passwordConfirmation)
-        {
-            if (password != passwordConfirmation)
-            {
-                // sem hodte pop-up, že sa heslá nezhodovali
-                return false;
-            }
-            
-            // sem dajte niečo, čo tie dáta na server pošle
-            
-            return true;
-        }
+        
     }
 }
