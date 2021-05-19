@@ -36,10 +36,114 @@ app.get('/testObject', (req,res) => {
 app.get('/api/v1/getNearest/:latitude/:longitude', (req,res) => {
         const {latitude, longitude} = req.params;
 
-       connection.query(`SELECT * FROM problems ORDER BY ((post_latitude-${latitude})*(post_latitude-${latitude})) + ((post_longitude - ${longitude})*(post_longitude - ${longitude})) ASC LIMIT 10` , function (error, results, fields) {
+       connection.query(`SELECT * FROM problems ORDER BY ((latitude-${latitude})*(latitude-${latitude})) + ((longitude - ${longitude})*(longitude - ${longitude})) ASC LIMIT 10` , function (error, results, fields) {
+        if (error){
+            res.status(500).send(
+                {
+                    error: error
+                }
+            );  
+            throw error;
+        }
         res.status(200).send(
             results
         )})
 
     }
 );
+
+
+app.post('/api/v1/sendData', (req,res) => {
+
+   connection.query(`` , function (error, results, fields) { // DOROBIT ODOSIELANIE DAT!
+    if (error){
+        res.status(500).send(
+            {
+                error: error
+            }
+        );  
+        throw error;
+    }
+    res.status(200).send(
+        results
+    )})
+});
+
+
+app.get('/api/v1/getUserData/:userID', (req,res) => {
+    const {userID} = req.params;
+    connection.query(`` , function (error, results, fields) {  // RETURNE AJ USER POSTY!!!!!
+     if (error){
+         res.status(500).send(
+             {
+                 error: error
+             }
+         );  
+         throw error;
+     }
+     res.status(200).send(
+         results
+     )})
+ });
+
+ app.delete('/api/v1/removePost/:postID', (req,res) => {
+    const {postID} = req.params;
+    connection.query(`` , function (error, results, fields) { 
+     if (error){
+         res.status(500).send(
+             {
+                 error: error
+             }
+         );  
+         throw error;
+     }
+     res.status(200).send(
+         results
+     )})
+ });
+
+ app.post('/api/v1/regiserAccount', (req,res) => {
+    connection.query(`` , function (error, results, fields) { 
+     if (error){
+         res.status(500).send(
+             {
+                 error: error
+             }
+         );  
+         throw error;
+     }
+     res.status(200).send(
+         results
+     )})
+ });
+
+ app.get('/api/v1/loginAccount', (req,res) => {
+    connection.query(`` , function (error, results, fields) { 
+     if (error){
+         res.status(500).send(
+             {
+                 error: error
+             }
+         );  
+         throw error;
+     }
+     res.status(200).send(
+         results
+     )})
+ });
+
+ app.delete('/api/v1/deleteAccount/:userID', (req,res) => {
+    const {userID} = req.params;
+    connection.query(`` , function (error, results, fields) { 
+     if (error){
+         res.status(500).send(
+             {
+                 error: error
+             }
+         );  
+         throw error;
+     }
+     res.status(200).send(
+         results
+     )})
+ });
