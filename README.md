@@ -7,15 +7,11 @@
 * Everyone can report problems.
 
 ## Features
-* Unicate UUID code instead of login system,
-* QR code to access old device account on new device,
 * Collecting IP address for 5 minutes to avoid DDOS attacks,
 * Banning IP adress if necessary,
 * Adding problems,
-* Comment system,
 * Like/dislike system,
 * Reputation system,
-* Dark and light mode (takes system mode),
 * Showing nearest problems for basic users,
 * Showing problems in city for city represenative users,
 * Search by location,
