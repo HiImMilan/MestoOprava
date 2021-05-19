@@ -56,49 +56,25 @@
                         <RowDefinition Height="3*"/>
                     </Grid.RowDefinitions>
                     
-                    <Frame Grid.Row="0"
-                           HasShadow="False"
-                           BackgroundColor="#C5DAFF"
-                           CornerRadius="25">
                         <Entry Placeholder="Meno"
-                               x:Name="EntryName"/>
-                    </Frame>
-                    
-                    <Frame Grid.Row="1"
-                           HasShadow="False"
-                           BackgroundColor="#C5DAFF"
-                           CornerRadius="25">
+                               x:Name="EntryName" Grid.Row="0"/>
+
                         <Entry Placeholder="Email"
                                Keyboard="Email"
-                               x:Name="EntryEmail"/>
-                    </Frame>
-                    
-                    <Frame Grid.Row="2"
-                           HasShadow="False"
-                           BackgroundColor="#C5DAFF"
-                           CornerRadius="25">
+                               x:Name="EntryEmail" Grid.Row="1"/>
+
                         <Entry Placeholder="Heslo" 
                                IsPassword="True"
-                               x:Name="EntryPassword"/>
-                    </Frame>
-                    
-                    <Frame Grid.Row="3"
-                           HasShadow="False"
-                           BackgroundColor="#C5DAFF"
-                           CornerRadius="25">
+                               x:Name="EntryPassword" Grid.Row="2"/>
+
                         <Entry Placeholder="Potvrdte Heslo"
                                IsPassword="True"
-                               x:Name="EntryPasswordConfirmation"/>
-                    </Frame>
-                    
+                               x:Name="EntryPasswordConfirmation" Grid.Row="3"/>
+
+
                     <Grid Grid.Row="4">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="18*"/>
-                            <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
-                        
-                        <Button Grid.Column="1"
+
+                        <Button
                                 BackgroundColor="#186AFF" TextColor="#ffffff"
                                 Text="Zaregistrovať sa"
                                 Clicked="RegisterClicked"
