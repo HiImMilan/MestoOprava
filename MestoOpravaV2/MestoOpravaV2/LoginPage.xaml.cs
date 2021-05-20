@@ -12,17 +12,15 @@ namespace MestoOpravaV2
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
-        string previousPage;
-
         public LoginPage()
         {
             InitializeComponent();
         }
-        
-        public LoginPage(string previousPage)
+
+        protected override void OnAppearing()
         {
-            this.previousPage = previousPage;
-            InitializeComponent();
+            BindingContext = new UserDataMVM();
+            base.OnAppearing();
         }
 
         async void LoginClicked(object sender, EventArgs e)

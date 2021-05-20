@@ -3,7 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:pancakeView="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              xmlns:xamanimation="clr-namespace:Xamanimation;assembly=Xamanimation"
+             xmlns:local="clr-namespace:MestoOpravaV2"
              x:Class="MestoOpravaV2.RegisterPage">
+    <ContentPage.BindingContext>
+        <local:UserDataMVM/>
+    </ContentPage.BindingContext>
+    
     <ContentPage.Resources>
         <ResourceDictionary>
             <xamanimation:FadeToAnimation
@@ -55,26 +60,50 @@
                         <RowDefinition Height="4*"/>
                         <RowDefinition Height="3*"/>
                     </Grid.RowDefinitions>
-                    
+                    <Frame Grid.Row="0"
+                           HasShadow="False"
+                           BackgroundColor="#C5DAFF"
+                           CornerRadius="25">
                         <Entry Placeholder="Meno"
-                               x:Name="EntryName" Grid.Row="0"/>
-
+                               Text="{Binding Name}"
+                               x:Name="EntryName"/>
+                        </Frame>
+                    <Frame Grid.Row="1"
+                               HasShadow="False"
+                               BackgroundColor="#C5DAFF"
+                               CornerRadius="25">
                         <Entry Placeholder="Email"
                                Keyboard="Email"
-                               x:Name="EntryEmail" Grid.Row="1"/>
-
+                               Text="{Binding Email}"
+                               x:Name="EntryEmail"/>
+                    </Frame>
+                    <Frame Grid.Row="2"
+                               HasShadow="False"
+                               BackgroundColor="#C5DAFF"
+                               CornerRadius="25">
                         <Entry Placeholder="Heslo" 
                                IsPassword="True"
-                               x:Name="EntryPassword" Grid.Row="2"/>
-
+                               Text="{Binding Password}"
+                               x:Name="EntryPassword"/>
+                    </Frame>
+                    <Frame Grid.Row="3"
+                               HasShadow="False"
+                               BackgroundColor="#C5DAFF"
+                               CornerRadius="25">
                         <Entry Placeholder="Potvrdte Heslo"
                                IsPassword="True"
-                               x:Name="EntryPasswordConfirmation" Grid.Row="3"/>
+                               x:Name="EntryPasswordConfirmation"/>
+                    </Frame>
 
 
                     <Grid Grid.Row="4">
-
-                        <Button
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="18*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        
+                        <Button Grid.Column="1"
                                 BackgroundColor="#186AFF" TextColor="#ffffff"
                                 Text="Zaregistrovať sa"
                                 Clicked="RegisterClicked"
