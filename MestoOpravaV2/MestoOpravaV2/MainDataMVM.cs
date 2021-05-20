@@ -4,6 +4,9 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Text;
 using MestoOpravaV2.Utils;
+using Rg.Plugins.Popup.Services;
+using MestoOpravaV2.POPUPS;
+
 namespace MestoOpravaV2
 {
     class MainDataMVM : INotifyPropertyChanged
@@ -31,13 +34,21 @@ namespace MestoOpravaV2
             addData();
         }
 
-        private void addData()
+        private async void addData()
         {
-            List<Post> posts = ServerManager.serverManager.GetPostData();
-            foreach(var item in posts)
+            try
             {
-                Places.Add(item);
+                List<Post> posts = await ServerManager.serverManager.GetPostData();
+                foreach (var item in posts)
+                {
+                    Places.Add(item);
+                }
             }
+            catch (Exception e)
+            {
+                throw e; 
+            }
+            
         }
     }
 }

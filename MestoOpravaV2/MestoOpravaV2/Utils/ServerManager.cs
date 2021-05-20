@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Text;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 namespace MestoOpravaV2.Utils
@@ -17,7 +18,7 @@ namespace MestoOpravaV2.Utils
                 if (_serverManager == null)
                 {
                     //http://158.255.29.10/Server
-                    _serverManager = new ServerManager("http://192.168.0.106/MestoOpravaV2/Server");
+                    _serverManager = new ServerManager("http://158.255.29.10:8142/api/v1");
                 }
                 return _serverManager;
             }
@@ -29,15 +30,16 @@ namespace MestoOpravaV2.Utils
             this.Ip = ip;
         }
 
-        private HttpWebRequest SendResponse(string url,Dictionary<string,string> data)
+        private async Task<HttpWebRequest> SendResponse(string url,Dictionary<string,string> data)
         {
             string targetUrl = $"{Ip}/{url}";
+            Console.WriteLine(targetUrl);
             var httpWebRequest = (HttpWebRequest)WebRequest.Create(targetUrl);
             httpWebRequest.ContentType = "application/json";
             httpWebRequest.Method = "POST";
 
 
-            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+            using (var streamWriter = new StreamWriter( await httpWebRequest.GetRequestStreamAsync()))
             {
                 string json = JsonConvert.SerializeObject(data);
                 streamWriter.Write(json);
@@ -63,14 +65,14 @@ namespace MestoOpravaV2.Utils
             return JsonConvert.DeserializeObject<T>(GetResponseString(httpWebRequest));
         }
 
-        public List<Post> GetPostData()
+        public async Task<List<Post>> GetPostData()
         {
             Dictionary<string, string> data = new Dictionary<string, string>()
             {
-                {"lat","50" },
-                {"longy","60" }
+                {"latitude","50" },
+                {"longitude","60" }
             };
-            HttpWebRequest httpWebRequest = SendResponse("GetData.php", data);
+            HttpWebRequest httpWebRequest = await SendResponse("getNearest", data);
             return GetResponseTemplate<List<Post>>(httpWebRequest);
 
         }
