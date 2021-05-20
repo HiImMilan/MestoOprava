@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Text;
+using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
@@ -33,17 +34,18 @@ namespace MestoOpravaV2.Utils
         private async Task<HttpWebRequest> SendResponse(string url,Dictionary<string,string> data)
         {
             string targetUrl = $"{Ip}/{url}";
+
+            foreach (var item in data)
+            {
+                targetUrl += $"/{item.Value}";
+            }
             Console.WriteLine(targetUrl);
             var httpWebRequest = (HttpWebRequest)WebRequest.Create(targetUrl);
             httpWebRequest.ContentType = "application/json";
-            httpWebRequest.Method = "POST";
+            httpWebRequest.Method = "GET";
 
 
-            using (var streamWriter = new StreamWriter( await httpWebRequest.GetRequestStreamAsync()))
-            {
-                string json = JsonConvert.SerializeObject(data);
-                streamWriter.Write(json);
-            }
+            
 
             return httpWebRequest;
         }
