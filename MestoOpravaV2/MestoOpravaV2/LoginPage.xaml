@@ -51,16 +51,9 @@
 
             </StackLayout>
             <pancakeView:PancakeView BackgroundColor="#ffffff" CornerRadius="50,50,0,0" Grid.Row="2" x:Name="container" Opacity="0">
-                <Grid Margin="25">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="5*"/>
-                        <RowDefinition Height="5*"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="4*"/>
-                        <RowDefinition Height="3*"/>
-                    </Grid.RowDefinitions>
+                <StackLayout Margin="25">
                     
-                    <Frame Grid.Row="0"
+                    <Frame
                            HasShadow="False"
                            BackgroundColor="#C5DAFF"
                            CornerRadius="25">
@@ -71,7 +64,7 @@
                     </Frame>
                     
                     
-                    <Frame Grid.Row="1"
+                    <Frame
                            HasShadow="False"
                            BackgroundColor="#C5DAFF"
                            CornerRadius="25">
@@ -82,7 +75,7 @@
                     </Frame>
                     
                     
-                    <Grid Grid.Row="3">
+                    <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="18*"/>
@@ -98,12 +91,12 @@
                     
                     
                     
-                    <Button Grid.Row="4"
+                    <Button
                             BackgroundColor="#ffffff" TextColor="#186AFF"
                             Text="Ešte nemáte účet? Zaregistrujte sa!"
                             Clicked="RegisterClicked"/>
 
-                </Grid>
+                </StackLayout>
             </pancakeView:PancakeView>
         </Grid>
     </ContentPage.Content>
