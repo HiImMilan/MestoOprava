@@ -23,8 +23,8 @@ namespace MestoOpravaV2
         }
         
         async void RegisterClicked(object sender, EventArgs e)
-        {
-             await Navigation.PushModalAsync(new ProblemsPage());
+        {   if (EntryPassword.Text == EntryPasswordConfirmation.Text)
+                await Navigation.PushModalAsync(new ProblemsPage());
         }
 
         

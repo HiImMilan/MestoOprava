@@ -76,11 +76,11 @@
         </StackLayout>
 
         <StackLayout Orientation="Horizontal" Padding="0,10">
-                <Button Text="&#xf015;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
-                <Button Text="&#xf067;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
-                <Button Text="&#xf002;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
-                <Button Text="&#xf013;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
-            </StackLayout>
+            <Button Text="&#xf015;" Clicked="HomeClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
+            <Button Text="&#xf067;" Clicked="AddClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
+            <Button Text="&#xf002;" Clicked="SearchClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
+            <Button Text="&#xf013;" Clicked="SettingsClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
+        </StackLayout>
     </StackLayout>
 
     </ContentPage.Content>
