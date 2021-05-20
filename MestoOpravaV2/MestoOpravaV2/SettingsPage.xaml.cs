@@ -36,11 +36,18 @@ namespace MestoOpravaV2
         {
             throw new NotImplementedException();
         }
+        
         async void NotificationsClicked(object sender, EventArgs e)
         {
             throw new NotImplementedException();
         }
+        
         async void ThemeClicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        async void LogOutClicked(object sender, EventArgs e)
         {
             throw new NotImplementedException();
         }

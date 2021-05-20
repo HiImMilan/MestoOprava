@@ -84,6 +84,12 @@
                                     Text="Téma"
                                     Clicked="ThemeClicked"
                                     CornerRadius="50"/>
+                                <Button
+                                    BorderColor="#990000" BorderWidth="1"
+                                    BackgroundColor="#186AFF" TextColor="#ffffff"
+                                    Text="Odhlásiť sa"
+                                    Clicked="LogOutClicked"
+                                    CornerRadius="50"/>
                             </StackLayout>
                         </Grid>
 
