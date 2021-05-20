@@ -55,7 +55,7 @@ app.get('/api/v1/getNearest/:latitude/:longitude', (req,res) => {
 
 app.post('/api/v1/sendData', (req,res) => {
 
-   connection.query(`` , function (error, results, fields) { // DOROBIT ODOSIELANIE DAT!
+ /*  connection.query(`` , function (error, results, fields) { // DOROBIT ODOSIELANIE DAT!
     if (error){
         res.status(500).send(
             {
@@ -65,8 +65,14 @@ app.post('/api/v1/sendData', (req,res) => {
         throw error;
     }
     res.status(200).send(
-        results
-    )})
+
+    )})*/
+    res.status(500).send(
+        {
+            status: "debug"
+        }
+    );
+    console.log(req);
 });
 
 
