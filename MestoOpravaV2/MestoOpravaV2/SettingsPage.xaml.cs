@@ -17,17 +17,30 @@ namespace MestoOpravaV2
             InitializeComponent();
         }
 
-        async void NameChangeClicked(object sender, EventArgs e)
+        async void NameClicked(object sender, EventArgs e)
         {
             throw new NotImplementedException();
         }
 
-        async void PasswordChangeClicked(object sender, EventArgs e)
+        async void PasswordeClicked(object sender, EventArgs e)
         {
             throw new NotImplementedException();
         }
 
-        async void ProfilePictureChangeClicked(object sender, EventArgs e)
+        async void ProfilePictureClicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+        
+        async void CityClicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+        async void NotificationsClicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+        async void ThemeClicked(object sender, EventArgs e)
         {
             throw new NotImplementedException();
         }
