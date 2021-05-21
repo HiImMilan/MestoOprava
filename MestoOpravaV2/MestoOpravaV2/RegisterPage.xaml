@@ -57,18 +57,26 @@
                     </Grid.RowDefinitions>
 
                     <Entry Placeholder="Meno"
+                           TextColor="#000000"
+                           PlaceholderColor="#a8a8a8"
                                x:Name="EntryName" Grid.Row="0"/>
 
                     <Entry Placeholder="Email"
                                Keyboard="Email"
+                               TextColor="#000000"
+                               PlaceholderColor="#a8a8a8"
                                x:Name="EntryEmail" Grid.Row="1"/>
 
                     <Entry Placeholder="Heslo" 
                                IsPassword="True"
+                               TextColor="#000000"
+                               PlaceholderColor="#a8a8a8"
                                x:Name="EntryPassword" Grid.Row="2"/>
 
                     <Entry Placeholder="Potvrdte Heslo"
                                IsPassword="True"
+                               TextColor="#000000"
+                               PlaceholderColor="#a8a8a8"
                                x:Name="EntryPasswordConfirmation" Grid.Row="3"/>
 
 

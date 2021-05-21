@@ -58,12 +58,16 @@
 
                     <Entry Placeholder="Email"
                                Keyboard="Email"
+                               TextColor="#000000"
+                               PlaceholderColor="#a8a8a8"
                                x:Name="EntryEmail" Grid.Row="0"/>
 
 
 
                     <Entry Placeholder="Heslo"
                                IsPassword="True"
+                               TextColor="#000000"
+                               PlaceholderColor="#a8a8a8"
                                x:Name="EntryPassword" Grid.Row="1"/>
 
 
