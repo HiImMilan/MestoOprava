@@ -23,14 +23,11 @@ app.get('/makemeacofee', (req,res) => {
 );
 
 app.get('/testObject', (req,res) => {
-
     res.status(418).send({
             randomURL: dt.generateURL()
         }
     )
-
-
-    }
+   }
 );
 
 app.get('/api/v1/getNearest/:latitude/:longitude', (req,res) => {
@@ -48,14 +45,11 @@ app.get('/api/v1/getNearest/:latitude/:longitude', (req,res) => {
         res.status(200).send(
             results
         )})
-
     }
 );
 
-
 app.post('/api/v1/sendData', (req,res) => {
-
- /*  connection.query(`` , function (error, results, fields) { // DOROBIT ODOSIELANIE DAT!
+    /*  connection.query(`` , function (error, results, fields) { // DOROBIT ODOSIELANIE DAT!
     if (error){
         res.status(500).send(
             {
@@ -65,8 +59,8 @@ app.post('/api/v1/sendData', (req,res) => {
         throw error;
     }
     res.status(200).send(
-
     )})*/
+
     res.status(500).send(
         {
             status: "debug"
@@ -74,7 +68,6 @@ app.post('/api/v1/sendData', (req,res) => {
     );
     console.log(req);
 });
-
 
 app.get('/api/v1/getUserData/:userID', (req,res) => {
     const {userID} = req.params;
