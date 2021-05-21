@@ -17,6 +17,24 @@ namespace MestoOpravaV2
             InitializeComponent();
         }
 
+        async void HomeClicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
         
+        async void AddClicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+        
+        async void SearchClicked(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+        
+        async void SettingsClicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new SettingsPage(), true);
+        }
     }
 }

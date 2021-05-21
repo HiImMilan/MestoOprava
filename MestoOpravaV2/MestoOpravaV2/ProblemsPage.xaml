@@ -27,45 +27,44 @@
             <CarouselView ItemsSource="{Binding places}" CurrentItemChanged="{Binding ItemChangedCommand}"  HeightRequest="300" PeekAreaInsets="100">
 
                 <CarouselView.ItemTemplate>
-                <DataTemplate>
+                    <DataTemplate>
 
-                    <StackLayout>
-                              <Frame HeightRequest="280" WidthRequest="180" 
+                        <StackLayout>
+                            <Frame HeightRequest="280" WidthRequest="180" 
                
                            BackgroundColor="White" Padding="0"
                            HasShadow="True" Margin="10" CornerRadius="10"
                            HorizontalOptions="CenterAndExpand">
-                        <Grid>
-                            <StackLayout  BackgroundColor="Black">
+                                <Grid>
+                                    <StackLayout  BackgroundColor="Black">
                                         <Image Source="{Binding imageURL}" WidthRequest="280" 
                                     HeightRequest="350" Opacity="0.6"
                                     Aspect="AspectFill"/>
-                            </StackLayout>
+                                    </StackLayout>
                                     <StackLayout Margin="0,0,0,10">
                                         <Label Text="{Binding title}" TextColor="White" FontSize="18"
                            FontAttributes="None" Margin="15,0"
                            VerticalOptions="EndAndExpand"/>
 
-                                <StackLayout Orientation="Horizontal"  Margin="15,-8,0,0">
-                                    <Image Source="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" 
+                                        <StackLayout Orientation="Horizontal"  Margin="15,-8,0,0">
+                                            <Image Source="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" 
                                HeightRequest="20"  Margin="-5,0"
                                Aspect="AspectFit"/>
                                             <Label Text="{Binding title}" TextColor="White" FontSize="14"
                            FontAttributes="None" 
                            VerticalOptions="EndAndExpand"/>
-                                </StackLayout>
-                            </StackLayout>
-                        </Grid>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Grid>
 
 
 
-                    </Frame>
-                    </StackLayout>
-              
-                </DataTemplate>
-            </CarouselView.ItemTemplate>
-        </CarouselView>
+                            </Frame>
+                        </StackLayout>
 
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
             <pancakeView:PancakeView BackgroundColor="White" CornerRadius="50,50,0,0" Grid.Row="2" x:Name="container" Opacity="1" HeightRequest="400" Padding="10,30,10,0">
                 <Grid>
                     <StackLayout Orientation="Horizontal" VerticalOptions="StartAndExpand">
@@ -74,7 +73,7 @@
                         </StackLayout>
                         <Label Text="Show all" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="15"/>
                     </StackLayout>
-                    
+
                     <Grid HeightRequest="50" VerticalOptions="EndAndExpand" Padding="10">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="50"></RowDefinition>
@@ -85,11 +84,9 @@
                         <Button Text="&#xf013;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="3"/>
                     </Grid>
                 </Grid>
-                
-            </pancakeView:PancakeView>
-            
-            
-    </StackLayout>
+
+                </pancakeView:PancakeView>
+        </StackLayout>
 
     </ContentPage.Content>
 </ContentPage>

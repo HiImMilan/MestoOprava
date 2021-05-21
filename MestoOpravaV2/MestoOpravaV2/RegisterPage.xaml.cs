@@ -12,26 +12,19 @@ namespace MestoOpravaV2
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RegisterPage : ContentPage
     {
-        string previousPage;
-        
         public RegisterPage()
         {
             InitializeComponent();
         }
         
-        public RegisterPage(string previousPage)
-        {
-            this.previousPage = previousPage;
-            InitializeComponent();
-        }
         async void LoginClicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new LoginPage("RegisterPage"));
+            await Navigation.PopModalAsync(true);
         }
         
         async void RegisterClicked(object sender, EventArgs e)
-        {
-             await Navigation.PushModalAsync(new ProblemsPage());
+        {   if (EntryPassword.Text == EntryPasswordConfirmation.Text)
+                await Navigation.PushModalAsync(new ProblemsPage(), true);
         }
 
         
