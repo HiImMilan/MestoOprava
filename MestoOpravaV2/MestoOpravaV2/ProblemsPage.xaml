@@ -24,12 +24,12 @@
                 <Label Grid.Row="0" Grid.Column="1" Text="Problémy v blízkosti" TextColor="White" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" Margin="10,0" />
                 <Label Grid.Row="1" Grid.Column="1" Text="Žilina" TextColor="White" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" Margin="10,0"/>
             </Grid>
-            <CarouselView ItemsSource="{Binding places}" CurrentItemChanged="{Binding ItemChangedCommand}"  HeightRequest="300" PeekAreaInsets="100">
+            <CarouselView ItemsSource="{Binding places}" HeightRequest="300" PeekAreaInsets="100">
 
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
-
                         <StackLayout>
+                            
                             <Frame HeightRequest="280" WidthRequest="180" 
                
                            BackgroundColor="White" Padding="0"

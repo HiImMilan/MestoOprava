@@ -3,12 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:pancakeView="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              xmlns:xamanimation="clr-namespace:Xamanimation;assembly=Xamanimation"
-             xmlns:local="clr-namespace:MestoOpravaV2"
              x:Class="MestoOpravaV2.RegisterPage">
-    <ContentPage.BindingContext>
-        <local:UserDataMVM/>
-    </ContentPage.BindingContext>
-    
     <ContentPage.Resources>
         <ResourceDictionary>
             <xamanimation:FadeToAnimation
@@ -16,13 +11,13 @@
                 Target="{x:Reference FadeTitle}"
                 Duration="1000"
                 Opacity="1"/>
-            
+
             <xamanimation:FadeToAnimation
                 x:Key="FadeContainer"
                 Target="{x:Reference container}"
                 Duration="1200"
                 Opacity="1"/>
-            
+
         </ResourceDictionary>
     </ContentPage.Resources>
 
@@ -32,83 +27,68 @@
                 Animation="{StaticResource FadeToAnimation}" />
             <xamanimation:BeginAnimation
                 Animation="{StaticResource FadeContainer}" />
-            
-            
+
+
         </EventTrigger>
     </ContentPage.Triggers>
     <ContentPage.Content>
-        
+
         <Grid BackgroundColor="#186AFF">
             <Grid.RowDefinitions>
-                <RowDefinition Height="2*" />
-                <RowDefinition Height="7*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="5*" />
             </Grid.RowDefinitions>
-            
+
             <StackLayout Grid.Row="0" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="0,100,0,0">
                 <Label x:Name="FadeTitle" TextColor="#fff" FontSize="50" Text="Registrácia" Opacity="0"></Label>
- 
+
 
             </StackLayout>
-            <pancakeView:PancakeView BackgroundColor="#ffffff" CornerRadius="50,50,0,0" Grid.Row="1" x:Name="container" Opacity="0">
-                <StackLayout Margin="25">
-                    <Frame
-                           HasShadow="False"
-                           BackgroundColor="#C5DAFF"
-                           CornerRadius="25">
-                        <Entry Placeholder="Meno"
-                               Text="{Binding Name}"
-                               x:Name="EntryName"/>
-                        </Frame>
-                    <Frame
-                               HasShadow="False"
-                               BackgroundColor="#C5DAFF"
-                               CornerRadius="25">
-                        <Entry Placeholder="Email"
+            <pancakeView:PancakeView BackgroundColor="#ffffff" CornerRadius="50,50,0,0" Grid.Row="2" x:Name="container" Opacity="0">
+                <Grid Margin="25">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5*"/>
+                        <RowDefinition Height="5*"/>
+                        <RowDefinition Height="5*"/>
+                        <RowDefinition Height="5*"/>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
+                    </Grid.RowDefinitions>
+
+                    <Entry Placeholder="Meno"
+                               x:Name="EntryName" Grid.Row="0"/>
+
+                    <Entry Placeholder="Email"
                                Keyboard="Email"
-                               Text="{Binding Email}"
-                               x:Name="EntryEmail"/>
-                    </Frame>
-                    <Frame
-                               HasShadow="False"
-                               BackgroundColor="#C5DAFF"
-                               CornerRadius="25">
-                        <Entry Placeholder="Heslo" 
+                               x:Name="EntryEmail" Grid.Row="1"/>
+
+                    <Entry Placeholder="Heslo" 
                                IsPassword="True"
-                               Text="{Binding Password}"
-                               x:Name="EntryPassword"/>
-                    </Frame>
-                    <Frame
-                               HasShadow="False"
-                               BackgroundColor="#C5DAFF"
-                               CornerRadius="25">
-                        <Entry Placeholder="Potvrdte Heslo"
+                               x:Name="EntryPassword" Grid.Row="2"/>
+
+                    <Entry Placeholder="Potvrdte Heslo"
                                IsPassword="True"
-                               x:Name="EntryPasswordConfirmation"/>
-                    </Frame>
+                               x:Name="EntryPasswordConfirmation" Grid.Row="3"/>
 
 
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="18*"/>
-                            <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
-                        
-                        <Button Grid.Column="1"
+                    <Grid Grid.Row="4">
+
+                        <Button
                                 BackgroundColor="#186AFF" TextColor="#ffffff"
                                 Text="Zaregistrovať sa"
                                 Clicked="RegisterClicked"
                                 CornerRadius="50"/>
                     </Grid>
-                    
-                    
-                    
-                    <Button
+
+
+
+                    <Button Grid.Row="5"
                             BackgroundColor="#ffffff" TextColor="#186AFF"
                             Text="Už máte účet? Prihláste sa!"
                             Clicked="LoginClicked"/>
 
-                </StackLayout>
+                </Grid>
             </pancakeView:PancakeView>
         </Grid>
     </ContentPage.Content>

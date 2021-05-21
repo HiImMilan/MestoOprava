@@ -45,6 +45,8 @@ namespace MestoOpravaV2
             places = new ObservableCollection<Post>();
             addData();
         }
+
+
        
         private async void addData()
         {
