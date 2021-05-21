@@ -3,24 +3,30 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MestoOpravaV2"
+             xmlns:pancakeView="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              x:Class="MestoOpravaV2.ProblemsPage">
             
     <ContentPage.BindingContext>
         <local:MainDataMVM/>
     </ContentPage.BindingContext>
     <ContentPage.Content>
-           <StackLayout>
+        <StackLayout BackgroundColor="#186AFF">
 
-            <StackLayout Orientation="Horizontal" Margin="20,10,20,0" HorizontalOptions="End">
-                <Frame CornerRadius="50" WidthRequest="50" Padding="0">
-                    <Image Source="https://www.thiswaifudoesnotexist.net/example-14945.jpg" />
-                </Frame>
-            </StackLayout>
-            <Label Text="Problémy v blízkosti: Žiliny" TextColor="Black" FontSize="22" FontAttributes="Bold" Margin="10,0" />
+            <Grid Padding="0,25,0,25">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="1" Text="Problémy v blízkosti" TextColor="White" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" Margin="10,0" />
+                <Label Grid.Row="1" Grid.Column="1" Text="Žilina" TextColor="White" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" Margin="10,0"/>
+            </Grid>
+            <CarouselView ItemsSource="{Binding places}" CurrentItemChanged="{Binding ItemChangedCommand}"  HeightRequest="300" PeekAreaInsets="100">
 
-            <CarouselView ItemsSource="{Binding places}" HeightRequest="300" PeekAreaInsets="100">
-            
-            <CarouselView.ItemTemplate>
+                <CarouselView.ItemTemplate>
                 <DataTemplate>
 
                     <StackLayout>
@@ -31,12 +37,12 @@
                            HorizontalOptions="CenterAndExpand">
                         <Grid>
                             <StackLayout  BackgroundColor="Black">
-                                        <Image Source="{Binding URL}" WidthRequest="280" 
+                                        <Image Source="{Binding imageURL}" WidthRequest="280" 
                                     HeightRequest="350" Opacity="0.6"
                                     Aspect="AspectFill"/>
                             </StackLayout>
                                     <StackLayout Margin="0,0,0,10">
-                                        <Label Text="{Binding name}" TextColor="White" FontSize="18"
+                                        <Label Text="{Binding title}" TextColor="White" FontSize="18"
                            FontAttributes="None" Margin="15,0"
                            VerticalOptions="EndAndExpand"/>
 
@@ -44,7 +50,7 @@
                                     <Image Source="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" 
                                HeightRequest="20"  Margin="-5,0"
                                Aspect="AspectFit"/>
-                                            <Label Text="{Binding description}" TextColor="White" FontSize="14"
+                                            <Label Text="{Binding title}" TextColor="White" FontSize="14"
                            FontAttributes="None" 
                            VerticalOptions="EndAndExpand"/>
                                 </StackLayout>
@@ -60,27 +66,29 @@
             </CarouselView.ItemTemplate>
         </CarouselView>
 
-
-        <StackLayout Orientation="Horizontal">
-            <Label Text="Populárne problémy" TextColor="Black" FontSize="24" FontAttributes="Bold" Margin="15"/>
-            <Label HorizontalOptions="EndAndExpand" Text="Show all" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="15"/>
-        </StackLayout>
-
-        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-            <StackLayout Margin="5" WidthRequest="100">
-                    <ImageButton  HorizontalOptions="Center"  Source="https://biponefix.s3.eu-central-1.amazonaws.com/uploads/ktjbrdwx9b/work+in+progress.png" HeightRequest="50" />
-                <Label HorizontalOptions="Center" Text="Vážne" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="10"/>
-
-            </StackLayout>
-
-        </StackLayout>
-
-        <StackLayout Orientation="Horizontal" Padding="0,10">
-                <Button Text="&#xf015;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
-                <Button Text="&#xf067;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
-                <Button Text="&#xf002;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
-                <Button Text="&#xf013;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25"/>
-            </StackLayout>
+            <pancakeView:PancakeView BackgroundColor="White" CornerRadius="50,50,0,0" Grid.Row="2" x:Name="container" Opacity="1" HeightRequest="400" Padding="10,30,10,0">
+                <Grid>
+                    <StackLayout Orientation="Horizontal" VerticalOptions="StartAndExpand">
+                        <StackLayout>
+                            <Label Text="Populárne problémy" TextColor="Black" FontSize="23" FontAttributes="Bold" Margin="15" />
+                        </StackLayout>
+                        <Label Text="Show all" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="15"/>
+                    </StackLayout>
+                    
+                    <Grid HeightRequest="50" VerticalOptions="EndAndExpand" Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Button Text="&#xf015;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="0"/>
+                        <Button Text="&#xf067;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="1"/>
+                        <Button Text="&#xf002;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="2"/>
+                        <Button Text="&#xf013;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="3"/>
+                    </Grid>
+                </Grid>
+                
+            </pancakeView:PancakeView>
+            
+            
     </StackLayout>
 
     </ContentPage.Content>
