@@ -21,8 +21,8 @@ namespace MestoOpravaV2
         
         public ProblemsPage()
         {
-            InitializeComponent();
             getGPS();
+            InitializeComponent();
         }
 
         async void getGPS()
@@ -34,7 +34,16 @@ namespace MestoOpravaV2
                 lastUpdate = DateTime.Now;
             }
             string test = lastLocation.Timestamp.ToString() + " " + lastLocation.Latitude.ToString();
-           
+            
+            var placemarks = await Geocoding.GetPlacemarksAsync(lastLocation);
+            var placemark = placemarks?.FirstOrDefault();
+            
+            if (placemark != null)
+            {
+                DisplayAlert("GPS",placemark.SubLocality, "Zrusit");  
+            }
+            
+            
         }
         async void HomeClicked(object sender, EventArgs e)
         {
