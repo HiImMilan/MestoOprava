@@ -40,7 +40,7 @@ namespace MestoOpravaV2
             
             if (placemark != null)
             {
-                DisplayAlert("GPS",placemark.SubLocality, "Zrusit");  
+                Location.Text = placemark.SubLocality;
             }
             
             

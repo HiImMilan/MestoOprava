@@ -69,6 +69,14 @@ app.post('/api/v1/sendData', (req,res) => {
     console.log(req);
 });
 
+app.get('/api/v1/connectivityCheck', (req,res) => {
+    res.status(200).send(
+        {
+            status: "ok"
+        }
+    );
+});
+
 app.get('/api/v1/getUserData/:userID', (req,res) => {
     const {userID} = req.params;
     connection.query(`` , function (error, results, fields) {  // RETURNE AJ USER POSTY!!!!!
