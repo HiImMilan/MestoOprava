@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamanimation.Helpers;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -35,6 +35,14 @@ namespace MestoOpravaV2
         async void SettingsClicked(object sender, EventArgs e)
         {
             Navigation.PushModalAsync(new SettingsPage(), true);
+        }
+        void onClickedProblem(object sender, EventArgs e)
+        {
+            
+            var ID = (Frame) sender;
+            string classIDD = ID.GetParent<StackLayout>().ClassId; // Ja viem že to je dosť blbe
+
+            DisplayAlert("ID", classIDD, "Zrusit");
         }
     }
 }

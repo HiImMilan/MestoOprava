@@ -28,13 +28,14 @@
 
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout>
-                            
+                        <StackLayout ClassId="{Binding creationID}">
                             <Frame HeightRequest="280" WidthRequest="180" 
-               
-                           BackgroundColor="White" Padding="0"
-                           HasShadow="True" Margin="10" CornerRadius="10"
-                           HorizontalOptions="CenterAndExpand">
+                                   BackgroundColor="White" Padding="0"
+                                   HasShadow="True" Margin="10" CornerRadius="10"
+                                   HorizontalOptions="CenterAndExpand">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="onClickedProblem"/>
+                                </Frame.GestureRecognizers>
                                 <Grid>
                                     <StackLayout  BackgroundColor="Black">
                                         <Image Source="{Binding imageURL}" WidthRequest="280" 
@@ -45,6 +46,7 @@
                                         <Label Text="{Binding title}" TextColor="White" FontSize="18"
                            FontAttributes="None" Margin="15,0"
                            VerticalOptions="EndAndExpand"/>
+                                        
 
                                         <StackLayout Orientation="Horizontal"  Margin="15,-8,0,0">
                                             <Image Source="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" 

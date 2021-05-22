@@ -15,6 +15,9 @@ namespace MestoOpravaV2
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
+        
+
+
 
         private ObservableCollection<Post> Places;
 
