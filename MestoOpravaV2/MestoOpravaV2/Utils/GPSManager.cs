@@ -12,36 +12,24 @@ namespace MestoOpravaV2.Utils
 {
     public class GPSManager
     {
-
-
         private DateTime lastUpdate;
         private int updateInterval = 10;
-        private Location lastLocation;
+        private Location lastLocation = new Location();
         public GPSManager()
         {
-            lastUpdate = DateTime.Now;
+            lastUpdate = DateTime.Parse("1970/1/1 01:00");
         }
-        public async Task<string> TryGetGPSCords()
+        public async Task<Location> GetGPS()
         {
-            try
-            {
-                await GetGPSCords();
-            }
-            catch (Exception e)
-            {
-               throw new Exception("Prístup k vašej polohe bol zamietnutý, ak chcete získať informácie o problémoch v okolí povolte prístup k GPS.");
-            }
-            return $"Latitude: {lastLocation.Latitude}, Longitude: {lastLocation.Longitude}, Altitude: {lastLocation.Altitude}";
-        }
-        private async Task GetGPSCords()
-        {
-            bool gpsLocationExpired = ((DateTime.Now - lastUpdate).Seconds > updateInterval);
-            if (gpsLocationExpired || lastLocation == null)
-            {
-                lastLocation = await Geolocation.GetLocationAsync();
-                lastUpdate = DateTime.Now;
-            }
+            // bool gpsLocationExpired = ((DateTime.Now - lastUpdate).Seconds > updateInterval);
+            //if (gpsLocationExpired || lastLocation == null)
+            //{
+            var request = new GeolocationRequest(GeolocationAccuracy.Best, TimeSpan.FromSeconds(20));
+            lastLocation = await Geolocation.GetLocationAsync(request);
+            //    lastUpdate = DateTime.Now;
+            //}
             
+            return lastLocation;
         }
     }
 }
