@@ -22,7 +22,7 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
                 <Label Grid.Row="0" Grid.Column="1" Text="Problémy v blízkosti" TextColor="White" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" Margin="10,0" />
-                <Label Grid.Row="1" Grid.Column="1" Text="Žilina" TextColor="White" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" Margin="10,0"/>
+                <Label x:Name="Location" Grid.Row="1" Grid.Column="1" TextColor="White" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" Margin="10,0"/>
             </Grid>
             <CarouselView ItemsSource="{Binding places}" HeightRequest="300" PeekAreaInsets="100">
 
