@@ -49,7 +49,7 @@ app.get('/api/v1/getNearest/:latitude/:longitude', (req,res) => {
 );
 
 app.post('/api/v1/sendData', (req,res) => {
-    /*  connection.query(`` , function (error, results, fields) { // DOROBIT ODOSIELANIE DAT!
+      connection.query(`` , function (error, results, fields) { // DOROBIT ODOSIELANIE DAT!
     if (error){
         res.status(500).send(
             {
@@ -59,7 +59,7 @@ app.post('/api/v1/sendData', (req,res) => {
         throw error;
     }
     res.status(200).send(
-    )})*/
+    )})
 
     res.status(500).send(
         {
@@ -72,7 +72,8 @@ app.post('/api/v1/sendData', (req,res) => {
 app.get('/api/v1/connectivityCheck', (req,res) => {
     res.status(200).send(
         {
-            status: "ok"
+            status: "ok",
+            mode: "debug"
         }
     );
 });
