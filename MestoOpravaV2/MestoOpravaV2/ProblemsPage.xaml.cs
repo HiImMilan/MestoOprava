@@ -40,9 +40,9 @@ namespace MestoOpravaV2
         {
             
             var ID = (Frame) sender;
-            string classIDD = ID.GetParent<StackLayout>().ClassId; // Ja viem že to je dosť blbe
+            int classIDD = int.Parse(ID.GetParent<StackLayout>().ClassId);
+            Navigation.PushModalAsync(new ProblemsPageDetails(classIDD), true);
 
-            DisplayAlert("ID", classIDD, "Zrusit");
         }
     }
 }

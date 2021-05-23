@@ -12,7 +12,7 @@ namespace MestoOpravaV2
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProblemsPageDetails : ContentPage
     {
-        public ProblemsPageDetails()
+        public ProblemsPageDetails(int postID)
         {
             InitializeComponent();
         }
