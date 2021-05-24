@@ -31,7 +31,7 @@
     <EmbeddedResource Update="LoginPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="POPUPS\ErrorPopUP.xaml">
+    <EmbeddedResource Update="POPUPS\InternetError.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="ProblemsPageDetails.xaml">
@@ -50,5 +50,11 @@
 
   <ItemGroup>
     <Folder Include="Assets" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="POPUPS\InternetError.xaml.cs">
+      <DependentUpon>InternetError.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

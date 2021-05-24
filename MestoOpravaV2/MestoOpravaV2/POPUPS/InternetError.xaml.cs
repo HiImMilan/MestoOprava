@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace MestoOpravaV2.POPUPS
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ErrorPopUP : Rg.Plugins.Popup.Pages.PopupPage
+    public partial class InternetError : Rg.Plugins.Popup.Pages.PopupPage
     {
-        public ErrorPopUP()
+        public InternetError()
         {
             InitializeComponent();
         }

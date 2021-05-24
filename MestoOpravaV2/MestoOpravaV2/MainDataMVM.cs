@@ -55,7 +55,7 @@ namespace MestoOpravaV2
         {
             try
             {
-                List<Post> posts = await ServerManager.serverManager.GetPostData();
+                List<Post> posts = await ServerManager.serverManager.TryGetPostData();
                 foreach (var item in posts)
                 {
                     Places.Add(item);
@@ -63,7 +63,7 @@ namespace MestoOpravaV2
             }
             catch (Exception e)
             {
-                throw e; 
+                PopupNavigation.PushAsync(new InternetError());
             }
             
         }
