@@ -43,10 +43,7 @@ namespace MestoOpravaV2.Utils
             var httpWebRequest = (HttpWebRequest)WebRequest.Create(targetUrl);
             httpWebRequest.ContentType = "application/json";
             httpWebRequest.Method = "GET";
-
-
-            
-
+            httpWebRequest.Timeout = 5000;
             return httpWebRequest;
         }
 
@@ -67,7 +64,7 @@ namespace MestoOpravaV2.Utils
             return JsonConvert.DeserializeObject<T>(GetResponseString(httpWebRequest));
         }
 
-        public async Task<List<Post>> GetPostData()
+        public async Task<List<Post>> TryGetPostData()
         {
             Dictionary<string, string> data = new Dictionary<string, string>()
             {
@@ -75,6 +72,7 @@ namespace MestoOpravaV2.Utils
                 {"longitude","60" }
             };
             HttpWebRequest httpWebRequest = await SendResponse("getNearest", data);
+            
             return GetResponseTemplate<List<Post>>(httpWebRequest);
 
         }

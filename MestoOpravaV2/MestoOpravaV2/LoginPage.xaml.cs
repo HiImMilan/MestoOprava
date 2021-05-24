@@ -26,6 +26,7 @@ namespace MestoOpravaV2
         async void LoginClicked(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new ProblemsPage(), true);
+            
         }
 
         async void RegisterClicked(object sender, EventArgs e)
