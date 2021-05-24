@@ -2,6 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MestoOpravaV2"
+             xmlns:sharedTransitions="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions"
+             sharedTransitions:SharedTransitionNavigationPage.TransitionSelectedGroup="{Binding SelectedPlaceId}"
+             sharedTransitions:SharedTransitionNavigationPage.TransitionDuration="300"
+             sharedTransitions:SharedTransitionNavigationPage.BackgroundAnimation="Flip"
              x:Class="MestoOpravaV2.ProblemsPageDetails">
     <ContentPage.BindingContext>
         <local:MainDataMVM/>
@@ -14,7 +18,7 @@
                 <Grid>
 
                     <Frame Padding="0" HeightRequest="450" BackgroundColor="Black">
-                        <Image Opacity="0.7" Source="https://upload.wikimedia.org/wikipedia/commons/2/2b/Budat%C3%ADn_hrad_-_by_Pudelek.jpg" Aspect="AspectFill"/>
+                        <Image Opacity="0.7" Source="https://upload.wikimedia.org/wikipedia/commons/2/2b/Budat%C3%ADn_hrad_-_by_Pudelek.jpg" sharedTransitions:Transition.Name="PlaceImage" Aspect="AspectFill"/>
                     </Frame>
                     <StackLayout VerticalOptions="EndAndExpand" Margin="15,15,15,85">
                         <Grid>

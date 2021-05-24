@@ -16,5 +16,16 @@ namespace MestoOpravaV2
         {
             InitializeComponent();
         }
+        
+        private string _selectedPlaceId;
+        public string SelectedPlaceId
+        {
+            get => _selectedPlaceId;
+            set
+            {
+                _selectedPlaceId = value;
+            }
+        }
+
     }
 }
