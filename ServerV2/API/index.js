@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
 });
 
 app.listen(PORT,() => {
-console.log("[Starting CityApka Server Nightly]");
+console.log("[Starting CityApka Nightly Server]");
 connection.connect();
 });
 
