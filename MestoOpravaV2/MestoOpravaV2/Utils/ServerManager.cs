@@ -19,7 +19,7 @@ namespace MestoOpravaV2.Utils
                 if (_serverManager == null)
                 {
                     //http://158.255.29.10/Server
-                    _serverManager = new ServerManager("http://192.168.224.14:8142/api/v1");
+                    _serverManager = new ServerManager("http://158.255.29.10:8142/api/v1");
                 }
                 return _serverManager;
             }
