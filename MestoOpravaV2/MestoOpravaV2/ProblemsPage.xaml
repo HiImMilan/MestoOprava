@@ -52,7 +52,7 @@
                                             <Image Source="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" 
                                HeightRequest="20"  Margin="-5,0"
                                Aspect="AspectFit"/>
-                                            <Label Text="{Binding title}" TextColor="White" FontSize="14"
+                                            <Label Text="{Binding adress}" TextColor="White" FontSize="14"
                            FontAttributes="None" 
                            VerticalOptions="EndAndExpand"/>
                                         </StackLayout>

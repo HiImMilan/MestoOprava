@@ -11,5 +11,6 @@ namespace MestoOpravaV2
         public string longitude { get;set;}
         public string imageURL { get;set;}
         public int creationID { get; set; }
+        public string adress { get; set; }
     }
 }
