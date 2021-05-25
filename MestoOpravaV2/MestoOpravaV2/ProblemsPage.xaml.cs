@@ -68,7 +68,7 @@ namespace MestoOpravaV2
             
             var ID = (Frame) sender;
             int classIDD = int.Parse(ID.GetParent<StackLayout>().ClassId);
-            Navigation.PushModalAsync(new SharedTransitionNavigationPage(new ProblemsPageDetails(classIDD)), true);
+            Navigation.PushModalAsync(new ProblemsPageDetails(classIDD), true);
 
         }
     }

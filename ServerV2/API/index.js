@@ -1,6 +1,6 @@
 // Podla miloša je toto zbytočne zabitý čas
 // kód WIP, comittujem len kvôli tomuto komentaru kekW
-
+// hours_wasted_on_xamarin = 1
 const app = require('express')();
 const crypto = require('crypto');
 const PORT = 8142;

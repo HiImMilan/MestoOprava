@@ -12,9 +12,14 @@ namespace MestoOpravaV2.POPUPS
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class InternetError : Rg.Plugins.Popup.Pages.PopupPage
     {
+        T
         public InternetError()
         {
             InitializeComponent();
+
+
         }
+
+
     }
 }
