@@ -30,7 +30,6 @@ app.get('/api/v1/testObject/:data', (req,res) => {
     const {data} = req.params;
     var dataHash = crypto.createHash('sha256').update(data).digest('base64');
 
-
     res.status(418).send({
             randomURL: dt.generateURL(),
             token: dt.generateToken(),
@@ -60,7 +59,7 @@ app.get('/api/v1/getNearest/:latitude/:longitude', (req,res) => {
 );
 
 app.post('/api/v1/sendData', (req,res) => {
-      connection.query(`` , function (error, results, fields) { // DOROBIT ODOSIELANIE DAT!
+    connection.query(`` , function (error, results, fields) { // DOROBIT ODOSIELANIE DAT!
     if (error){
         res.status(500).send(
             {
@@ -105,7 +104,7 @@ app.get('/api/v1/:userID/getUserData/', (req,res) => {
      )})
  });
 
- app.delete('/api/v1/removePost/:postID', (req,res) => {
+ app.delete('/api/v1/post/:postID/removePost/', (req,res) => {
     const {postID} = req.params;
     connection.query(`` , function (error, results, fields) { 
      if (error){
@@ -122,24 +121,29 @@ app.get('/api/v1/:userID/getUserData/', (req,res) => {
  });
 
  app.post('/api/v1/registerAccount', (req,res) => {
+     var userID2 = dt.generateID();
+     var token = dt.generateToken();
+     var password = "0";
+     var dataHash = crypto.createHash('sha256').update(password).digest('base64');
 
-
-     var data = "0";
-     var dataHash = crypto.createHash('sha256').update(data).digest('base64');
-
-
-     connection.query(`` , function (error, results, fields) {
-     if (error){
-         res.status(500).send(
-             {
-                 error: error
-             }
-         );  
-         throw error;
+    // connection.query(`` , function (error, results, fields) {
+    // if (error){
+    //     res.status(500).send(
+    //         {
+    //             error: error
+    //         }
+    //     );
+    //     throw error;
+    // }
+     res.status(200).send({
+         status: "accepted",
+         userID: userID2,
+         token: token,
      }
-     res.status(200).send(
-         results
-     )})
+
+     ); // ZMAZAT POTOM
+
+     // )})
  });
 
  app.get('/api/v1/loginAccount', (req,res) => {
