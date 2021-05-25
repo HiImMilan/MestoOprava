@@ -1,4 +1,8 @@
+// Podla miloša je toto zbytočne zabitý čas
+// kód WIP, comittujem len kvôli tomuto komentaru kekW
+
 const app = require('express')();
+const crypto = require('crypto');
 const PORT = 8142;
 var dt = require('./libCityApka');
 var mysql  = require('mysql');
@@ -22,9 +26,16 @@ app.get('/makemeacofee', (req,res) => {
     }
 );
 
-app.get('/testObject', (req,res) => {
+app.get('/api/v1/testObject/:data', (req,res) => {
+    const {data} = req.params;
+    var dataHash = crypto.createHash('sha256').update(data).digest('base64');
+
+
     res.status(418).send({
-            randomURL: dt.generateURL()
+            randomURL: dt.generateURL(),
+            token: dt.generateToken(),
+            userID: dt.generateID(),
+            hash: dataHash
         }
     )
    }
@@ -78,7 +89,7 @@ app.get('/api/v1/connectivityCheck', (req,res) => {
     );
 });
 
-app.get('/api/v1/getUserData/:userID', (req,res) => {
+app.get('/api/v1/:userID/getUserData/', (req,res) => {
     const {userID} = req.params;
     connection.query(`` , function (error, results, fields) {  // RETURNE AJ USER POSTY!!!!!
      if (error){
@@ -110,8 +121,14 @@ app.get('/api/v1/getUserData/:userID', (req,res) => {
      )})
  });
 
- app.post('/api/v1/regiserAccount', (req,res) => {
-    connection.query(`` , function (error, results, fields) { 
+ app.post('/api/v1/registerAccount', (req,res) => {
+
+
+     var data = "0";
+     var dataHash = crypto.createHash('sha256').update(data).digest('base64');
+
+
+     connection.query(`` , function (error, results, fields) {
      if (error){
          res.status(500).send(
              {
@@ -140,7 +157,7 @@ app.get('/api/v1/getUserData/:userID', (req,res) => {
      )})
  });
 
- app.delete('/api/v1/deleteAccount/:userID', (req,res) => {
+ app.delete('/api/v1/:userID/deleteAccount/', (req,res) => {
     const {userID} = req.params;
     connection.query(`` , function (error, results, fields) { 
      if (error){

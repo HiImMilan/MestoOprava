@@ -47,6 +47,24 @@ namespace MestoOpravaV2.Utils
             return httpWebRequest;
         }
 
+        public void checkDebug()
+        {
+            var result = "";
+
+            var httpWebRequest = (HttpWebRequest)WebRequest.Create("http://158.255.29.10:8142/api/v1/connectivityCheck");
+            httpWebRequest.ContentType = "application/json";
+            httpWebRequest.Method = "GET";
+            httpWebRequest.Timeout = 5000;
+            var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+            
+            using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+            {
+                result = streamReader.ReadToEnd();
+            }
+            
+       
+        }
+        
         private string GetResponseString(HttpWebRequest httpWebRequest)
         {
             var result = "";
