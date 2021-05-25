@@ -63,7 +63,7 @@ namespace MestoOpravaV2
             }
             catch (Exception e)
             {
-                PopupNavigation.PushAsync(new InternetError());
+                PopupNavigation.PushAsync(new InternetError(this.addData));
             }
             
         }
