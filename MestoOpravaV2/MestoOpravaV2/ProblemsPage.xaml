@@ -4,10 +4,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MestoOpravaV2"
              xmlns:pancakeView="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
-             xmlns:sharedTransitions="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions"
-             sharedTransitions:SharedTransitionNavigationPage.TransitionSelectedGroup="{Binding SelectedPlaceId}"
-             sharedTransitions:SharedTransitionNavigationPage.TransitionDuration="300"
-             sharedTransitions:SharedTransitionNavigationPage.BackgroundAnimation="Flip"
              x:Class="MestoOpravaV2.ProblemsPage">
             
     <ContentPage.BindingContext>
@@ -55,9 +51,7 @@
                                         <StackLayout Orientation="Horizontal"  Margin="15,-8,0,0">
                                             <Image Source="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" 
                                                    HeightRequest="20"  Margin="-5,0"
-                                                   Aspect="AspectFit"
-                                                   sharedTransitions:Transition.Name="PlaceImage"
-                                                   sharedTransitions:Transition.Group="{Binding Id}" />
+                                                   Aspect="AspectFit"/>
                                             <Label Text="{Binding adress}" TextColor="White" FontSize="14"
                                                    FontAttributes="None" 
                                                    VerticalOptions="EndAndExpand"/>
