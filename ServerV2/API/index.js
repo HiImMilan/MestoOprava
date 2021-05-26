@@ -124,7 +124,6 @@ app.get('/api/v1/:userID/getUserData/', (req,res) => {
 app.get('/api/v1/post/:postID/getPost/', (req,res) => {
     const {postID} = req.params;
     console.log(`[LOG][getPost][${req.ip}] postID:${postID}`);
-    console.log(`|-> SELECT * FROM problems WHERE "creationID" = ${postID}`);
     connection.query(`SELECT * FROM problems WHERE creationID = ${postID}` , function (error, results, fields) {
         if (error){
             res.status(500).send(
@@ -143,6 +142,7 @@ app.get('/api/v1/post/:postID/getPost/', (req,res) => {
  app.post('/api/v1/registerAccount', (req,res) => {
      var userID2 = dt.generateID();
      var token = dt.generateToken();
+     var data = req.rawTrailers;
      var password = "0";
      var dataHash = crypto.createHash('sha256').update(password).digest('base64');
 
@@ -155,11 +155,13 @@ app.get('/api/v1/post/:postID/getPost/', (req,res) => {
     //     );
     //     throw error;
     // }
-     res.status(200).send({
-         status: "accepted",
-         userID: userID2,
-         token: token,
-     }
+     res.status(200).send(
+       data
+         //{
+         //status: "accepted",
+         //userID: userID2,
+         //token: token,
+     //}
 
      ); // ZMAZAT POTOM
 
