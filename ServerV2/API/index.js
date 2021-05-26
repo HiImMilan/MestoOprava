@@ -2,6 +2,7 @@
 // kód WIP, comittujem len kvôli tomuto komentaru kekW
 // hours_wasted_on_xamarin = 1
 const app = require('express')();
+app.use(express.json());
 const crypto = require('crypto');
 const PORT = 8142;
 var dt = require('./libCityApka');
@@ -142,9 +143,10 @@ app.get('/api/v1/post/:postID/getPost/', (req,res) => {
  app.post('/api/v1/registerAccount', (req,res) => {
      var userID2 = dt.generateID();
      var token = dt.generateToken();
-     var data = req.rawTrailers;
+     var data = req.headers;
      var password = "0";
      var dataHash = crypto.createHash('sha256').update(password).digest('base64');
+    console.log(req.content);
 
     // connection.query(`` , function (error, results, fields) {
     // if (error){
