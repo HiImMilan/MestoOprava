@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MestoOpravaV2.POPUPS;
+using Rg.Plugins.Popup.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,39 +19,46 @@ namespace MestoOpravaV2
             InitializeComponent();
         }
 
+        [Obsolete]
         async void NameClicked(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            await PopupNavigation.PushAsync(new Name());
         }
 
+        [Obsolete]
         async void PasswordeClicked(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            await PopupNavigation.PushAsync(new Password());
         }
 
+        [Obsolete]
         async void ProfilePictureClicked(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
-        }
-        
-        async void CityClicked(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-        
-        async void NotificationsClicked(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-        
-        async void ThemeClicked(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
+            await PopupNavigation.PushAsync(new ProfilePicture());
         }
 
+        [Obsolete]
+        async void CityClicked(object sender, EventArgs e)
+        {
+            await PopupNavigation.PushAsync(new City());
+        }
+
+        [Obsolete]
+        async void NotificationsClicked(object sender, EventArgs e)
+        {
+            await PopupNavigation.PushAsync(new Notifications());
+        }
+
+        [Obsolete]
+        async void ThemeClicked(object sender, EventArgs e)
+        {
+            await PopupNavigation.PushAsync(new Theme());
+        }
+
+        [Obsolete]
         async void LogOutClicked(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            await PopupNavigation.PushAsync(new LogOut());
         }
     }
 }
