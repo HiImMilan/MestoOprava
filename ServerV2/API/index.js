@@ -2,7 +2,6 @@
 // kód WIP, comittujem len kvôli tomuto komentaru kekW
 // hours_wasted_on_xamarin = 1
 const app = require('express')();
-app.use(express.json());
 const crypto = require('crypto');
 const PORT = 8142;
 var dt = require('./libCityApka');
