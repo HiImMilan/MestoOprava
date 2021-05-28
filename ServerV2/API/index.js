@@ -3,6 +3,10 @@
 // hours_wasted_on_xamarin = 1
 const app = require('express')();
 const crypto = require('crypto');
+const bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
 const PORT = 8142;
 var dt = require('./libCityApka');
 var mysql  = require('mysql');
@@ -140,37 +144,40 @@ app.get('/api/v1/post/:postID/getPost/', (req,res) => {
 });
 
  app.post('/api/v1/registerAccount', (req,res) => {
-     var userID2 = dt.generateID();
+
+     var userID = dt.generateID();
      var token = dt.generateToken();
-     var data = req.headers;
-     var password = "0";
-     var dataHash = crypto.createHash('sha256').update(password).digest('base64');
-    console.log(req.content);
+     var dataHash = crypto.createHash('sha256').update(req.body.password).digest('base64');
 
-    // connection.query(`` , function (error, results, fields) {
-    // if (error){
-    //     res.status(500).send(
-    //         {
-    //             error: error
-    //         }
-    //     );
-    //     throw error;
-    // }
+     console.log(req.body.name);
+     console.log(req.body.email);
+     console.log(req.body.password);
+     console.log("-----------------");
+
+     connection.query(`INSERT INTO users (UUID, Name, LoginToken, passwordHash, email) VALUES ('${userID}','${req.body.name}', '${token}', '${dataHash}','${req.body.email}'); ` , function (error, results, fields) { //kekw
+     if (error){
+         res.status(500).send(
+             {
+                 error: error
+             }
+         );
+         throw error;
+     }
+
      res.status(200).send(
-       data
-         //{
-         //status: "accepted",
-         //userID: userID2,
-         //token: token,
-     //}
+         {
+         status: "accepted",
+         userID: userID,
+         token: token,
+     }
 
-     ); // ZMAZAT POTOM
-
-     // )})
+      )})
  });
 
  app.get('/api/v1/loginAccount', (req,res) => {
-    connection.query(`` , function (error, results, fields) { 
+    console.log("A");
+    connection.query(`SELECT passwordHash FROM users WHERE UUID = 'a'` , function (error, results, fields) {
+        console.log("B");
      if (error){
          res.status(500).send(
              {
@@ -179,9 +186,14 @@ app.get('/api/v1/post/:postID/getPost/', (req,res) => {
          );  
          throw error;
      }
-     res.status(200).send(
-         results
-     )})
+        console.log("C");
+     if(results[0].passwordHash === null) {
+         res.status(402).send(
+             {status: "kokot zaplat kekw"
+             });
+     }
+        console.log("E");
+    })
  });
 
  app.delete('/api/v1/:userID/deleteAccount/', (req,res) => {
