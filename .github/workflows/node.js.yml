@@ -25,5 +25,4 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - run: whoami
-    - run: echo hello
+    - run: systemctl status node-sample.service
