@@ -175,9 +175,12 @@ app.get('/api/v1/post/:postID/getPost/', (req,res) => {
  });
 
  app.get('/api/v1/loginAccount', (req,res) => {
-    console.log("A");
-    connection.query(`SELECT passwordHash FROM users WHERE UUID = 'a'` , function (error, results, fields) {
-        console.log("B");
+     var email = req.body.email;
+     var rawPassword = req.body.password;
+     var newToken = dt.generateToken();
+     var dataHash = crypto.createHash('sha256').update(rawPassword).digest('base64');
+
+     connection.query(`SELECT passwordHash FROM users WHERE email = '${email}'` , function (error, results, fields) {
      if (error){
          res.status(500).send(
              {
@@ -186,14 +189,35 @@ app.get('/api/v1/post/:postID/getPost/', (req,res) => {
          );  
          throw error;
      }
-        console.log("C");
-     if(results[0].passwordHash === null) {
-         res.status(402).send(
-             {status: "kokot zaplat kekw"
-             });
+
+     if(!(results.length > 0)) {
+         res.status(401).send(
+             {status: "Not Authorised"});
+         // TODO: Dorobit nejaky return alebo nieco co stopne kod
      }
-        console.log("E");
-    })
+
+     if(results[0].passwordHash === dataHash) {
+         connection.query(`UPDATE users SET LoginToken = '${newToken}' WHERE email = '${email}';` , function (error, results, fields) {
+             if (error) {
+                 res.status(500).send(
+                     {
+                         error: error
+                     }
+                 );
+                 throw error;
+             } else {
+                 res.status(200).send(
+                    {
+                        status: "accepted",
+                        token: newToken
+                 });
+             }
+         })
+         //TODO: Dorobit nejaky return alebo nieco co stopne kod
+         } else {
+         res.status(401).send(
+             {status: "Not Authorised"});
+         }})
  });
 
  app.delete('/api/v1/:userID/deleteAccount/', (req,res) => {
