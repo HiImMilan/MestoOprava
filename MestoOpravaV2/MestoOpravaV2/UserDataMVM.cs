@@ -1,15 +1,17 @@
 ﻿using System.ComponentModel;
 using System.Net.Security;
 using System.Runtime.CompilerServices;
+using MestoOpravaV2.POPUPS;
 using Xamarin.Essentials;
 
 namespace MestoOpravaV2
 {
     public class UserDataMVM : INotifyPropertyChanged
     {
-        private static string name;
-        private static string email;
-        private static string password;
+        private string name;
+        private string email;
+        private string password;
+
 
         public string Name
         {

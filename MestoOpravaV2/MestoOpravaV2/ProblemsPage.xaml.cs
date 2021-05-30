@@ -57,12 +57,12 @@ namespace MestoOpravaV2
         
         async void SearchClicked(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            await Navigation.PushModalAsync(new SearchPage(), true);
         }
         
         async void SettingsClicked(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new SettingsPage(), true);
+            await Navigation.PushModalAsync(new SettingsPage(), true);
         }
         void onClickedProblem(object sender, EventArgs e)
         {
