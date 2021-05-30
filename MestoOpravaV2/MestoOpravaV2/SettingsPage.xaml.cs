@@ -25,9 +25,14 @@ namespace MestoOpravaV2
         {
             await PopupNavigation.PushAsync(new Name());
         }
+        
+        async void EmailClicked(object sender, EventArgs e)
+        {
+            await PopupNavigation.PushAsync(new Email());
+        }
 
         [Obsolete]
-        async void PasswordeClicked(object sender, EventArgs e)
+        async void PasswordClicked(object sender, EventArgs e)
         {
             await PopupNavigation.PushAsync(new Password());
         }

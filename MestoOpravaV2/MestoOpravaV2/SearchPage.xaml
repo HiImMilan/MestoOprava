@@ -1,12 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mestoOpravaV2="clr-namespace:MestoOpravaV2;assembly=MestoOpravaV2"
+             xmlns:local="clr-namespace:MestoOpravaV2"
              x:Class="MestoOpravaV2.SearchPage">
+    <ContentPage.BindingContext>
+        <local:ProblemMVM/>
+    </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <SearchBar x:Name="Search" Placeholder="hľadať" CancelButtonColor="#186AFF" PlaceholderColor="#186AFF" HorizontalOptions="Center" TextChanged="Search_OnTextChanged"/>
+            <CollectionView x:Name="CollectionView" ItemsSource="{Binding _IList}" ItemsLayout="VerticalList">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding Name}"/>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
