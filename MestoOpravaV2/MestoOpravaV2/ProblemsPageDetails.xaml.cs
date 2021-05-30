@@ -36,6 +36,9 @@ namespace MestoOpravaV2
                 Rating.Text = post["rating"];
                 Distance.Text = "30km";
                 Description.Text = post["description"];
+                Image.Source = ImageSource.FromUri(new Uri(post["imageURL"]));
+
+                
             }
             catch (Exception e)
             {
@@ -44,5 +47,12 @@ namespace MestoOpravaV2
 
             
         }
+
+        private void RateProblem(object sender, EventArgs e)
+        {
+            PopupNavigation.PushAsync(new Rating());
+        }
+
+
     }
 }

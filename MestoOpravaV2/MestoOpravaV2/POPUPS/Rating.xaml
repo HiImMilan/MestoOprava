@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<popup:PopupPage  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:popup="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             x:Class="MestoOpravaV2.POPUPS.Rating">
+    <Grid>
+        <StackLayout BackgroundColor="Black" Opacity="0.8">
+            
+        </StackLayout>
+
+        <StackLayout>
+            <Button Text="&#xf060;" Clicked="CloseRating" BackgroundColor="Transparent" TextColor="White" FontFamily="{ StaticResource FontAwesomeSolid }" HorizontalOptions="Start" FontSize="25"></Button>
+                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <Button Clicked="Rate" BindingContext="5" Text="Veľmi dôležité" TextColor="White" FontSize="40" Margin="0,10,0,10" BackgroundColor="Transparent"></Button>
+                <Button Clicked="Rate" BindingContext="4" Text="Dôležité" TextColor="White" FontSize="40" Margin="0,10,0,10" BackgroundColor="Transparent"></Button>
+                <Button Clicked="Rate" BindingContext="3" Text="Neutrálne" TextColor="White" FontSize="40" Margin="0,10,0,10" BackgroundColor="Transparent"></Button>
+                <Button Clicked="Rate" BindingContext="0" Text="Zbytočné" TextColor="White" FontSize="40" Margin="0,10,0,10" BackgroundColor="Transparent"></Button>
+
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</popup:PopupPage>

@@ -14,7 +14,10 @@
                 <Grid>
 
                     <Frame Padding="0" HeightRequest="450" BackgroundColor="Black">
-                        <Image Opacity="0.7" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%BDilina_P6062236.jpg/270px-%C5%BDilina_P6062236.jpg" Aspect="AspectFill"/>
+                        <Image x:Name="Image" Opacity="0.7" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%BDilina_P6062236.jpg/270px-%C5%BDilina_P6062236.jpg" Aspect="AspectFill"/>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="RateProblem"/>
+                        </Frame.GestureRecognizers>
                     </Frame>
                     <StackLayout VerticalOptions="EndAndExpand" Margin="15,15,15,85">
                         <Grid>
