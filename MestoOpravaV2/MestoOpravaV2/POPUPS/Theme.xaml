@@ -14,20 +14,19 @@
                     
                     <StackLayout>
                         <Label Text="Vyberte si tému" TextColor="#000000"/>
-                        <RadioButton TextColor="#186AFF" Content="Modrá" IsChecked="True"/>
-                        <RadioButton TextColor="#32cd32" Content="Zelená"/>
-                        <RadioButton TextColor="#ccaa00" Content="Žltá"/>
-                        <RadioButton TextColor="#bc0000" Content="Červená"/>
-                        <RadioButton TextColor="#800080" Content="Fialová"/>
-                        <RadioButton TextColor="#000000" Content="Čierna"/>
+                        <RadioButton x:name="Blue" TextColor="#186AFF" Content="Modrá" IsChecked="True" CheckedChanged="BlueRadioButton_OnCheckedChanged"/>
+                        <RadioButton x:name="Green" TextColor="#32cd32" Content="Zelená" CheckedChanged="GreenRadioButton_OnCheckedChanged"/>
+                        <RadioButton x:name="Yellow" TextColor="#ccaa00" Content="Žltá" CheckedChanged="YellowRadioButton_OnCheckedChanged"/>
+                        <RadioButton x:name="Red" TextColor="#bc0000" Content="Červená" CheckedChanged="RedRadioButton_OnCheckedChanged"/>
+                        <RadioButton x:name="Purple" TextColor="#800080" Content="Fialová" CheckedChanged="PurpleRadioButton_OnCheckedChanged"/>
                     </StackLayout>
                     <StackLayout HeightRequest="100"/>
-                    <Button
+                    <Button x:Name="btn1"
                         BackgroundColor="#186AFF" TextColor="#ffffff"
                         Text="Uložiť"
                         Clicked="SaveClicked"
                         CornerRadius="50"/>
-                    <Button
+                    <Button x:Name="btn2"
                         BackgroundColor="#186AFF" TextColor="#ffffff"
                         Text="Späť"
                         Clicked="BackClicked"

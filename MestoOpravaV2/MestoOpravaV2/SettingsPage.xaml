@@ -33,7 +33,7 @@
     </ContentPage.Triggers>
     <ContentPage.Content>
         <ScrollView>
-            <Grid BackgroundColor="#186AFF">
+            <Grid x:Name="background" BackgroundColor="#186AFF">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
@@ -54,47 +54,47 @@
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <StackLayout Grid.Column="1">
-                                <Button
+                                <Button x:Name="btn1"
                                         BackgroundColor="#186AFF" TextColor="#ffffff"
                                         Text="Meno"
                                         Clicked="NameClicked"
                                         CornerRadius="50"/>
-                                <Button
+                                <Button x:Name="btn2"
                                         BackgroundColor="#186AFF" TextColor="#ffffff"
                                         Text="Email"
                                         Clicked="EmailClicked"
                                         CornerRadius="50"/>
-                                <Button
+                                <Button x:Name="btn3"
                                         BackgroundColor="#186AFF" TextColor="#ffffff"
                                         Text="Heslo"
                                         Clicked="PasswordClicked"
                                         CornerRadius="50"/>
-                                <Button
+                                <Button x:Name="btn4"
                                         BackgroundColor="#186AFF" TextColor="#ffffff"
                                         Text="Profilovú fotografia"
                                         Clicked="ProfilePictureClicked"
                                         CornerRadius="50"/>
-                                <Button
+                                <Button x:Name="btn5"
                                         BackgroundColor="#186AFF" TextColor="#ffffff"
                                         Text="Mesto"
                                         Clicked="CityClicked"
                                         CornerRadius="50"/>
-                                <Button
+                                <Button x:Name="btn6"
                                         BackgroundColor="#186AFF" TextColor="#ffffff"
                                         Text="Notifikácie"
                                         Clicked="NotificationsClicked"
                                         CornerRadius="50"/>
-                                <Button
-                                    BackgroundColor="#186AFF" TextColor="#ffffff"
-                                    Text="Téma"
-                                    Clicked="ThemeClicked"
-                                    CornerRadius="50"/>
-                                <Button
-                                    BorderColor="#990000" BorderWidth="1"
-                                    BackgroundColor="#186AFF" TextColor="#ffffff"
-                                    Text="Odhlásiť sa"
-                                    Clicked="LogOutClicked"
-                                    CornerRadius="50"/>
+                                <Button x:Name="btn7"
+                                        BackgroundColor="#186AFF" TextColor="#ffffff"
+                                        Text="Téma"
+                                        Clicked="ThemeClicked"
+                                        CornerRadius="50"/>
+                                <Button x:Name="btn8"
+                                        BorderColor="#990000" BorderWidth="1"
+                                        BackgroundColor="#186AFF" TextColor="#ffffff"
+                                        Text="Odhlásiť sa"
+                                        Clicked="LogOutClicked"
+                                        CornerRadius="50"/>
                             </StackLayout>
                         </Grid>
 
