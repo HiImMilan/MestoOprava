@@ -86,7 +86,6 @@ namespace MestoOpravaV2
             {
                 PopupNavigation.PushAsync(new InternetError(() => this.updateData()));
             }
-            
         }
     }
 }

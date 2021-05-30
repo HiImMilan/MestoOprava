@@ -72,5 +72,10 @@ namespace MestoOpravaV2
             Navigation.PushModalAsync(new ProblemsPageDetails(classIDD), true);
 
         }
+        
+        protected override bool OnBackButtonPressed()
+        {
+            return true;
+        }
     }
 }

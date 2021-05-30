@@ -26,6 +26,11 @@ namespace MestoOpravaV2
         {   if (EntryPassword.Text == EntryPasswordConfirmation.Text)
                 await Navigation.PushModalAsync(new ProblemsPage(), true);
         }
+        
+        protected override bool OnBackButtonPressed()
+        {
+            return true;
+        }
 
         
     }

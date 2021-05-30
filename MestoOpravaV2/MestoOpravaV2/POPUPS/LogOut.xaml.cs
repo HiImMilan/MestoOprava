@@ -21,6 +21,10 @@ namespace MestoOpravaV2.POPUPS
         {
             BackClicked(sender, e);
             await Navigation.PushModalAsync(new LoginPage(), true);
+            for (int i = 1; i < Navigation.NavigationStack.Count; i++)
+            {
+                await Navigation.PopModalAsync(true);
+            }
         }
         
         async void BackClicked(object sender, EventArgs e)

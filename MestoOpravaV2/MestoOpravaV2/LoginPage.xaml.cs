@@ -34,5 +34,10 @@ namespace MestoOpravaV2
         {
             await Navigation.PushModalAsync(new RegisterPage(), true);
         }
+        
+        protected override bool OnBackButtonPressed()
+        {
+            return true;
+        }
     }
 }

@@ -3,6 +3,7 @@ using Rg.Plugins.Popup.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -59,6 +60,16 @@ namespace MestoOpravaV2
         async void LogOutClicked(object sender, EventArgs e)
         {
             await PopupNavigation.PushAsync(new LogOut());
+        }
+        
+        protected override bool OnBackButtonPressed()
+        {
+            Task.Run(async () =>
+            {
+                try { await PopupNavigation.PopAllAsync(); }
+                catch (Exception) { await Navigation.PopModalAsync(); }
+            });
+            return true;
         }
     }
 }

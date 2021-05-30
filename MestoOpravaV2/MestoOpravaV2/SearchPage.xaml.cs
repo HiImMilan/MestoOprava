@@ -16,5 +16,10 @@ namespace MestoOpravaV2
         {
             InitializeComponent();
         }
+        
+        protected override bool OnBackButtonPressed()
+        {
+            return true;
+        }
     }
 }
