@@ -61,8 +61,13 @@
                                         CornerRadius="50"/>
                                 <Button
                                         BackgroundColor="#186AFF" TextColor="#ffffff"
+                                        Text="Email"
+                                        Clicked="EmailClicked"
+                                        CornerRadius="50"/>
+                                <Button
+                                        BackgroundColor="#186AFF" TextColor="#ffffff"
                                         Text="Heslo"
-                                        Clicked="PasswordeClicked"
+                                        Clicked="PasswordClicked"
                                         CornerRadius="50"/>
                                 <Button
                                         BackgroundColor="#186AFF" TextColor="#ffffff"
