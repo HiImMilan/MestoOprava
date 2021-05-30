@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pancakeView="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="MestoOpravaV2.AddNewPost">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#186AFF">
+
+            <Grid Padding="0,25,0,25">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="1" Text="Problémy v blízkosti" TextColor="White" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" Margin="10,0" />
+                <Label x:Name="Location" Grid.Row="1" Grid.Column="1" TextColor="White" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" Margin="10,0"/>
+            </Grid>
+            <pancakeView:PancakeView BackgroundColor="White" CornerRadius="50,50,0,0" Grid.Row="2" x:Name="container" Opacity="1" HeightRequest="400" Padding="10,30,10,0">
+                <Grid>
+                    <StackLayout Orientation="Horizontal" VerticalOptions="StartAndExpand">
+                        <StackLayout>
+                            <Label Text="Populárne problémy" TextColor="Black" FontSize="23" FontAttributes="Bold" Margin="15" />
+                        </StackLayout>
+                        <Label Text="Show all" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="15"/>
+                    </StackLayout>
+
+                    <Grid HeightRequest="50" VerticalOptions="EndAndExpand" Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Button Text="&#xf015;"  BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="0"/>
+                        <Button Text="&#xf067;"  BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="1"/>
+                        <Button Text="&#xf002;"  BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="2"/>
+                        <Button Text="&#xf013;"  BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="3"/>
+                    </Grid>
+                </Grid>
+
+            </pancakeView:PancakeView>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

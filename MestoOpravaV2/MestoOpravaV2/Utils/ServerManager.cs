@@ -31,7 +31,7 @@ namespace MestoOpravaV2.Utils
             this.Ip = ip;
         }
 
-        private async Task<HttpWebRequest> SendResponse(string url,Dictionary<string,string> data)
+        public async Task<HttpWebRequest> SendResponse(string url,Dictionary<string,string> data)
         {
             string targetUrl = $"{Ip}/{url}";
 
@@ -93,6 +93,19 @@ namespace MestoOpravaV2.Utils
             
             return GetResponseTemplate<List<Post>>(httpWebRequest);
 
+        }
+
+        public async Task<List<Dictionary<string, string>>> GetPostById(string postId)
+        {
+            Dictionary<string, string> data = new Dictionary<string, string>()
+            {
+                {"postId", postId },
+                {"operation", "getPost" }
+            };
+            
+            HttpWebRequest httpWebRequest = await SendResponse("post", data);
+
+            return GetResponseTemplate<List<Dictionary<string,string>>>(httpWebRequest);
         }
 
     }

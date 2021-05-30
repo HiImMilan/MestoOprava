@@ -24,6 +24,7 @@ namespace MestoOpravaV2
         {
             getGPS();
             InitializeComponent();
+
         }
 
         async void getGPS()
