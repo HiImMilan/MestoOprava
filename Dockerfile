@@ -1,4 +1,1 @@
-FROM ubuntu
-
-WORKDIR /app
 
