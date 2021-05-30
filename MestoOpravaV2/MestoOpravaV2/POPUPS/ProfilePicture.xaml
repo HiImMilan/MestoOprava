@@ -10,7 +10,26 @@
         </Grid.RowDefinitions>
         <AbsoluteLayout Grid.Row="1">
             <Frame CornerRadius="50" BackgroundColor="White" AbsoluteLayout.LayoutBounds="0.5, 0, 0.8, 0.8" AbsoluteLayout.LayoutFlags="All">
-
+                <StackLayout>
+                    <Image x:Name="ImageProfilePicture"
+                           Source="https://i.pinimg.com/originals/07/00/93/070093a9b4079db273b5a3eb0f06d544.png"/>
+                    <Button
+                        BackgroundColor="#186AFF" TextColor="#ffffff"
+                        Text="Zmeniť profilovú fotografiu"
+                        Clicked="ChangeProfilePictureClicked"
+                        CornerRadius="50"/>
+                    <StackLayout HeightRequest="100"/>
+                    <Button
+                        BackgroundColor="#186AFF" TextColor="#ffffff"
+                        Text="Uložiť"
+                        Clicked="SaveClicked"
+                        CornerRadius="50"/>
+                    <Button
+                        BackgroundColor="#186AFF" TextColor="#ffffff"
+                        Text="Späť"
+                        Clicked="BackClicked"
+                        CornerRadius="50"/>
+                </StackLayout>
             </Frame>
         </AbsoluteLayout>
     </Grid>

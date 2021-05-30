@@ -10,17 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace MestoOpravaV2.POPUPS
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Password : Rg.Plugins.Popup.Pages.PopupPage
+    public partial class Email : Rg.Plugins.Popup.Pages.PopupPage
     {
-        public Password()
+        public Email()
         {
             InitializeComponent();
         }
-        
-        async void ChangePasswordClicked(object sender, EventArgs e)
+        async void ChangeEmailClicked(object sender, EventArgs e)
         {
-            EntryPassword.IsReadOnly = false;
-            EntryPasswordConfirm.IsEnabled = true;
+            EntryEmail.IsReadOnly = false;
         }
         
         async void SaveClicked(object sender, EventArgs e)

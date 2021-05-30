@@ -10,7 +10,24 @@
         </Grid.RowDefinitions>
         <AbsoluteLayout Grid.Row="1">
             <Frame CornerRadius="50" BackgroundColor="White" AbsoluteLayout.LayoutBounds="0.5, 0, 0.8, 0.8" AbsoluteLayout.LayoutFlags="All">
-
+                <StackLayout>
+                    <Switch Toggled="ChangeNotificationsToogled"
+                            IsToggled="True"
+                            OnColor="#a8a8a8"
+                            ThumbColor="#186AFF"
+                            />
+                    <StackLayout HeightRequest="325"/>
+                    <Button
+                        BackgroundColor="#186AFF" TextColor="#ffffff"
+                        Text="Uložiť"
+                        Clicked="SaveClicked"
+                        CornerRadius="50"/>
+                    <Button
+                        BackgroundColor="#186AFF" TextColor="#ffffff"
+                        Text="Späť"
+                        Clicked="BackClicked"
+                        CornerRadius="50"/>
+                </StackLayout>
             </Frame>
         </AbsoluteLayout>
     </Grid>

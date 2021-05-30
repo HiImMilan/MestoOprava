@@ -10,7 +10,30 @@
         </Grid.RowDefinitions>
         <AbsoluteLayout Grid.Row="1">
             <Frame CornerRadius="50" BackgroundColor="White" AbsoluteLayout.LayoutBounds="0.5, 0, 0.8, 0.8" AbsoluteLayout.LayoutFlags="All">
-
+                <StackLayout>
+                    <Entry x:Name="EntryName" 
+                           Text="Jožko Ferko"
+                           TextColor="#000000"
+                           IsReadOnly="True"
+                           Placeholder="Meno"
+                           PlaceholderColor="#a8a8a8"/>
+                    <Button
+                        BackgroundColor="#186AFF" TextColor="#ffffff"
+                        Text="Zmeniť meno"
+                        Clicked="ChangeNameClicked"
+                        CornerRadius="50"/>
+                    <StackLayout HeightRequest="250"/>
+                    <Button
+                        BackgroundColor="#186AFF" TextColor="#ffffff"
+                        Text="Uložiť"
+                        Clicked="SaveClicked"
+                        CornerRadius="50"/>
+                    <Button
+                        BackgroundColor="#186AFF" TextColor="#ffffff"
+                        Text="Späť"
+                        Clicked="BackClicked"
+                        CornerRadius="50"/>
+                </StackLayout>
             </Frame>
         </AbsoluteLayout>
     </Grid>

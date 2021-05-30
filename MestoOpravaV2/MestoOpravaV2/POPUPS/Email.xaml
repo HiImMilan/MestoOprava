@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <popup:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"                 
-             xmlns:popup="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
-             x:Class="MestoOpravaV2.POPUPS.LogOut">
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"                 
+                 xmlns:popup="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+                 x:Class="MestoOpravaV2.POPUPS.Email">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -11,13 +11,22 @@
         <AbsoluteLayout Grid.Row="1">
             <Frame CornerRadius="50" BackgroundColor="White" AbsoluteLayout.LayoutBounds="0.5, 0, 0.8, 0.8" AbsoluteLayout.LayoutFlags="All">
                 <StackLayout>
-                    <Label Text="Ste si istý,že sa chcete odhlásiť?"
-                           TextColor="#000000"/>
-                    <StackLayout HeightRequest="325"/>
+                    <Entry x:Name="EntryEmail" 
+                           Text="jozkoferko@traktor.ciapka"
+                           TextColor="#000000"
+                           IsReadOnly="True"
+                           Placeholder="Email"
+                           PlaceholderColor="#a8a8a8"/>
                     <Button
                         BackgroundColor="#186AFF" TextColor="#ffffff"
-                        Text="Odhlásiť sa"
-                        Clicked="LogOutClicked"
+                        Text="Zmeniť email"
+                        Clicked="ChangeEmailClicked"
+                        CornerRadius="50"/>
+                    <StackLayout HeightRequest="250"/>
+                    <Button
+                        BackgroundColor="#186AFF" TextColor="#ffffff"
+                        Text="Uložiť"
+                        Clicked="SaveClicked"
                         CornerRadius="50"/>
                     <Button
                         BackgroundColor="#186AFF" TextColor="#ffffff"
