@@ -53,31 +53,18 @@ namespace MestoOpravaV2
         }
         protected void OnPropertyChanged(string propertyName)
         {
-            if (PropertyChanged != null) // if there is any subscribers 
+            if (PropertyChanged != null) 
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
         }
         public MainDataMVM()
         {
             places = new ObservableCollection<Post>();
             updateData();
-            /*
-            postRefresh = Task.Run(async () =>
-            {
-                while (true)
-                {
-                    Console.WriteLine("Post Refresh");
-                    updateData();
-                    await Task.Delay(10000);
-                }
-            });
-            */
             RefreshCommand = new Command(async () =>
             {
-                // IsRefreshing is true
-                // Refresh data here
                 Console.WriteLine("Post refresh");
                 await updateData();
-                isRefreshing = false;
+                IsRefreshing = false;
             });
         }
 
