@@ -48,26 +48,21 @@
 
                         <Grid>
                             <ScrollView BackgroundColor="White" HeightRequest="250">
-                                <Grid BackgroundColor="White" Padding="0,10,0,0">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*"/>
-                                        <ColumnDefinition Width="*"/>
-                                    </Grid.ColumnDefinitions>
-
-                                    <StackLayout Grid.Column="0" HorizontalOptions="StartAndExpand">
-                                        <Label Text="Popis" FontSize="24" TextColor="#184fff" FontAttributes="Bold"></Label>
-                                        <Label x:Name="Description" FontSize="Medium" TextColor="#345ee3" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."></Label>
-                                    </StackLayout>
-
-                                    <StackLayout Grid.Column="1" HorizontalOptions="CenterAndExpand">
+                                <StackLayout>
+                                    <StackLayout HorizontalOptions="CenterAndExpand">
                                         <Label Text="Vzdialenosť" FontSize="24" TextColor="#184fff" FontAttributes="Bold"></Label>
                                         <Label x:Name="Distance" Text="30 km" HorizontalTextAlignment="Center" FontSize="Medium" TextColor="#345ee3"></Label>
                                     </StackLayout>
 
-                                </Grid>
+                                    <StackLayout HorizontalOptions="StartAndExpand">
+                                        <Label Text="Popis" FontSize="24" TextColor="#184fff" FontAttributes="Bold"></Label>
+                                        <Label x:Name="Description" FontSize="Medium" TextColor="#345ee3" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."></Label>
+                                    </StackLayout>
+
+                                </StackLayout>
 
 
-                                
+
                             </ScrollView>
                         </Grid>
                     </Frame>

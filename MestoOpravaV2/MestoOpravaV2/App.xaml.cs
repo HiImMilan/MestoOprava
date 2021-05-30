@@ -11,7 +11,7 @@ namespace MestoOpravaV2
 
             InitializeComponent();
 
-            MainPage = new AddNewPost();
+            MainPage = new ProblemsPage();
         }
 
         protected override void OnStart()

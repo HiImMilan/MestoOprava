@@ -12,82 +12,140 @@
     <ContentPage.Content>
         <StackLayout BackgroundColor="#186AFF">
 
-            <Grid Padding="0,25,0,25">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Label Grid.Row="0" Grid.Column="1" Text="Problémy v blízkosti" TextColor="White" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" Margin="10,0" />
-                <Label x:Name="Location" Grid.Row="1" Grid.Column="1" TextColor="White" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" Margin="10,0"/>
-            </Grid>
-            <CarouselView ItemsSource="{Binding places}" HeightRequest="300" PeekAreaInsets="100">
+            <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}">
+                <ScrollView>
+                    <StackLayout>
+                        <Grid Padding="0,25,0,25">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Row="0" Grid.Column="1" Text="Problémy v blízkosti" TextColor="White" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" Margin="10,0" />
+                            <Label x:Name="Location" Grid.Row="1" Grid.Column="1" TextColor="White" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" Margin="10,0"/>
+                        </Grid>
+                        <StackLayout HeightRequest="200">
+                            <CarouselView ItemsSource="{Binding places}" HeightRequest="300" PeekAreaInsets="100">
 
-                <CarouselView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout ClassId="{Binding creationID}">
-                            <Frame HeightRequest="280" WidthRequest="180" 
+                                <CarouselView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackLayout ClassId="{Binding creationID}">
+                                            <Frame HeightRequest="280" WidthRequest="180" 
                                    BackgroundColor="White" Padding="0"
                                    HasShadow="True" Margin="10" CornerRadius="10"
                                    HorizontalOptions="CenterAndExpand">
-                                <Frame.GestureRecognizers>
-                                    <TapGestureRecognizer Tapped="onClickedProblem"/>
-                                </Frame.GestureRecognizers>
-                                <Grid>
-                                    <StackLayout  BackgroundColor="Black">
-                                        <Image Source="{Binding imageURL}" WidthRequest="280" 
+                                                <Frame.GestureRecognizers>
+                                                    <TapGestureRecognizer Tapped="onClickedProblem"/>
+                                                </Frame.GestureRecognizers>
+                                                <Grid>
+                                                    <StackLayout  BackgroundColor="Black">
+                                                        <Image Source="{Binding imageURL}" WidthRequest="280" 
                                                HeightRequest="350" Opacity="0.6"
                                                Aspect="AspectFill"/>
-                                    </StackLayout>
-                                    <StackLayout Margin="0,0,0,10">
-                                        <Label Text="{Binding title}" TextColor="White" FontSize="18"
+                                                    </StackLayout>
+                                                    <StackLayout Margin="0,0,0,10">
+                                                        <Label Text="{Binding title}" TextColor="White" FontSize="18"
                                                FontAttributes="None" Margin="15,0"
                                                VerticalOptions="EndAndExpand"/>
-                                        
 
-                                        <StackLayout Orientation="Horizontal"  Margin="15,-8,0,0">
-                                            <Image Source="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" 
+
+                                                        <StackLayout Orientation="Horizontal"  Margin="15,-8,0,0">
+                                                            <Image Source="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" 
                                                    HeightRequest="20"  Margin="-5,0"
                                                    Aspect="AspectFit"/>
-                                            <Label Text="{Binding adress}" TextColor="White" FontSize="14"
+                                                            <Label Text="{Binding adress}" TextColor="White" FontSize="14"
                                                    FontAttributes="None" 
                                                    VerticalOptions="EndAndExpand"/>
+                                                        </StackLayout>
+                                                    </StackLayout>
+                                                </Grid>
+
+
+
+                                            </Frame>
                                         </StackLayout>
+
+                                    </DataTemplate>
+                                </CarouselView.ItemTemplate>
+                            </CarouselView>
+                        </StackLayout>
+                        <pancakeView:PancakeView BackgroundColor="White" CornerRadius="50,50,0,0" Grid.Row="2" x:Name="container" Opacity="1"  Padding="10,30,10,0">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                    <RowDefinition Height="200"></RowDefinition>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <StackLayout Orientation="Horizontal" VerticalOptions="StartAndExpand" Grid.Row="0">
+                                    <StackLayout>
+                                        <Label Text="Populárne problémy" TextColor="#345ee3" FontSize="23" FontAttributes="Bold" Margin="15" />
                                     </StackLayout>
+                                </StackLayout>
+                                <ScrollView Grid.Row="1">
+                                    <StackLayout>
+                                        <CarouselView ItemsSource="{Binding places}" HeightRequest="200" PeekAreaInsets="100">
+
+                                            <CarouselView.ItemTemplate>
+                                                <DataTemplate>
+                                                    <StackLayout ClassId="{Binding creationID}">
+                                                        <Frame HeightRequest="200" WidthRequest="180" 
+                                   BackgroundColor="White" Padding="0"
+                                   HasShadow="True" Margin="10" CornerRadius="10"
+                                   HorizontalOptions="CenterAndExpand">
+                                                            <Frame.GestureRecognizers>
+                                                                <TapGestureRecognizer Tapped="onClickedProblem"/>
+                                                            </Frame.GestureRecognizers>
+                                                            <Grid>
+                                                                <StackLayout  BackgroundColor="Black">
+                                                                    <Image Source="{Binding imageURL}" WidthRequest="280" 
+                                               HeightRequest="350" Opacity="0.6"
+                                               Aspect="AspectFill"/>
+                                                                </StackLayout>
+                                                                <StackLayout Margin="0,0,0,10">
+                                                                    <Label Text="{Binding title}" TextColor="White" FontSize="18"
+                                               FontAttributes="None" Margin="15,0"
+                                               VerticalOptions="EndAndExpand"/>
+
+
+                                                                    <StackLayout Orientation="Horizontal"  Margin="15,-8,0,0">
+                                                                        <Image Source="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" 
+                                                   HeightRequest="20"  Margin="-5,0"
+                                                   Aspect="AspectFit"/>
+                                                                        <Label Text="{Binding adress}" TextColor="White" FontSize="14"
+                                                   FontAttributes="None" 
+                                                   VerticalOptions="EndAndExpand"/>
+                                                                    </StackLayout>
+                                                                </StackLayout>
+                                                            </Grid>
+
+
+
+                                                        </Frame>
+                                                    </StackLayout>
+
+                                                </DataTemplate>
+                                            </CarouselView.ItemTemplate>
+                                        </CarouselView>
+                                    </StackLayout>
+                                </ScrollView>
+                                <Grid HeightRequest="50" VerticalOptions="EndAndExpand" Padding="10" Grid.Row="2">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="50"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <Button Text="&#xf015;" Clicked="HomeClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="0"/>
+                                    <Button Text="&#xf067;" Clicked="AddClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="1"/>
+                                    <Button Text="&#xf002;" Clicked="SearchClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="2"/>
+                                    <Button Text="&#xf013;" Clicked="SettingsClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="3"/>
                                 </Grid>
+                            </Grid>
 
-
-
-                            </Frame>
-                        </StackLayout>
-
-                    </DataTemplate>
-                </CarouselView.ItemTemplate>
-            </CarouselView>
-            <pancakeView:PancakeView BackgroundColor="White" CornerRadius="50,50,0,0" Grid.Row="2" x:Name="container" Opacity="1" HeightRequest="400" Padding="10,30,10,0">
-                <Grid>
-                    <StackLayout Orientation="Horizontal" VerticalOptions="StartAndExpand">
-                        <StackLayout>
-                            <Label Text="Populárne problémy" TextColor="Black" FontSize="23" FontAttributes="Bold" Margin="15" />
-                        </StackLayout>
-                        <Label Text="Show all" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="15"/>
+                        </pancakeView:PancakeView>
                     </StackLayout>
-
-                    <Grid HeightRequest="50" VerticalOptions="EndAndExpand" Padding="10">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="50"></RowDefinition>
-                        </Grid.RowDefinitions>
-                        <Button Text="&#xf015;" Clicked="HomeClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="0"/>
-                        <Button Text="&#xf067;" Clicked="AddClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="1"/>
-                        <Button Text="&#xf002;" Clicked="SearchClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="2"/>
-                        <Button Text="&#xf013;" Clicked="SettingsClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="3"/>
-                    </Grid>
-                </Grid>
-
-                </pancakeView:PancakeView>
+                </ScrollView>
+            </RefreshView>
         </StackLayout>
 
     </ContentPage.Content>

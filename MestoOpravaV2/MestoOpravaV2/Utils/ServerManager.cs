@@ -16,7 +16,7 @@ namespace MestoOpravaV2.Utils
         {
             get
             {
-                if (_serverManager == null)
+                if ( _serverManager == null )
                 {
                     //http://158.255.29.10/Server
                     _serverManager = new ServerManager("http://158.255.29.10:8142/api/v1");
@@ -61,8 +61,6 @@ namespace MestoOpravaV2.Utils
             {
                 result = streamReader.ReadToEnd();
             }
-            
-       
         }
         
         private string GetResponseString(HttpWebRequest httpWebRequest)
@@ -92,7 +90,6 @@ namespace MestoOpravaV2.Utils
             HttpWebRequest httpWebRequest = await SendResponse("getNearest", data);
             
             return GetResponseTemplate<List<Post>>(httpWebRequest);
-
         }
 
         public async Task<List<Dictionary<string, string>>> GetPostById(string postId)
