@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -25,34 +25,37 @@ namespace MestoOpravaV2
         {
             return await ServerManager.serverManager.GetPostById(postId.ToString());
         }
+        public async Task<float> CalculateDistance(string longy, string latty)
+        {
+            var request = new GeolocationRequest(GeolocationAccuracy.Best, TimeSpan.FromSeconds(20));
+            Location location = await Geolocation.GetLocationAsync(request);
+            float longitude = float.Parse(longy) - (float)location.Longitude;
+            float lattitude = float.Parse(latty) - (float)location.Latitude;
+            return (float)(Math.Pow(longitude, 2) + Math.Pow(lattitude, 2));
+        }
         protected override async void OnAppearing()
         {
-          
             try
             {
                 Dictionary<string,string> post = (await getPostById())[0];
+                Console.WriteLine("Jebe tomu");
+                
                 Title.Text = post["title"];
                 Location.Text = post["adress"];
                 Rating.Text = post["rating"];
-                Distance.Text = "30km";
+                float dist = await CalculateDistance(post["rating"], post["rating"]) / 1000;
+                Distance.Text = $"{Math.Round(dist,2)} km";
                 Description.Text = post["description"];
                 Image.Source = ImageSource.FromUri(new Uri(post["imageURL"]));
-
-                
             }
             catch (Exception e)
             {
                 PopupNavigation.PushAsync(new InternetError((() => OnAppearing())));
             }
-
-            
         }
-
         private void RateProblem(object sender, EventArgs e)
         {
             PopupNavigation.PushAsync(new Rating());
         }
-
-
     }
 }

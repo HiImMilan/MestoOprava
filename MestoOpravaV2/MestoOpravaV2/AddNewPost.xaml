@@ -7,32 +7,16 @@
         <ScrollView BackgroundColor="#186AFF">
 
             <StackLayout>
-                <Grid Padding="0,25,0,25">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-                    <Label Grid.Row="0" Grid.Column="1" Text="Vaša poloha" TextColor="White" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" Margin="10,0" />
-                    <Label x:Name="LocationTop" Grid.Row="1" Grid.Column="1" TextColor="White" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" Margin="10,0"/>
-                </Grid>
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="100"></RowDefinition>
                         <RowDefinition Height="650"></RowDefinition>
                     </Grid.RowDefinitions>
-                    <pancakeView:PancakeView BackgroundColor="White" Padding="10,30" Grid.Row="0" CornerRadius="25,25,0,0">
-                        <Label Text="Pridať nový príspevok" TextColor="#184fff" FontSize="22" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" />
-                    </pancakeView:PancakeView>
-                    <Grid Grid.Row="1">
+                    <Grid Grid.Row="0">
                         <StackLayout VerticalOptions="FillAndExpand">
                             <Grid>
 
                                 <Frame Padding="0" HeightRequest="550" BackgroundColor="Black">
-                                    <Image Opacity="0.7" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%BDilina_P6062236.jpg/270px-%C5%BDilina_P6062236.jpg" Aspect="AspectFill"/>
+                                    <Image x:Name="image" Opacity="0.7" Source="https://cdn.discordapp.com/attachments/825455600120234005/848957700930273300/9d239463a51204747ec089acc631760b.png" Aspect="AspectFill"/>
                                 </Frame>
                                 <StackLayout VerticalOptions="EndAndExpand" Margin="15,15,15,85">
                                     <Grid>
@@ -67,16 +51,16 @@
                                         <StackLayout>
                                             <StackLayout HorizontalOptions="CenterAndExpand">
                                                 <Label Text="Vzdialenosť" FontSize="24" TextColor="#184fff" FontAttributes="Bold"></Label>
-                                                <Label x:Name="Distance" Text="30 km" HorizontalTextAlignment="Center" FontSize="Medium" TextColor="#345ee3"></Label>
+                                                <Label x:Name="Distance" Text="0 km" HorizontalTextAlignment="Center" FontSize="Medium" TextColor="#345ee3"></Label>
                                             </StackLayout>
                                             
-                                            <StackLayout HorizontalOptions="StartAndExpand">
+                                            <StackLayout HorizontalOptions="StartAndExpand" HeightRequest="300">
                                                 <Label Text="Popis" FontSize="24" TextColor="#184fff" FontAttributes="Bold"></Label>
-                                                <Editor x:Name="Description" FontSize="Medium" TextColor="#345ee3" Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."></Editor>
+                                                <Editor x:Name="Description" FontSize="Medium" TextColor="#345ee3" Text="Zadajte text..." WidthRequest="400" AutoSize="TextChanges"></Editor>
                                             </StackLayout>
 
                                             <Frame CornerRadius="25" Padding="0">
-                                                <Button Text="Pridať nový príspevok" BackgroundColor="#345ee3" TextColor="White"></Button>
+                                                <Button Clicked="Send_Post" Text="Pridať nový príspevok" BackgroundColor="#345ee3" TextColor="White"></Button>
                                             </Frame>
                                         </StackLayout>
                                     </ScrollView>
