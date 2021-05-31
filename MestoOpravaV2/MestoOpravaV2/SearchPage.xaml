@@ -3,20 +3,59 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:mestoOpravaV2="clr-namespace:MestoOpravaV2;assembly=MestoOpravaV2"
              xmlns:local="clr-namespace:MestoOpravaV2"
+             xmlns:pancakeView="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              x:Class="MestoOpravaV2.SearchPage">
+    
     <ContentPage.BindingContext>
         <local:ProblemMVM/>
     </ContentPage.BindingContext>
+    
     <ContentPage.Content>
-        <StackLayout>
-            <SearchBar x:Name="Search" Placeholder="hľadať" CancelButtonColor="#186AFF" PlaceholderColor="#186AFF" HorizontalOptions="Center" TextChanged="Search_OnTextChanged"/>
-            <CollectionView x:Name="CollectionView" ItemsSource="{Binding _IList}" ItemsLayout="VerticalList">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Label Text="{Binding Name}"/>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
-        </StackLayout>
+        <Grid BackgroundColor="#186AFF">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <SearchBar x:Name="Search" Placeholder="hľadať" TextColor="#fff" CancelButtonColor="#fff" PlaceholderColor="#fff" HorizontalOptions="Center" TextChanged="Search_OnTextChanged"/>
+                <CarouselView x:Name="cv" ItemsSource="{Binding _IList}" HeightRequest="200" PeekAreaInsets="100">
+
+                                            <CarouselView.ItemTemplate>
+                                                <DataTemplate>
+                                                    <StackLayout ClassId="{Binding CreationID}">
+                                                        <Frame HeightRequest="200" WidthRequest="180" 
+                                                               BackgroundColor="White" Padding="0"
+                                                               HasShadow="True" Margin="10" CornerRadius="10"
+                                                               HorizontalOptions="CenterAndExpand">
+                                                            <Frame.GestureRecognizers>
+                                                                <TapGestureRecognizer Tapped="onClickedProblem"/>
+                                                            </Frame.GestureRecognizers>
+                                                            <Grid>
+                                                                <StackLayout  BackgroundColor="Black">
+                                                                    <Image Source="{Binding ImageURL}" WidthRequest="280" 
+                                                                           HeightRequest="350" Opacity="0.6"
+                                                                           Aspect="AspectFill"/>
+                                                                </StackLayout>
+                                                                <StackLayout Margin="0,0,0,10">
+                                                                    <Label Text="{Binding Title}" TextColor="White" FontSize="18"
+                                                                           FontAttributes="None" Margin="15,0"
+                                                                           VerticalOptions="EndAndExpand"/>
+                                                                    <StackLayout Orientation="Horizontal"  Margin="15,-8,0,0">
+                                                                        <Image Source="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" 
+                                                                               HeightRequest="20"  Margin="-5,0"
+                                                                               Aspect="AspectFit"/>
+                                                                        <Label Text="{Binding Adress}" TextColor="White" FontSize="14"
+                                                                               FontAttributes="None" 
+                                                                               VerticalOptions="EndAndExpand"/>
+                                                                    </StackLayout>
+                                                                </StackLayout>
+                                                            </Grid>
+                                                        </Frame>
+                                                    </StackLayout>
+                                                </DataTemplate>
+                                            </CarouselView.ItemTemplate>
+                                        </CarouselView>
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

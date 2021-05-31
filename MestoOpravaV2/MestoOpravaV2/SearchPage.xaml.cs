@@ -20,10 +20,6 @@ namespace MestoOpravaV2
             
         }
         
-        protected override bool OnBackButtonPressed()
-        {
-            return true;
-        }
         void onClickedProblem(object sender, EventArgs e)
         {
             
@@ -36,7 +32,7 @@ namespace MestoOpravaV2
         private void Search_OnTextChanged(object sender, TextChangedEventArgs e)
         {
             IEnumerable<Problem> searchresult = ProblemMVM.GetSearchResult(Search.Text);
-            CollectionView.ItemsSource = searchresult;
+            cv.ItemsSource = searchresult;
 
         }
     }
