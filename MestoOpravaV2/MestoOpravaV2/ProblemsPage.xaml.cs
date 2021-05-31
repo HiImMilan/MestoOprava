@@ -52,7 +52,7 @@ namespace MestoOpravaV2
         
         async void AddClicked(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            await Navigation.PushModalAsync(new AddNewPost(), true);
         }
         
         async void SearchClicked(object sender, EventArgs e)
