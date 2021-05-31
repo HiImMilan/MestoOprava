@@ -46,6 +46,7 @@ namespace MestoOpravaV2
                 float dist = await CalculateDistance(post["rating"], post["rating"]) / 1000;
                 Distance.Text = $"{Math.Round(dist,2)} km";
                 Description.Text = post["description"];
+                Author.Text = post["authorName"];
                 Image.Source = ImageSource.FromUri(new Uri(post["imageURL"]));
             }
             catch (Exception e)

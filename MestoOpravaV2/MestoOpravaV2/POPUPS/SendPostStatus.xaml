@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<popup:PopupPage  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:popup="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             x:Class="MestoOpravaV2.POPUPS.SendPostStatus">
+    <Grid>
+        <StackLayout BackgroundColor="Black" Opacity="0.8">
+
+        </StackLayout>
+
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Frame BackgroundColor="White" CornerRadius="25" WidthRequest="250" HeightRequest="270" Padding="0,10,0,0">
+                <StackLayout Padding="0,30,0,0" HorizontalOptions="Center">
+                    <Label Text="Úspech" FontSize="30" TextColor="#345ee3" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                    <Label Text="Úspešne sme prijali vaš príspevok" HorizontalTextAlignment="Center" Margin="0,20,0,0" FontSize="16" TextColor="#345ee3"></Label>
+                    <Label Text="Ďakujeme" HorizontalTextAlignment="Center" FontSize="16"></Label>
+
+                    <StackLayout WidthRequest="100" HorizontalOptions="CenterAndExpand" Margin="0,25,0,0">
+                        <Frame CornerRadius="25" Padding="0">
+                            <Button Text="OK" Clicked="ClosePop" BackgroundColor="#345ee3" TextColor="White" FontSize="16"></Button>
+                        </Frame>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </Grid>
+</popup:PopupPage>

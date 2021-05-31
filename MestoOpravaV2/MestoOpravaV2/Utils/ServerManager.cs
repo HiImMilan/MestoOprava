@@ -6,6 +6,8 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using System.Net.Http;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace MestoOpravaV2.Utils
 {
@@ -46,7 +48,14 @@ namespace MestoOpravaV2.Utils
             httpWebRequest.Timeout = 5000;
             return httpWebRequest;
         }
-
+        public async Task SendRawPost(string url, Dictionary<string, string> data)
+        {
+            string targetUrl = $"{Ip}/{url}";
+            var content = JsonConvert.SerializeObject(data);
+            HttpClient httpClient = new HttpClient();
+            await httpClient.PostAsync(targetUrl, new StringContent(content, Encoding.UTF8, "application/json"));
+            Console.WriteLine(targetUrl);
+        }
         public void checkDebug()
         {
             var result = "";
