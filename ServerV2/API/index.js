@@ -125,6 +125,24 @@ app.get('/api/v1/:userID/getUserData/', (req,res) => {
  });
 
 
+ app.delete('/api/v1/post/:postID/sendRating/', (req,res) => {
+    const {postID} = req.params;
+    connection.query(`INSERT INTO ratings (creatorID, postID, rating) VALUES ('${userID}','${postID}','${rating}');` , function (error, results, fields) { 
+     if (error){
+         res.status(500).send(
+             {
+                 error: error
+             }
+         );  
+         throw error;
+     }
+     res.status(200).send(
+         results
+     )})
+ });
+
+
+
 app.get('/api/v1/post/:postID/getPost/', (req,res) => {
     const {postID} = req.params;
     console.log(`[LOG][getPost][${req.ip}] postID:${postID}`);
