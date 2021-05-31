@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Xamanimation.Helpers;
 using Xamarin.Forms;
@@ -17,7 +18,6 @@ namespace MestoOpravaV2
         public SearchPage()
         {
             InitializeComponent();
-            
         }
         
         void onClickedProblem(object sender, EventArgs e)
@@ -33,7 +33,6 @@ namespace MestoOpravaV2
         {
             IEnumerable<Problem> searchresult = ProblemMVM.GetSearchResult(Search.Text);
             cv.ItemsSource = searchresult;
-
         }
     }
 }
