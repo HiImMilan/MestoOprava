@@ -22,14 +22,6 @@ console.log("[Starting CityApka Nightly Server]");
 connection.connect();
 });
 
-app.get('/makemeacofee', (req,res) => {
-        res.status(418).send({
-            status: 'Brewing coffee...'
-            }
-        )
-    }
-);
-
 app.get('/api/v1/testObject/:data', (req,res) => {
     const {data} = req.params;
     var dataHash = crypto.createHash('sha256').update(data).digest('base64');
@@ -91,38 +83,6 @@ app.get('/api/v1/connectivityCheck', (req,res) => {
         }
     );
 });
-
-app.get('/api/v1/:userID/getUserData/', (req,res) => {
-    const {userID} = req.params;
-    connection.query(`` , function (error, results, fields) {  // RETURNE AJ USER POSTY!!!!!
-     if (error){
-         res.status(500).send(
-             {
-                 error: error
-             }
-         );  
-         throw error;
-     }
-     res.status(200).send(
-         results
-     )})
- });
-
- app.delete('/api/v1/post/:postID/removePost/', (req,res) => {
-    const {postID} = req.params;
-    connection.query(`` , function (error, results, fields) { 
-     if (error){
-         res.status(500).send(
-             {
-                 error: error
-             }
-         );  
-         throw error;
-     }
-     res.status(200).send(
-         results
-     )})
- });
 
 app.get('/api/v1/post/getTopScorePosts/', (req,res) => {
     const {postID} = req.params;
@@ -259,20 +219,4 @@ app.get('/api/v1/post/:postID/getPost/', (req,res) => {
          res.status(401).send(
              {status: "Not Authorised"});
          }})
- });
-
- app.delete('/api/v1/:userID/deleteAccount/', (req,res) => {
-    const {userID} = req.params;
-    connection.query(`` , function (error, results, fields) { 
-     if (error){
-         res.status(500).send(
-             {
-                 error: error
-             }
-         );  
-         throw error;
-     }
-     res.status(200).send(
-         results
-     )})
  });
