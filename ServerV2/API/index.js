@@ -22,14 +22,6 @@ console.log("[Starting CityApka Nightly Server]");
 connection.connect();
 });
 
-app.get('/makemeacofee', (req,res) => {
-        res.status(418).send({
-            status: 'Brewing coffee...'
-            }
-        )
-    }
-);
-
 app.get('/api/v1/testObject/:data', (req,res) => {
     const {data} = req.params;
     var dataHash = crypto.createHash('sha256').update(data).digest('base64');
@@ -92,25 +84,25 @@ app.get('/api/v1/connectivityCheck', (req,res) => {
     );
 });
 
-app.get('/api/v1/:userID/getUserData/', (req,res) => {
-    const {userID} = req.params;
-    connection.query(`` , function (error, results, fields) {  // RETURNE AJ USER POSTY!!!!!
-     if (error){
-         res.status(500).send(
-             {
-                 error: error
-             }
-         );  
-         throw error;
-     }
-     res.status(200).send(
-         results
-     )})
- });
-
- app.delete('/api/v1/post/:postID/removePost/', (req,res) => {
+app.get('/api/v1/post/getTopScorePosts/', (req,res) => {
     const {postID} = req.params;
-    connection.query(`` , function (error, results, fields) { 
+    connection.query(`` , function (error, results, fields) {
+        if (error){
+            res.status(500).send(
+                {
+                    error: error
+                }
+            );
+            throw error;
+        }
+        res.status(200).send(
+            results
+        )})
+});
+
+ app.get('/api/v1/post/:postID/sendRating/:rating', (req,res) => {
+    const {postID, rating} = req.params;
+    connection.query(`SELECT rating, totalVotes FROM problems WHERE creationID = ${postID};` , function (error, results, fields) {
      if (error){
          res.status(500).send(
              {
@@ -119,28 +111,24 @@ app.get('/api/v1/:userID/getUserData/', (req,res) => {
          );  
          throw error;
      }
-     res.status(200).send(
-         results
-     )})
- });
 
+     var totalVotes = results[0].totalVotes + 1;
+     var resoulta = (((results[0].rating * results[0].totalVotes) + parseFloat(rating)) / (totalVotes));
+        connection.query(`UPDATE problems SET rating = '${resoulta}', totalVotes = '${totalVotes}' WHERE creationID = ${postID};` , function (error, results, fields) {
+            if (error){
+                res.status(500).send(
+                    {
+                        error: error
+                    }
+                );
+                throw error;
+            }
+        })
 
- app.delete('/api/v1/post/:postID/sendRating/', (req,res) => {
-    const {postID} = req.params;
-    connection.query(`INSERT INTO ratings (creatorID, postID, rating) VALUES ('${userID}','${postID}','${rating}');` , function (error, results, fields) { 
-     if (error){
-         res.status(500).send(
-             {
-                 error: error
-             }
-         );  
-         throw error;
-     }
-     res.status(200).send(
-         results
-     )})
- });
-
+     res.status(200).send({
+        status: "accepted"
+     });
+ });})
 
 
 app.get('/api/v1/post/:postID/getPost/', (req,res) => {
@@ -166,11 +154,6 @@ app.get('/api/v1/post/:postID/getPost/', (req,res) => {
      var userID = dt.generateID();
      var token = dt.generateToken();
      var dataHash = crypto.createHash('sha256').update(req.body.password).digest('base64');
-
-     console.log(req.body.name);
-     console.log(req.body.email);
-     console.log(req.body.password);
-     console.log("-----------------");
 
      connection.query(`INSERT INTO users (UUID, Name, LoginToken, passwordHash, email) VALUES ('${userID}','${req.body.name}', '${token}', '${dataHash}','${req.body.email}'); ` , function (error, results, fields) { //kekw
      if (error){
@@ -236,20 +219,4 @@ app.get('/api/v1/post/:postID/getPost/', (req,res) => {
          res.status(401).send(
              {status: "Not Authorised"});
          }})
- });
-
- app.delete('/api/v1/:userID/deleteAccount/', (req,res) => {
-    const {userID} = req.params;
-    connection.query(`` , function (error, results, fields) { 
-     if (error){
-         res.status(500).send(
-             {
-                 error: error
-             }
-         );  
-         throw error;
-     }
-     res.status(200).send(
-         results
-     )})
  });

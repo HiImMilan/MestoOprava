@@ -2,41 +2,68 @@
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using Plugin.Media;
+using Xamarin.Forms;
 
 namespace MestoOpravaV2
 {
     public class ProblemMVM : INotifyPropertyChanged
     {
-        private string name;
-        private string email;
+        private string creationID;
+        private string imageURL;
+        private string title;
+        private string adress;
         public static IList<Problem> _IList { get; set; }
 
         public ProblemMVM()
         {
             _IList = new List<Problem>();
-            _IList.Add(new Problem {Name = "Erika", Email = "slovencina@spsit.com"});
-            _IList.Add(new Problem {Name = "Pave IV", Email = "vipipavel@spsit.com"});
-            _IList.Add(new Problem {Name = "OSY", Email = "srsne@spsit.com"});
+            _IList.Add(new Problem {CreationID = "1", ImageURL = "https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg", Title = "test1", Adress = "test1"});
+            _IList.Add(new Problem {CreationID = "2", ImageURL = "https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg", Title = "test2", Adress = "test2"});
+            _IList.Add(new Problem {CreationID = "3", ImageURL = "https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg", Title = "test3", Adress = "test3"});
+            _IList.Add(new Problem {CreationID = "4", ImageURL = "https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg", Title = "test4", Adress = "test4"});
+            _IList.Add(new Problem {CreationID = "5", ImageURL = "https://picjumbo.com/wp-content/uploads/the-golden-gate-bridge-sunset-1080x720.jpg", Title = "test5", Adress = "test5"});
             
             
         }
         
-        public string Name
+        public string CreationID
         {
-            get => name;
+            get => creationID;
             set
             {
-                name = value;
-                OnPropertyChanged(nameof(name));
+                creationID = value;
+                OnPropertyChanged(nameof(creationID));
             }
         }
-        public string Email
+        
+        public string ImageURL
         {
-            get => email;
+            get => imageURL;
             set
             {
-                email = value;
-                OnPropertyChanged(nameof(email));
+                imageURL = value;
+                OnPropertyChanged(nameof(imageURL));
+            }
+        }
+        
+        public string Title
+        {
+            get => title;
+            set
+            {
+                title = value;
+                OnPropertyChanged(nameof(title));
+            }
+        }
+        
+        public string Adress
+        {
+            get => adress;
+            set
+            {
+                adress = value;
+                OnPropertyChanged(nameof(adress));
             }
         }
 
@@ -49,7 +76,7 @@ namespace MestoOpravaV2
 
         public static IEnumerable<Problem> GetSearchResult(string searchtext)
         {
-            IEnumerable<Problem> searchresult = _IList.Where(c => c.Name.Contains(searchtext));
+            IEnumerable<Problem> searchresult = _IList.Where(c => c.Title.Contains(searchtext) || c.Adress.Contains(searchtext));
             return searchresult;
         }
     }
