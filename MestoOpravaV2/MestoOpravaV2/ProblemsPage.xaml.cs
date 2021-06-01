@@ -45,10 +45,6 @@ namespace MestoOpravaV2
                 Location.Text = placemark.SubLocality;
             }
         }
-        async void HomeClicked(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
         
         async void AddClicked(object sender, EventArgs e)
         {

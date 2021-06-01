@@ -30,7 +30,7 @@
                                             <RowDefinition Height="20"></RowDefinition>
                                         </Grid.RowDefinitions>
 
-                                        <Entry x:Name="Title" Text="Rozbitá lavička" Grid.Column="0" TextColor="White" FontSize="28" FontAttributes="None"/>
+                                        <Entry x:Name="Title" Placeholder="Nadpis" PlaceholderColor="#ff4081" Grid.Column="0" TextColor="White" FontSize="28" FontAttributes="None"/>
                                         <StackLayout Orientation="Horizontal" Grid.Column="0" Grid.Row="1" VerticalOptions="EndAndExpand">
                                             <Label Text="&#xf3c5;" TextColor="#DB524D" FontSize="18" Margin="18,6,0,0" FontAttributes="None" FontFamily="{ StaticResource FontAwesomeSolid }"/>
                                             <Label x:Name="Location" Text="Budatín" TextColor="White" FontSize="20"  FontAttributes="None"/>
@@ -56,7 +56,7 @@
                                             
                                             <StackLayout HorizontalOptions="StartAndExpand" HeightRequest="300">
                                                 <Label Text="Popis" FontSize="24" TextColor="#184fff" FontAttributes="Bold"></Label>
-                                                <Editor x:Name="Description" FontSize="Medium" TextColor="#345ee3" Text="Zadajte text..." WidthRequest="400" AutoSize="TextChanges"></Editor>
+                                                <Editor x:Name="Description" FontSize="Medium" TextColor="#345ee3" Placeholder="Zadajte text..." PlaceholderColor="#ff4081" WidthRequest="400" AutoSize="TextChanges"></Editor>
                                             </StackLayout>
 
                                             <Frame CornerRadius="25" Padding="0">

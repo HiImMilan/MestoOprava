@@ -32,7 +32,7 @@ namespace MestoOpravaV2
                 places.Add(item);
             }
         }
-        private ObservableCollection<Post> Places;
+        private static ObservableCollection<Post> Places;
 
         public ObservableCollection<Post> places
         {
@@ -91,10 +91,13 @@ namespace MestoOpravaV2
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public static IEnumerable<Problem> GetSearchResult(string searchtext)
+        public static IEnumerable<Post> GetSearchResult(string searchtext)
         {
-            //TODO
-            return null;
+            if (searchtext != "")
+            {
+                return Places.ToList().Where(p => p.title.Contains(searchtext));
+            }
+            return Places;
         }
     }
 }

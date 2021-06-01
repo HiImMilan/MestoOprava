@@ -31,8 +31,9 @@ namespace MestoOpravaV2
 
         private void Search_OnTextChanged(object sender, TextChangedEventArgs e)
         {
-            IEnumerable<Problem> searchresult = ProblemMVM.GetSearchResult(Search.Text);
+            IEnumerable<Post> searchresult = ProblemMVM.GetSearchResult(Search.Text);
             cv.ItemsSource = searchresult;
+            Console.WriteLine("Change");
         }
     }
 }

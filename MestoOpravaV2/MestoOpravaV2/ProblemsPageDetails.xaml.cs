@@ -48,15 +48,21 @@ namespace MestoOpravaV2
                 Author.Text = post["authorName"];
                 Image.Source = ImageSource.FromUri(new Uri(post["imageURL"]));
 
-                var request = new GeolocationRequest(GeolocationAccuracy.Best, TimeSpan.FromSeconds(20));
-                var location = await Geolocation.GetLocationAsync(request);
-
-                var placemarks = await Geocoding.GetPlacemarksAsync(location);
-                var placemark = placemarks?.FirstOrDefault();
-
-                if (placemark != null)
+                try
                 {
-                    Location.Text = placemark.SubLocality;
+                    var request = new GeolocationRequest(GeolocationAccuracy.Best, TimeSpan.FromSeconds(20));
+                    var location = await Geolocation.GetLocationAsync(request);
+
+                    var placemarks = await Geocoding.GetPlacemarksAsync(location);
+                    var placemark = placemarks?.FirstOrDefault();
+
+                    if (placemark != null)
+                    {
+                        Location.Text = placemark.SubLocality;
+                    }
+                }
+                catch (Exception)
+                {
                 }
             }
             catch (Exception e)
