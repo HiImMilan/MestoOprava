@@ -4,7 +4,9 @@
 const app = require('express')();
 const crypto = require('crypto');
 const bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded({ extended: true }));
+
+app.use(bodyParser.json({limit: '50mb'}));
+app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 app.use(bodyParser.json());
 
 const PORT = 8142;
@@ -21,6 +23,8 @@ app.listen(PORT,() => {
 console.log("[Starting CityApka Nightly Server]");
 connection.connect();
 });
+
+
 
 app.get('/api/v1/testObject/:data', (req,res) => {
     const {data} = req.params;
@@ -55,7 +59,9 @@ app.get('/api/v1/getNearest/:latitude/:longitude', (req,res) => {
 );
 
 app.post('/api/v1/sendData', (req,res) => {
-    connection.query(`` , function (error, results, fields) { // DOROBIT ODOSIELANIE DAT!
+    console.log("ACTION");
+    var url = dt.generateURL();
+    connection.query(`INSERT INTO problems (creationID, creatorUUID, authorName, title, latitude, longitude, description, rating, totalVotes, imageURL) VALUES (NULL, '${req.body.userId}', '${req.body.userName}', '${req.body.title}', '${req.body.latitude}', '${req.body.longitude}', '${req.body.text}', '0.0', '0', 'http://158.255.29.10/cdn/img/${url}.png'); ` , function (error, results, fields) { // DOROBIT ODOSIELANIE DAT!
     if (error){
         res.status(500).send(
             {
@@ -67,12 +73,25 @@ app.post('/api/v1/sendData', (req,res) => {
     res.status(200).send(
     )})
 
-    res.status(500).send(
+    var base64Data = req.body.image;
+
+    require("fs").writeFile(`C:/xampp/htdocs/cdn/img/${url}.png`, base64Data, 'base64', function(err) {
+       /* res.status(500).send(
+            {
+                status: err
+            }
+        );
+        throw err;
+       */
+    });
+
+
+    res.status(200).send(
         {
-            status: "debug"
+            status: "OK"
         }
     );
-    console.log(req);
+    //       console.log(req.body);
 });
 
 app.get('/api/v1/connectivityCheck', (req,res) => {
@@ -181,7 +200,7 @@ app.get('/api/v1/post/:postID/getPost/', (req,res) => {
      var newToken = dt.generateToken();
      var dataHash = crypto.createHash('sha256').update(rawPassword).digest('base64');
 
-     connection.query(`SELECT passwordHash FROM users WHERE email = '${email}'` , function (error, results, fields) {
+     connection.query(`SELECT * FROM users WHERE email = '${email}'` , function (error, results, fields) {
      if (error){
          res.status(500).send(
              {
@@ -198,6 +217,7 @@ app.get('/api/v1/post/:postID/getPost/', (req,res) => {
      }
 
      if(results[0].passwordHash === dataHash) {
+         var name = results[0].Name;
          connection.query(`UPDATE users SET LoginToken = '${newToken}' WHERE email = '${email}';` , function (error, results, fields) {
              if (error) {
                  res.status(500).send(
@@ -210,7 +230,8 @@ app.get('/api/v1/post/:postID/getPost/', (req,res) => {
                  res.status(200).send(
                     {
                         status: "accepted",
-                        token: newToken
+                        token: newToken,
+                        name: name
                  });
              }
          })
