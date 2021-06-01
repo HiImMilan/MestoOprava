@@ -41,13 +41,23 @@ namespace MestoOpravaV2
                 Console.WriteLine("Jebe tomu");
                 
                 Title.Text = post["title"];
-                Location.Text = post["adress"];
                 Rating.Text = post["rating"];
-                float dist = await CalculateDistance(post["rating"], post["rating"]) / 1000;
+                float dist = await CalculateDistance(post["longitude"], post["latitude"]) / 1000;
                 Distance.Text = $"{Math.Round(dist,2)} km";
                 Description.Text = post["description"];
                 Author.Text = post["authorName"];
                 Image.Source = ImageSource.FromUri(new Uri(post["imageURL"]));
+
+                var request = new GeolocationRequest(GeolocationAccuracy.Best, TimeSpan.FromSeconds(20));
+                var location = await Geolocation.GetLocationAsync(request);
+
+                var placemarks = await Geocoding.GetPlacemarksAsync(location);
+                var placemark = placemarks?.FirstOrDefault();
+
+                if (placemark != null)
+                {
+                    Location.Text = placemark.SubLocality;
+                }
             }
             catch (Exception e)
             {

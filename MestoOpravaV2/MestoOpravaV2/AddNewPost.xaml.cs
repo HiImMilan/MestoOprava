@@ -26,7 +26,11 @@ namespace MestoOpravaV2
             base.OnAppearing();
             Stream stream = await CameraManager.CameraTakePhoto();
             if (stream == null)
+            {
                 await Navigation.PopModalAsync();
+                return;
+            }
+                
 
             stream.CopyTo(postPhoto);
             stream.Position = 0;
@@ -81,7 +85,7 @@ namespace MestoOpravaV2
             };
 
             await ServerManager.serverManager.SendRawPost("sendData", data);
-            await PopupNavigation.PushAsync(new SendPostStatus());
+            await PopupNavigation.PushAsync(new SendPostStatus(this));
         }
     }
 }

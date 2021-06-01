@@ -17,12 +17,12 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <StackLayout Grid.Row="0" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-                <SearchBar x:Name="Search" Placeholder="hľadať" TextColor="#fff" CancelButtonColor="#fff" PlaceholderColor="#fff" HorizontalOptions="Center" TextChanged="Search_OnTextChanged"/>
-                <CarouselView x:Name="cv" ItemsSource="{Binding _IList}" HeightRequest="200" PeekAreaInsets="100">
+                <SearchBar x:Name="Search" Placeholder="hľadať" TextColor="#fff" CancelButtonColor="#fff" PlaceholderColor="#fff" HorizontalOptions="Center" />
+                <CarouselView x:Name="cv" ItemsSource="{Binding places}" HeightRequest="200" PeekAreaInsets="100">
 
                                             <CarouselView.ItemTemplate>
                                                 <DataTemplate>
-                                                    <StackLayout ClassId="{Binding CreationID}">
+                                                    <StackLayout ClassId="{Binding creationID}">
                                                         <Frame HeightRequest="200" WidthRequest="180" 
                                                                BackgroundColor="White" Padding="0"
                                                                HasShadow="True" Margin="10" CornerRadius="10"
@@ -32,19 +32,19 @@
                                                             </Frame.GestureRecognizers>
                                                             <Grid>
                                                                 <StackLayout  BackgroundColor="Black">
-                                                                    <Image Source="{Binding ImageURL}" WidthRequest="280" 
+                                                                    <Image Source="{Binding imageURL}" WidthRequest="280" 
                                                                            HeightRequest="350" Opacity="0.6"
                                                                            Aspect="AspectFill"/>
                                                                 </StackLayout>
                                                                 <StackLayout Margin="0,0,0,10">
-                                                                    <Label Text="{Binding Title}" TextColor="White" FontSize="18"
+                                                                    <Label Text="{Binding title}" TextColor="White" FontSize="18"
                                                                            FontAttributes="None" Margin="15,0"
                                                                            VerticalOptions="EndAndExpand"/>
                                                                     <StackLayout Orientation="Horizontal"  Margin="15,-8,0,0">
                                                                         <Image Source="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" 
                                                                                HeightRequest="20"  Margin="-5,0"
                                                                                Aspect="AspectFit"/>
-                                                                        <Label Text="{Binding Adress}" TextColor="White" FontSize="14"
+                                                                        <Label Text="{Binding adress}" TextColor="White" FontSize="14"
                                                                                FontAttributes="None" 
                                                                                VerticalOptions="EndAndExpand"/>
                                                                     </StackLayout>

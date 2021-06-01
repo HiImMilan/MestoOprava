@@ -14,16 +14,17 @@ namespace MestoOpravaV2.POPUPS
     public partial class SendPostStatus : Rg.Plugins.Popup.Pages.PopupPage
     {
 
-
-        public SendPostStatus()
+        Page page;
+        public SendPostStatus(Page page)
         {
             InitializeComponent();
+            this.page = page;
         }
 
         public async void ClosePop(object sender, EventArgs e)
         {
+            await Navigation.PopModalAsync();
             await PopupNavigation.PopAllAsync();
-            await Navigation.PopAsync();
         }
     }
 }
