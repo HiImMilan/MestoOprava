@@ -134,7 +134,7 @@
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="50"></RowDefinition>
                                     </Grid.RowDefinitions>
-                                    <Button Text="&#xf015;" Clicked="HomeClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="0"/>
+                                    <Button Text="&#xf015;" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="0"/>
                                     <Button Text="&#xf067;" Clicked="AddClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="1"/>
                                     <Button Text="&#xf002;" Clicked="SearchClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="2"/>
                                     <Button Text="&#xf013;" Clicked="SettingsClicked" BackgroundColor="Transparent" TextColor="Gray" FontFamily="{ StaticResource FontAwesomeSolid }" FontSize="25" Grid.Column="3"/>
