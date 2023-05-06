@@ -1,8 +1,9 @@
-# CityApka
+# CityApka v.1
 
 [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-c-sharp.svg)](https://forthebadge.com) 
 
 ## Description
+* Graduation project 2020/21
 * Application is suposted to be used for reporting problems in city.
 * Everyone can report problems.
 
